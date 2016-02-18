@@ -1,18 +1,21 @@
---- layout: post title: "使用 Emacs 微博" date:
-'2013-07-22T13:30:00.004+08:00' author: Wenh Q tags: modified\_time:
-'2013-10-25T13:55:31.126+08:00' thumbnail:
-https://lh5.googleusercontent.com/0dUlLXO2NoNEBOXTZ82aW9kXNL9iEBnCgAbyp9j84fHh91-USm3EgkXyR1e\_wMrUGHGmsYCCv2lLXc7LhK50Qyqw1OWotrPDb7oUvPew9zfad-t22N8=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2410143258987875953
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/emacs-qiuwenhutigatbloggercom.html
+--- 
+layout: post 
+title: "使用 Emacs 微博" 
+date:'2013-07-22T13:30:00.004+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-10-25T13:55:31.126+08:00' 
+thumbnail: https://lh5.googleusercontent.com/0dUlLXO2NoNEBOXTZ82aW9kXNL9iEBnCgAbyp9j84fHh91-USm3EgkXyR1e\_wMrUGHGmsYCCv2lLXc7LhK50Qyqw1OWotrPDb7oUvPew9zfad-t22N8=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2410143258987875953
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/emacs-qiuwenhutigatbloggercom.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 使用 Emacs 微博](http://emacser.com/weibo.htm)</span>
 
 </div>
@@ -133,7 +136,8 @@ style="font-family: &quot;Verdana&quot;;">View Code LISP</span>
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -144,7 +148,8 @@ style="font-family: &quot;Verdana&quot;;">View Code LISP</span>
 |                                      |                                      |
 | <span                                | <span                                |
 | style="font-family: &quot;Courier Ne | style="color: #66cc66; font-family:  |
-| w&quot;;">1\                         | &quot;Verdana&quot;;">(</span><span  |
+| w&quot;;">1
+                         | &quot;Verdana&quot;;">(</span><span  |
 | 2</span>                             | style="font-family: &quot;Verdana&qu |
 |                                      | ot;;">add-to-</span><span            |
 | </div>                               | style="color: #b1b100; font-family:  |
@@ -159,7 +164,8 @@ style="font-family: &quot;Verdana&quot;;">View Code LISP</span>
 |                                      | style="color: #66cc66; font-family:  |
 |                                      | &quot;Verdana&quot;;">)</span><span  |
 |                                      | style="font-family: &quot;Verdana&qu |
-|                                      | ot;;">\                              |
+|                                      | ot;;">
+                              |
 |                                      | </span><span                         |
 |                                      | style="color: #66cc66; font-family:  |
 |                                      | &quot;Verdana&quot;;">(</span><span  |
@@ -311,8 +317,16 @@ height="718"}
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="font-family: &quot;Verdana&quot;;">在时间线界面中按P，将出现名为“发表微博”的窗口。在此窗口中编辑你想要发表的微博。完成后，按\\C-c\\C-c(Ctrl-c,
-Ctrl-c)提交微博。如果在编辑中想取消发表，按\\C-c\\C-d将关闭发表窗口（注意：此时你所编辑的内容将消失）。</span>
+style="font-family: &quot;Verdana&quot;;">在时间线界面中按P，将出现名为“发表微博”的窗口。在此窗口中编辑你想要发表的微博。完成后，按
+
+C-c
+
+C-c(Ctrl-c,
+Ctrl-c)提交微博。如果在编辑中想取消发表，按
+
+C-c
+
+C-d将关闭发表窗口（注意：此时你所编辑的内容将消失）。</span>
 
 </div>
 
@@ -344,7 +358,15 @@ height="718"}
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12.8pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
 <span
-style="font-family: &quot;Verdana&quot;;">在时间线中，将光标移至某一条微博，按T将出现名为“转发微博”的窗口。此时操作与发表微博类似，完成编辑后，按\\C-c\\C-c提交微博，按\\C-c\\C-d取消。</span>
+style="font-family: &quot;Verdana&quot;;">在时间线中，将光标移至某一条微博，按T将出现名为“转发微博”的窗口。此时操作与发表微博类似，完成编辑后，按
+
+C-c
+
+C-c提交微博，按
+
+C-c
+
+C-d取消。</span>
 
 </div>
 
@@ -354,7 +376,15 @@ style="font-family: &quot;Verdana&quot;;">在时间线中，将光标移至某�
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="font-family: &quot;Verdana&quot;;">在时间线中，按”C”对当前光标所在的微博发表评论。此时将出现“发表评论”窗口，操作与发表微博相似：完成编辑后，按\\C-c\\C-c提交评论，按\\C-c\\C-d取消。在微博详情和评论时间线中，按R键可以对评论进行回复。</span>
+style="font-family: &quot;Verdana&quot;;">在时间线中，按”C”对当前光标所在的微博发表评论。此时将出现“发表评论”窗口，操作与发表微博相似：完成编辑后，按
+
+C-c
+
+C-c提交评论，按
+
+C-c
+
+C-d取消。在微博详情和评论时间线中，按R键可以对评论进行回复。</span>
 
 </div>
 

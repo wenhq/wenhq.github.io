@@ -1,18 +1,21 @@
---- layout: post title: CNTV P2P for Firefox Linux date:
-'2013-07-25T19:40:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-25T19:40:36.011+08:00' thumbnail:
-https://lh4.googleusercontent.com/Rni0YuKZXy0lJxZujQD3DoADLYyZfmGkxIuQxauxUUsCP\_hiE97UnScyAoVfPafAeG5DDNYHVb1G8jFCaNcA3N7tbjJVZ5l5tqqhn\_IWqGB01erxzmM=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6032246701837032649
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/cntv-p2p-for-firefox-linux.html
+--- 
+layout: post 
+title: CNTV P2P for Firefox Linux 
+date:'2013-07-25T19:40:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-25T19:40:36.011+08:00' 
+thumbnail: https://lh4.googleusercontent.com/Rni0YuKZXy0lJxZujQD3DoADLYyZfmGkxIuQxauxUUsCP\_hiE97UnScyAoVfPafAeG5DDNYHVb1G8jFCaNcA3N7tbjJVZ5l5tqqhn\_IWqGB01erxzmM=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6032246701837032649
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/cntv-p2p-for-firefox-linux.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 CNTV P2P for Firefox
 Linux](http://linuxtoy.org/archives/cntv-p2p-for-firefox-linux.html)</span>
 

@@ -1,11 +1,16 @@
---- layout: post title: ThoughtWorks(中国) 程序员读书雷达 date:
-'2013-04-22T12:29:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-22T12:29:13.280+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8949368610522595554
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/thoughtworks.html ---
+--- 
+layout: post 
+title: ThoughtWorks(中国) 程序员读书雷达 
+date:'2013-04-22T12:29:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-22T12:29:13.280+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8949368610522595554
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/thoughtworks.html
+---
 [ThoughtWorks(中国)
-程序员读书雷达](http://www.oschina.net/news/39816/thoughtworks-developer-reading-radar):\
+程序员读书雷达](http://www.oschina.net/news/39816/thoughtworks-developer-reading-radar):
+
 
 ThoughtWorks(中国)程序员读书雷达 {#thoughtworks中国程序员读书雷达 style="color: #555555!important; font-family: Verdana,sans-serif; font-size: 1.8em; font-weight: normal; vertical-align: baseline;"}
 ================================
@@ -13,11 +18,13 @@ ThoughtWorks(中国)程序员读书雷达 {#thoughtworks中国程序员读书雷
 <div
 style="color: #777777; font-family: Optima,sans-serif; font-size: 0.9em; text-align: justify; vertical-align: baseline;">
 
-\
+
+
 
 </div>
 
-\
+
+
 
 <div style="text-align: justify; vertical-align: baseline;">
 
@@ -51,9 +58,12 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Coding Practice（编程实践）\
-> Architecture & Design（架构与设计）\
-> Methodology（方法学）\
+> Coding Practice（编程实践）
+
+> Architecture & Design（架构与设计）
+
+> Methodology（方法学）
+
 > Thought & Leadership（思想与领导力）
 >
 > </div>
@@ -94,11 +104,16 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Clean Code《代码整洁之道》\
-> Pragmatic Unit Testing《单元测试之道》\
-> The Productive Programmer《卓有成效的程序员》\
-> Test-Driven Development By Example《测试驱动开发》\
-> Clean Coder《程序员的职业修养》\
+> Clean Code《代码整洁之道》
+
+> Pragmatic Unit Testing《单元测试之道》
+
+> The Productive Programmer《卓有成效的程序员》
+
+> Test-Driven Development By Example《测试驱动开发》
+
+> Clean Coder《程序员的职业修养》
+
 > The Art of Readable Code《编写可读代码的艺术》
 >
 > </div>
@@ -107,9 +122,12 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Refactoring To Patterns《重构与模式》\
-> Implementation Patterns《实现模式》\
-> Code Completed《代码大全》\
+> Refactoring To Patterns《重构与模式》
+
+> Implementation Patterns《实现模式》
+
+> Code Completed《代码大全》
+
 > The Pragmatic Programmer《程序员修炼之道》
 >
 > </div>
@@ -119,7 +137,8 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 > <div style="text-align: justify; vertical-align: baseline;">
 >
 > Structure and Interpretation of Computer
-> Programs《计算机程序的构造和解释》\
+> Programs《计算机程序的构造和解释》
+
 > Working Effectively with Legacy Code《修改代码的艺术》
 >
 > </div>
@@ -130,8 +149,10 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Agile Software Development 《敏捷软件开发：原则、实践与模式》\
-> Head First Design Patterns《深入浅出设计模式》\
+> Agile Software Development 《敏捷软件开发：原则、实践与模式》
+
+> Head First Design Patterns《深入浅出设计模式》
+
 > Design Patterns 《设计模式》
 >
 > </div>
@@ -140,9 +161,12 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> The Art of UNIX Programming 《Unix编程艺术》\
-> Practical API Design 《框架设计的艺术》\
-> Domain Specific Languages 《领域特定语言》\
+> The Art of UNIX Programming 《Unix编程艺术》
+
+> Practical API Design 《框架设计的艺术》
+
+> Domain Specific Languages 《领域特定语言》
+
 > Patterns of Enterprise Application Architecture 《企业应用架构模式》
 >
 > </div>
@@ -151,10 +175,14 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Release It\
-> Domain-Driven Design 《领域驱动设计》\
-> Enterprise Integration Patterns《企业集成模式》\
-> Beautiful Architecture《架构之美》\
+> Release It
+
+> Domain-Driven Design 《领域驱动设计》
+
+> Enterprise Integration Patterns《企业集成模式》
+
+> Beautiful Architecture《架构之美》
+
 > Pattern-Oriented Software Architecture《面向模式的软件架构》
 >
 > </div>
@@ -165,10 +193,14 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> User Stories Applied《用户故事与敏捷方法》\
-> The Gold Mine《金矿》\
-> Scrum and XP From the Trenches《硝烟中的Scrum和XP》\
-> Continuous Integration《持续集成》\
+> User Stories Applied《用户故事与敏捷方法》
+
+> The Gold Mine《金矿》
+
+> Scrum and XP From the Trenches《硝烟中的Scrum和XP》
+
+> Continuous Integration《持续集成》
+
 > Extreme Programming Explained《解析极限编程》
 >
 > </div>
@@ -177,10 +209,14 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> Lean Thinking《精益思想》\
-> Continuous Delivery《持续交付》\
-> How Google Tests Software\
-> Agile Testing\
+> Lean Thinking《精益思想》
+
+> Continuous Delivery《持续交付》
+
+> How Google Tests Software
+
+> Agile Testing
+
 > Extreme Programming Refactored《重构极限编程》
 >
 > </div>
@@ -199,8 +235,10 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> The Effective Executive《卓有成效的管理者》\
-> Are Your Lights On?《你的灯亮着吗》\
+> The Effective Executive《卓有成效的管理者》
+
+> Are Your Lights On?《你的灯亮着吗》
+
 > Becoming A Technical Leader《成为技术领导者》
 >
 > </div>
@@ -209,10 +247,14 @@ ThoughtWorks作为一家学习型组织，颇为看重每一位员工的学习�
 
 > <div style="text-align: justify; vertical-align: baseline;">
 >
-> The Fifth Discipline《第五项修炼》\
-> The Design Of Business\
-> Management 3.0《管理3.0：培养和提升敏捷领导力》\
-> Presentation To Win\
+> The Fifth Discipline《第五项修炼》
+
+> The Design Of Business
+
+> Management 3.0《管理3.0：培养和提升敏捷领导力》
+
+> Presentation To Win
+
 > The McKinsey Way《麦肯锡方法》
 >
 > </div>

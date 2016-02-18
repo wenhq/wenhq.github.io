@@ -1,11 +1,16 @@
---- layout: post title: Intel Release Graphical Installer for Their
-Linux Drivers date: '2013-04-07T09:30:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-04-07T09:30:46.457+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8268612248024332568
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/intel-release-graphical-installer-for.html
+--- 
+layout: post 
+title: Intel Release Graphical Installer for Their
+Linux Drivers 
+date: '2013-04-07T09:30:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-07T09:30:46.457+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8268612248024332568
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/intel-release-graphical-installer-for.html
 ---
-\
+
+
  
 <div class="article">
 
@@ -60,7 +65,8 @@ However, the installer doesn't automatically add the repository
 authentication key to your system but it can manually added by opening a
 terminal, and executing:
 
-    wget --no-check-certificate https://download.01.org/gfx/RPM-GPG-KEY-ilg -O - | \  sudo apt-key add -
+    wget --no-check-certificate https://download.01.org/gfx/RPM-GPG-KEY-ilg -O - | 
+  sudo apt-key add -
 
 #### Download & Install for Ubuntu
 
@@ -91,7 +97,8 @@ height="1"}
 
 </div>
 
-\
+
+
 
 </div>
 

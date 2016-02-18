@@ -1,11 +1,13 @@
---- layout: post title: "选择“关机”还是“睡眠”？" date:
-'2013-04-16T15:55:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-16T15:58:18.367+08:00' thumbnail:
-https://lh3.googleusercontent.com/VCdLyfSkP2F-zhzHc3Vl8U-HDxTq5eCR1imOUzYZLdXhi8Az0O-pqY3CtEGB8pUMhhXIet\_8wdP26mrbQAKWudyeAW6unurQc0x3RbIkqe9yFSYFgJw=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2615569227350869183
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_1192.html
+--- 
+layout: post 
+title: "选择“关机”还是“睡眠”？" 
+date:'2013-04-16T15:55:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-16T15:58:18.367+08:00' 
+thumbnail: https://lh3.googleusercontent.com/VCdLyfSkP2F-zhzHc3Vl8U-HDxTq5eCR1imOUzYZLdXhi8Az0O-pqY3CtEGB8pUMhhXIet\_8wdP26mrbQAKWudyeAW6unurQc0x3RbIkqe9yFSYFgJw=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2615569227350869183
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_1192.html
 ---
 
 <div
@@ -433,7 +435,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

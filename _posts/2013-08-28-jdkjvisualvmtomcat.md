@@ -1,14 +1,19 @@
---- layout: post title: "【每日一博】使用JDK自带jvisualvm监控tomcat"
-date: '2013-08-28T12:55:00.002+08:00' author: Wenh Q tags:
-modified\_time: '2013-08-28T12:55:35.077+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5400628088618740532
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/08/jdkjvisualvmtomcat.html ---
+--- 
+layout: post 
+title: "【每日一博】使用JDK自带jvisualvm监控tomcat"
+date: '2013-08-28T12:55:00.002+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-08-28T12:55:35.077+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5400628088618740532
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/08/jdkjvisualvmtomcat.html
+---
 <div style="margin: 10px; padding: 5px;">
 
 <div style="font-size: 18px;">
 
-[\
+[
+
 【每日一博】使用JDK自带jvisualvm监控tomcat](http://my.oschina.net/kone/blog/157239)
 
 </div>
@@ -23,10 +28,13 @@ Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
 
 <div style="font-size: 13px; padding: 15px 0 10px 10px;">
 
-jdk自带有个jvisualvm工具、该工具是用来监控java运行程序的cpu、内存、线程等的使用情况。并且使用图表的方式监控java程序、还具有远程监控能力。不失为一个用来监控tomcat的好工具。\
-在jdk目录下的bin目录中可以找到jvisualvm.exe文件、直接启动可以看到如下界面：\
+jdk自带有个jvisualvm工具、该工具是用来监控java运行程序的cpu、内存、线程等的使用情况。并且使用图表的方式监控java程序、还具有远程监控能力。不失为一个用来监控tomcat的好工具。
+
+在jdk目录下的bin目录中可以找到jvisualvm.exe文件、直接启动可以看到如下界面：
+
 [![](http://static.oschina.net/uploads/space/2013/0827/154728_CGjA_146430.png){width="600"
-height="327"}](http://static.oschina.net/uploads/space/2013/0827/154728_CGjA_146430.png)\
+height="327"}](http://static.oschina.net/uploads/space/2013/0827/154728_CGjA_146430.png)
+
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
@@ -102,7 +110,8 @@ style="background-image: none !important; border: 0px !important; bottom: auto !
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
-\
+
+
 
 </div>
 
@@ -169,7 +178,8 @@ style="background-color: white; color: #333333; font-family: 微软雅黑, Verda
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
-\
+
+
 
 </div>
 
@@ -250,7 +260,8 @@ style="background-image: none !important; border: 0px !important; bottom: auto !
 </div>
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">其中jmxremote.access文件的内容可以配置为：</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">其中jmxremote.access文件的内容可以配置为：</span>
+
 <div id="highlighter_659588" class="syntaxhighlighter"
 style="background-color: rgb(255, 255, 255) !important; background-image: none !important; border: 0px !important; bottom: auto !important; color: #333333; float: none !important; font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace !important; font-size: 10pt !important; height: auto !important; left: auto !important; line-height: 1.1em !important; margin: 1em 0px !important; min-height: inherit !important; outline: 0px !important; padding: 1px !important; position: relative !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: 716.75px;">
 
@@ -316,7 +327,8 @@ style="background-color: rgb(248, 248, 248) !important; background-image: none !
 </div>
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">将以上俩文件放在对应配置目录tomcat/conf/下</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">将以上俩文件放在对应配置目录tomcat/conf/下</span>
+
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
@@ -344,7 +356,8 @@ style="background-image: none !important; border: 0px !important; bottom: auto !
 </div>
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">如果没有这一步、使用startup启动不了tomcat。</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">如果没有这一步、使用startup启动不了tomcat。</span>
+
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
@@ -498,7 +511,8 @@ height="418"}](http://static.oschina.net/uploads/space/2013/0827/174110_s01F_146
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
-\
+
+
 
 </div>
 

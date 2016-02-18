@@ -1,9 +1,12 @@
---- layout: post title: "中国图书馆分类法简表" date:
-'2013-04-13T22:08:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T22:10:55.960+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5116128577976370645
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6093.html
+--- 
+layout: post 
+title: "中国图书馆分类法简表" 
+date:'2013-04-13T22:08:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T22:10:55.960+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5116128577976370645
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6093.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
@@ -169,7 +172,8 @@ Z 综合性图书
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -315,7 +319,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -498,7 +503,9 @@ C6 社会科学参考工具书
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[C7\] 社会科学文献检索工具书
+
+[C7
+] 社会科学文献检索工具书
 
 </div>
 
@@ -533,7 +540,9 @@ C93 管理学
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[C94\] 系统科学
+
+[C94
+] 系统科学
 
 </div>
 
@@ -1550,7 +1559,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1618,7 +1628,9 @@ J5 工艺美术
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[J59\] 建筑艺术
+
+[J59
+] 建筑艺术
 
 </div>
 
@@ -1658,7 +1670,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1862,7 +1875,9 @@ N6 自然科学参考工具书
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[N7\] 自然科学文献检索工具
+
+[N7
+] 自然科学文献检索工具
 
 </div>
 
@@ -1918,7 +1933,9 @@ N949 系统科学在各方面的应用
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[N99\] 情报学、情报工作
+
+[N99
+] 情报学、情报工作
 
 </div>
 
@@ -2463,21 +2480,27 @@ P64 水文地质学与工程地质学
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P65\] 地震地质学
+
+[P65
+] 地震地质学
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P66\] 环境地质学
+
+[P66
+] 环境地质学
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P67\] 海洋地质学
+
+[P67
+] 海洋地质学
 
 </div>
 
@@ -2547,21 +2570,27 @@ P75 海洋工程
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P76\] 海洋环境科学
+
+[P76
+] 海洋环境科学
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P77\] 潜水医学
+
+[P77
+] 潜水医学
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P79\] 军事海洋学
+
+[P79
+] 军事海洋学
 
 </div>
 
@@ -2589,7 +2618,9 @@ P91 数理地理学
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P92\] 古地理学
+
+[P92
+] 古地理学
 
 </div>
 
@@ -2610,14 +2641,18 @@ P94 区域自然地理学
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P951\] 环境地理学
+
+[P951
+] 环境地理学
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P954\] 灾害地理学
+
+[P954
+] 灾害地理学
 
 </div>
 
@@ -2631,7 +2666,9 @@ P96 自然资源学
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[P97\] 地理探险与发现
+
+[P97
+] 地理探险与发现
 
 </div>
 
@@ -2718,7 +2755,9 @@ Q81 生物工程学（生物技术）
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[Q89\] 环境生物学
+
+[Q89
+] 环境生物学
 
 </div>
 
@@ -3217,7 +3256,9 @@ TD9 石油机械设备与自动化
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[TD99\] 石油、天然气工业环境保护与综合利用
+
+[TD99
+] 石油、天然气工业环境保护与综合利用
 
 </div>
 
@@ -3672,7 +3713,9 @@ TN97 电子对抗（干扰及抗干扰）
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[TN98\] 无线电、电信测量技术及仪器
+
+[TN98
+] 无线电、电信测量技术及仪器
 
 </div>
 
@@ -4053,7 +4096,9 @@ U6 水路运输
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[U8\] 航空运输
+
+[U8
+] 航空运输
 
 </div>
 
@@ -4098,7 +4143,9 @@ V4 航天（宇宙航行）
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[V7\] 航空、航天医学
+
+[V7
+] 航空、航天医学
 
 </div>
 
@@ -4241,14 +4288,17 @@ Z8 图书目录、文摘、索引
 
 </div>
 
-\
+
+
 <div
 style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; max-width: 650px;">
 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

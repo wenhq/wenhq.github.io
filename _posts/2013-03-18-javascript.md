@@ -1,10 +1,15 @@
---- layout: post title: "处理 JavaScript 异常的一个想法" date:
-'2013-03-18T12:35:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-18T12:35:36.141+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5427409769961251997
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/javascript.html ---
-\
+--- 
+layout: post 
+title: "处理 JavaScript 异常的一个想法" 
+date:'2013-03-18T12:35:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-18T12:35:36.141+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5427409769961251997
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/javascript.html
+---
+
+
  
 <div class="article">
 
@@ -127,7 +132,8 @@ URL 为索引），是否继续，还需要时间和进一步考虑，先发出�
 
 </div>
 
-\
+
+
 
 </div>
 

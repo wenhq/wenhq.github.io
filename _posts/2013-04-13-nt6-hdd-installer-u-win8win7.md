@@ -1,25 +1,31 @@
---- layout: post title: "\[来自异次元\] NT6 HDD Installer 使用教程 -
-在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)" date:
-'2013-04-13T21:40:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T21:43:39.835+08:00' thumbnail:
-https://lh3.googleusercontent.com/TAdHLqUmTsn5I2-JMVmrD6V8C5oUdrkkg2uCtpdeh114q8\_GTY\_iFRipvpkpv39G5VdeSKn307xnHQKcY2N1HF9sPO4I4ECUhsGQ10cJ6WNMtA0DTLQ=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3178299790143957804
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/nt6-hdd-installer-u-win8win7.html
+--- 
+layout: post 
+title: "
+[来自异次元
+] NT6 HDD Installer 使用教程 -
+在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)" 
+date:'2013-04-13T21:40:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T21:43:39.835+08:00' 
+thumbnail: https://lh3.googleusercontent.com/TAdHLqUmTsn5I2-JMVmrD6V8C5oUdrkkg2uCtpdeh114q8\_GTY\_iFRipvpkpv39G5VdeSKn307xnHQKcY2N1HF9sPO4I4ECUhsGQ10cJ6WNMtA0DTLQ=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3178299790143957804
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/nt6-hdd-installer-u-win8win7.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -37,14 +43,16 @@ style="background-color: #c3d9ff; font-family: &quot;Verdana&quot;;">Quantum
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -59,7 +67,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\[来自异次元\]
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+[来自异次元
+]
 NT6 HDD Installer 使用教程 - 在没有光驱U盘情况下直接通过本机硬盘重装系统
 (支持Win8/Win7等)](http://iplaysoft.feedsportal.com/c/34213/f/621334/s/25fead1a/l/0L0Siplaysoft0N0Cnt60Ehdd0Einstaller0Bhtml/story01.htm)</span>
 
@@ -150,8 +160,10 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 3.8pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\[
-我要围观.... \]](http://www.iplaysoft.com/nt6-hdd-installer.html)</span>
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+[
+我要围观.... 
+]](http://www.iplaysoft.com/nt6-hdd-installer.html)</span>
 
 </div>
 
@@ -231,7 +243,8 @@ height="1"}
 
 </div>
 
-[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](https://lh3.googleusercontent.com/iWB1iBWvuMaD4r18aQkloJWDfFgqN8qPDui0jJ0TS4kUldF58gjHFDsI4glwYVSYqXZWG6GDY-p07GJRarDTS5CFnZ2pWpu2vAKm_9fPRTDaqK6zG2g){width="113" height="14"}   ![](https://lh5.googleusercontent.com/q5VhK-x0b94OVxUplbQQTkA66gKRLYbWZwDyLm1FahuJ7PgOkJhIZnUU1SB-yZlUqVygOBY58jxkmlpGKZTvPwMlH6R117T2yZ7gr1dpD92IwqRBotk){width="125" height="16"}
@@ -264,14 +277,16 @@ height="1"}
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -302,14 +317,16 @@ style="background-color: #c3d9ff; font-family: &quot;Verdana&quot;;">可从此�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -319,7 +336,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div
 style="line-height: 21px; margin-bottom: 13px; padding: 14px 10px 4px 10px;">
 
-<span style="color: #333333; font-size: 20px;">附件：\[来自异次元\] NT6
+<span style="color: #333333; font-size: 20px;">附件：
+[来自异次元
+] NT6
 HDD Installer 使用教程 - 在没有光驱U盘情况下直接通过本机硬盘重装系统
 (支持Win8/Win7等)</span>
 
@@ -329,7 +348,9 @@ HDD Installer 使用教程 - 在没有光驱U盘情况下直接通过本机硬�
 style="background-color: white; font-size: 13px; padding: 0px 7px 7px 10px;">
 
   -------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![文档](https://ssl.gstatic.com/docs/documents/share/images/services/document-2.png)   [\[来自异次元\] NT6 HDD Installer 使用教程 - 在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)](https://docs.google.com/document/d/1B9p2kBzEAtE_TTmstwcIJQ9ulTePywMNE9rnZFJjha8/edit?usp=sharing)
+  ![文档](https://ssl.gstatic.com/docs/documents/share/images/services/document-2.png)   [
+[来自异次元
+] NT6 HDD Installer 使用教程 - 在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)](https://docs.google.com/document/d/1B9p2kBzEAtE_TTmstwcIJQ9ulTePywMNE9rnZFJjha8/edit?usp=sharing)
   -------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 </div>

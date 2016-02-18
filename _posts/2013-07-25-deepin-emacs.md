@@ -1,17 +1,21 @@
---- layout: post title: Deepin Emacs 的安装和使用 date:
-'2013-07-25T19:41:00.002+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-25T19:41:28.681+08:00' thumbnail:
-https://lh5.googleusercontent.com/dPlEIB8cv3xWHv5jr6WjrOsE6F1FMlhAXVdEHybL1RvGhFux5Msq9D\_zjwMaX3yRGqnF2-YWrVQXeLBJxP5qJVn5VXkf1bazXvbHYMCI8VOp-DCl95c=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4287459923087398737
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/deepin-emacs.html ---
+--- 
+layout: post 
+title: Deepin Emacs 的安装和使用 
+date:'2013-07-25T19:41:00.002+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-25T19:41:28.681+08:00' 
+thumbnail: https://lh5.googleusercontent.com/dPlEIB8cv3xWHv5jr6WjrOsE6F1FMlhAXVdEHybL1RvGhFux5Msq9D\_zjwMaX3yRGqnF2-YWrVQXeLBJxP5qJVn5VXkf1bazXvbHYMCI8VOp-DCl95c=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4287459923087398737
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/deepin-emacs.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 Deepin Emacs
 的安装和使用](http://wowubuntu.com/install-and-use-deepin-emacs-under-linux-deepin.html)</span>
 
@@ -76,36 +80,66 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 11.2pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">    编辑器\
-   调试器\
-   浏览器\
-   音乐播放器\
-   文件管理器\
-   终端模拟器\
-   IRC 客户端\
-   邮件客户端\
-   新闻阅读器\
-   电子书阅读器\
-   图片浏览器\
-   进程管理器\
-   Wiki 编辑器\
-   Debian 包管理器\
-   Elisp 安装管理器\
-   英文翻译助手\
-   英文编写助手\
-   代数计算系统\
-   日历\
-   GTD 客户端\
-   电驴客户端\
-   下载管理器\
-   代码画图\
-   Vi 模式\
-   正则表达式学习助手\
-   代码自动补全\
-   代码搜索\
-   实时语法检测\
-   Anything 超强搜索\
-   键盘宏\
+<span style="font-family: &quot;Verdana&quot;;">    编辑器
+
+   调试器
+
+   浏览器
+
+   音乐播放器
+
+   文件管理器
+
+   终端模拟器
+
+   IRC 客户端
+
+   邮件客户端
+
+   新闻阅读器
+
+   电子书阅读器
+
+   图片浏览器
+
+   进程管理器
+
+   Wiki 编辑器
+
+   Debian 包管理器
+
+   Elisp 安装管理器
+
+   英文翻译助手
+
+   英文编写助手
+
+   代数计算系统
+
+   日历
+
+   GTD 客户端
+
+   电驴客户端
+
+   下载管理器
+
+   代码画图
+
+   Vi 模式
+
+   正则表达式学习助手
+
+   代码自动补全
+
+   代码搜索
+
+   实时语法检测
+
+   Anything 超强搜索
+
+   键盘宏
+
    ...</span>
 
 </div>
@@ -212,11 +246,13 @@ Deepin Emacs 将无法启动，此时您可以按下 Win 键（徽标键）+Alt+
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -508,11 +544,13 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -958,7 +996,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 
 ### <span style="font-family: &quot;Verdana&quot;;">窗口命令</span> {#窗口命令 style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; line-height: 1.0; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 12pt; text-align: left;"}
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -1046,11 +1085,13 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -1198,7 +1239,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 
 ### <span style="font-family: &quot;Verdana&quot;;">文件管理器命令</span> {#文件管理器命令 style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; line-height: 1.0; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 12pt; text-align: left;"}
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -1475,7 +1517,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 |                                      |                                      |
 | <span                                | <span                                |
 | style="font-family: &quot;Verdana&qu | style="font-family: &quot;Verdana&qu |
-| ot;;">\[</span>                      | ot;;">用当前环境打开文件</span>      |
+| ot;;">
+[</span>                      | ot;;">用当前环境打开文件</span>      |
 |                                      |                                      |
 | </div>                               | </div>                               |
 +--------------------------------------+--------------------------------------+
@@ -1536,7 +1579,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 |                                      |                                      |
 | <span                                | <span                                |
 | style="font-family: &quot;Verdana&qu | style="font-family: &quot;Verdana&qu |
-| ot;;">\*                             | ot;;">按照输入的正则表达式搜索匹配文件</span> |
+| ot;;">
+*                             | ot;;">按照输入的正则表达式搜索匹配文件</span> |
 | .</span>                             |                                      |
 |                                      |                                      |
 | </div>                               | </div>                               |
@@ -1573,11 +1617,13 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------------------+--------------------------------------+
 | <div                                 | <div                                 |
@@ -1972,7 +2018,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 |                                      |                                      |
 | <span                                | <span                                |
 | style="font-family: &quot;Verdana&qu | style="font-family: &quot;Verdana&qu |
-| ot;;">\*</span>                      | ot;;">查看EmacsWiki页面的修改历史</span> |
+| ot;;">
+*</span>                      | ot;;">查看EmacsWiki页面的修改历史</span> |
 |                                      |                                      |
 | </div>                               |                                      |
 |                                      | </div>                               |
@@ -1994,7 +2041,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\# 本文采用</span><span
+<span style="font-family: &quot;Verdana&quot;;">
+# 本文采用</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[CC协议](http://creativecommons.org/licenses/by/2.5/cn/)</span><span
 style="font-family: &quot;Verdana&quot;;">进行授权，转载本文请注明</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[本文链接](http://wowubuntu.com/install-and-use-deepin-emacs-under-linux-deepin.html)</span><span
@@ -2014,7 +2062,8 @@ style="font-family: &quot;Verdana&quot;;"> / </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[投稿](http://wowubuntu.com/submit)</span><span
 style="font-family: &quot;Verdana&quot;;"> / </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[加入我们](http://wowubuntu.com/join)</span><span
-style="font-family: &quot;Verdana&quot;;"> wow0slx6bcs721xo1udcc</span>\
+style="font-family: &quot;Verdana&quot;;"> wow0slx6bcs721xo1udcc</span>
+
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">

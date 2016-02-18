@@ -1,24 +1,28 @@
---- layout: post title: "趣题：只用一把带有两条平行边的直尺作图" date:
-'2013-04-13T22:03:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T22:04:25.766+08:00' thumbnail:
-https://lh5.googleusercontent.com/DYccYT1lgVsogeEetUNTGQ0RSU9gwdkR9c8RqM3fRnUY4wVBs3lNrkTG5qXEOy\_zBqLHGKzU7cBM8h7idNgVIpTPFH0aqPT-7cD4d50PL5btPY9-BkE=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4103073595352627194
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_13.html
+--- 
+layout: post 
+title: "趣题：只用一把带有两条平行边的直尺作图" 
+date:'2013-04-13T22:03:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T22:04:25.766+08:00' 
+thumbnail: https://lh5.googleusercontent.com/DYccYT1lgVsogeEetUNTGQ0RSU9gwdkR9c8RqM3fRnUY4wVBs3lNrkTG5qXEOy\_zBqLHGKzU7cBM8h7idNgVIpTPFH0aqPT-7cD4d50PL5btPY9-BkE=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4103073595352627194
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_13.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -44,14 +48,16 @@ style="background-color: #c3d9ff; font-family: &quot;Verdana&quot;;"></span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -146,42 +152,48 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -221,7 +233,8 @@ P 与顶点 B 的连线就是角平分线。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -285,7 +298,8 @@ M' ，连接 CM' 与 AB 交于点 M ，M 就是 AB 的中点了。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -322,7 +336,8 @@ A'B' 的垂直平分线，它也就是 AB 的垂直平分线了。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -357,7 +372,8 @@ PQ 向左和向右平移相同的距离。假设 PQ 左边的平行线与 l 交�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -387,14 +403,16 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -435,14 +453,16 @@ style="background-color: #c3d9ff; font-family: &quot;Verdana&quot;;"></span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 

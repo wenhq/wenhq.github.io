@@ -1,10 +1,15 @@
---- layout: post title: UbuntuKylin date:
-'2013-03-17T11:09:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-17T11:09:53.376+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7231981631678489508
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/ubuntukylin.html ---
-\
+--- 
+layout: post 
+title: UbuntuKylin 
+date:'2013-03-17T11:09:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-17T11:09:53.376+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7231981631678489508
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/ubuntukylin.html
+---
+
+
  
 <div class="article">
 
@@ -34,7 +39,8 @@ UbuntuKylin项目的目标是创建更适合中文用户的Ubuntu衍生版本。
 
 </div>
 
-\
+
+
 
 </div>
 

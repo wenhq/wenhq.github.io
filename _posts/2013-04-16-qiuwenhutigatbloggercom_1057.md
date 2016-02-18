@@ -1,23 +1,27 @@
---- layout: post title: "看后恍然大悟：真正的朱镕基原来是这样的！" date:
-'2013-04-16T15:57:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-16T15:59:30.680+08:00' thumbnail:
-https://lh3.googleusercontent.com/HiyhMNPv5Bk-8eE7pKDXkQKK\_EEd6WF1bn7gFAcDNCAoDSnI6\_t8RBmARLeZbNzjghD66CiWOg9Ox0HViBqvmOPs07KIGfODr5KRZLdZ-L9Om-BwW8k=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8193811450401386102
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_1057.html
+--- 
+layout: post 
+title: "看后恍然大悟：真正的朱镕基原来是这样的！" 
+date:'2013-04-16T15:57:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-16T15:59:30.680+08:00' 
+thumbnail: https://lh3.googleusercontent.com/HiyhMNPv5Bk-8eE7pKDXkQKK\_EEd6WF1bn7gFAcDNCAoDSnI6\_t8RBmARLeZbNzjghD66CiWOg9Ox0HViBqvmOPs07KIGfODr5KRZLdZ-L9Om-BwW8k=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8193811450401386102
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_1057.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -32,7 +36,8 @@ style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underl
 
 </div>
 
-\
+
+
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
@@ -60,7 +65,8 @@ style="font-family: &quot;Verdana&quot;;">    房价物价方面，基本保
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -75,7 +81,8 @@ style="font-family: &quot;Verdana&quot;;">    国家经济方面，席卷整
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -90,7 +97,8 @@ style="font-family: &quot;Verdana&quot;;">    至于反腐败，成绩单如
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -105,7 +113,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -120,7 +129,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -135,7 +145,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -150,7 +161,8 @@ style="font-family: &quot;Verdana&quot;;">    1．成克杰：全国人大�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -165,7 +177,8 @@ style="font-family: &quot;Verdana&quot;;">    2．刘方仁：贵州省委�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -180,7 +193,8 @@ style="font-family: &quot;Verdana&quot;;">    3．程维高：河北省委�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -195,7 +209,8 @@ style="font-family: &quot;Verdana&quot;;">    4．李嘉廷：云南省长�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -210,7 +225,8 @@ style="font-family: &quot;Verdana&quot;;">    5．石兆彬：福建省委�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -225,7 +241,8 @@ style="font-family: &quot;Verdana&quot;;">    6．田凤山：国土资源�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -240,7 +257,8 @@ style="font-family: &quot;Verdana&quot;;">    7．李纪周：公共安全�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -248,14 +266,18 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="font-family: &quot;Verdana&quot;;">    8．郑光迪：\*\*\*副部长，中央候补委员,2002年9月以受贿罪被判处有期徒刑5年。</span>
+style="font-family: &quot;Verdana&quot;;">    8．郑光迪：
+*
+*
+*副部长，中央候补委员,2002年9月以受贿罪被判处有期徒刑5年。</span>
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -270,7 +292,8 @@ style="font-family: &quot;Verdana&quot;;">    9．许运鸿：浙江副省�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -285,7 +308,8 @@ style="font-family: &quot;Verdana&quot;;">    10．王怀忠：安徽省副�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -300,7 +324,8 @@ style="font-family: &quot;Verdana&quot;;">    11．丛福奎：河北省副�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -315,7 +340,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -330,7 +356,8 @@ style="font-family: &quot;Verdana&quot;;">    13．刘克田：辽宁省副�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -345,7 +372,8 @@ style="font-family: &quot;Verdana&quot;;">    14．胡长清：江西省副�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -360,7 +388,8 @@ style="font-family: &quot;Verdana&quot;;">    15．丘广钟：福建省副�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -375,7 +404,8 @@ style="font-family: &quot;Verdana&quot;;">16．孟庆平：湖北省副省长，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -390,7 +420,8 @@ style="font-family: &quot;Verdana&quot;;">17．刘长贵：贵州省副省长，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -405,7 +436,8 @@ style="font-family: &quot;Verdana&quot;;">18．王钟麓：浙江省副省长，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -420,7 +452,8 @@ style="font-family: &quot;Verdana&quot;;">19．徐炳松：广西政丶府副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -436,7 +469,8 @@ style="font-family: &quot;Verdana&quot;;">20．刘知炳：广西政丶府副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -451,7 +485,8 @@ style="font-family: &quot;Verdana&quot;;">21．辛业江：海南省人大副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -466,7 +501,8 @@ style="font-family: &quot;Verdana&quot;;">22．姜殿武：河北省人大副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -481,7 +517,8 @@ style="font-family: &quot;Verdana&quot;;">23．秦昌典：重庆市人大副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -496,7 +533,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -511,7 +549,8 @@ style="font-family: &quot;Verdana&quot;;">25．潘广田：山东省政协副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -526,7 +565,8 @@ style="font-family: &quot;Verdana&quot;;">26．周文吉：宁夏政协副主席
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -541,7 +581,8 @@ style="font-family: &quot;Verdana&quot;;">27．王式惠：重庆市政协副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -556,7 +597,8 @@ style="font-family: &quot;Verdana&quot;;">28．王雪冰：建行行长，中央
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -571,7 +613,8 @@ style="font-family: &quot;Verdana&quot;;">29．吴文英：纺织总会会长，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -586,7 +629,8 @@ style="font-family: &quot;Verdana&quot;;">30．徐鹏航：国防科工委副主
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -601,7 +645,8 @@ style="font-family: &quot;Verdana&quot;;">31．王乐毅：海关总署副署长
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -616,7 +661,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -631,7 +677,8 @@ style="font-family: &quot;Verdana&quot;;">33．金德琴：中信公司副董事
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -646,7 +693,8 @@ style="font-family: &quot;Verdana&quot;;">34．朱小华：光大公司董事长
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -661,7 +709,8 @@ style="font-family: &quot;Verdana&quot;;">35．刘金宝：中行副董事长，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -676,7 +725,8 @@ style="font-family: &quot;Verdana&quot;;">36．李大强：神华公司副董事
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -691,7 +741,8 @@ style="font-family: &quot;Verdana&quot;;">37．查克明：华能公司副董事
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -706,7 +757,8 @@ style="font-family: &quot;Verdana&quot;;">38．慕绥新：沈阳市长，2001�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -721,7 +773,8 @@ style="font-family: &quot;Verdana&quot;;">39．田凤岐：辽宁省高法院长
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -736,7 +789,8 @@ style="font-family: &quot;Verdana&quot;;">40．麦崇楷：广东省高法院长
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -751,7 +805,8 @@ style="font-family: &quot;Verdana&quot;;">41．孙小虹：云南省高法院长
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -766,7 +821,8 @@ style="font-family: &quot;Verdana&quot;;">42．柴王群：云南省委宣传部
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -782,7 +838,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -797,7 +854,8 @@ style="font-family: &quot;Verdana&quot;;">多少人掉了脑袋，在当时谁�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -812,7 +870,8 @@ style="font-family: &quot;Verdana&quot;;">把现在房价上涨，物价上涨�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -827,7 +886,8 @@ style="font-family: &quot;Verdana&quot;;">至于大家把下岗的罪责归罪�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -842,7 +902,8 @@ style="font-family: &quot;Verdana&quot;;">    揭秘：中国民众对朱镕
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -859,7 +920,8 @@ style="font-family: &quot;Verdana&quot;;">    中国高官退休后，淡出
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -875,7 +937,8 @@ height="348"}
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -892,7 +955,8 @@ style="font-family: &quot;Verdana&quot;;">    或许，历史总是在偶然
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -907,7 +971,8 @@ style="font-family: &quot;Verdana&quot;;">    毋庸置疑，“朱镕基热
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -922,7 +987,8 @@ style="font-family: &quot;Verdana&quot;;">    在中国，身为行政首脑
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -937,7 +1003,8 @@ style="font-family: &quot;Verdana&quot;;">    没关系，“天地之间有
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -952,7 +1019,8 @@ style="font-family: &quot;Verdana&quot;;">    事实上，中国的百姓，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -967,7 +1035,8 @@ style="font-family: &quot;Verdana&quot;;">一、心底无私，亲民爱民</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -982,7 +1051,8 @@ style="font-family: &quot;Verdana&quot;;">记得朱熔基在一次国务院党�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -999,7 +1069,8 @@ style="font-family: &quot;Verdana&quot;;">且看他是怎么自我评价的。�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1014,7 +1085,8 @@ style="font-family: &quot;Verdana&quot;;">作为大国总理，心底无私天�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1029,7 +1101,8 @@ style="font-family: &quot;Verdana&quot;;">为此，2003年的3月6日，特立�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1044,7 +1117,8 @@ style="font-family: &quot;Verdana&quot;;">二、铁面无情，高调反腐</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1061,7 +1135,8 @@ style="font-family: &quot;Verdana&quot;;">谁能真正反腐，谁就能征服�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1078,7 +1153,8 @@ style="font-family: &quot;Verdana&quot;;">不久，他在查出陈希同案后�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1093,7 +1169,8 @@ style="font-family: &quot;Verdana&quot;;">朱镕基在任五年，贪官污吏�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1108,7 +1185,8 @@ style="font-family: &quot;Verdana&quot;;">    三、强势改革，忍辱负
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1123,7 +1201,8 @@ style="font-family: &quot;Verdana&quot;;">    朱镕基在任时，其信贷
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1138,7 +1217,8 @@ style="font-family: &quot;Verdana&quot;;">    确实如此。受民众最钦
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1153,7 +1233,8 @@ style="font-family: &quot;Verdana&quot;;">    可以说朱镕基在此类改
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1168,7 +1249,8 @@ style="font-family: &quot;Verdana&quot;;">    有人曾形象地总结“如
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1183,7 +1265,8 @@ style="font-family: &quot;Verdana&quot;;">    四、扞卫主权，凛然正
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1199,7 +1282,8 @@ style="font-family: &quot;Verdana&quot;;">    “我想提醒一点，在日
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1214,7 +1298,8 @@ style="font-family: &quot;Verdana&quot;;">    ————2000年10月14日�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1231,7 +1316,8 @@ style="font-family: &quot;Verdana&quot;;">    2000年，中新社纽约三�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1248,7 +1334,8 @@ style="font-family: &quot;Verdana&quot;;">    记者会上，当西方记者
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1263,7 +1350,8 @@ style="font-family: &quot;Verdana&quot;;">    总理举重若轻侃侃而谈
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1278,7 +1366,8 @@ style="font-family: &quot;Verdana&quot;;">五、刚毅自信，不卑不亢</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1294,7 +1383,8 @@ style="font-family: &quot;Verdana&quot;;">如前所述，亦能说明这一点�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1309,7 +1399,8 @@ style="font-family: &quot;Verdana&quot;;">他的伟大在于：直言不讳回�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1324,7 +1415,8 @@ style="font-family: &quot;Verdana&quot;;">六、外柔内刚，见情见性</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1339,7 +1431,8 @@ style="font-family: &quot;Verdana&quot;;">不是所有的优秀政治家都是�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1356,7 +1449,8 @@ style="font-family: &quot;Verdana&quot;;">典型的例子有两个片段。一�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1371,7 +1465,8 @@ style="font-family: &quot;Verdana&quot;;">一则是洛杉矶希望中文小学�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1386,7 +1481,8 @@ style="font-family: &quot;Verdana&quot;;">    七、才气横溢，低调恬
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1401,7 +1497,8 @@ style="font-family: &quot;Verdana&quot;;">    朱镕基的才气，集中体
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1416,7 +1513,8 @@ style="font-family: &quot;Verdana&quot;;">    他能够一天之内，三次
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1431,7 +1529,8 @@ style="font-family: &quot;Verdana&quot;;">    如此才华，居然不肆张
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1446,7 +1545,8 @@ style="font-family: &quot;Verdana&quot;;">    离开中南海的朱镕基，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1461,7 +1561,8 @@ style="font-family: &quot;Verdana&quot;;">    八、真才实学，虚怀若
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1478,7 +1579,8 @@ style="font-family: &quot;Verdana&quot;;">    中国从来不缺政治人物
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1493,7 +1595,8 @@ style="font-family: &quot;Verdana&quot;;">    尽管如此，他仍坚持终
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1508,7 +1611,8 @@ style="font-family: &quot;Verdana&quot;;">九、廉洁奉公，洁身自好</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1523,7 +1627,8 @@ style="font-family: &quot;Verdana&quot;;">古人云“吏不畏吾严而畏我�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1538,7 +1643,8 @@ style="font-family: &quot;Verdana&quot;;">2001年朱镕基在辞去清华大学�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1553,7 +1659,8 @@ style="font-family: &quot;Verdana&quot;;">十、生逢伯乐，大器晚成</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1568,7 +1675,8 @@ style="font-family: &quot;Verdana&quot;;">一个人，纵然你怀经天纬地�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1584,7 +1692,8 @@ style="font-family: &quot;Verdana&quot;;">朱镕基可谓大器晚成。年轻�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1600,7 +1709,8 @@ style="font-family: &quot;Verdana&quot;;">后来，朱镕基能够进入中共�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1615,7 +1725,8 @@ style="font-family: &quot;Verdana&quot;;">1998年春天，朱镕基迎来了他�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1629,7 +1740,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1644,7 +1756,8 @@ style="font-family: &quot;Verdana&quot;;">    我反复读过《朱镕基答
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1659,7 +1772,8 @@ style="font-family: &quot;Verdana&quot;;">    可惜，当下社会精英，
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1674,7 +1788,8 @@ style="font-family: &quot;Verdana&quot;;">    “朱镕基热”之所以持
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -1689,7 +1804,8 @@ style="font-family: &quot;Verdana&quot;;">    为政者倘能多一些担当
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0; text-align: center;">
 
-<span style="font-family: &quot;Verdana&quot;;">\
+<span style="font-family: &quot;Verdana&quot;;">
+
 </span>
 
 </div>
@@ -1700,7 +1816,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

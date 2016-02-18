@@ -1,15 +1,25 @@
---- layout: post title: "国际空间站决定弃用 Windows 启用 Linux" date:
-'2013-05-09T12:36:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-05-09T12:36:50.430+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-253063547380869610
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/05/windows-linux.html ---
+--- 
+layout: post 
+title: "国际空间站决定弃用 Windows 启用 Linux" 
+date:'2013-05-09T12:36:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-05-09T12:36:50.430+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-253063547380869610
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/05/windows-linux.html
+---
 [国际空间站决定弃用 Windows 启用
-Linux](http://www.oschina.net/news/40351/iss-turn-to-linux):\
+Linux](http://www.oschina.net/news/40351/iss-turn-to-linux):
+
 似乎Windows
-8就是一个不该出生的孩子。在地球上不受欢迎也就算了，远在太空的国际空间站(ISS)也没有打算接受这个“野心颇大”的系统。据外媒报道，ISS决定在接下来的系统升级中，弃用Windows，转而使用Linux。\
-![](http://static.oschina.net/uploads/space/2013/0509/075930_lrQX_12.jpg)\
-ISS中的计算机系统由多台在同一网络运行下的笔记本组成。它可以保证宇航员日常重要事项的正常运行；告知宇航员他们所处的位置，管理运行中的设备，甚至还能连接到摄像机，拍摄太空照片与视频并通过互联网分享给地球上的人。\
-Linux基金会称，美国太空局的Keith Chuvala将负责这次的系统交接工作。\
-Chuvala表示，太空署之所以决定更换系统是为了能够保持ISS计算机系统运行的稳定性--言下之意就是，过于追求形式的Win8其运行效果并没有达到他们的要求。\
+8就是一个不该出生的孩子。在地球上不受欢迎也就算了，远在太空的国际空间站(ISS)也没有打算接受这个“野心颇大”的系统。据外媒报道，ISS决定在接下来的系统升级中，弃用Windows，转而使用Linux。
+
+![](http://static.oschina.net/uploads/space/2013/0509/075930_lrQX_12.jpg)
+
+ISS中的计算机系统由多台在同一网络运行下的笔记本组成。它可以保证宇航员日常重要事项的正常运行；告知宇航员他们所处的位置，管理运行中的设备，甚至还能连接到摄像机，拍摄太空照片与视频并通过互联网分享给地球上的人。
+
+Linux基金会称，美国太空局的Keith Chuvala将负责这次的系统交接工作。
+
+Chuvala表示，太空署之所以决定更换系统是为了能够保持ISS计算机系统运行的稳定性--言下之意就是，过于追求形式的Win8其运行效果并没有达到他们的要求。
+
 日前，Chuvala及其团队成员正在接受来自Linux基金会的相关培训，希望能够尽快在ISS部署Linux。据悉，Linux基金会专门针对USA和NASA两支团队不同的需求开设了2门不同的培训课程。

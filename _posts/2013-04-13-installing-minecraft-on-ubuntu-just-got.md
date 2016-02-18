@@ -1,9 +1,13 @@
---- layout: post title: Installing Minecraft on Ubuntu Just Got Easy
-date: '2013-04-13T20:48:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-04-13T20:48:19.113+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5992185890213729606
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/installing-minecraft-on-ubuntu-just-got.html
+--- 
+layout: post 
+title: Installing Minecraft on Ubuntu Just Got Easy
+
+date: '2013-04-13T20:48:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T20:48:19.113+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5992185890213729606
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/installing-minecraft-on-ubuntu-just-got.html
 ---
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
@@ -58,7 +62,8 @@ Easy](http://feedproxy.google.com/~r/d0od/~3/Dvad3l1Rwcw/minecraft-installer-for
 
 </div>
 
-\
+
+
 [![minecraft](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/minecraft.jpg){width="750"
 height="422"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/minecraft.jpg)
 
@@ -124,7 +129,8 @@ height="1"}
 
 </div>
 
-\
+
+
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 

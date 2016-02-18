@@ -1,21 +1,26 @@
---- layout: post title: "中国北斗坑掉欧洲“伽利略”系统内幕" date:
-'2013-04-13T22:08:00.003+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T22:11:45.953+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7100082990907592084
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_7207.html
+--- 
+layout: post 
+title: "中国北斗坑掉欧洲“伽利略”系统内幕" 
+date:'2013-04-13T22:08:00.003+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T22:11:45.953+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7100082990907592084
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_7207.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -50,7 +55,8 @@ style="font-family: &quot;Verdana&quot;;">）
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -65,7 +71,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -129,7 +136,8 @@ style="font-family: &quot;Verdana&quot;;">    中国与欧盟合作，既有
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -195,7 +203,8 @@ style="font-family: &quot;Verdana&quot;;">    本来中国诚心与欧盟合
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -267,7 +276,8 @@ style="font-family: &quot;Verdana&quot;;">    按照“谁先使用谁先得
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -279,14 +289,17 @@ style="font-family: &quot;Verdana&quot;;">    中欧围绕“伽利略”开
 
 </div>
 
-\
+
+
 <div
 style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; max-width: 650px;">
 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

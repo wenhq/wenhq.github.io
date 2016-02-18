@@ -1,17 +1,20 @@
---- layout: post title: "什么是BI软件？有哪些BI开源软件" date:
-'2013-07-29T14:35:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-29T14:35:28.399+08:00' thumbnail:
-https://lh5.googleusercontent.com/Y7epRX6eXlwywk1Vxg1RSU-mz4O6y3oJkH8YzBJpKwycj\_bcL9B1mpY1QSmbSqbai2dgYjmEOthPEI5Zfa9ElpnTeS1Gku4dIzKRGYyTRNtW74zhL10=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3600660338627372825
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/bibi-qiuwenhutigatbloggercom.html
+--- 
+layout: post 
+title: "什么是BI软件？有哪些BI开源软件" 
+date:'2013-07-29T14:35:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-29T14:35:28.399+08:00' 
+thumbnail: https://lh5.googleusercontent.com/Y7epRX6eXlwywk1Vxg1RSU-mz4O6y3oJkH8YzBJpKwycj\_bcL9B1mpY1QSmbSqbai2dgYjmEOthPEI5Zfa9ElpnTeS1Gku4dIzKRGYyTRNtW74zhL10=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3600660338627372825
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/bibi-qiuwenhutigatbloggercom.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 什么是BI软件？有哪些BI开源软件](http://www.linuxeden.com/html/news/20120921/130212.html)</span>
 
 </div>

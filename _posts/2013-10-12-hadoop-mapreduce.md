@@ -1,9 +1,13 @@
---- layout: post title: "开源中国：利用 hadoop mapreduce 做数据排序"
-date: '2013-10-12T09:46:00.001+08:00' author: Wenh Q tags: - tech
-modified\_time: '2013-10-12T09:46:44.660+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7722259014718181822
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/10/hadoop-mapreduce.html ---
+--- 
+layout: post 
+title: "开源中国：利用 hadoop mapreduce 做数据排序"
+date: '2013-10-12T09:46:00.001+08:00' 
+author: Wenh Q
+tags: - tech
+modified\_time: '2013-10-12T09:46:44.660+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7722259014718181822
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/hadoop-mapreduce.html
+---
 <div style="margin: 10px; padding: 5px;">
 
 <div style="font-size: 18px;">
@@ -23,8 +27,10 @@ Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
 
 <div style="font-size: 13px; padding: 15px 0 10px 10px;">
 
-我们的需求是想统计一个文件中用IK分词后每个词出现的次数，然后按照出现的次数降序排列。也就是高频词统计。\
-\
+我们的需求是想统计一个文件中用IK分词后每个词出现的次数，然后按照出现的次数降序排列。也就是高频词统计。
+
+
+
 ``` {style="background-color: #f6f6f6; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(108, 226, 108); border-style: solid; border-width: 1px 1px 1px 5px; color: #333333; font-family: 'Courier New', Arial; font-size: 9pt; line-height: 18px; margin-bottom: 10px; margin-top: 10px; padding: 5px;"}
   我们的需求是想统计一个文件中用IK分词后每个词出现的次数，然后按照出现的次数降序排列。也就是高频词统计。
 ```
@@ -32,7 +38,8 @@ Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
 <span
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">由于hadoop在reduce之后就不能对结果做什么了，所以只能分为两个job完成，第一个job统计次数，第二个job对第一个job的结果排序。
 第一个job的就是hadoop最简单的例子countwords，我要说的是用hadoop对结果排序。
-假设第一个job的结果输出如下：</span>\
+假设第一个job的结果输出如下：</span>
+
 ``` {style="background-color: #f6f6f6; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(108, 226, 108); border-style: solid; border-width: 1px 1px 1px 5px; color: #333333; font-family: 'Courier New', Arial; font-size: 9pt; line-height: 18px; margin-bottom: 10px; margin-top: 10px; padding: 5px;"}
 part-r-0000文件内容：
 
@@ -46,7 +53,8 @@ f    4
 ```
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">要做的就是按照每个词出现的次数降序排列。</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">要做的就是按照每个词出现的次数降序排列。</span>
+
 <div id="highlighter_895051" class="syntaxhighlighter"
 style="background-color: rgb(255, 255, 255) !important; background-image: none !important; border: 0px !important; bottom: auto !important; color: #333333; float: none !important; font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace !important; font-size: 10pt !important; height: auto !important; left: auto !important; line-height: 1.1em !important; margin: 1em 0px !important; min-height: inherit !important; outline: 0px !important; padding: 1px !important; position: relative !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: 716.75px;">
 
@@ -198,13 +206,15 @@ style="background-color: white; color: #333333; font-family: 微软雅黑, Verda
 ```
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">3.然后按照reduce数目的大小自定义分区函数，让结果形成多个区间，比如我认为大于50的应该在一个区间，一共3个reduce，那么最后的数据应该是三个区间，大于50的直接分到第一个分区0，25到50之间的分到第二个分区1，小于25的分到第三个分区2.因为分区数和reduce数是相同的，所以不同的分区对应不同的reduce，因为分区是从0开始的，数据分区到分区0的会被分到第一个reduce处理,分区是1的会分到第2个reduce处理，依次类推。并且reduce对应着输出文件，所以，第一个reduce生成的文件就会是part-r-0000，第二个reduce对应的生成文件就会是part-r-0001，依次类推，所以reduce处理时只需要把key和value再倒过来直接输出。这样最后就会形成数目最大的字符串就会在第一个生成文件里，排好序的数据就是按照文件命名的顺序存放的。</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">3.然后按照reduce数目的大小自定义分区函数，让结果形成多个区间，比如我认为大于50的应该在一个区间，一共3个reduce，那么最后的数据应该是三个区间，大于50的直接分到第一个分区0，25到50之间的分到第二个分区1，小于25的分到第三个分区2.因为分区数和reduce数是相同的，所以不同的分区对应不同的reduce，因为分区是从0开始的，数据分区到分区0的会被分到第一个reduce处理,分区是1的会分到第2个reduce处理，依次类推。并且reduce对应着输出文件，所以，第一个reduce生成的文件就会是part-r-0000，第二个reduce对应的生成文件就会是part-r-0001，依次类推，所以reduce处理时只需要把key和value再倒过来直接输出。这样最后就会形成数目最大的字符串就会在第一个生成文件里，排好序的数据就是按照文件命名的顺序存放的。</span>
+
 ``` {style="background-color: #f6f6f6; border-color: rgb(221, 221, 221) rgb(221, 221, 221) rgb(221, 221, 221) rgb(108, 226, 108); border-style: solid; border-width: 1px 1px 1px 5px; color: #333333; font-family: 'Courier New', Arial; font-size: 9pt; line-height: 18px; margin-bottom: 10px; margin-top: 10px; padding: 5px;"}
 **其实就是利用了hadoop分组的特点，会把key相同的字符串放到一个组里，然后我们把分组的数据用自己定义的排序函数按照key排序后，再按照分区函数分到不同的reduce，固然会是第一个reduce结果文件里面是最大数字的已排序集合，也就是说需要排好序的数据时只需要依次遍历reduce的结果文件part-r-0000，part-r0001,part-r-0002...。当然，如果只有一个reduce，那就正好是一个排好序的结果文件。**
 ```
 
 <span
-style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">代码如下：</span>\
+style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; line-height: 25px;">代码如下：</span>
+
 <div id="highlighter_445524" class="syntaxhighlighter"
 style="background-color: rgb(255, 255, 255) !important; background-image: none !important; border: 0px !important; bottom: auto !important; color: #333333; float: none !important; font-family: Consolas, 'Bitstream Vera Sans Mono', 'Courier New', Courier, monospace !important; font-size: 10pt !important; height: auto !important; left: auto !important; line-height: 1.1em !important; margin: 1em 0px !important; min-height: inherit !important; outline: 0px !important; padding: 1px !important; position: relative !important; right: auto !important; top: auto !important; vertical-align: baseline !important; width: 716.75px;">
 
@@ -1401,12 +1411,17 @@ style="background-color: rgb(248, 248, 248) !important; background-image: none !
 <div
 style="background-color: white; color: #333333; font-family: 微软雅黑, Verdana, sans-serif, 宋体; font-size: 14px; letter-spacing: 1px; line-height: 25px; margin-bottom: 12px; margin-top: 12px; padding: 0px;">
 
-大概就是这样，亲测可用。(*\^\_\_\^*)
+大概就是这样，亲测可用。(*
+^\_\_
+^*)
 
 </div>
 
-\
-\
-\
+
+
+
+
+
+
 
 </div>

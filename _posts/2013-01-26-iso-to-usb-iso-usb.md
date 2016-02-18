@@ -1,28 +1,45 @@
---- layout: post title: ISO to USB – 将 ISO 镜像文件写入 USB 设备 date:
-'2013-01-26T12:20:00.003+08:00' author: Wenh Q tags: - tech.win
-modified\_time: '2013-11-30T12:22:25.390+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6217979809886729052
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/01/iso-to-usb-iso-usb.html --- [ISO
+--- 
+layout: post 
+title: ISO to USB – 将 ISO 镜像文件写入 USB 设备 
+date:'2013-01-26T12:20:00.003+08:00' 
+author: Wenh Q
+tags: - tech.win
+modified\_time: '2013-11-30T12:22:25.390+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6217979809886729052
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/iso-to-usb-iso-usb.html
+--- 
+[ISO
 to USB – 将 ISO 镜像文件写入 USB
-设备](http://www.appinn.com/iso-to-usb/):\
+设备](http://www.appinn.com/iso-to-usb/):
+
 [ISO to USB](http://www.appinn.com/iso-to-usb/) 可以把 iso 镜像文件写入
-U 盘、移动硬盘等 USB 储存设备，并支持开机启动。@Appinn\
-[![ISO to USB 将 ISO 镜像文件写入 USB 设备\[图\] |
-小众软件](http://img3.appinn.com/images/201212/screenshot-1.png "ISO to USB 将 ISO 镜像文件写入 USB 设备[图] | 小众软件")](http://www.appinn.com/iso-to-usb/)\
+U 盘、移动硬盘等 USB 储存设备，并支持开机启动。@Appinn
+
+[![ISO to USB 将 ISO 镜像文件写入 USB 设备
+[图
+] |
+小众软件](http://img3.appinn.com/images/201212/screenshot-1.png "ISO to USB 将 ISO 镜像文件写入 USB 设备[图] | 小众软件")](http://www.appinn.com/iso-to-usb/)
+
 光驱越来越不好找了，也越来越觉得没必要了，青小蛙已经记不得上次用光驱是什么时候，自从把光驱位换成
-SSD 后。\
+SSD 后。
+
 **ISO to USB** 用起来非常简单，选择 iso 镜像文件，指定 USB 设备（注意
 USB 数据会被清除），如果是系统盘记得勾选 **Bootable…** 然后点击 **Burn**
-就好了。\
+就好了。
+
 **ISO to USB** 会两次确认是否继续，因为 U
-盘上的数据会被清空，并且在写入过程中耐心等待，可能会出现假死的状态。\
-是的，青小蛙帮妹纸换硬盘来着…\
-![ISO to USB 将 ISO 镜像文件写入 USB 设备\[图\] |
+盘上的数据会被清空，并且在写入过程中耐心等待，可能会出现假死的状态。
+
+是的，青小蛙帮妹纸换硬盘来着…
+
+![ISO to USB 将 ISO 镜像文件写入 USB 设备
+[图
+] |
 小众软件](http://www.appinn.com/wp-content/down.gif "点击右侧的链接下载本软件")
 [官方主页](http://www.isotousb.com/) |
 [来自小众软件](http://www.appinn.com/iso-to-usb/) |
-[SkyDrive](http://g.appinn.com/ya) | [百度盘](http://g.appinn.com/yb)\
+[SkyDrive](http://g.appinn.com/ya) | [百度盘](http://g.appinn.com/yb)
+
 
 ------------------------------------------------------------------------
 
@@ -35,12 +52,17 @@ scavin for
 [投稿](http://www.appinn.com/contribute/?utm_source=feeds&utm_medium=contribute&utm_campaign=feeds "给小众软件投稿")
 | [<span
 style="color: red;">订阅指南</span>](http://www.appinn.com/feeds-subscribe/?utm_source=feeds&utm_medium=feedsubscribe&utm_campaign=feeds "可以分类订阅小众，Windows/MAC/游戏")
-| [反馈](http://appinn.wufoo.com/forms/eccae-aeeae/)(图片不正常等问题)\
-\
-![ISO to USB 将 ISO 镜像文件写入 USB 设备\[图\] |
+| [反馈](http://appinn.wufoo.com/forms/eccae-aeeae/)(图片不正常等问题)
+
+
+
+![ISO to USB 将 ISO 镜像文件写入 USB 设备
+[图
+] |
 小众软件](http://s33.sitemeter.com/meter.asp?site=s33appinn "ISO to USB 将 ISO 镜像文件写入 USB 设备[图] | 小众软件"){width="20"}
 ![](http://appinn.feedsportal.com/c/33935/f/615575/s/26d8dd89/mf.gif){width="1"
-height="1"}\
+height="1"}
+
 <div>
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +71,9 @@ height="1"}\
 
 </div>
 
-\
-\
+
+
+
+
 [![](http://da.feedsportal.com/r/151883758079/u/31/f/615575/c/33935/s/26d8dd89/a2.img)](http://da.feedsportal.com/r/151883758079/u/31/f/615575/c/33935/s/26d8dd89/a2.htm)![](http://pi.feedsportal.com/r/151883758079/u/31/f/615575/c/33935/s/26d8dd89/a2t.img){width="1"
 height="1"}

@@ -1,10 +1,15 @@
---- layout: post title: Google Reader 将关闭，五大替代产品推荐 date:
-'2013-03-14T16:29:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-14T16:29:49.674+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2804887647268511026
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/google-reader.html ---
-\
+--- 
+layout: post 
+title: Google Reader 将关闭，五大替代产品推荐 
+date:'2013-03-14T16:29:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-14T16:29:49.674+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2804887647268511026
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/google-reader.html
+---
+
+
  
 <div class="article">
 
@@ -107,7 +112,8 @@ iOS 或 Android 设备上使用的出色产品。
 
 </div>
 
-\
+
+
 
 </div>
 

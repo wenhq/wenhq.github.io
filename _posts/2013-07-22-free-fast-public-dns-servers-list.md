@@ -1,18 +1,21 @@
---- layout: post title: Free Fast Public DNS Servers List date:
-'2013-07-22T13:37:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-22T13:37:44.652+08:00' thumbnail:
-https://lh4.googleusercontent.com/0ronhk-S47M5vzGjfVSb2W97bQ1BfTdIiq18R4bBbancxZohP8-Rd-ExSwHKg3MFRVamOa3xheyJrd4k5lgst9TSIaSRI0j8TOb8hFttdAO2HNUCd\_8=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5348438998551896309
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/free-fast-public-dns-servers-list.html
+--- 
+layout: post 
+title: Free Fast Public DNS Servers List 
+date:'2013-07-22T13:37:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-22T13:37:44.652+08:00' 
+thumbnail: https://lh4.googleusercontent.com/0ronhk-S47M5vzGjfVSb2W97bQ1BfTdIiq18R4bBbancxZohP8-Rd-ExSwHKg3MFRVamOa3xheyJrd4k5lgst9TSIaSRI0j8TOb8hFttdAO2HNUCd\_8=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5348438998551896309
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/free-fast-public-dns-servers-list.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 Free Fast Public DNS Servers
 List](http://feedproxy.google.com/~r/chinagfwblog/~3/IcQqmMfcuJA/free-fast-public-dns-servers-list.html)</span>
 

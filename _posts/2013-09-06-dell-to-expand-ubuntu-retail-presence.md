@@ -1,15 +1,20 @@
---- layout: post title: Dell To Expand Ubuntu Retail Presence in China
-date: '2013-09-06T13:00:00.000+08:00' author: Wenh Q tags:
-modified\_time: '2013-09-06T13:00:33.929+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3915958905564784030
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/09/dell-to-expand-ubuntu-retail-presence.html
+--- 
+layout: post 
+title: Dell To Expand Ubuntu Retail Presence in China
+
+date: '2013-09-06T13:00:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-09-06T13:00:33.929+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3915958905564784030
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/09/dell-to-expand-ubuntu-retail-presence.html
 ---
 <div style="margin: 10px; padding: 5px;">
 
 <div style="font-size: 18px;">
 
-[\
+[
+
 Dell To Expand Ubuntu Retail Presence in
 China](http://feedproxy.google.com/~r/d0od/~3/ImgbbMVjLIM/dell-to-increase-number-of-stores-selling-ubuntu-loaded-laptops)
 
@@ -28,7 +33,8 @@ Via [OMG! Ubuntu!](http://www.omgubuntu.co.uk/)
 <div style="width: 300px;">
 
 [![ubuntu-in-china](http://www.omgubuntu.co.uk/wp-content/uploads/2012/11/ubuntu-in-china-300x162.jpg){width="300"
-height="162"}](http://www.omgubuntu.co.uk/wp-content/uploads/2012/11/ubuntu-in-china.jpg)\
+height="162"}](http://www.omgubuntu.co.uk/wp-content/uploads/2012/11/ubuntu-in-china.jpg)
+
 Ubuntu Dell Laptops in China
 
 </div>
@@ -105,7 +111,8 @@ that.**
 
 The post [Dell To Expand Ubuntu Retail Presence in
 China](http://www.omgubuntu.co.uk/2013/09/dell-to-increase-number-of-stores-selling-ubuntu-loaded-laptops)
-first appeared on [OMG! Ubuntu!](http://www.omgubuntu.co.uk/).\
+first appeared on [OMG! Ubuntu!](http://www.omgubuntu.co.uk/).
+
 <div>
 
 [![](http://feeds.feedburner.com/~ff/d0od?i=ImgbbMVjLIM:ij1Woezh2dw:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=ImgbbMVjLIM:ij1Woezh2dw:wBxX2hOkimM)

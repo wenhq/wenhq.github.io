@@ -1,17 +1,20 @@
---- layout: post title: 'VIM Adventures : 边玩游戏边学 VIM' date:
-'2013-07-22T13:24:00.003+08:00' author: Wenh Q tags: modified\_time:
-'2013-10-25T13:55:56.274+08:00' thumbnail:
-https://lh5.googleusercontent.com/f4j7wJpBS7\_UUJncOEpe4GrOWjZvUNz5N4zxCbvK-ST5dsnfbwkb8oCeqswglpRA55nX0cqQWZQWwTDzkoZUOo3rEU2fW8EyPmEqICA5sLU5l8NSV3w=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7935673731636973175
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/vim-adventures-vim-qiuwenhutigatblogger.html
+--- 
+layout: post 
+title: 'VIM Adventures : 边玩游戏边学 VIM' 
+date:'2013-07-22T13:24:00.003+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-10-25T13:55:56.274+08:00' 
+thumbnail: https://lh5.googleusercontent.com/f4j7wJpBS7\_UUJncOEpe4GrOWjZvUNz5N4zxCbvK-ST5dsnfbwkb8oCeqswglpRA55nX0cqQWZQWwTDzkoZUOo3rEU2fW8EyPmEqICA5sLU5l8NSV3w=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7935673731636973175
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/vim-adventures-vim-qiuwenhutigatblogger.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 VIM Adventures : 边玩游戏边学
 VIM](http://wowubuntu.com/vim-adventures.html)</span>
 
@@ -72,7 +75,8 @@ style="font-family: &quot;Verdana&quot;;">。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\# 本文采用</span><span
+<span style="font-family: &quot;Verdana&quot;;">
+# 本文采用</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[CC协议](http://creativecommons.org/licenses/by/2.5/cn/)</span><span
 style="font-family: &quot;Verdana&quot;;">进行授权，转载本文请注明</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[本文链接](http://wowubuntu.com/vim-adventures.html)</span><span
@@ -92,7 +96,8 @@ style="font-family: &quot;Verdana&quot;;"> / </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[投稿](http://wowubuntu.com/submit)</span><span
 style="font-family: &quot;Verdana&quot;;"> / </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[加入我们](http://wowubuntu.com/join)</span><span
-style="font-family: &quot;Verdana&quot;;"> wow0slx6bcs721xo1udcc</span>\
+style="font-family: &quot;Verdana&quot;;"> wow0slx6bcs721xo1udcc</span>
+
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
@@ -107,7 +112,8 @@ T-Shirt](http://tto.me/kfstee)</span>
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 +--------------------------------------------------------------------------+
 | <div                                                                     |
 | style="color: black; direction: ltr; font-family: &quot;Arial&quot;; fon |

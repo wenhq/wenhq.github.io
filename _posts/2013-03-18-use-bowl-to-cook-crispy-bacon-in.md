@@ -1,9 +1,13 @@
---- layout: post title: Use a Bowl to Cook Crispy Bacon in the Microwave
-date: '2013-03-18T11:10:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-03-18T11:10:45.860+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-662687962244038828
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/use-bowl-to-cook-crispy-bacon-in.html
+--- 
+layout: post 
+title: Use a Bowl to Cook Crispy Bacon in the Microwave
+
+date: '2013-03-18T11:10:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-18T11:10:45.860+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-662687962244038828
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/use-bowl-to-cook-crispy-bacon-in.html
 ---
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
@@ -58,7 +62,8 @@ McAllister
 
 </div>
 
-\
+
+
 <div style="float:left;padding-right:10px">
 
 <div>
@@ -76,17 +81,21 @@ find the time to cook it in a skillet or [waffle
 iron](http://lifehacker.com/5405561/make-better-less-messy-bacon-in-a-waffle-iron).
 Believe it or not, there's a great way to heat it up quickly in the
 microwave.
-[More »](http://lifehacker.com/5990895/drape-bacon-over-a-bowl-to-cook-it-in-the-microwave "Click here to read more about Use a Bowl to Cook Crispy Bacon in the Microwave")\
+[More »](http://lifehacker.com/5990895/drape-bacon-over-a-bowl-to-cook-it-in-the-microwave "Click here to read more about Use a Bowl to Cook Crispy Bacon in the Microwave")
+
 ![](http://lifehacker.feedsportal.com/c/34977/f/647165/s/29ac1de1/mf.gif){width="1"
-height="1"}\
-\
+height="1"}
+
+
+
 [![](http://da.feedsportal.com/r/159490934247/u/49/f/647165/c/34977/s/29ac1de1/a2.img)](http://da.feedsportal.com/r/159490934247/u/49/f/647165/c/34977/s/29ac1de1/a2.htm)![](http://pi.feedsportal.com/r/159490934247/u/49/f/647165/c/34977/s/29ac1de1/a2t.img){width="1"
 height="1"}![](http://feeds.feedburner.com/~r/lifehacker/full/~4/UPuifiOsm34){width="1"
 height="1"}
 
 </div>
 
-\
+
+
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 

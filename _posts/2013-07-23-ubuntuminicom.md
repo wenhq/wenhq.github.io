@@ -1,14 +1,19 @@
---- layout: post title: ubuntu下安装配置minicom date:
-'2013-07-23T15:47:00.003+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-23T15:47:35.595+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6095485273296364498
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/ubuntuminicom.html ---
+--- 
+layout: post 
+title: ubuntu下安装配置minicom 
+date:'2013-07-23T15:47:00.003+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-23T15:47:35.595+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6095485273296364498
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/ubuntuminicom.html
+---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 ubuntu下安装配置minicom](http://blog.csdn.net/yinjiabin/article/details/7543111)</span>
 
 </div>
@@ -111,7 +116,8 @@ style="font-family: &quot;Verdana&quot;;">使用这个命令来看你对COM1的�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ ls -l
+<span style="font-family: &quot;Verdana&quot;;">
+$ ls -l
 /dev/ttyS0</span>
 
 </div>
@@ -126,7 +132,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">1. 运行\$ sudo
+<span style="font-family: &quot;Verdana&quot;;">1. 运行
+$ sudo
 minicom</span>
 
 </div>

@@ -1,17 +1,22 @@
---- layout: post title: "如何用 Android 手机远程控制 Linux 桌面 VLC
-播放器" date: '2013-07-22T13:21:00.003+08:00' author: Wenh Q tags:
-modified\_time: '2013-07-22T13:21:29.572+08:00' thumbnail:
-https://lh4.googleusercontent.com/p5FJns7vv2ObeMMuV6thwMeZ8RX\_YeNFX4N98VUiQuYNe8C\_19LgJR7rxzw52SgA7sanQcpONgnqbZNP5becxZmYBxCoxInmgeA40Au\_PNhvICNSqBA=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2787814470354551070
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/android-linux-vlc.html ---
+--- 
+layout: post 
+title: "如何用 Android 手机远程控制 Linux 桌面 VLC
+播放器" 
+date: '2013-07-22T13:21:00.003+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-22T13:21:29.572+08:00' 
+thumbnail: https://lh4.googleusercontent.com/p5FJns7vv2ObeMMuV6thwMeZ8RX\_YeNFX4N98VUiQuYNe8C\_19LgJR7rxzw52SgA7sanQcpONgnqbZNP5becxZmYBxCoxInmgeA40Au\_PNhvICNSqBA=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2787814470354551070
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/android-linux-vlc.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 如何用 Android 手机远程控制 Linux 桌面 VLC
 播放器](http://linuxtoy.org/archives/howto-remote-control-linux-desktop-vlc-player-from-android-mobile.html)</span>
 
@@ -140,7 +145,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 
 <span
 style="font-family: &quot;Verdana&quot;;">一般正常的人会仅希望局域网内的
-Android 手机可以访问并控制桌面上的 VLC，于是取消 \# private addresses
+Android 手机可以访问并控制桌面上的 VLC，于是取消 
+# private addresses
 下面几行开头的注释即可。</span>
 
 </div>

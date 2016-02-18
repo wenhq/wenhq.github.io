@@ -1,10 +1,15 @@
---- layout: post title: "谷歌推出Google Keep笔记应用 支持跨设备同步"
-date: '2013-03-21T13:05:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-03-21T13:05:40.118+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5608154482167663027
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/google-keep.html ---
-\
+--- 
+layout: post 
+title: "谷歌推出Google Keep笔记应用 支持跨设备同步"
+date: '2013-03-21T13:05:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-21T13:05:40.118+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5608154482167663027
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/google-keep.html
+---
+
+
  
 <div class="article">
 
@@ -151,7 +156,8 @@ Google Keep还可以录制你的声音
 
 </div>
 
-\
+
+
 
 </div>
 

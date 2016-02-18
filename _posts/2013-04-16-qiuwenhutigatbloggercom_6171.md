@@ -1,24 +1,28 @@
---- layout: post title: "发烧了，退烧药该怎么吃？" date:
-'2013-04-16T15:54:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-16T15:57:56.564+08:00' thumbnail:
-https://lh4.googleusercontent.com/v5RY5Was4YoqONTvdCCtR4YanSfb6e0UbDs\_T2ep2CsRPoZK0hjyUxvZ7dpD8lG33izO\_JMyo6yxhemFvWmkOvoTC-JKICSoe9RWjGTp--ewhDCbLZ8=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4197180037755017890
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6171.html
+--- 
+layout: post 
+title: "发烧了，退烧药该怎么吃？" 
+date:'2013-04-16T15:54:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-16T15:57:56.564+08:00' 
+thumbnail: https://lh4.googleusercontent.com/v5RY5Was4YoqONTvdCCtR4YanSfb6e0UbDs\_T2ep2CsRPoZK0hjyUxvZ7dpD8lG33izO\_JMyo6yxhemFvWmkOvoTC-JKICSoe9RWjGTp--ewhDCbLZ8=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4197180037755017890
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6171.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -110,7 +114,8 @@ style="font-family: &quot;Verdana&quot;;">西药退烧作用强，使用后容�
 
 </div>
 
-[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------+--------------+--------------+--------------+--------------+--------------+
 | <div         | <div         | <div         | <div         | <div         | <div         |
@@ -151,9 +156,11 @@ style="font-family: &quot;Verdana&quot;;">西药退烧作用强，使用后容�
 | family: &quo | family: &quo | family: &quo | family: &quo | family: &quo | family: &quo |
 | t;Verdana&qu | t;Verdana&qu | t;Verdana&qu | t;Verdana&qu | t;Verdana&qu | t;Verdana&qu |
 | ot;;">扑热息痛</ | ot;;">百服宁，必理 | ot;;">每次0.5g | ot;;">安全有效</ | ot;;">广泛适用于各 | ot;;">服药期间不能 |
-| span>        | 通，泰诺</span> | \~1.5g，每日3次， | span> | 类人群（包括老人、儿童） | 饮酒或饮用含酒精的饮品。 |
+| span>        | 通，泰诺</span> | 
+~1.5g，每日3次， | span> | 类人群（包括老人、儿童） | 饮酒或饮用含酒精的饮品。 |
 |              |              | 若高热不退，24小时内最 |    | 的感冒发热</span> | 不能与一些复方感冒药（白 |
-| </div>       |              | 多可用4次，每次间隔4\ | </div> |           | 加黑、感冒灵等）同时使用 |
+| </div>       |              | 多可用4次，每次间隔4
+ | </div> |           | 加黑、感冒灵等）同时使用 |
 |              | </div>       | ~6小时。</span> |           |              | ，可能会产生不良反应。< |
 |              |              |              |              | </div>       | /span>       |
 |              |              |              |              |              |              |
@@ -194,7 +201,8 @@ style="font-family: &quot;Verdana&quot;;">西药退烧作用强，使用后容�
 |              |              |              |              |  padding: 0; |              |
 |              |              |              |              | ">           |              |
 |              |              |              |              |              |              |
-|              |              |              |              | \            |              |
+|              |              |              |              | 
+            |              |
 |              |              |              |              |              |              |
 |              |              |              |              | </div>       |              |
 +--------------+--------------+--------------+--------------+--------------+--------------+
@@ -285,7 +293,8 @@ style="font-family: &quot;Verdana&quot;;">一般情况下，如果体温低于38
 1.  <span
     style="font-family: &quot;Verdana&quot;;">湿敷降温。就像电视剧里那样，在额头上敷一条湿凉毛巾，经常更换。</span>
 2.  <span
-    style="font-family: &quot;Verdana&quot;;">酒精擦浴。现在这种方法用得比较少，需要注意的是酒精浓度在25%\~50%为宜，否则容易刺激皮肤，吸收表皮大量的水分，对皮肤造成伤害。</span>
+    style="font-family: &quot;Verdana&quot;;">酒精擦浴。现在这种方法用得比较少，需要注意的是酒精浓度在25%
+~50%为宜，否则容易刺激皮肤，吸收表皮大量的水分，对皮肤造成伤害。</span>
 3.  <span
     style="font-family: &quot;Verdana&quot;;">喝水。发烧了，口渴，那就敞开了喝水吧，大量的水不仅可以满足机体高代谢的需要，而且可以在体表发汗或排泄时带走大量的热量，帮助人体降温。</span>
 4.  <span
@@ -307,7 +316,9 @@ style="font-family: &quot;Verdana&quot;;">一般情况下，如果体温低于38
 1.  <span
     style="font-family: &quot;Verdana&quot;;">体温37℃～38℃时，不必着急退烧，多给孩子喝水，补充营养，清淡饮食。</span>
 2.  <span
-    style="font-family: &quot;Verdana&quot;;">体温38℃～38.5℃时，用温的湿毛巾揉搓全身，这样可使孩子皮肤的血管扩张，将体热散出。另外，洗澡后体表蒸发水分时，也会吸收体热，可以泡澡约10\~～15分钟，4\~6小时一次。</span>
+    style="font-family: &quot;Verdana&quot;;">体温38℃～38.5℃时，用温的湿毛巾揉搓全身，这样可使孩子皮肤的血管扩张，将体热散出。另外，洗澡后体表蒸发水分时，也会吸收体热，可以泡澡约10
+~～15分钟，4
+~6小时一次。</span>
 3.  <span
     style="font-family: &quot;Verdana&quot;;">体温在38.5℃以上时，开始考虑使用退热药，每次服药一定要间隔4～6
     小时。</span>
@@ -317,7 +328,8 @@ style="font-family: &quot;Verdana&quot;;">一般情况下，如果体温低于38
 <span style="font-family: &quot;Verdana&quot;; font-size: 24pt; font-weight: bold;">常用的儿童退热药</span> {#常用的儿童退热药 style="color: black; direction: ltr; font-family: "Arial"; font-size: 24pt; font-weight: bold; line-height: 1.0; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 12pt; text-align: left;"}
 ===========================================================================================================
 
-[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](http://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------+--------------------------+--------------------------+
 | <div                     | <div                     | <div                     |
@@ -420,7 +432,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

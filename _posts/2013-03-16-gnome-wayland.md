@@ -1,10 +1,15 @@
---- layout: post title: GNOME 的 Wayland 迁移计划 date:
-'2013-03-16T17:41:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-16T17:41:26.262+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6994863851094697453
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/gnome-wayland.html ---
-\
+--- 
+layout: post 
+title: GNOME 的 Wayland 迁移计划 
+date:'2013-03-16T17:41:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-16T17:41:26.262+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6994863851094697453
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/gnome-wayland.html
+---
+
+
  
 <div class="article">
 
@@ -94,7 +99,8 @@ del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/gnome-to
 
 </div>
 
-\
+
+
 
 </div>
 

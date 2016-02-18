@@ -1,10 +1,14 @@
---- layout: post title:
-InfoQ：打造基于开源系统的公有云——文思海辉的OpenStack实践 date:
-'2013-11-25T14:21:00.004+08:00' author: Wenh Q tags: modified\_time:
-'2013-11-25T14:21:57.410+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-754187994515313237
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/11/infoqopenstack.html ---
+--- 
+layout: post 
+title:
+InfoQ：打造基于开源系统的公有云——文思海辉的OpenStack实践 
+date:'2013-11-25T14:21:00.004+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-11-25T14:21:57.410+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-754187994515313237
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/11/infoqopenstack.html
+---
 <div style="margin: 10px; padding: 5px;">
 
 <div style="font-size: 18px;">

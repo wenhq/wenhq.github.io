@@ -1,9 +1,13 @@
---- layout: post title: "全 Javascript 的 Web 开发架构：MEAN" date:
-'2014-04-03T10:00:00.002+08:00' author: Wenh Q tags: modified\_time:
-'2014-04-03T10:00:39.565+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4412381738537845989
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/04/javascript-web-mean.html ---
+--- 
+layout: post 
+title: "全 Javascript 的 Web 开发架构：MEAN" 
+date:'2014-04-03T10:00:00.002+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2014-04-03T10:00:39.565+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4412381738537845989
+blogger\_orig\_url: http://binaryware.blogspot.com/2014/04/javascript-web-mean.html
+---
 <div dir="ltr" style="color: #303030;">
 
 [全 Javascript 的 Web
@@ -36,7 +40,8 @@ style="background-color: white; color: #333333; font-family: Arial, sans-serif;"
 </div>
 
 ![](http://raohuaming.github.io/images/mean-stack.png){width="380"
-height="361"}\
+height="361"}
+
 <div
 style="font-family: 'Noticia Text', Georgia, serif; font-size: 12px; font-style: italic; text-align: center;">
 
@@ -108,20 +113,24 @@ style="background-color: white; color: #333333; font-family: Arial, sans-serif;"
 
 </div>
 
--   设置REST路由简单致极：\
+-   设置REST路由简单致极：
+
     +--------------------------------------------------------------------------+
     | <div                                                                     |
     | style="border: 0px !important; margin: 0px !important; padding: 0px 1em  |
     | 0px 3px !important; vertical-align: baseline !important;">               |
     |                                                                          |
-    | app.get(/account/:id,function(req, res){/\* req.params('id') is          |
-    | available \*/});                                                         |
+    | app.get(/account/:id,function(req, res){/
+* req.params('id') is          |
+    | available 
+*/});                                                         |
     |                                                                          |
     | </div>                                                                   |
     +--------------------------------------------------------------------------+
 
 -   支持Jade或Mustache等模板引擎
--   自动HTTP头处理:\
+-   自动HTTP头处理:
+
     +--------------------------------------------------------------------------+
     | <div                                                                     |
     | style="border: 0px !important; margin: 0px !important; padding: 0px 1em  |
@@ -297,7 +306,8 @@ style="background-color: white; color: #333333; font-family: Arial, sans-serif;"
 -   集成了Bower, Browserify，Express和Font Awesome
 -   集成了Grunt, Handlebars, jQuery, JSHint和Karma/Mocha
 -   支持LESS/LESSHat, Livereload和Lodash/Underscore
--   集成了Modernizr, MongoDB/Mongoose和Passport\
+-   集成了Modernizr, MongoDB/Mongoose和Passport
+
 
      {#section style="font-size: 24px;"}
 

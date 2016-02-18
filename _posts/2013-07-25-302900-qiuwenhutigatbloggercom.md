@@ -1,18 +1,21 @@
---- layout: post title: "日本30多年对华援助近2900亿人民币" date:
-'2013-07-25T19:27:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-25T19:27:45.633+08:00' thumbnail:
-https://lh5.googleusercontent.com/p4LDjRf\_9WmwSfBvljbOElb1GloC\_o\_MiOYioEPM134RTJIM7UPu6LVzyyTvjY6FFq5bzzOCXvrV-ELgohBPAh2HaBopPQ71\_IVjhO\_JBMeGf-Flguo=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-1370002394010692156
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/302900-qiuwenhutigatbloggercom.html
+--- 
+layout: post 
+title: "日本30多年对华援助近2900亿人民币" 
+date:'2013-07-25T19:27:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-25T19:27:45.633+08:00' 
+thumbnail: https://lh5.googleusercontent.com/p4LDjRf\_9WmwSfBvljbOElb1GloC\_o\_MiOYioEPM134RTJIM7UPu6LVzyyTvjY6FFq5bzzOCXvrV-ELgohBPAh2HaBopPQ71\_IVjhO\_JBMeGf-Flguo=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-1370002394010692156
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/302900-qiuwenhutigatbloggercom.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 日本30多年对华援助近2900亿人民币](http://feedproxy.google.com/~r/chinagfwblog/~3/bsd4UjGFozI/)</span>
 
 </div>

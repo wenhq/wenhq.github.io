@@ -1,17 +1,24 @@
---- layout: post title: Google的Java编码规范 date:
-'2014-02-13T10:42:00.002+08:00' author: Wenh Q tags: modified\_time:
-'2014-02-13T10:42:14.391+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4387131833462813994
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/02/googlejava.html ---
+--- 
+layout: post 
+title: Google的Java编码规范 
+date:'2014-02-13T10:42:00.002+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2014-02-13T10:42:14.391+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4387131833462813994
+blogger\_orig\_url: http://binaryware.blogspot.com/2014/02/googlejava.html
+---
 [Google的Java编码规范](http://www.infoq.com/cn/news/2014/02/google-java-coding-standards?utm_campaign=infoq_content&utm_source=infoq&utm_medium=feed&utm_term=global) 通过
-[Wenhu Qiu的 InfoQ 个性化 RSS Feed](http://www.infoq.com/cn/)\
-\
+[Wenhu Qiu的 InfoQ 个性化 RSS Feed](http://www.infoq.com/cn/)
+
+
+
 *Google最近发布了一份完整的Java编码规范。规范的内容包括一些切实可行的硬性规定。Google内部均遵守此规范。该规范不仅涵盖了代码格式，还包括其他类型的约定和编码标准。
 By Bienvenido David Translated by 梅雪松*
 <div>
 
-\
+
+
 
 </div>
 

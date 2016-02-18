@@ -1,17 +1,21 @@
---- layout: post title: "自适应网页设计（Responsive Web Design）" date:
-'2013-07-23T15:41:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-23T15:41:20.477+08:00' thumbnail:
-https://lh5.googleusercontent.com/wuKr\_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-\_rbrD\_Bc0ANtTqsU=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-4889843756627629429
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/responsive-web-design.html ---
+--- 
+layout: post 
+title: "自适应网页设计（Responsive Web Design）" 
+date:'2013-07-23T15:41:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-23T15:41:20.477+08:00' 
+thumbnail: https://lh5.googleusercontent.com/wuKr\_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-\_rbrD\_Bc0ANtTqsU=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4889843756627629429
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/responsive-web-design.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 自适应网页设计（Responsive Web
 Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)</span>
 
@@ -250,8 +254,10 @@ style="font-family: &quot;Verdana&quot;;">。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">&lt;!--\[if lt IE
-9\]&gt;</span>
+<span style="font-family: &quot;Verdana&quot;;">&lt;!--
+[if lt IE
+9
+]&gt;</span>
 
 </div>
 
@@ -269,7 +275,9 @@ style="font-family: &quot;Verdana&quot;;">"&gt;&lt;/script&gt;</span>
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="font-family: &quot;Verdana&quot;;">&lt;!\[endif\]--&gt;</span>
+style="font-family: &quot;Verdana&quot;;">&lt;!
+[endif
+]--&gt;</span>
 
 </div>
 
@@ -693,7 +701,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\#sidebar {</span>
+<span style="font-family: &quot;Verdana&quot;;">
+#sidebar {</span>
 
 </div>
 

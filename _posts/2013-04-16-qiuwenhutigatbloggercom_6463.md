@@ -1,17 +1,20 @@
---- layout: post title: "共识网 |
-国民党在敌后战场一度建立起了广阔的抗日根据地" date:
-'2013-04-16T15:56:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-16T15:58:47.622+08:00' thumbnail:
-https://lh6.googleusercontent.com/PXalrit8MnH0ZSyx34M8yy\_BshNyqZQIvsD5AI9tIXtETMJu1NXvrlKk8K\_LpRmWCqclr-QifzXunmaWZJ2-wnliSoT7Zkw8w2DlaQi6E9x4csZ20Qs=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-728670802237313697
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6463.html
+--- 
+layout: post 
+title: "共识网 |
+国民党在敌后战场一度建立起了广阔的抗日根据地" 
+date:'2013-04-16T15:56:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-16T15:58:47.622+08:00' 
+thumbnail: https://lh6.googleusercontent.com/PXalrit8MnH0ZSyx34M8yy\_BshNyqZQIvsD5AI9tIXtETMJu1NXvrlKk8K\_LpRmWCqclr-QifzXunmaWZJ2-wnliSoT7Zkw8w2DlaQi6E9x4csZ20Qs=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-728670802237313697
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_6463.html
 ---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -340,7 +343,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

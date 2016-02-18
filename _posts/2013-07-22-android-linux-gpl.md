@@ -1,17 +1,22 @@
---- layout: post title: Android ，在争议中逃离 Linux 内核的 GPL 约束
-date: '2013-07-22T13:24:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-07-22T13:24:20.914+08:00' thumbnail:
-https://lh4.googleusercontent.com/v6N\_jEpeOf8f7tIXTVOf1yg85yUpFsZND\_Aml0ysbFY4fxCSQ04bcVrxu-FGwqqbIv\_P2Xz5LHv6UXR3moJzILvjGw8B-35hrKXDshm7mnKfllid3Sk=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-460394171941045202
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/android-linux-gpl.html ---
+--- 
+layout: post 
+title: Android ，在争议中逃离 Linux 内核的 GPL 约束
+
+date: '2013-07-22T13:24:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-22T13:24:20.914+08:00' 
+thumbnail: https://lh4.googleusercontent.com/v6N\_jEpeOf8f7tIXTVOf1yg85yUpFsZND\_Aml0ysbFY4fxCSQ04bcVrxu-FGwqqbIv\_P2Xz5LHv6UXR3moJzILvjGw8B-35hrKXDshm7mnKfllid3Sk=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-460394171941045202
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/android-linux-gpl.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 Android ，在争议中逃离 Linux 内核的 GPL
 约束](http://www.ifanr.com/92261)</span>
 
@@ -171,7 +176,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <span style="font-family: &quot;Verdana&quot;;">If a library is released
 under the GPL (not the LGPL), does that mean that any software which
 uses it has to be under the GPL or a GPL-compatible license?
-(\#IfLibraryIsGPL)</span>
+(
+#IfLibraryIsGPL)</span>
 
 </div>
 
@@ -448,7 +454,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 
 <span style="font-family: &quot;Verdana&quot;;">Some of the calls
 exposed by Bionic are ordinarily not available to userspace because
-they’re excluded by the use of the \#ifdef \_\_KERNEL\_\_ … \#endif
+they’re excluded by the use of the 
+#ifdef \_\_KERNEL\_\_ … 
+#endif
 guards. If Google can define any call to the kernel from userspace as a
 “normal system call” (even those system calls ostensibly guarded by
 kernel matainers) simply by including it in its new C library, then a
@@ -482,7 +490,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
@@ -583,7 +592,8 @@ style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underl
 style="font-family: &quot;Verdana&quot;;"> · </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Google+](https://plus.google.com/114725869543399343504/)</span><span
 style="font-family: &quot;Verdana&quot;;"> · </span><span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\#ifanrlive](http://live.ifanr.com/)</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+#ifanrlive](http://live.ifanr.com/)</span><span
 style="font-family: &quot;Verdana&quot;;"> · </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[加入爱范社区！](http://bbs.ifanr.com/)</span>
 

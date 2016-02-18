@@ -1,14 +1,19 @@
---- layout: post title: Linuxer 的 Windows 生存指南 date:
-'2013-07-25T19:36:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-25T19:36:05.508+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2870684162878875908
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/linuxer-windows.html ---
+--- 
+layout: post 
+title: Linuxer 的 Windows 生存指南 
+date:'2013-07-25T19:36:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-25T19:36:05.508+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2870684162878875908
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/linuxer-windows.html
+---
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 Linuxer 的 Windows
 生存指南](http://linuxtoy.org/archives/windows-survival-guide-for-linuxer.html)</span>
 

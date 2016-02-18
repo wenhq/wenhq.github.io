@@ -1,10 +1,15 @@
---- layout: post title: "出色的 JavaScript API 设计秘诀" date:
-'2013-03-18T18:11:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-18T18:11:21.787+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2625372320798664487
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/javascript-api.html ---
-\
+--- 
+layout: post 
+title: "出色的 JavaScript API 设计秘诀" 
+date:'2013-03-18T18:11:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-18T18:11:21.787+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2625372320798664487
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/javascript-api.html
+---
+
+
  
 <div class="article">
 
@@ -104,7 +109,9 @@ Kendo UI
 对所有组件使用一致的kendoX语法，促进整体的协调。更重要的，这样的设计依赖jQuery对象为DOM元素封装了统一的一层，使设计有利于所有熟悉jQuery开发者。数百万开发者使用类似的"土语"(jQuery语法)，Kendo
 UI可以顺利地跨库使用。
 
-另一个协调的案例是[Backbone](http://backbonejs.org/)的\[object\].extend语法创建对象，继承和扩展Backbone的[Models](http://backbonejs.org/#Model),[Views](http://backbonejs.org/#View),[Collections](http://backbonejs.org/#Collection)和[Routers](http://backbonejs.org/#Router)的功能。用如下代码就可以创建一个Backbone
+另一个协调的案例是[Backbone](http://backbonejs.org/)的
+[object
+].extend语法创建对象，继承和扩展Backbone的[Models](http://backbonejs.org/#Model),[Views](http://backbonejs.org/#View),[Collections](http://backbonejs.org/#Collection)和[Routers](http://backbonejs.org/#Router)的功能。用如下代码就可以创建一个Backbone
 Model，带有Backbone的完整支持，也可以自定义我需要的功能：
 
     var Book = Backbone.Model.extend({    initialize: function() { ... },    author: function() { ... },    pubDate: function() { ... },  });
@@ -169,7 +176,8 @@ UI可以使用一个稳定，并舒适的范式在整个库范围内来解决远
 
 让一个API转变为一个名符其实的javascript垃圾抽屉，对于一个库的扩展这是危险的，但对于库来说，这也不是唯一的危险。掉入一个不让你的API伴随着库的成长圈套，或者由于某些人为原因，限制你库的大小，这些同样都是危险的！
 
-不处理API增长最好的一个例子是jQuery的 [jQuery or \$
+不处理API增长最好的一个例子是jQuery的 [jQuery or 
+$
 function](http://api.jquery.com/jQuery/)。和我一样有成千上万的开发者喜欢jQurey,
 但它的门户方法是有点乱的，从DOM选择到在jQuery对象中包含DOM元素，这个方法提供了超过11个独立超负荷选择方式。
 
@@ -249,7 +257,8 @@ API 设计：不只为库代码编写者
 
 </div>
 
-\
+
+
 
 </div>
 

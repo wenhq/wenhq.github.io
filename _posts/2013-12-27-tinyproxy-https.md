@@ -1,9 +1,13 @@
---- layout: post title: "利用 Tinyproxy 搭建 HTTP(S) 代理" date:
-'2013-12-27T16:37:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-12-27T16:37:44.942+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3291973444784695463
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
+--- 
+layout: post 
+title: "利用 Tinyproxy 搭建 HTTP(S) 代理" 
+date:'2013-12-27T16:37:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-12-27T16:37:44.942+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3291973444784695463
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/tinyproxy-https.html
+---
 <div dir="ltr">
 
 <div class="gmail_quote">
@@ -55,7 +59,8 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |    |                                                                     |
 | | 来应个急，但并非 100% 有效，比如最近我在访问                             | |
 |                                                                          |
-| | [wireshark.org](http://wireshark.org/) 时就遇到了问题。\                 | |
+| | [wireshark.org](http://wireshark.org/) 时就遇到了问题。
+                 | |
 |                                                                          |
 | | 好在我们还能搭建 HTTP(S) 代理。目前市面上有许多 HTTP(S) 代理             | |
 |                                                                          |
@@ -63,15 +68,18 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |                                                                          |
 | | [Tinyproxy](https://banu.com/tinyproxy/)。我们选择 Tinyproxy，           | |
 |                                                                          |
-| | 是因为它足够简单、小巧，且无需过多的配置。\                              | |
+| | 是因为它足够简单、小巧，且无需过多的配置。
+                              | |
 |                                                                          |
 | | #### 安装 Tinyproxy                                                      |
 |  |                                                                       |
 | |                                                                        |
 |    |                                                                     |
-| | 在 Debian 中，通过执行以下指令可以安装 Tinyproxy：\                      | |
+| | 在 Debian 中，通过执行以下指令可以安装 Tinyproxy：
+                      | |
 |                                                                          |
-| | apt-get install tinyproxy\                                             |
+| | apt-get install tinyproxy
+                                             |
 |    |                                                                     |
 | | #### 配置 Tinyproxy                                                      |
 |  |                                                                       |
@@ -83,13 +91,16 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |                                                                          |
 | | 端等等。如果你希望在任意位置都能访问代理服务器，那么可以将 默认的        | |
 |                                                                          |
-| | `Allow` 行注释掉。\                                                      | |
+| | `Allow` 行注释掉。
+                                                      | |
 |                                                                          |
 | | 注意更新配置后，需要 reload 服务才会生效。另外，如果开了 iptables        | |
 |                                                                          |
-| | 防火墙的话，需要添加如下规则：\                                          | |
+| | 防火墙的话，需要添加如下规则：
+                                          | |
 |                                                                          |
-| | iptables -I INPUT -p tcp --dport 8888 -j ACCEPT\                       |
+| | iptables -I INPUT -p tcp --dport 8888 -j ACCEPT
+                       |
 |    |                                                                     |
 | | #### 浏览器设置                                                          | |
 |                                                                          |
@@ -99,7 +110,8 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |                                                                          |
 | | 手动代理配置"，接着在"HTTP 代理"中填入服务器 IP，"端口"中 填入           | |
 |                                                                          |
-| | 8888，再确定就可以了。\                                                  | |
+| | 8888，再确定就可以了。
+                                                  | |
 |                                                                          |
 | | 分类:                                                                    |
 |  |                                                                       |
@@ -137,6 +149,7 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 
 </div>
 
-\
+
+
 
 </div>

@@ -1,9 +1,13 @@
---- layout: post title: "用 Python 脚本实现对 Linux 服务器的监控" date:
-'2014-01-01T12:42:00.002+08:00' author: Wenh Q tags: - tech
-modified\_time: '2014-01-01T12:42:13.624+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-722272376326387211
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/01/python-linux.html ---
+--- 
+layout: post 
+title: "用 Python 脚本实现对 Linux 服务器的监控" 
+date:'2014-01-01T12:42:00.002+08:00' 
+author: Wenh Q
+tags: - tech
+modified\_time: '2014-01-01T12:42:13.624+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-722272376326387211
+blogger\_orig\_url: http://binaryware.blogspot.com/2014/01/python-linux.html
+---
 <div dir="ltr">
 
 [用 Python 脚本实现对 Linux
@@ -24,7 +28,8 @@ style="font-size: 14px; line-height: 20px; margin-top: 15px;">
 inotify-sync（文件系统安全监控软件）、glances（资源监控工具）在实际工作中，Linux
 系统管理员可以根据自己使用的服务器的具体情况编写一下简单实用的脚本实现对
 Linux 服务器的监控。 本文介绍一下使用 Python 脚本实现对 Linux 服务器 CPU
-内存 网络的监控脚本的编写。\
+内存 网络的监控脚本的编写。
+
 Python 版本说明
 ---------------
 
@@ -39,7 +44,8 @@ Python 版本 是 2.7 。如果是 Python 3.0
 程序、.NET 程序集成。另外还有一些实验性的 Python 解释器比如
 PyPy。CPython
 是使用字节码的解释器，任何程序源代码在执行之前先要编译成字节码。它还有和几种其它语言（包括
-C 语言）交互的外部函数接口。\
+C 语言）交互的外部函数接口。
+
 工作原理：基于/proc 文件系统
 ----------------------------
 
@@ -49,7 +55,8 @@ Linux
 文件虚拟系统是一种内核和内核模块用来向进程（process）发送信息的机制（所以叫做"/proc"），这个伪文件系统允许与内核内部数据结构交互，
 获取有关进程的有用信息，在运行中（on the
 fly）改变设置（通过改变内核参数）。与其他文件系统不同，/proc
-存在于内存而不是硬盘中。proc 文件系统提供的信息如下：\
+存在于内存而不是硬盘中。proc 文件系统提供的信息如下：
+
 -   进程信息：系统中的任何一个进程，在 proc 的子目录中都有一个同名的进程
     ID，可以找到 cmdline、mem、root、stat、statm，以及
     status。某些信息只有超级用户可见，例如进程根目录。每一个单独含有现有进程信息的进程有一些可用的专门链接，系统中的任何一个进程都有一个单独的
@@ -61,7 +68,8 @@ fly）改变设置（通过改变内核参数）。与其他文件系统不同�
 -   系统内存信息：/proc/meminfo
     文件包含系统内存的详细信息，其中显示物理内存的数量、可用交换空间的数量，以及空闲内存的数量等。
 
-**表 1 是 /proc 目录中的主要文件的说明：**\
+**表 1 是 /proc 目录中的主要文件的说明：**
+
 ##### 表 1 /proc 目录中的主要文件的说明
 
   `文件或目录名称`   `描 述`
@@ -91,12 +99,14 @@ fly）改变设置（通过改变内核参数）。与其他文件系统不同�
   `version`          `这个文件只有一行内容，说明正在运行的内核版本。可以用标准的编程方法进行分析获得所需的系统信息`
 
 `下面本文的几个例子都是使用`` Python 脚本``读取`/proc
-目录中的主要文件来实现`实现对 Linux 服务器的监控的 。`\
+目录中的主要文件来实现`实现对 Linux 服务器的监控的 。`
+
 ### 使用 Python 脚本实现对 Linux 服务器的监控
 
 ### 对于 CPU（中央处理器）监测
 
-脚本 1 名称 CPU1.py，作用获取 CPU 的信息。\
+脚本 1 名称 CPU1.py，作用获取 CPU 的信息。
+
 ##### 清单 1.获取 CPU 的信息
 
     #!/usr/bin/env Python  from __future__ import print_function  from collections import OrderedDict  import pprint    def CPUinfo():      ''' Return the information in /proc/CPUinfo      as a dictionary in the following format:      CPU_info['proc0']={...}      CPU_info['proc1']={...}      '''      CPUinfo=OrderedDict()      procinfo=OrderedDict()        nprocs = 0      with open('/proc/CPUinfo') as f:          for line in f:              if not line.strip():                  # end of one processor                  CPUinfo['proc%s' % nprocs] = procinfo                  nprocs=nprocs+1                  # Reset                  procinfo=OrderedDict()              else:                  if len(line.split(':')) == 2:                      procinfo[line.split(':')[0].strip()] = line.split(':')[1].strip()                  else:                      procinfo[line.split(':')[0].strip()] = ''        return CPUinfo    if __name__=='__main__':      CPUinfo = CPUinfo()      for processor in CPUinfo.keys():          print(CPUinfo[processor]['model name'])
@@ -108,19 +118,24 @@ dict。其中 list 是一个使用方括号括起来的有序元素集合。List
 是一个字典子类，可以记住其内容增加的顺序。常规 dict
 并不跟踪插入顺序，迭代处理时会根据键在散列表中存储的顺序来生成值。在
 OrderedDict
-中则相反，它会记住元素插入的顺序，并在创建迭代器时使用这个顺序。\
-可以使用 Python 命令运行脚本 CPU1.py 结果见图 1\
+中则相反，它会记住元素插入的顺序，并在创建迭代器时使用这个顺序。
+
+可以使用 Python 命令运行脚本 CPU1.py 结果见图 1
+
     # Python CPU1.py   Intel(R) Celeron(R) CPU E3200  @ 2.40GHz
 
 ##### 图 1.运行清单 1
 
-[![ypjbsxdlfwqdjk01](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk01.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk01.png "用 Python 脚本实现对 Linux 服务器的监控")\
-也可以使用 chmod 命令添加权限收直接运行 CPU1.py\
+[![ypjbsxdlfwqdjk01](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk01.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk01.png "用 Python 脚本实现对 Linux 服务器的监控")
+
+也可以使用 chmod 命令添加权限收直接运行 CPU1.py
+
     #chmod +x CPU1.py  # ./CPU1.py
 
 ### 对于系统负载监测
 
-脚本 2 名称 CPU2.py，作用获取系统的负载信息\
+脚本 2 名称 CPU2.py，作用获取系统的负载信息
+
 ##### 清单 2 获取系统的负载信息
 
     #!/usr/bin/env Python     import os   def load_stat():       loadavg = {}       f = open("/proc/loadavg")       con = f.read().split()       f.close()       loadavg['lavg_1']=con[0]       loadavg['lavg_5']=con[1]       loadavg['lavg_15']=con[2]       loadavg['nr']=con[3]       loadavg['last_pid']=con[4]       return loadavg   print "loadavg",load_stat()['lavg_15']
@@ -128,17 +143,25 @@ OrderedDict
 简 单说明一下清单 2：清单 2 读取/proc/loadavg 中的信息，import os
 ：Python 中 import
 用于导入不同的模块，包括系统提供和自定义的模块。其基本形式为：import
-模块名 \[as 别名\]，如果只需要导入模块中的部分或全部内容可以用形式：from
-模块名 import \*来导入相应的模块。OS 模块 os
+模块名 
+[as 别名
+]，如果只需要导入模块中的部分或全部内容可以用形式：from
+模块名 import 
+*来导入相应的模块。OS 模块 os
 模块提供了一个统一的操作系统接口函数，os 模块能在不同操作系统平台如
-nt，posix 中的特定函数间自动切换，从而实现跨平台操作。\
-可以使用 Python 命令运行脚本 CPU1.py 结果见图 2 \# Python CPU2.py\
+nt，posix 中的特定函数间自动切换，从而实现跨平台操作。
+
+可以使用 Python 命令运行脚本 CPU1.py 结果见图 2 
+# Python CPU2.py
+
 ##### 图 2.运行清单 2
 
-[![ypjbsxdlfwqdjk02](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk02.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk02.png "用 Python 脚本实现对 Linux 服务器的监控")\
+[![ypjbsxdlfwqdjk02](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk02.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk02.png "用 Python 脚本实现对 Linux 服务器的监控")
+
 ### 对于内存信息的获取
 
-脚本 3 名称 mem.py，作用是获取内存使用情况信息\
+脚本 3 名称 mem.py，作用是获取内存使用情况信息
+
 ##### 清单 3 获取内存使用情况
 
     #!/usr/bin/env Python    from __future__ import print_function  from collections import OrderedDict    def meminfo():      ''' Return the information in /proc/meminfo      as a dictionary '''      meminfo=OrderedDict()        with open('/proc/meminfo') as f:          for line in f:              meminfo[line.split(':')[0]] = line.split(':')[1].strip()      return meminfo    if __name__=='__main__':      #print(meminfo())        meminfo = meminfo()      print('Total memory: {0}'.format(meminfo['MemTotal']))      print('Free memory: {0}'.format(meminfo['MemFree']))
@@ -149,14 +172,19 @@ split
 json
 的形式。但是也可以把数据存储到一个字段里面，然后有某种标示符来分割。
 Python 中的 strip 用于去除字符串的首位字符，最后清单 3
-打印出内存总数和空闲数。\
-可以使用 Python 命令运行脚本 mem.py 结果见图 3。 \# Python mem.py\
+打印出内存总数和空闲数。
+
+可以使用 Python 命令运行脚本 mem.py 结果见图 3。 
+# Python mem.py
+
 ##### 图 3.运行清单 3
 
-[![ypjbsxdlfwqdjk03](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk03.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk03.png "用 Python 脚本实现对 Linux 服务器的监控")\
+[![ypjbsxdlfwqdjk03](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk03.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk03.png "用 Python 脚本实现对 Linux 服务器的监控")
+
 ### 对于网络接口的监测
 
-脚本 4 名称是 net.py，作用获取网络接口的使用情况。\
+脚本 4 名称是 net.py，作用获取网络接口的使用情况。
+
 ##### 清单 4 net.py 获取网络接口的输入和输出
 
     #!/usr/bin/env Python  import time  import sys    if len(sys.argv) > 1:    INTERFACE = sys.argv[1]  else:      INTERFACE = 'eth0'  STATS = []  print 'Interface:',INTERFACE    def rx():   ifstat = open('/proc/net/dev').readlines()      for interface in  ifstat:       if INTERFACE in interface:              stat = float(interface.split()[1])              STATS[0:] = [stat]    def   tx():   ifstat = open('/proc/net/dev').readlines()      for interface in  ifstat:       if INTERFACE in interface:              stat = float(interface.split()[9])              STATS[1:] = [stat]    print 'In         Out'  rx()  tx()    while   True:   time.sleep(1)   rxstat_o = list(STATS)      rx()    tx()    RX = float(STATS[0])    RX_O = rxstat_o[0]      TX = float(STATS[1])    TX_O = rxstat_o[1]      RX_RATE = round((RX - RX_O)/1024/1024,3)    TX_RATE = round((TX - TX_O)/1024/1024,3)    print RX_RATE ,'MB      ',TX_RATE ,'MB'
@@ -176,15 +204,20 @@ readlines()。每种方法可以接受一个变量以限制每次读取的数据
 Python 的 for … in … 结构进行处理。另一方面，.readline()
 每次只读取一行，通常比 .readlines()
 慢得多。仅当没有足够内存可以一次读取整个文件时，才应该使用
-.readline()。最后清单 4 打印出网络接口的输入和输出情况。\
-可以使用 Python 命令运行脚本 net.py 结果见图 4 \#Python net.py\
+.readline()。最后清单 4 打印出网络接口的输入和输出情况。
+
+可以使用 Python 命令运行脚本 net.py 结果见图 4 
+#Python net.py
+
 ##### 图 4.运行清单 4
 
-[![ypjbsxdlfwqdjk04](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk04.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk04.png "用 Python 脚本实现对 Linux 服务器的监控")\
+[![ypjbsxdlfwqdjk04](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk04.png)](http://jbcdn2.b0.upaiyun.com/2013/12/ypjbsxdlfwqdjk04.png "用 Python 脚本实现对 Linux 服务器的监控")
+
 ### 监控 Apache 服务器进程的 Python 脚本
 
 Apache 服务器进程可能会因为系统各种原因而出现异常退出，导致 Web
-服务暂停。所以笔者写一个 Python 脚本文件：\
+服务暂停。所以笔者写一个 Python 脚本文件：
+
 ##### 清单 5 crtrl.py 监控 Apache 服务器进程的 Python 脚本
 
     #!/usr/bin/env Python   import os, sys, time     while True:   time.sleep(4)   try:   ret = os.popen('ps -C apache -o pid,cmd').readlines()   if len(ret) < 2:   print "apache 进程异常退出， 4 秒后重新启动"   time.sleep(3)   os.system("service apache2 restart")   except:   print "Error", sys.exc_info()[1]
@@ -194,14 +227,16 @@ crtrl.py），然后加入到/etc/rc.local 即可，一旦 Apache
 服务器进程异常退出，该脚本自动检查并且重启。 简单说明一下清单 5
 这个脚本不是基于/proc 伪文件系统的，是基于 Python
 自己提供的一些模块来实现的 。这里使用的是 Python 的内嵌 time 模板，time
-模块提供各种操作时间的函数。\
+模块提供各种操作时间的函数。
+
 总结
 ----
 
 在实际工作中，Linux
 系统管理员可以根据自己使用的服务器的具体情况编写一下简单实用的脚本实现对
 Linux 服务器的监控。本文介绍一下使用 Python 脚本实现对 Linux 服务器 CPU
-、系统负载、内存和 网络使用情况的监控脚本的编写方法。\
+、系统负载、内存和 网络使用情况的监控脚本的编写方法。
+
 <div>
 
 <div>

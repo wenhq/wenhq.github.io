@@ -1,17 +1,21 @@
---- layout: post title: "搭建一个免费的，无限流量的Blog----github
-Pages和Jekyll入门" date: '2013-07-25T19:38:00.000+08:00' author: Wenh Q
-tags: modified\_time: '2013-07-25T19:38:00.128+08:00' thumbnail:
-https://lh4.googleusercontent.com/-XXBW-TjbgmwKI3RgyvQL1aw31wJiuwJCVnJUsnoXkNCv9kDc9CDPajJ1J1FaS4EZ5cEIFVitl5WgZs-GhACmdNrEB7sN8b3cMMkxBmEOxpsIBDpaLw=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3957427763204375731
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/blog-github-pagesjekyll.html ---
+--- 
+layout: post 
+title: "搭建一个免费的，无限流量的Blog----github
+Pages和Jekyll入门" 
+date: '2013-07-25T19:38:00.000+08:00' 
+author: Wenh Q
+tags: modified\_time: '2013-07-25T19:38:00.128+08:00' 
+thumbnail: https://lh4.googleusercontent.com/-XXBW-TjbgmwKI3RgyvQL1aw31wJiuwJCVnJUsnoXkNCv9kDc9CDPajJ1J1FaS4EZ5cEIFVitl5WgZs-GhACmdNrEB7sN8b3cMMkxBmEOxpsIBDpaLw=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3957427763204375731
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/blog-github-pagesjekyll.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 搭建一个免费的，无限流量的Blog----github
 Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)</span>
 
@@ -219,7 +223,8 @@ style="font-family: &quot;Verdana&quot;;">这种做法的好处是：</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 免费，无限流量。</span>
 
 </div>
@@ -227,7 +232,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 享受git的版本管理功能，不用担心文章遗失。</span>
 
 </div>
@@ -235,7 +241,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。</span>
 
 </div>
@@ -250,7 +257,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 有一定技术门槛，你必须要懂一点git和网页开发。</span>
 
 </div>
@@ -258,7 +266,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 它生成的是静态网页，添加动态功能必须使用外部服务，比如评论功能就只能用</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[disqus](http://disqus.com/)</span><span
 style="font-family: &quot;Verdana&quot;;">。</span>
@@ -268,7 +277,8 @@ style="font-family: &quot;Verdana&quot;;">。</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\*
+<span style="font-family: &quot;Verdana&quot;;">
+*
 它不适合大型网站，因为没有用到数据库，每运行一次都必须遍历全部的文本文件，网站越大，生成时间越长。</span>
 
 </div>
@@ -328,7 +338,8 @@ style="font-family: &quot;Verdana&quot;;">在你的电脑上，建立一个目�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ mkdir
+<span style="font-family: &quot;Verdana&quot;;">
+$ mkdir
 jekyll\_demo</span>
 
 </div>
@@ -344,7 +355,8 @@ style="font-family: &quot;Verdana&quot;;">对该目录进行git初始化。</spa
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ cd
+<span style="font-family: &quot;Verdana&quot;;">
+$ cd
 jekyll\_demo</span>
 
 </div>
@@ -352,7 +364,8 @@ jekyll\_demo</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git init</span>
+<span style="font-family: &quot;Verdana&quot;;">
+$ git init</span>
 
 </div>
 
@@ -367,7 +380,8 @@ style="font-family: &quot;Verdana&quot;;">然后，创建一个没有父节点�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git checkout --orphan
+<span style="font-family: &quot;Verdana&quot;;">
+$ git checkout --orphan
 gh-pages</span>
 
 </div>
@@ -446,7 +460,8 @@ style="font-family: &quot;Verdana&quot;;">在项目根目录下，创建一个\_
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ mkdir
+<span style="font-family: &quot;Verdana&quot;;">
+$ mkdir
 \_layouts</span>
 
 </div>
@@ -616,7 +631,8 @@ style="font-family: &quot;Verdana&quot;;">回到项目根目录，创建一个\_
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ mkdir \_posts</span>
+<span style="font-family: &quot;Verdana&quot;;">
+$ mkdir \_posts</span>
 
 </div>
 
@@ -648,14 +664,17 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">layout: default</span>
+<span style="font-family: &quot;Verdana&quot;;">
+
+layout: default</span>
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">title: 你好，世界</span>
+<span style="font-family: &quot;Verdana&quot;;">
+title: 你好，世界</span>
 
 </div>
 
@@ -696,7 +715,10 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <span
 style="font-family: &quot;Verdana&quot;;">每篇文章的头部，必须有一个</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[yaml文件头](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)</span><span
-style="font-family: &quot;Verdana&quot;;">，用来设置一些元数据。它用三根短划线"---"，标记开始和结束，里面每一行设置一种元数据。"layout:default"，表示该文章的模板使用\_layouts目录下的default.html文件；"title:
+style="font-family: &quot;Verdana&quot;;">，用来设置一些元数据。它用三根短划线"---"，标记开始和结束，里面每一行设置一种元数据。"
+
+layout:default"，表示该文章的模板使用\_layouts目录下的default.html文件；"
+title:
 你好，世界"，表示该文章的标题是"你好，世界"，如果不设置这个值，默认使用嵌入文件名的标题，即"hello
 world"。</span>
 
@@ -798,14 +820,17 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">layout: default</span>
+<span style="font-family: &quot;Verdana&quot;;">
+
+layout: default</span>
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">title: 我的Blog</span>
+<span style="font-family: &quot;Verdana&quot;;">
+title: 我的Blog</span>
 
 </div>
 
@@ -960,14 +985,16 @@ style="font-family: &quot;Verdana&quot;;">现在，这个简单的Blog就可以�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git add .</span>
+<span style="font-family: &quot;Verdana&quot;;">
+$ git add .</span>
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git commit -m "first
+<span style="font-family: &quot;Verdana&quot;;">
+$ git commit -m "first
 post"</span>
 
 </div>
@@ -983,7 +1010,8 @@ style="font-family: &quot;Verdana&quot;;">然后，在github上创建一个名�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git remote add origin
+<span style="font-family: &quot;Verdana&quot;;">
+$ git remote add origin
 </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;"><https://github.com/></span><span
 style="font-family: &quot;Verdana&quot;; font-weight: bold;">username</span><span
@@ -994,7 +1022,8 @@ style="font-family: &quot;Verdana&quot;;">/jekyll\_demo.git</span>
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-<span style="font-family: &quot;Verdana&quot;;">\$ git push origin
+<span style="font-family: &quot;Verdana&quot;;">
+$ git push origin
 gh-pages</span>
 
 </div>

@@ -1,9 +1,14 @@
---- layout: post title: Google Reader 关闭，各路 RSS 订阅服务风生水起
-date: '2013-03-16T18:28:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-03-16T18:28:30.322+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7496195974713291537
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/google-reader-rss.html ---
+--- 
+layout: post 
+title: Google Reader 关闭，各路 RSS 订阅服务风生水起
+
+date: '2013-03-16T18:28:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-16T18:28:30.322+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7496195974713291537
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/google-reader-rss.html
+---
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
@@ -57,7 +62,8 @@ style="font-family:sans-serif;overflow:auto;width:100%;margin: 0px 10px">
 
 </div>
 
-\
+
+
 [![272](http://cdn.ifanr.cn/wp-content/uploads/2013/03/272.jpg){width="600"
 height="375"}](http://www.ifanr.com/262358/attachment/272)
 
@@ -164,13 +170,16 @@ Farewell，Google Reader……
 [微信订阅](http://www.ifanr.com/weixin) ·
 [加入爱范社区！](http://bbs.ifanr.com/)
 
-\
+
+
 <div style="text-align:center;border-top:1px dotted #ccc">
 
 </div>
 
-![](http://ifanr.feedsportal.com/c/33866/f/642084/s/262358/mf.gif)\
-\
+![](http://ifanr.feedsportal.com/c/33866/f/642084/s/262358/mf.gif)
+
+
+
 [![](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.img)](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.htm)![](http://pi.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2t.img){width="1"
 height="1"}
 <div
@@ -218,7 +227,8 @@ style="text-align:right;border-top:1px dotted #ccc;padding:2px 10px;font-size:12
 
 </div>
 
-\
+
+
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 

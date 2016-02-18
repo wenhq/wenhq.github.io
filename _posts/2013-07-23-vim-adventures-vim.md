@@ -1,17 +1,21 @@
---- layout: post title: Vim Adventures 游戏版 VIM 教程 date:
-'2013-07-23T15:44:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-23T15:44:01.919+08:00' thumbnail:
-https://lh4.googleusercontent.com/PaaoFdnoCVuurbgu6vZXAs5Wrv3Y7XXLWOYWRwf5fj7NegAUrDOBv2jPc43yEMTPO87FCK8UagptKJlQsTX8mdQX6a1cMQhfamia6h10Vg\_tmg4hOKo=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6530365953569617759
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/vim-adventures-vim.html ---
+--- 
+layout: post 
+title: Vim Adventures 游戏版 VIM 教程 
+date:'2013-07-23T15:44:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-23T15:44:01.919+08:00' 
+thumbnail: https://lh4.googleusercontent.com/PaaoFdnoCVuurbgu6vZXAs5Wrv3Y7XXLWOYWRwf5fj7NegAUrDOBv2jPc43yEMTPO87FCK8UagptKJlQsTX8mdQX6a1cMQhfamia6h10Vg\_tmg4hOKo=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6530365953569617759
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/vim-adventures-vim.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 Vim Adventures – 游戏版 VIM
 教程](http://www.appinn.com/vim-adventures/)</span>
 
@@ -90,7 +94,8 @@ style="font-family: &quot;Verdana&quot;;"> | </span><span
 style="color: red; font-family: &quot;Verdana&quot;; text-decoration: underline;">[订阅指南](http://www.appinn.com/feeds-subscribe/?utm_source=feeds&utm_medium=feedsubscribe&utm_campaign=feeds)</span><span
 style="font-family: &quot;Verdana&quot;;"> | </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[反馈](http://appinn.wufoo.com/forms/eccae-aeeae/)</span><span
-style="font-family: &quot;Verdana&quot;;">(图片不正常等问题)</span>\
+style="font-family: &quot;Verdana&quot;;">(图片不正常等问题)</span>
+
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12.8pt; padding-left: 0; padding-right: 0; padding-top: 0;">
@@ -110,7 +115,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 3.  <span
     style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Corsix-TH
     – 让 Mac
-    完美运行《主题医院》\[游戏\]](http://www.appinn.com/corsix-th-theme-hospital-for-mac/)</span>
+    完美运行《主题医院》
+[游戏
+]](http://www.appinn.com/corsix-th-theme-hospital-for-mac/)</span>
 4.  <span
     style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[ScummVM
     – DOS 游戏万岁万万岁](http://www.appinn.com/scummvm/)</span>
@@ -126,7 +133,8 @@ height="1"}
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
   ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   ![](https://lh6.googleusercontent.com/1Buvw0gPXIgSbMw4kg8ZcwEPsheOVpmYEsa0GNNEw3MDp1-ANWUZntUWtmE1CM9No2lgMdLtbrpJHLMnVC7Pcqn9Sr7j3Hp0pvJK5GhfaeZcI3fdSAI){width="113" height="14"}   ![](https://lh5.googleusercontent.com/Q7aN2wV5i4VRYVXFcUSIjWgRhsWEDnth08sC0_jJGW62oiXB2dDg8n7E-VdPkZfwTmDdpbRZ5I2TRjek1rZGUjTxnSeaKtxzB-cGKLsS-NSDOxPZ7Ow){width="125" height="16"}

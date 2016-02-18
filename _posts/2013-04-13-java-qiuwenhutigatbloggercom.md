@@ -1,24 +1,28 @@
---- layout: post title: "文章： 借助开源工具高效完成Java应用的运行分析"
-date: '2013-04-13T22:05:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-04-13T22:10:22.142+08:00' thumbnail:
-https://lh4.googleusercontent.com/YbTZRbHcFWyC\_MBX54UR\_8PnCq7RXyLtssJrw7syuRe47FgtFF\_dGkSZkJjgwlAikGGf9NhPCzV0U9m4oHTZ7quO6-0PCj2gYZ9UM6ohuKHGSAlkoFI=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-977239577819445779
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/java-qiuwenhutigatbloggercom.html
+--- 
+layout: post 
+title: "文章： 借助开源工具高效完成Java应用的运行分析"
+date: '2013-04-13T22:05:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T22:10:22.142+08:00' 
+thumbnail: https://lh4.googleusercontent.com/YbTZRbHcFWyC\_MBX54UR\_8PnCq7RXyLtssJrw7syuRe47FgtFF\_dGkSZkJjgwlAikGGf9NhPCzV0U9m4oHTZ7quO6-0PCj2gYZ9UM6ohuKHGSAlkoFI=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-977239577819445779
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/java-qiuwenhutigatbloggercom.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -564,7 +568,9 @@ style="font-style: italic;">BTrace脚本名.class.btrace</span>的text文件。
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
 我们可以通过给BTrace设置一个额外参数，让它按某时间间隔循环记录日志。切记，它最多能在100个日志文件间循环，当达
-到\*.class.btrace.99，它将覆盖\*.class.btrace.00文件。若让循环间隔在一个合理数字（如，每7.5秒）内，你就有充足
+到
+*.class.btrace.99，它将覆盖
+*.class.btrace.00文件。若让循环间隔在一个合理数字（如，每7.5秒）内，你就有充足
 时间来处理这些输出。只要在java代理的输入参数中加上<span
 style="font-style: italic;">fileRollMilliseconds=7500，</span>就可以实现日志循环。
 
@@ -964,7 +970,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 5.  将BTrace输出传输到EurekaJ管理器的EurekaJ代理
 6.  安装好的EurekaJ管理器（本地安装或可通过互联网访问的远程安装）
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
@@ -1027,7 +1034,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[1\] <span style="color: #0000ee; text-decoration: underline;">[jmap
+
+[1
+] <span style="color: #0000ee; text-decoration: underline;">[jmap
 文档](http://download.oracle.com/javase/1,5.0/docs/tooldocs/share/jmap.html)</span>
 
 </div>
@@ -1035,7 +1044,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[2\] <span style="color: #0000ee; text-decoration: underline;">[BTrace
+
+[2
+] <span style="color: #0000ee; text-decoration: underline;">[BTrace
 脚本概念](http://eurekaj.haagen.name/documentation/btrace_script_concepts_1.2.html)</span>
 
 </div>
@@ -1043,7 +1054,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[3\] <span style="color: #0000ee; text-decoration: underline;">[BTrace
+
+[3
+] <span style="color: #0000ee; text-decoration: underline;">[BTrace
 项目网站](http://kenai.com/projects/btrace)</span>
 
 </div>
@@ -1051,7 +1064,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\[4\] <span style="color: #0000ee; text-decoration: underline;">[EurekaJ
+
+[4
+] <span style="color: #0000ee; text-decoration: underline;">[EurekaJ
 文档](http://eurekaj-ec2.haagen.name/)</span>
 
 </div>
@@ -1059,7 +1074,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding-bottom: 11.2pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
-\[5\] <span style="color: #0000ee; text-decoration: underline;">[EurekaJ
+
+[5
+] <span style="color: #0000ee; text-decoration: underline;">[EurekaJ
 项目网站](http://eurekaj.haagen.name/)</span>
 
 </div>
@@ -1082,14 +1099,16 @@ style="color: #0000ee; text-decoration: underline;">[他的Twitter账号](http:/
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin: 0; padding: 0;">
 
-\
+
+
 
 </div>
 

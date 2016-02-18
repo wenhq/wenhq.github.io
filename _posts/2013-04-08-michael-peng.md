@@ -1,10 +1,15 @@
---- layout: post title: Michael Peng：北美求职记 date:
-'2013-04-08T11:09:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-08T11:09:31.266+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-735885857282634079
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/michael-peng.html ---
-\
+--- 
+layout: post 
+title: Michael Peng：北美求职记 
+date:'2013-04-08T11:09:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-08T11:09:31.266+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-735885857282634079
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/michael-peng.html
+---
+
+
  
 <div class="article">
 
@@ -153,7 +158,8 @@ learning的经验。接下来就聊签证和入职，尘埃落定。
 
 </div>
 
-\
+
+
 
 </div>
 

@@ -1,9 +1,13 @@
---- layout: post title: Ubuntu 移动版可在 Android 手机上运行 date:
-'2013-12-30T14:05:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-12-30T14:05:42.442+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3146702497627182247
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/12/ubuntu-android.html ---
+--- 
+layout: post 
+title: Ubuntu 移动版可在 Android 手机上运行 
+date:'2013-12-30T14:05:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-12-30T14:05:42.442+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3146702497627182247
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/ubuntu-android.html
+---
 <div dir="ltr">
 
 <div class="gmail_quote">
@@ -55,17 +59,23 @@ http://binaryware.blogspot.com/2013/12/ubuntu-android.html ---
 |                                                                          |
 | |                                                                        |
 |    |                                                                     |
-| | Android 的恢复分区，可通过 App 实现系统的切换。\                         | |
+| | Android 的恢复分区，可通过 App 实现系统的切换。
+                         | |
 |                                                                          |
-| | ![](http://static.oschina.net/uploads/img/201312/30075442_Iu2l.png)\   |
+| | ![](http://static.oschina.net/uploads/img/201312/30075442_Iu2l.png)
+   |
 |    |                                                                     |
-| | 提供 Android app 来管理 Ubuntu 的初始安装、升级和重启进入 Ubuntu 系统。\ | |
+| | 提供 Android app 来管理 Ubuntu 的初始安装、升级和重启进入 Ubuntu 系统。
+ | |
 |                                                                          |
-| | ![](http://static.oschina.net/uploads/img/201312/30075444_rEkH.png)\   |
+| | ![](http://static.oschina.net/uploads/img/201312/30075444_rEkH.png)
+   |
 |    |                                                                     |
-| | 在 Ubuntu 系统中提供一个双启动的应用来重启进入 Android 系统。\           | |
+| | 在 Ubuntu 系统中提供一个双启动的应用来重启进入 Android 系统。
+           | |
 |                                                                          |
-| | 你可通过下面链接了解如何安装该系统：\                                    | |
+| | 你可通过下面链接了解如何安装该系统：
+                                    | |
 |                                                                          |
 | | [Install dual boot on your device!                                     |
 |    |                                                                     |
@@ -85,6 +95,7 @@ http://binaryware.blogspot.com/2013/12/ubuntu-android.html ---
 
 </div>
 
-\
+
+
 
 </div>

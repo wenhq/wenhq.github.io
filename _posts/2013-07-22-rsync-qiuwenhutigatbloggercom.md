@@ -1,18 +1,21 @@
---- layout: post title: rsync 的核心算法 date:
-'2013-07-22T13:31:00.000+08:00' author: Wenh Q tags: - tech
-modified\_time: '2013-10-25T13:56:14.686+08:00' thumbnail:
-https://lh3.googleusercontent.com/sjq6PJstMYnOV1zsMbCwn7546PEdjeFYx83F-tffGlYfuWU2x2gvRFez-htMxgXYe3vo5\_nyVcw4NT0muBNX60gqHR30sEITPaaXRJ32v-38LAuAD4M=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8245708421569575513
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/rsync-qiuwenhutigatbloggercom.html
+--- 
+layout: post 
+title: rsync 的核心算法 
+date:'2013-07-22T13:31:00.000+08:00' 
+author: Wenh Q
+tags: - tech
+modified\_time: '2013-10-25T13:56:14.686+08:00' 
+thumbnail: https://lh3.googleusercontent.com/sjq6PJstMYnOV1zsMbCwn7546PEdjeFYx83F-tffGlYfuWU2x2gvRFez-htMxgXYe3vo5\_nyVcw4NT0muBNX60gqHR30sEITPaaXRJ32v-38LAuAD4M=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8245708421569575513
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/rsync-qiuwenhutigatbloggercom.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 rsync 的核心算法](http://coolshell.cn/articles/7425.html)</span>
 
 </div>
@@ -184,7 +187,8 @@ style="font-family: &quot;Verdana&quot;;">。同步源端拿到fileDst的checksu
 table中，用rolling
 checksum做hash，以便获得O(1)时间复杂度的查找性能。这个hash
 table是16bits的，所以，hash table的尺寸是2的16次方，对rolling
-checksum的hash会被散列到0 到 2\^16 – 1中的某个整数值。（对于hash
+checksum的hash会被散列到0 到 2
+^16 – 1中的某个整数值。（对于hash
 table，如果你不清楚，建议回去看大学时的数据结构教科书）</span>
 
 </div>
@@ -201,7 +205,8 @@ style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underl
 style="font-family: &quot;Verdana&quot;;">），这两篇文章都引用并翻译了</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[原作者的这篇文章](http://rsync.samba.org/tech_report/node4.html)</span><span
 style="font-family: &quot;Verdana&quot;;">，但是他们都理解错了，不是排序，就只是把fileDst的checksum数据，按rolling
-checksum做存到2\^16的hash
+checksum做存到2
+^16的hash
 table中，当然会发生碰撞，把碰撞的做成一个链表就好了。这就是</span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[原文](http://rsync.samba.org/tech_report/node4.html)</span><span
 style="font-family: &quot;Verdana&quot;;">中所说的第二步——搜索有碰撞的情况。</span>
@@ -232,7 +237,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <span
 style="font-family: &quot;Verdana&quot;;">4.2）如果查到了，说明发现在fileDst中有潜在相同的文件块，于是就再比较md5的checksum，因为rolling
 checksume太弱了，可能发生碰撞。于是还要算md5的128bits的checksum，这样一来，我们就有
-2\^-(32+128) = 2\^-160的概率发生碰撞，这太小了可以忽略。</span><span
+2
+^-(32+128) = 2
+^-160的概率发生碰撞，这太小了可以忽略。</span><span
 style="font-family: &quot;Verdana&quot;; font-weight: bold;">如果rolling
 checksum和md5
 checksum都相同，这说明在fileDst中有相同的块，我们需要记下这一块在fileDst下的文件编号</span><span
@@ -287,7 +294,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 
 <span
 style="font-family: &quot;Verdana&quot;;">这样，最终，在同步源这端，我们的rsync算法可能会得到下面这个样子的一个数据数组，图中，红色块表示在目标端已匹配上，不用传输（注：我专门在其中显示了两块chunk
-\#5，相信你会懂的），而白色的地方就是需要传输的内容（注意：这些白色的块是不定长的），这样，同步源这端把这个数组（白色的就是实际内容，红色的就放一个标号）压缩传到目的端，在目的端的rsync会根据这个表重新生成文件，这样，同步完成。</span>
+
+#5，相信你会懂的），而白色的地方就是需要传输的内容（注意：这些白色的块是不定长的），这样，同步源这端把这个数组（白色的就是实际内容，红色的就放一个标号）压缩传到目的端，在目的端的rsync会根据这个表重新生成文件，这样，同步完成。</span>
 
 </div>
 
@@ -317,7 +325,8 @@ style="font-family: &quot;Verdana&quot;;">）</span>
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +----------------+----------------+----------------+----------------+----------------+
 | <div           | <span          | <span          | <span          | <span          |

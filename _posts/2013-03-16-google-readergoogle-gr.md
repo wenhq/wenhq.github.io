@@ -1,9 +1,13 @@
---- layout: post title: "前Google Reader产品经理证实Google+害死 GR"
-date: '2013-03-16T18:09:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2013-03-16T18:09:18.532+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5361942053754474355
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/google-readergoogle-gr.html ---
+--- 
+layout: post 
+title: "前Google Reader产品经理证实Google+害死 GR"
+date: '2013-03-16T18:09:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-16T18:09:18.532+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5361942053754474355
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/google-readergoogle-gr.html
+---
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
@@ -57,7 +61,8 @@ GR](http://blog.jobbole.com/35939/?utm_source=rss&utm_medium=rss&utm_campaign=%2
 
 </div>
 
-\
+
+
 Via [TNW](http://thenextweb.com/google/2013/03/14/former-google-reader-product-manager-confirms-our-suspicions-its-demise-is-all-about-google/)，Pic
 via [GOS](http://googlesystem.blogspot.com/2013/03/no-more-google-reader.html)，编译：[谷奥](http://www.guao.hk/posts/former-google-reader-product-manager-confirms-our-suspicions-its-demise-is-all-about-google-plus.html)
 
@@ -126,7 +131,8 @@ GR](http://blog.jobbole.com/35939/)，首发于[博客 -
 
 </div>
 
-\
+
+
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 

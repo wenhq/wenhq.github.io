@@ -1,10 +1,15 @@
---- layout: post title: Google Play应用商店下架广告屏蔽类应用 date:
-'2013-03-14T16:25:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-03-14T16:26:11.338+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-1421934572020509664
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/03/google-play.html ---
-\
+--- 
+layout: post 
+title: Google Play应用商店下架广告屏蔽类应用 
+date:'2013-03-14T16:25:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-03-14T16:26:11.338+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-1421934572020509664
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/google-play.html
+---
+
+
  
 <div class="article">
 
@@ -73,7 +78,8 @@ Play中下架，但开发者仍可以通过其他渠道自由发布及销售这�
 -   [![PYPL PopularitY of Programming Language index Longtern Trends in
     2013
     Jan](http://blog.jobbole.com/wp-content/uploads/2012/12/PYPL-PopularitY-of-Programming-Language-index-Longtern-Trends-in-2013-Jan-150x150.png){width="150"
-    height="150"}](http://blog.jobbole.com/31326/)[PYPL编程语言人气指数：C\#才是2012年度语言](http://blog.jobbole.com/31326/)
+    height="150"}](http://blog.jobbole.com/31326/)[PYPL编程语言人气指数：C
+#才是2012年度语言](http://blog.jobbole.com/31326/)
 
 [Google
 Play应用商店下架广告屏蔽类应用](http://blog.jobbole.com/35664/)，首发于[博客
@@ -81,7 +87,8 @@ Play应用商店下架广告屏蔽类应用](http://blog.jobbole.com/35664/)，�
 
 </div>
 
-\
+
+
 
 </div>
 

@@ -1,18 +1,21 @@
---- layout: post title: "解滨：我党挟洋自重的光荣传统小考" date:
-'2013-07-22T13:57:00.000+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-22T13:58:50.532+08:00' thumbnail:
-https://lh3.googleusercontent.com/QKOxlv4MwO4nAS9F7jLwUkY2CrFaHkNdemkonQjOfNpWLIzyp3WXdaVVy0yEK0ixEozVVZE8q34LHC-Jn7A3Q5AoV7Rwaz3AshpL4qd4-Wgx36fRCLk=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8324356292666570790
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/qiuwenhutigatbloggercom\_22.html
+--- 
+layout: post 
+title: "解滨：我党挟洋自重的光荣传统小考" 
+date:'2013-07-22T13:57:00.000+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-22T13:58:50.532+08:00' 
+thumbnail: https://lh3.googleusercontent.com/QKOxlv4MwO4nAS9F7jLwUkY2CrFaHkNdemkonQjOfNpWLIzyp3WXdaVVy0yEK0ixEozVVZE8q34LHC-Jn7A3Q5AoV7Rwaz3AshpL4qd4-Wgx36fRCLk=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8324356292666570790
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/qiuwenhutigatbloggercom\_22.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 解滨：我党挟洋自重的光荣传统小考](http://feedproxy.google.com/~r/chinagfwblog/~3/hRwcRsJir10/)</span>
 
 </div>
@@ -245,7 +248,8 @@ style="font-family: &quot;Verdana&quot;;">前些日子，《红色中国》网�
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span style="font-family: &quot;Verdana&quot;;">2129 Pinnacle Terrace
-Way, Apt \#303</span>
+Way, Apt 
+#303</span>
 
 </div>
 
@@ -384,7 +388,8 @@ style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underl
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 

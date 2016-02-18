@@ -1,26 +1,37 @@
---- layout: post title: 'cannot restore segment prot after reloc:
-Permission denied' date: '2012-07-05T20:31:00.002+08:00' author: Wenh Q
+--- 
+layout: post 
+title: 'cannot restore segment prot after reloc:
+Permission denied' 
+date: '2012-07-05T20:31:00.002+08:00' 
+author: Wenh Q
 tags: - linux modified\_time: '2013-09-30T14:17:35.688+08:00'
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-617069962970308870
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2012/07/cannot-restore-segment-prot-after-reloc.html
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-617069962970308870
+blogger\_orig\_url: http://binaryware.blogspot.com/2012/07/cannot-restore-segment-prot-after-reloc.html
 ---
 
 Log
 ---
 
-2012-07-05 Create\
-\
+2012-07-05 Create
+
+
+
 
 Content
 -------
 
-CentOS下执行java -version竟然报错：\
-\
-\[root@localhost etc\]\# java -version\
+CentOS下执行java -version竟然报错：
 
-> Error: dl failure on line 864\
+
+
+
+[root@localhost etc
+]
+# java -version
+
+
+> Error: dl failure on line 864
+
 > Error: failed /opt/jdk1.7.0\_04/jre/lib/i386/client/libjvm.so, because
 > /opt/jdk1.7.0\_04/jre/lib/i386/client/libjvm.so: cannot restore
 > segment prot after reloc: Permission denied
@@ -34,7 +45,8 @@ CentOS下执行java -version竟然报错：\
 
 <div>
 
-<span style="background-color: white;">\
+<span style="background-color: white;">
+
 </span>
 
 </div>
@@ -51,7 +63,8 @@ CentOS下执行java -version竟然报错：\
 
 1.  <span style="background-color: white;">使用chcon 命令 </span><span
     style="background-color: white;">示例: chcon -t texrel\_shlib\_t
-    /usr/local/rsi/idl\_6.1/bin/bin.linux.x86/\*.so</span>
+    /usr/local/rsi/idl\_6.1/bin/bin.linux.x86/
+*.so</span>
 2.  <span style="background-color: white;">禁止掉SELinux </span><span
     style="background-color: white;">更改/etc/sysconfig/selinux
     文件的内容为 SELINUX=disabled</span>

@@ -1,17 +1,21 @@
---- layout: post title: "电子阅读器之争：The New iPad VS Kindle" date:
-'2013-07-23T15:45:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-07-23T15:45:50.053+08:00' thumbnail:
-https://lh6.googleusercontent.com/zJhwb13rmpOA82SSl-lHkEocOp56JLFZ3ZerIxbQYWS2MuLtv8Hmc2CRFyuaaYHGHsGsiJLikddVv5N2uFDyFVumWtvINPRD5Yul4lDzx4YW1qXIyG0=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-8007612641403998910
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/07/the-new-ipad-vs-kindle.html ---
+--- 
+layout: post 
+title: "电子阅读器之争：The New iPad VS Kindle" 
+date:'2013-07-23T15:45:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-07-23T15:45:50.053+08:00' 
+thumbnail: https://lh6.googleusercontent.com/zJhwb13rmpOA82SSl-lHkEocOp56JLFZ3ZerIxbQYWS2MuLtv8Hmc2CRFyuaaYHGHsGsiJLikddVv5N2uFDyFVumWtvINPRD5Yul4lDzx4YW1qXIyG0=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8007612641403998910
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/07/the-new-ipad-vs-kindle.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span
-style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[
+
 电子阅读器之争：The New iPad VS
 Kindle](http://www.williamlong.info/archives/3081.html)</span>
 
@@ -47,7 +51,8 @@ iPad 相比纯粹的电子阅读器 Kindle 又如何呢？</span>
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
 <span style="font-family: &quot;Verdana&quot;;">我们都知道新一代 iPad
-最大的卖点就是其搭配的分辨率为 2048\*1536 的 Retina
+最大的卖点就是其搭配的分辨率为 2048
+*1536 的 Retina
 显示屏，除了你知道的像素数量是 iPad 2 的 4
 倍外，根据最具权威的独立影像品质测试机构 </span><span
 style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[DisplayMate
@@ -123,11 +128,13 @@ iPad 的屏幕 ppi 值仅为 264 也被称为视网膜屏幕的原因。（注�
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0; text-align: center;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +-----------+-----------+-----------+-----------+-----------+-----------+-----------+-----------+
 | <div      | <div      | <div      | <div      | <div      | <div      | <div      | <div      |
@@ -147,7 +154,9 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| \         | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| 
+         | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 |           | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | </div>    | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 |           | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -183,7 +192,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| <span     | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| <span     | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -213,7 +223,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| <span     | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| <span     | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -241,7 +252,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| <span     | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| <span     | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -269,7 +281,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| <span     | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| <span     | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -298,7 +311,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente | gn: cente |
 | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      | r;">      |
 |           |           |           |           |           |           |           |           |
-| <span     | <span     | <span     | <span     | <span     | <span     | <span     | \         |
+| <span     | <span     | <span     | <span     | <span     | <span     | <span     | 
+         |
 | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo | style="fo |           |
 | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | nt-family | </div>    |
 | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V | : &quot;V |           |
@@ -314,7 +328,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
-\
+
+
 
 </div>
 
@@ -396,11 +411,13 @@ iPad 要远远超过采用电子墨水( E-ink )技术的亚马逊阅读器 Kindl
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\
+
+
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +--------------------------+--------------------------+--------------------------+
 | <div                     | <div                     | <div                     |
@@ -410,7 +427,8 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 | t-size: 11pt; margin: 0; | t-size: 11pt; margin: 0; | t-size: 11pt; margin: 0; |
 |  padding: 0;">           |  padding: 0;">           |  padding: 0;">           |
 |                          |                          |                          |
-| \                        | <span                    | <span                    |
+| 
+                        | <span                    | <span                    |
 |                          | style="font-family: &quo | style="font-family: &quo |
 | </div>                   | t;Verdana&quot;;">Kindle | t;Verdana&quot;;">3rd    |
 |                          | (Touch)</span>           | Gen iPad</span>          |

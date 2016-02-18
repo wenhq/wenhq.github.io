@@ -1,9 +1,13 @@
---- layout: post title: "使用 Eclipse 调试 Java 程序的 10 个技巧" date:
-'2013-04-10T14:53:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-10T14:53:46.568+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-2154865067026802734
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/eclipse-java-10.html ---
+--- 
+layout: post 
+title: "使用 Eclipse 调试 Java 程序的 10 个技巧" 
+date:'2013-04-10T14:53:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-10T14:53:46.568+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2154865067026802734
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/eclipse-java-10.html
+---
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
@@ -57,7 +61,8 @@ style="font-family:sans-serif;overflow:auto;width:100%;margin: 0px 10px">
 
 </div>
 
-\
+
+
 英文原文： [Again! – 10 Tips on Java Debugging with
 Eclipse](http://blog.codecentric.de/en/2013/04/again-10-tips-on-java-debugging-with-eclipse/)
 来源[ oschina](http://www.oschina.net/translate/again-10-tips-on-java-debugging-with-eclipse)
@@ -75,7 +80,8 @@ Eclipse](http://blog.codecentric.de/en/2013/04/again-10-tips-on-java-debugging-w
 Properties"）设置。你可以在条件代码片段为true的时候暂停程序，或者当代码片段的值改变的时候挂起程序。
 
 [![使用 Eclipse 调试 Java 程序的 10
-个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
+个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
+
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211427_RZNd.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211427_RZNd.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
@@ -85,10 +91,13 @@ Properties"）设置。你可以在条件代码片段为true的时候暂停程�
 Logical
 Structure"的按钮。它非常有用，尤其当你的对象的toString()方法所展示的信息并不友好的时候。我的老大在几周前为我展示了这个功能。你知道，他经常跟PowerPoint或者Excel打交道。对于我这么一个开发人员，多丢脸哦 ![;-)](http://static.oschina.net/uploads/img/201304/08211425_V3u4.gif)
 
-未开启"Show Logical Structure"\
+未开启"Show Logical Structure"
+
 [![使用 Eclipse 调试 Java 程序的 10
-个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
-开启"Show Logical Structure"\
+个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
+
+开启"Show Logical Structure"
+
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211430_GNOo.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211430_GNOo.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
@@ -116,7 +125,8 @@ View" -&gt;
 to Frame".
 使用这个特性你可以及时回退 ![;-)](http://static.oschina.net/uploads/img/201304/08211425_V3u4.gif) 
 你可以直接回退到运行过的java堆栈帧中某一帧。当我调试时，一不小心错过了某个关注的代码行时，我常常用这个回退一帧。使用"Drop
-to Frame"这个特性我可以简单的重新运行某帧代码。\
+to Frame"这个特性我可以简单的重新运行某帧代码。
+
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211435_mwS1.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211435_mwS1.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
@@ -131,7 +141,8 @@ to
 line"也是很棒的特性。只需要把光标放在你想运行到的哪一行前面，然后按"CTRL+R"就可以了。
 
 [![使用 Eclipse 调试 Java 程序的 10
-个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
+个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
+
 **- 导航器：使用键盘**
 
 如果避免使用鼠标的话，你的操作速度会更快。你至少应该如下的快捷键：
@@ -165,10 +176,13 @@ line"也是很棒的特性。只需要把光标放在你想运行到的哪一行
 默认的ToString
 
 [![使用 Eclipse 调试 Java 程序的 10
-个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
-默认的ToStringBuilder例子\
+个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
+
+默认的ToStringBuilder例子
+
 [![使用 Eclipse 调试 Java 程序的 10
-个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
+个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
+
 ToStringBuilder例子 – 多行文本风格
 
 [![使用 Eclipse 调试 Java 程序的 10
@@ -212,7 +226,8 @@ Formatter…"。然后你就可以输入一些代码，用于展现这个对象�
 
 </div>
 
-\
+
+
 <div
 style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 

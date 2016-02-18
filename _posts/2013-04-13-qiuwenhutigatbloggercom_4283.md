@@ -1,24 +1,28 @@
---- layout: post title: "个人回顾与展望" date:
-'2013-04-13T22:09:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T22:12:07.781+08:00' thumbnail:
-https://lh3.googleusercontent.com/G7bwLNrGsaoPEajfsOeRcsZORHiGCKbqQ0EAfU5F2row91vv21U6Il7zlUb5kpyvJulpCZGfgcd3hkoEYaTgbkbTmlHX\_M9\_UysDDEjzbK3FDpdH\_YQ=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-5076803421132305319
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_4283.html
+--- 
+layout: post 
+title: "个人回顾与展望" 
+date:'2013-04-13T22:09:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T22:12:07.781+08:00' 
+thumbnail: https://lh3.googleusercontent.com/G7bwLNrGsaoPEajfsOeRcsZORHiGCKbqQ0EAfU5F2row91vv21U6Il7zlUb5kpyvJulpCZGfgcd3hkoEYaTgbkbTmlHX\_M9\_UysDDEjzbK3FDpdH\_YQ=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5076803421132305319
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom\_4283.html
 ---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -508,8 +512,11 @@ style="font-family: &quot;Verdana&quot;;">学习是永远持续的行为：</spa
 4.  <span style="font-family: &quot;Verdana&quot;;">④
     心理学（更加清楚的认识自我以及管理行为带来的影响）；</span>
 5.  <span style="font-family: &quot;Verdana&quot;;">⑤
-    经济\\营销类（用营销的思路去做知识管理）；</span>
-6.  <span style="font-family: &quot;Verdana&quot;;">⑥ C\#
+    经济
+
+营销类（用营销的思路去做知识管理）；</span>
+6.  <span style="font-family: &quot;Verdana&quot;;">⑥ C
+#
     网络开发（项目需求，入门即可）。</span>
 
 <div
@@ -520,7 +527,8 @@ style="font-family: &quot;Verdana&quot;; font-weight: bold;">学习的方向很�
 
 </div>
 
-[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)\
+[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)[](https://www.blogger.com/blogger.g?blogID=4961947611491238191#)
+
 
 +----------------+----------------+----------------+----------------+----------------+
 | <div           | <span          | <span          | <span          | <span          |
@@ -648,20 +656,23 @@ style="color: #bbbbbb; font-size: 9pt;">[](http://www.wumii.com/widget/relatedIt
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 ### <span style="background-color: #c3d9ff; font-size: 1pt;"></span> {#section style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.0; margin-bottom: 0; margin-left: 5.2pt; margin-right: 5.2pt; margin-top: 0; padding-bottom: 3pt; padding-left: 0; padding-right: 0; padding-top: 3pt; text-align: left;"}
 
-\
+
+
 
 <div
 style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; max-width: 650px;">
@@ -669,7 +680,9 @@ style="border: 1px solid #f0f0f0; color: black; font-family: Arial, sans-serif; 
 <div style="background-color: whitesmoke; padding: 2px 12px;">
 
   --- ---
-  \   \
+  
+   
+
       
   --- ---
 

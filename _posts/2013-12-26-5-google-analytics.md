@@ -1,12 +1,17 @@
---- layout: post title: "推荐 5 款 Google Analytics 的开源替代品" date:
-'2013-12-26T15:26:00.001+08:00' author: Wenh Q tags: - tech
-modified\_time: '2013-12-26T15:26:11.156+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3320412298471711663
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
+--- 
+layout: post 
+title: "推荐 5 款 Google Analytics 的开源替代品" 
+date:'2013-12-26T15:26:00.001+08:00' 
+author: Wenh Q
+tags: - tech
+modified\_time: '2013-12-26T15:26:11.156+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3320412298471711663
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/5-google-analytics.html
+---
 <div dir="ltr">
 
-\
+
+
 <div class="gmail_quote">
 
 <div style="font-family: Arial,sans-serif; width: 100%;">
@@ -51,7 +56,8 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 | |                                                                        |
 |    |                                                                     |
 | | Web分析软件通过收集、测量和分析网站访问者行为，向网站管理员和所有者提供实时数据，帮助他们识别机会和问题，跟踪流量来源，判断点击转换率等。 |
-| \ |                                                                      |
+| 
+ |                                                                      |
 | |                                                                        |
 |    |                                                                     |
 | | Google Analytics                                                       |
@@ -70,9 +76,11 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 | iw |                                                                     |
 | | ik，Open                                                                |
 |   |                                                                      |
-| | Web Analytics，AwStats 等等。\                                           | |
+| | Web Analytics，AwStats 等等。
+                                           | |
 |                                                                          |
-| | 1. [Piwik](http://www.oschina.net/p/piwik)\                            |
+| | 1. [Piwik](http://www.oschina.net/p/piwik)
+                            |
 |    |                                                                     |
 | | Piwik是一套基于Php+MySQL技术构建的开源网站访问统计系统，前身是[phpMyVisites](http://www.oschin |
 | a. |                                                                     |
@@ -84,13 +92,17 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 | 根据 |                                                                   |
 | |                                                                        |
 |    |                                                                     |
-| | 自已的实际需求创建更多的功能．\                                          | |
+| | 自已的实际需求创建更多的功能．
+                                          | |
 |                                                                          |
-| | \                                                                      |
+| | 
+                                                                      |
 |    |                                                                     |
-| | 在线演示地址： <http://piwik.org/demo/>\                                 | |
+| | 在线演示地址： <http://piwik.org/demo/>
+                                 | |
 |                                                                          |
-| | 2. [Open Web Analytics](http://www.oschina.net/p/open+web+analytics)\  |
+| | 2. [Open Web Analytics](http://www.oschina.net/p/open+web+analytics)
+  |
 |    |                                                                     |
 | | Open Web Analytics是一个开源的网站流量统计系统。基于PHP/Open Flash       | |
 |                                                                          |
@@ -100,11 +112,14 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 | sc |                                                                     |
 | | hina.net/p/mediawiki)集成使用。支持多个网站，集成                        | |
 |                                                                          |
-| | Google Maps，RSS/Atom订阅跟踪等功能。\                                   | |
+| | Google Maps，RSS/Atom订阅跟踪等功能。
+                                   | |
 |                                                                          |
-| | ![](http://www.oschina.net/uploads/img/200912/02172504_7Qv0.jpg)\      |
+| | ![](http://www.oschina.net/uploads/img/200912/02172504_7Qv0.jpg)
+      |
 |    |                                                                     |
-| | 3. [AWStats](http://www.oschina.net/p/awstats)\                        |
+| | 3. [AWStats](http://www.oschina.net/p/awstats)
+                        |
 |    |                                                                     |
 | | AWStats                                                                |
 |    |                                                                     |
@@ -126,7 +141,8 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 |                                                                          |
 | |                                                                        |
 |    |                                                                     |
-| | FTP服务器 .\                                                              |
+| | FTP服务器 .
+                                                              |
 | |                                                                        |
 | | ![](http://www.oschina.net/uploads/img/200811/03221340_Rts2.png)![](ht |
 | tp |                                                                     |
@@ -134,27 +150,35 @@ http://binaryware.blogspot.com/2013/12/5-google-analytics.html ---
 | .o |                                                                     |
 | | schina.net/uploads/img/200811/03221407_AOgL.png)![](http://www.oschina |
 | .n |                                                                     |
-| | et/uploads/img/200811/03221413_dFnj.png)\                              |
+| | et/uploads/img/200811/03221413_dFnj.png)
+                              |
 |    |                                                                     |
-| | 4. [W3Perl](http://www.oschina.net/p/w3perl)\                          |
+| | 4. [W3Perl](http://www.oschina.net/p/w3perl)
+                          |
 |    |                                                                     |
 | | W3Perl 是一个Web日志的分析工具，支持                                     | |
 |                                                                          |
-| | FTP、Squid、邮件日志等，提供一个图形化的界面，以及文本统计数据，提供一个管理界面。\ | |
+| | FTP、Squid、邮件日志等，提供一个图形化的界面，以及文本统计数据，提供一个管理界面。
+ | |
 |                                                                          |
 | |                                                                        |
 |    |                                                                     |
-| | ![](http://www.oschina.net/uploads/img/200905/13225416_zv4o.jpg)\      |
+| | ![](http://www.oschina.net/uploads/img/200905/13225416_zv4o.jpg)
+      |
 |    |                                                                     |
-| | 5. [webalizer](http://www.oschina.net/p/webalizer)\                    |
+| | 5. [webalizer](http://www.oschina.net/p/webalizer)
+                    |
 |    |                                                                     |
 | | webalizer是一个高效的、免费的web服务器日志分析程序。其分析结果是HTML文件格式，从而可以很方便的通过web服务器进行浏览。In |
 | te |                                                                     |
-| | rnet上的很多站点都使用webalizer进行web服务器日志分析。\                  | |
+| | rnet上的很多站点都使用webalizer进行web服务器日志分析。
+                  | |
 |                                                                          |
-| | ![](http://www.oschina.net/uploads/img/200812/18171943_Y6jf.png)\      |
+| | ![](http://www.oschina.net/uploads/img/200812/18171943_Y6jf.png)
+      |
 |    |                                                                     |
-| | 更多的日志统计和分析系统请看\                                            | |
+| | 更多的日志统计和分析系统请看
+                                            | |
 |                                                                          |
 | | <http://www.oschina.net/project/tag/147/log-analyzer>                  |
 |    |                                                                     |

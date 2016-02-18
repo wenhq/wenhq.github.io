@@ -1,13 +1,20 @@
---- layout: post title: "物理学家、将军和CEO们都认为应抛弃PowerPoint"
-date: '2014-03-20T10:10:00.002+08:00' author: Wenh Q tags:
-modified\_time: '2014-03-20T10:10:56.497+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-7632513634002959031
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/03/ceopowerpoint.html ---
+--- 
+layout: post 
+title: "物理学家、将军和CEO们都认为应抛弃PowerPoint"
+date: '2014-03-20T10:10:00.002+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2014-03-20T10:10:56.497+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7632513634002959031
+blogger\_orig\_url: http://binaryware.blogspot.com/2014/03/ceopowerpoint.html
+---
 [物理学家、将军和CEO们都认为应抛弃PowerPoint](http://solidot.org.feedsportal.com/c/33236/f/556826/s/385cc11c/sc/38/l/0L0Ssolidot0Borg0Cstory0Dsid0F38790A/story01.htm)  通过
-[Solidot](http://www.solidot.org/)\
-\
-\
+[Solidot](http://www.solidot.org/)
+
+
+
+
+
 几天前有报道说，费米实验室大强子对撞机双周论坛的组织者禁止使用PowerPoint幻灯片，会议联合组织者Andrew
 Askew说，幻灯片约束了会议的讨论，移除幻灯片就像是移除了演讲者和听众之间的一大障碍，交流是双向的，没有了幻灯片的约束，观众开始积极参与讨论。类似的故事我们听说过很多次，许多人对此都有同感，其中包括了美国的将军和公司的高管：海军陆战队联合打击指挥官James
 N.

@@ -1,23 +1,28 @@
---- layout: post title: "“本人声明”加强版" date:
-'2013-04-13T21:49:00.001+08:00' author: Wenh Q tags: modified\_time:
-'2013-04-13T21:51:46.317+08:00' thumbnail:
-https://lh5.googleusercontent.com/Sxt42rdkdBLQfP8784ZDFTnWY7JyuWYdhCedFP6cC6F5eMOmo\_fm\_NizpTriWtkUIuJLEJzyjqpz5pLfhzFiDAps4r\_KhITBau73u7CoJz11v5zm3ZA=s72-c
-blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-6701268445286578804
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom.html ---
+--- 
+layout: post 
+title: "“本人声明”加强版" 
+date:'2013-04-13T21:49:00.001+08:00' 
+author: Wenh Q
+tags:
+modified\_time: '2013-04-13T21:51:46.317+08:00' 
+thumbnail: https://lh5.googleusercontent.com/Sxt42rdkdBLQfP8784ZDFTnWY7JyuWYdhCedFP6cC6F5eMOmo\_fm\_NizpTriWtkUIuJLEJzyjqpz5pLfhzFiDAps4r\_KhITBau73u7CoJz11v5zm3ZA=s72-c
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6701268445286578804
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/04/qiuwenhutigatbloggercom.html
+---
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -41,14 +46,16 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -260,14 +267,16 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
@@ -303,14 +312,16 @@ style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 0.8pt; margin-right: 0.8pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 
 <div
 style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 0.0; margin-bottom: 0; margin-left: 1.5pt; margin-right: 1.5pt; margin-top: 0; padding-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0.8pt;">
 
-\
+
+
 
 </div>
 

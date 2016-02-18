@@ -1,9 +1,13 @@
---- layout: post title: "如何挑一家 Good Startup 加入" date:
-'2013-09-27T17:00:00.001+08:00' author: Wenh Q tags: - startup
-modified\_time: '2013-09-30T15:05:48.135+08:00' blogger\_id:
-tag:blogger.com,1999:blog-4961947611491238191.post-3190680628999068935
-blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/09/good-startup.html ---
+--- 
+layout: post 
+title: "如何挑一家 Good Startup 加入" 
+date:'2013-09-27T17:00:00.001+08:00' 
+author: Wenh Q
+tags: - startup
+modified\_time: '2013-09-30T15:05:48.135+08:00' 
+blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3190680628999068935
+blogger\_orig\_url: http://binaryware.blogspot.com/2013/09/good-startup.html
+---
 <div style="margin: 10px; padding: 5px;">
 
 <div style="font-size: 18px;">
@@ -23,8 +27,10 @@ Via [钛媒体TMTpost—把脉科技资本论](http://www.tmtpost.com/)
 <div style="font-size: 13px; padding: 15px 0 10px 10px;">
 
 ![创业团队](http://www.tmtpost.com/wp-content/uploads/2013/09/138025606249.jpg "创业团队"){width="550"
-height="350"}\
-\
+height="350"}
+
+
+
 >  **与其低浓度的上班 40 年，不如认真拼个 4 年 –Paul Graham **
 
 <div align="left">
