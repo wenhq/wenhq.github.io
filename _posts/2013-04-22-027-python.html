@@ -1,0 +1,13 @@
+---
+layout: post
+title: "结巴分词 0.27 发布，Python 中文分词组件"
+date: '2013-04-22T17:15:00.001+08:00'
+author: Wenh Q
+tags:
+- tech.python
+modified_time: '2013-11-30T12:24:13.760+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-3666938576319568259
+blogger_orig_url: http://binaryware.blogspot.com/2013/04/027-python.html
+---
+
+<a href="http://www.oschina.net/news/39820/jieba-0-27">结巴分词 0.27 发布，Python 中文分词组件</a>: <br /><span style="font-size: 14px;">本次release的主要更新：</span><br /><span style="font-size: 14px;">1) 新增并行分词功能，可以在多核计算机上显著提高分词速度</span><br /><span style="font-size: 14px;">2) 修正了“的”字频过高引起的bug；修正了对小数点和下划线的处理</span><br /><span style="font-size: 14px;">3) 修正了python2.6存在的兼容性问题</span><br />&nbsp;<span style="font-size: 14px;"><b>并行分词介绍：</b></span><br /><ul style="color: #333333; font-family: Helvetica,arial,freesans,clean,sans-serif; font-size: 14px;"><li> <span style="font-size: 14px;">原理：将目标文本按行分隔后，把各行文本分配到多个python进程并行分词，然后归并结果，从而获得分词速度的可观提升</span> </li><li> <span style="font-size: 14px;">基于python自带的multiprocessing模块，目前暂不支持windows</span> </li><li><br /><span style="font-size: 14px;">用法：</span><br /><ul><li> <span style="font-size: 14px;">jieba.enable_parallel(4) # 开启并行分词模式，参数为并行进程数</span> </li><li> <span style="font-size: 14px;">jieba.disable_parallel() # 关闭并行分词模式<br /><br /></span> </li></ul></li><li><br /><span style="font-size: 14px;">例子：&nbsp;</span><a href="https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py"><span style="font-size: 14px;">https://github.com/fxsjy/jieba/blob/master/test/parallel/test_file.py</span></a></li><li><br /><span style="font-size: 14px;">实验结果：在4核3.4GHz Linux机器上，对金庸全集进行分词，获得了1MB/s的速度，是单进程版的3.3倍。</span></li></ul>

@@ -1,0 +1,12 @@
+---
+layout: post
+title: Linux 命令行里的“瑞士军刀”
+date: '2013-07-02T17:19:00.002+08:00'
+author: Wenh Q
+tags: 
+modified_time: '2013-07-02T17:19:25.186+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-8160816504695792880
+blogger_orig_url: http://binaryware.blogspot.com/2013/07/linux.html
+---
+
+<div style="background-color: #c3d9ff; font-size: 1px !important; line-height: 0px !important; margin: 0px 2px; padding-top: 1px;"></div><div style="font-family: sans-serif; margin: 0px 10px; overflow: auto; width: 100%;"><h2 style="margin: 0.25em 0 0 0;"><div class=""><a href="http://www.oschina.net/news/41214/what-are-the-most-useful-swiss-army-knife-one-liners-on-unix">Linux 命令行里的“瑞士军刀”</a></div></h2><div style="margin-bottom: 0.5em;">于 13-6-7 通过 <a class="f" href="http://www.oschina.net/?from=rss">开源中国社区最新新闻</a> </div><br style="display: none;" />这里说的"瑞士军刀"是指那些简单的一句命令就能完成其它高级语言一大片代码才能完成的工作。<br />下面的这些内容是<a href="http://www.quora.com/">Quora</a>网站上Joshua Levy网友的总结：<br /><ul><li>通 过sort/uniq获取文件内容的交集、合集和不同之处：假设有a、b两个文本文件，文件本身已经去除了重复内容。下面是效率最高的方法，可以处理任何 体积的文件，甚至几个G的文件。(Sort对内存没有要求，但也许你需要用 -T  参数。)可以试着比较一下，你可以看看如果用Java来处理磁盘上文件的合并，需要用多少行代码。</li></ul><blockquote>cat a b | sort | uniq &gt; c&nbsp;&nbsp; # c 是a和b的合集</blockquote><blockquote>cat a b | sort | uniq -d &gt; c&nbsp;&nbsp; # c 是a和b的交集</blockquote><blockquote>cat a b b | sort | uniq -u &gt; c&nbsp;&nbsp; # c 是a和b的不同</blockquote><ul><li>汇总一个文本内容里第三列数字的和(这个方法要比用Python来做快3倍并只需1/3的代码量)：</li></ul><blockquote>awk '{ x += $3 } END { print x }' myfile</blockquote><ul><li>如果你想查看一个目录树里的文件的体积和修改日期，用下面的方法，相当于你挨个目录做"ls -l"，而且输出的形式比你用"ls -lR"更可读：</li></ul><blockquote>find . -type f -ls</blockquote><ul><li>使用xargs命令。这个命令非常的强大。注意每行上你可以控制多少个东西的执行。如果你不确定它是正确的执行，先使用xargs echo。同样，-I{} 也非常有用。例子：</li></ul><blockquote>find . -name \*.py | xargs grep some_function</blockquote><blockquote>cat hosts | xargs -I{} ssh root@{} hostname</blockquote><ul><li>假设你有一个文本文件，比如一个web服务器日志，在某些行上有一些值，比如URL中的acct_id参数。如果你想统计每个acct_id的所有请求记录：</li></ul><blockquote>cat access.log | egrep -o 'acct_id=[0-9]+' | cut -d= -f2 | sort | uniq -c | sort -rn</blockquote><div>[英文原文：<a href="http://www.quora.com/What-are-the-most-useful-Swiss-army-knife-one-liners-on-Unix">What are the most useful "Swiss army knife" one-liners on Unix?</a> ]</div><div>相关阅读：<a href="http://www.oschina.net/translate/linux-netcat-command">Linux Netcat 命令——网络工具中的瑞士军刀 </a></div></div>

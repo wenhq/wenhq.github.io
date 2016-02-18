@@ -1,0 +1,14 @@
+---
+layout: post
+title: Where is sentimentDemo.jar？
+date: '2012-12-04T16:30:00.000+08:00'
+author: Wenh Q
+tags:
+- NLP
+- tech.nlp
+modified_time: '2013-11-30T12:25:43.991+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-3258541325304078695
+blogger_orig_url: http://binaryware.blogspot.com/2012/12/where-is-sentimentdemojar.html
+---
+
+<h1 id="pagetitle">content</h1><div id="pagetitle"><a href="http://alias-i.com/lingpipe/demos/tutorial/sentiment/read-me.html" target="_blank"><span style="font-weight: normal;">Sentiment Tutorial</span></a></div><br /><br />Do step by step, but I can't find "sentimentDemo.jar".<br /><br />Google - https://github.com/Gobaan/Fame-to-Flame/tree/master/sentiment, the source used lingpipe-3.9.2.jar.<br /><br />Down resouces - in src dir, and compile with lingpipe-4.1.0.jar, no errors, last build a new jar.<br /><br />In linux, the command line like this:<br /><br />java -cp sentimentDemo.jar<b><i>:</i></b>lingpipe-4.1.0.jar <b><i>YourPackageName.</i></b>PolarityBasic POLARITY_DIR<br /><br />Attention: 1)with colon (<code>:</code>) classpath separators replacing the semicolons (<code>;</code>) for linux<br />2)If forget package, there's an error "cant find main class" .<br /><br />All right, we can see the result:<br /><blockquote class="tr_bq"><br /><i>BASIC POLARITY DEMO<br /><br />Data Directory=POLARITY_DIR/txt_sentoken<br /><br />Training.<br />&nbsp;# Training Cases=1800<br />&nbsp;# Training Chars=6989652<br /><br />Evaluating.<br />&nbsp;# Test Cases=200<br />&nbsp;# Correct=163<br />&nbsp;% Correct=0.815</i></blockquote><h1 id="pagetitle">Log</h1><h1 id="pagetitle"><span style="font-weight: normal;"><span style="font-size: small;">create 2012-12-04</span></span></h1><div><span style="font-weight: normal;"><span style="font-size: small;"><br /></span></span></div>

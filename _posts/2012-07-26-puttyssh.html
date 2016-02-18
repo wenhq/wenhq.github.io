@@ -1,0 +1,13 @@
+---
+layout: post
+title: "用Putty做SSH代理上网"
+date: '2012-07-26T21:58:00.001+08:00'
+author: Wenh Q
+tags:
+- linux
+modified_time: '2013-09-30T14:18:18.035+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-7249097905849528860
+blogger_orig_url: http://binaryware.blogspot.com/2012/07/puttyssh.html
+---
+
+<h2>Content</h2>今天在GReader上看到一篇“用SSH代理上网”的文章（见分割线后面），同时上网查了一些其他资料，终于成功的又回来了。<br /><br />步骤如下：<br /><ol><li>在PuTTY的Connection-&gt;SSH-&gt;Tunnels中设置 “Source port” 为 1080，然后选中 Dynamic 和 Auto，然后别忘了点击Add</li><li>选择“Session”并使用SSH登陆到你的服务器终端，并保持该终端一直开启直到你不想用它来代理上网</li><li>使用firefox设置代理，需要再开启一个设置，新开一个空白标签输入 about:config，然后继续下一步，接着查找名为network.proxy.socks_remote_dns 的选项，双击将其设置为true, ok.</li></ol><br />感受：这比在VPS里面配置VPN简单多了，以后就用它了。 <br /><br /><h2>Ref</h2><ol><li><a href="http://heylinux.com/archives/332.html" target="_blank">强大的PuTTY--利用PuTTY将你手里的主机作为代理服务器</a></li><li><a href="http://www.getroad.cn/blog/?action=show&amp;id=707" target="_blank">使用putty/plink及ssh翻墙</a></li></ol><br />//---------------------------------------------------------------------<br /><a href="http://feedproxy.google.com/~r/chinagfwblog/~3/Bbv9IoSSAzg/ssh.html">用SSH代理上网</a>: 原文：<a href="http://www.bbz.me/html/78.html">http://www.bbz.me/html/78.html</a><br /><div><br /></div><div><div style="background-color: white; font-family: arial,sans-serif; font-size: 13px;">用SSH代理上网可免于配置VPN的繁琐，比VPN稳定些。</div><div style="background-color: white; font-family: arial,sans-serif; font-size: 13px;"><b>准备：</b><br />1) FireFox<br />2) Putty<br />3) Linux VPS(或SSH账号)</div><div style="background-color: white; font-family: arial,sans-serif; font-size: 13px;"><b>步骤：</b><br />1) 新建一个文本文件，放在putty同一目录，命名为putty.bat<br />2) 编辑putty.bat：</div><pre style="background-color: white; font-size: 12px;">putty -N root@IP -pw PASSWORD -D <a href="http://127.0.0.1:1080/">127.0.0.1:1080</a></pre><div style="background-color: white; font-family: arial,sans-serif; font-size: 13px;">注释：开头的"putty"要与putty的文件名一样，IP为你VPS的ip，PASSWORD为你VPS的root密码。<br />3) 设置FireFox<br />选项-高级-网络-设置，选到手动配置代理，如图进行配置：<br /><a href="http://www.bbz.me/wp-content/uploads/auto_save_image/2012/07/141223kcK.png" style="color: #1155cc;"><img alt="" src="http://www.bbz.me/wp-content/uploads/auto_save_image/2012/07/141223kcK.png" height="484" style="border: 0px;" title="11" width="460" /></a></div><div style="background-color: white; font-family: arial,sans-serif; font-size: 13px;"><b>使用：</b><br />运行putty.bat之后 用FireFox就可以自由穿越了。不使用代理，改为无代理即可。</div></div><div>请点击<a href="https://mycdt0.info/"> https://mycdt0.info</a>，穿墙访问《中国数字时代》<br /><h2>Log</h2>2012-07-26 Create</div>
