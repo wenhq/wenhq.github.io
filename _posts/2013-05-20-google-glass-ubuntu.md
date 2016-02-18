@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-9148623585285849010
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/google-glass-ubuntu.html ---
 [这帮人给 Google Glass 刷上了 Ubuntu
-系统](http://www.oschina.net/news/40603/google-glass-rooted-and-hacked-to-run-ubuntu-live-at-google-i-o):
-\
+系统](http://www.oschina.net/news/40603/google-glass-rooted-and-hacked-to-run-ubuntu-live-at-google-i-o):\
 ![ubuntu](http://static.oschina.net/uploads/img/201305/18082611_NSX3.png)\
 据 [Engadget
 报道](http://www.engadget.com/2013/05/16/google-glass-rooted-and-hacked-to-run-ubuntu-live-at-google-i-o/)，

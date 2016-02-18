@@ -53,7 +53,10 @@ Command 必须填写 \$HOME/任意位置或文件夹/sysmon
 
 相应选项如下
 
-    #settings:netspeed=trueram=truecpu=true
+    #settings:
+    netspeed=true
+    ram=true
+    cpu=true
 
 ++++++++++++++++++++
 
@@ -62,10 +65,11 @@ Command 必须填写 \$HOME/任意位置或文件夹/sysmon
 ---|---|---|---|---|---| The Indicator Sysmonitor actual output -
 =================================================================
 
-echo \$(if [ \$ram = true ]; then echo 比如改成内存: \$memusedpercent%;
-fi) \$(if [ \$cpu = true ]; then echo 比如改成处理器: \$cpuused%; fi)
-\$(if [ \$netspeed = true ]; then echo比如改成上行: \$upkbmb \$upunit
-比如改成下行: \$downkbmb \$downunit; fi)
+echo \$(if \[ \$ram = true \]; then echo 比如改成内存:
+\$memusedpercent%; fi) \$(if \[ \$cpu = true \]; then echo
+比如改成处理器: \$cpuused%; fi) \$(if \[ \$netspeed = true \]; then
+echo比如改成上行: \$upkbmb \$upunit 比如改成下行: \$downkbmb \$downunit;
+fi)
 
 +++++++++++++++++++++++++
 
@@ -84,19 +88,19 @@ fi) \$(if [ \$cpu = true ]; then echo 比如改成处理器: \$cpuused%; fi)
 ![enter image description
 here](http://screencloud.net/img/screenshots/e5ebb1d56075a7bad24d78cc0d17bf6d.png)
 
--- 在 [微博上关注我们 @utips](http://t.sina.com.cn/utips) \
+-- 在 [微博上关注我们 @utips](http://t.sina.com.cn/utips)\
 \
 
-* * * * *
+------------------------------------------------------------------------
 
 \
 \#
-本文采用[CC协议](http://creativecommons.org/licenses/by/2.5/cn/)进行授权，转载本文请注明[本文链接](http://wowubuntu.com/indicator.html "Permalink")。/
-5 条留言 \
+本文采用[CC协议](http://creativecommons.org/licenses/by/2.5/cn/)进行授权，转载本文请注明[本文链接](http://wowubuntu.com/indicator.html "Permalink")[。/
+5 条留言\
 \
 \
-- [Twitter](http://twitter.com/ubuntu_tips) \
-/ [问答](http://wowubuntu.com/ask) \
+-]()[Twitter](http://twitter.com/ubuntu_tips)\
+/ [问答](http://wowubuntu.com/ask)\
 / [投稿](http://wowubuntu.com/submit)\
 / [加入我们](http://wowubuntu.com/join) wow0slx6bcs721xo1udcc\
 - 高性价比 [Ubuntu VPS](http://wowubuntu.com/vps.html) /

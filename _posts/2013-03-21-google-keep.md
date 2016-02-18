@@ -4,15 +4,25 @@ modified\_time: '2013-03-21T13:05:40.118+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-5608154482167663027
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/google-keep.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **谷歌推出Google Keep笔记应用 支持跨设备同步**
+
+</div>
+
+<div class="source">
 
 Published on [博客 -
 伯乐在线](http://blog.jobbole.com/36427/?utm_source=rss&utm_medium=rss&utm_campaign=%25e8%25b0%25b7%25e6%25ad%258c%25e6%258e%25a8%25e5%2587%25bagoogle-keep%25e7%25ac%2594%25e8%25ae%25b0%25e5%25ba%2594%25e7%2594%25a8-%25e6%2594%25af%25e6%258c%2581%25e8%25b7%25a8%25e8%25ae%25be%25e5%25a4%2587%25e5%2590%258c%25e6%25ad%25a5)
 | shared via [feedly](http://www.feedly.com)
+
+</div>
+
+<div>
 
 来源：[腾讯科技](http://tech.qq.com/a/20130321/000023.htm)
 
@@ -25,7 +35,7 @@ Keep，这是一款类似于Evernote的笔记应用，其理念就是将你想�
 4.0以上版本的设备，用户可以登录[Drive.Google.com/Keep](http://Drive.Google.com/Keep)使用，或者通过Google
 Play应用商店下载Android版本。
 
-谷歌[软件工程师](http://blog.jobbole.com/344/ "明星软件工程师的10种特质")凯瑟琳·库恩（Katherine
+谷歌<span>[软件工程师](http://blog.jobbole.com/344/ "明星软件工程师的10种特质")</span>凯瑟琳·库恩（Katherine
 Kuan）在谷歌官方博客上发表文章，介绍了Google Keep服务：
 
 每天我们都会看到、听到或者想到一些需要记住的东西。通常我们会拿出一叠记事贴，草草地写下一个提醒，然后将它放到桌上、贴在冰箱上，或者夹在一本杂志的相关页面。不幸的是，如果你像我一样，就会经常发现桌面、冰箱或杂志根本不是存放笔记的理想场所，当你需要的时候很少能够找得到。
@@ -44,46 +54,70 @@ Keep应用（你可以将它放置在最前面和最中心的位置），通过�
 4.2以上设备）。
 
 Google Keep可以通过Google Play应用商店下载，支持Android
-4.0、"冰激凌三文治"以上版本的设备。你也可以登录[http://drive.google.com/keep](http://drive.google.com/keep)网站查阅、编辑和创建新笔记。几周之后，你还可以直接通过Google
+4.0、"冰激凌三文治"以上版本的设备。你也可以登录<http://drive.google.com/keep>网站查阅、编辑和创建新笔记。几周之后，你还可以直接通过Google
 Drive使用同样的服务。
+
+<div>
 
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703106.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703106.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
  
 
 Google Keep是谷歌推出的一款类似于Evernote的笔记应用
 
+<div>
+
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703109.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703109.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
  
 
 可以用它制定日程，或者任何不想忘记的内容
 
+<div>
+
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703122.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703122.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
  
 
 Google Keep还可以录制你的声音
 
+<div>
+
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703128.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703128.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
  
 
 然后将它转化为新的笔记
 
+<div>
+
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703135.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703135.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
  
 
 你可以通过手机摄像头拍摄照片，并将其存储到Google Keep
 
+<div>
+
 [![谷歌推出Google Keep笔记应用
 支持跨设备同步](http://blog.jobbole.com/wp-content/uploads/2013/03/83703236.png "谷歌推出Google Keep笔记应用 支持跨设备同步")](http://blog.jobbole.com/wp-content/uploads/2013/03/83703236.png "谷歌推出Google Keep笔记应用 支持跨设备同步")
+
+</div>
 
 所有存储到Google Keep的内容都可以通过其他设备读取
 
@@ -94,15 +128,18 @@ Google Keep还可以录制你的声音
 -   [![Evernote感人而有趣的创业故事](http://blog.jobbole.com/wp-content/uploads/2012/02/evernote-logo.jpg)](http://blog.jobbole.com/13294/)[Evernote感人而有趣的创业故事](http://blog.jobbole.com/13294/)
 -   [![Google超级新福利：员工去世配偶可领薪10年](http://blog.jobbole.com/wp-content/uploads/2013/03/Google-office-150x150.jpg)](http://blog.jobbole.com/25093/)[Google超级新福利：员工去世配偶可领薪10年](http://blog.jobbole.com/25093/)
 -   [![Schedule Google Code Jam
-    2013](http://blog.jobbole.com/wp-content/uploads/2013/03/Schedule-Google-Code-Jam-2013-150x150.png)](http://blog.jobbole.com/35824/)[2013年Google
-    Code Jam编程挑战赛开始报名](http://blog.jobbole.com/35824/)
+    2013](http://blog.jobbole.com/wp-content/uploads/2013/03/Schedule-Google-Code-Jam-2013-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/35824/)[2013年Google Code
+    Jam编程挑战赛开始报名](http://blog.jobbole.com/35824/)
 -   [![2013年美国最佳雇主
     Google再次居首](http://blog.jobbole.com/wp-content/uploads/2011/11/Google-logo.jpg)](http://blog.jobbole.com/32310/)[2013年美国最佳雇主
     Google再次居首](http://blog.jobbole.com/32310/)
 -   [![Guido Van Rossum has tweeted Today is my last day at
-    Google](http://blog.jobbole.com/wp-content/uploads/2012/12/Guido-Van-Rossum-has-tweeted-Today-is-my-last-day-at-Google--150x150.png)](http://blog.jobbole.com/31146/)[Python之父从Google离职，加入Dropbox](http://blog.jobbole.com/31146/)
--   [![oracle-v-google-1308942960](http://blog.jobbole.com/wp-content/uploads/2012/06/oracle-v-google-1308942960-150x150.jpg)](http://blog.jobbole.com/21190/)[亲爱的Oracle:
-    Java API不是艺术品](http://blog.jobbole.com/21190/)
+    Google](http://blog.jobbole.com/wp-content/uploads/2012/12/Guido-Van-Rossum-has-tweeted-Today-is-my-last-day-at-Google--150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/31146/)[Python之父从Google离职，加入Dropbox](http://blog.jobbole.com/31146/)
+-   [![oracle-v-google-1308942960](http://blog.jobbole.com/wp-content/uploads/2012/06/oracle-v-google-1308942960-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/21190/)[亲爱的Oracle: Java
+    API不是艺术品](http://blog.jobbole.com/21190/)
 -   [![微软、苹果和Google：它们的收入从何而来](http://blog.jobbole.com/wp-content/uploads/2011/05/money-logo-1.jpg)](http://blog.jobbole.com/13674/)[微软、苹果和Google：它们的收入从何而来](http://blog.jobbole.com/13674/)
 -   [![2011年IT领域最大的赢家和输家](http://blog.jobbole.com/wp-content/uploads/2011/12/winners_losers.jpg)](http://blog.jobbole.com/10598/)[2011年IT领域最大的赢家和输家](http://blog.jobbole.com/10598/)
 -   [![Google早期寒酸的客服工作](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/9.jpg)](http://blog.jobbole.com/1138/)[Google早期寒酸的客服工作](http://blog.jobbole.com/1138/)
@@ -112,7 +149,15 @@ Google Keep还可以录制你的声音
 支持跨设备同步](http://blog.jobbole.com/36427/)，首发于[博客 -
 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

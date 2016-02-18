@@ -4,15 +4,49 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-3291973444784695463
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
+<div dir="ltr">
+
+<div class="gmail_quote">
+
+<div style="font-family: Arial,sans-serif; width: 100%;">
+
 +--------------------------------------------------------------------------+
+| <div align="center">                                                     |
+|                                                                          |
 | +----------------------------------------------------------------------- |
 | ---+                                                                     |
+| | <div dir="ltr">                                                        |
+|    |                                                                     |
+| |                                                                        |
+|    |                                                                     |
 | | [利用 Tinyproxy 搭建 HTTP(S)                                             | |
 |                                                                          |
 | | 代理](https://linuxtoy.org/archives/tinyproxy.html)                      |
 |  |                                                                       |
+| |                                                                        |
+|    |                                                                     |
+| | </div>                                                                 |
+|    |                                                                     |
+| |                                                                        |
+|    |                                                                     |
+| | <div style="margin-top: 15px;">                                        |
+|    |                                                                     |
+| |                                                                        |
+|    |                                                                     |
 | | 通过 [LinuxTOY](https://linuxtoy.org/)                                   |
 |  |                                                                       |
+| |                                                                        |
+|    |                                                                     |
+| | </div>                                                                 |
+|    |                                                                     |
+| |                                                                        |
+|    |                                                                     |
+| | <div dir="ltr"                                                         |
+|    |                                                                     |
+| | style="font-size: 14px; line-height: 20px; margin-top: 15px;">         |
+|    |                                                                     |
+| |                                                                        |
+|    |                                                                     |
 | | 在天朝每月总有那么几天访问网站不够顺畅，你懂的。虽然 可以使用 [Google    | |
 |                                                                          |
 | | Translate](http://toy.linuxtoy.org/2013/11/13/proxy-web-page-with-goog |
@@ -21,7 +55,7 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |    |                                                                     |
 | | 来应个急，但并非 100% 有效，比如最近我在访问                             | |
 |                                                                          |
-| | [wireshark.org](http://wireshark.org/) 时就遇到了问题。 \                | |
+| | [wireshark.org](http://wireshark.org/) 时就遇到了问题。\                 | |
 |                                                                          |
 | | 好在我们还能搭建 HTTP(S) 代理。目前市面上有许多 HTTP(S) 代理             | |
 |                                                                          |
@@ -61,7 +95,7 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |                                                                          |
 | |                                                                        |
 |    |                                                                     |
-| | 以 Firefox 为例，在"首选项 \> 高级 \> 网络 \> 设置"中，选择"             | |
+| | 以 Firefox 为例，在"首选项 &gt; 高级 &gt; 网络 &gt; 设置"中，选择"       | |
 |                                                                          |
 | | 手动代理配置"，接着在"HTTP 代理"中填入服务器 IP，"端口"中 填入           | |
 |                                                                          |
@@ -89,9 +123,20 @@ http://binaryware.blogspot.com/2013/12/tinyproxy-https.html ---
 |  |                                                                       |
 | | [捐助本站](http://linuxtoy.org/faq/donate)                               | |
 |                                                                          |
+| |                                                                        |
+|    |                                                                     |
+| | </div>                                                                 |
+|    |                                                                     |
 | +----------------------------------------------------------------------- |
 | ---+                                                                     |
+|                                                                          |
+| </div>                                                                   |
 +--------------------------------------------------------------------------+
+
+</div>
+
+</div>
 
 \
 
+</div>

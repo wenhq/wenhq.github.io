@@ -4,8 +4,7 @@ modified\_time: '2013-11-30T12:25:44.009+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-8767797266071726950
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/lda-math-gamma3.html ---
-[LDA-math-神奇的Gamma函数(3)](http://feedproxy.google.com/~r/52nlp/~3/laCzYHAK3fE/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03):
-\
+[LDA-math-神奇的Gamma函数(3)](http://feedproxy.google.com/~r/52nlp/~3/laCzYHAK3fE/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03):\
 **1. **神奇的Gamma函数****\
 \
 **1.3 从二项分布到Gamma 分布**\
@@ -33,8 +32,12 @@ t\^{\\alpha-1}e\^{-\\beta t}}{\\Gamma(\\alpha)} \$\
 主要决定了分布曲线的形状;而\$\\beta\$ 称为 rate parameter 或者inverse
 scale parameter (\$\\frac{1}{\\beta}\$ 称为scale
 parameter),主要决定曲线有多陡。\
+<div style="text-align: center;">
 
-**[![gamma-distribution](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-distribution.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03/gamma-distribution)**\$Gamma(t|\\alpha,\\beta)\$分布图像
+**[![gamma-distribution](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-distribution.png){width="466"
+height="355"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03/gamma-distribution)**\$Gamma(t|\\alpha,\\beta)\$分布图像
+
+</div>
 
 Gamma
 分布在概率统计领域也是一个万人迷，众多统计分布和它有密切关系。指数分布和\$\\chi\^2\$
@@ -171,21 +174,24 @@ e\^{-x}}{k!}dx = 1 \$\
 其实(\*)和(\*\*)这两个式子都是陈希儒院士的《概率论与数理统计》这本书第二章的课后习题，不过陈老师习题答案中给的证明思路是纯粹数学分析的证明方法，虽然能证明等式成立，但是看完证明后无法明白这两个等式是如何被发现的。上诉的论述过程说明，从二项分布出发，这两个等式都有可以很好的从概率角度进行理解。希望以上的推导过程能给大家带来一些对
 Gamma 函数和 Gamma 分布的新的理解，让Gamma 分布不再神秘。\
 \
+<div>
 
 相关文章:\
-
 1.  [LDA-math-神奇的Gamma函数(1)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01 "LDA-math-神奇的Gamma函数(1)")
 2.  [LDA-math-认识Beta/Dirichlet分布(3)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%833 "LDA-math-认识Beta/Dirichlet分布(3)")
 3.  [LDA-math-认识Beta/Dirichlet分布(2)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%832 "LDA-math-认识Beta/Dirichlet分布(2)")
 4.  [LDA-math-认识Beta/Dirichlet分布(1)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%831 "LDA-math-认识Beta/Dirichlet分布(1)")
 5.  [LDA-math-神奇的Gamma函数(2)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02 "LDA-math-神奇的Gamma函数(2)")
-6.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
-7.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+6.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+7.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
 8.  [正态分布的前世今生(七)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%b8%83 "正态分布的前世今生(七)")
 9.  [概率语言模型及其变形系列-LDA及Gibbs
     Sampling](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling "概率语言模型及其变形系列-LDA及Gibbs Sampling")
 10. [HMM学习最佳范例七：前向-后向算法5](http://www.52nlp.cn/hmm-learn-best-practices-seven-forward-backward-algorithm-5 "HMM学习最佳范例七：前向-后向算法5")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/laCzYHAK3fE)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/laCzYHAK3fE){width="1"
+height="1"}

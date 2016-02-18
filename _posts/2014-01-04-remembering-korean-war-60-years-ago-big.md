@@ -7,7 +7,7 @@ blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/01/remembering-korean-war-60-years-ago-big.html
 --- [Remembering the Korean War, 60 years ago - The Big Picture -
 Boston.com](http://www.boston.com/bigpicture/2010/06/remembering_the_korean_war_60.html)  于
-10-6-24 通过 [www.boston.com](http://www.boston.com/) \
+10-6-24 通过 [www.boston.com](http://www.boston.com/)\
 \
 This Friday, June 25th, it will have been sixty years since the
 beginning of the Korean War in 1950. After decades of Japanese
@@ -32,7 +32,7 @@ total](http://www.boston.com/bigpicture/2010/06/remembering_the_korean_war_60.ht
 \
 With her brother on her back a war weary Korean girl tiredly trudges by
 a stalled M-26 tank, at Haengju, Korea. June 9, 1951. (U.S. Navy/Maj.
-R.V. Spencer, UAF) \
+R.V. Spencer, UAF)\
 \
 \
 \

@@ -20,7 +20,16 @@ Capital参投。此轮融资过后其总融资已达3410万美元。\
 \
 除非注明，本站文章均为原创或编译，转载请注明： 文章来自
 [36氪](http://www.36kr.com/)
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[设计协作工具InVision Design
 Tool获2100万美元融资](http://www.36kr.com/p/214380.html)  通过 [36氪 |
 关注互联网创业](http://www.36kr.com/)
+
+</div>

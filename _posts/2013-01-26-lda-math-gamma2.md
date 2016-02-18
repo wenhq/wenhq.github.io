@@ -4,16 +4,19 @@ modified\_time: '2013-11-30T12:25:43.996+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-5335359380992184459
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/lda-math-gamma2.html ---
-[LDA-math-神奇的Gamma函数(2)](http://feedproxy.google.com/~r/52nlp/~3/ySDla8SGaAE/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02):
-\
+[LDA-math-神奇的Gamma函数(2)](http://feedproxy.google.com/~r/52nlp/~3/ySDla8SGaAE/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02):\
 **1. 神奇的Gamma函数\
 \
 1.2 Gamma 函数欣赏**\
+
+<div style="text-align: left;">
 
 *Each generation has found something of interest to say about the gamma
 function. Perhaps the next generation will also. *\
 \
 *—Philip J.Davis*
+
+</div>
 
 Gamma
 函数从它诞生开始就被许多数学家进行研究，包括高斯、勒让德、威尔斯特拉斯、柳维尔等等。这个函数在现代数学分析中被深入研究，在概率论中也是无处不在，很多统计分布都和这个函数相关。Gamma
@@ -23,8 +26,15 @@ Gamma
 \
 另外， Gamma 函数不仅可以定义在实数集上，还可以延拓到整个复平面上。\
 
-[![gamma-complex](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-complex-300x216.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/gamma-complex)复平面上的Gamma
+<div style="text-align: center;">
+
+[![gamma-complex](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-complex-300x216.png){width="300"
+height="216"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/gamma-complex)复平面上的Gamma
 函数
+
+</div>
+
+<div style="text-align: left;">
 
 Gamma 函数有很多妙用，它不但使得 (1/2)!
 的计算有意义，还能扩展很多其他的数学概念。比如导数，我们原来只能定义一阶、二阶等整数阶导数，有了Gamma
@@ -32,7 +42,10 @@ Gamma 函数有很多妙用，它不但使得 (1/2)!
 阶导数,同样的积分作为导数的逆运算也可以有分数阶。我们先考虑一下 \$x\^n\$
 的各阶导数
 
-[![derivatives](http://www.52nlp.cn/wp-content/uploads/2012/12/derivatives.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/derivatives)由于k阶导数可以用阶乘表达，于是我们用Gamma
+</div>
+
+[![derivatives](http://www.52nlp.cn/wp-content/uploads/2012/12/derivatives.png){width="932"
+height="295"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/derivatives)由于k阶导数可以用阶乘表达，于是我们用Gamma
 函数表达为\
 \
 \$ \\frac{\\Gamma{(n+1)}}{\\Gamma{(n-k+1)}} x\^{n-k} \$\
@@ -62,14 +75,27 @@ Gamma 函数和欧拉常数\$\\gamma\$ 有密切关系，可以发现\
 而\$\\zeta\$
 函数涉及了数学中著名的黎曼猜想和素数的分布定理。希尔伯特曾说，如果他在沉睡1000年后醒来,他将问的第一个问题便是:黎曼猜想得到证明了吗？\
 
-[![digamma-func](http://www.52nlp.cn/wp-content/uploads/2012/12/digamma-func-300x233.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/digamma-func)
+<div style="text-align: center;">
+
+[![digamma-func](http://www.52nlp.cn/wp-content/uploads/2012/12/digamma-func-300x233.png){width="300"
+height="233"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/digamma-func)
+
+</div>
+
+<div style="text-align: center;">
 
 \$\\log \\Gamma(x)\$
+
+</div>
+
+<div style="text-align: left;">
 
 从Gamma 函数的图像我们可以看到它是一个凸函数, 不仅如此,
 \$\\log\\Gamma(x)\$ 也是一个凸函数，数学上可以证明如下定理:
 
-**[Bohr-Mullerup定理]**  如果 \$f:(0,\\infty)\\rightarrow
+</div>
+
+**\[Bohr-Mullerup定理\]**  如果 \$f:(0,\\infty)\\rightarrow
 (0,\\infty)\$,且满足\
 
 1.   \$f(1) = 1\$
@@ -109,19 +135,23 @@ Prize(美国数学会颁发的数学科普最高奖)。[\
 ](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02/digamma-func)\
 (本小节主要是数学欣赏，如果对某些概念不熟悉，就略过吧:-))\
 
-相关文章:\
+<div>
 
+相关文章:\
 1.  [LDA-math-神奇的Gamma函数(1)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01 "LDA-math-神奇的Gamma函数(1)")
 2.  [LDA-math-神奇的Gamma函数(3)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03 "LDA-math-神奇的Gamma函数(3)")
 3.  [LDA-math-认识Beta/Dirichlet分布(3)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%833 "LDA-math-认识Beta/Dirichlet分布(3)")
 4.  [LDA-math-认识Beta/Dirichlet分布(1)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%831 "LDA-math-认识Beta/Dirichlet分布(1)")
-5.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+5.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
 6.  [LDA-math-认识Beta/Dirichlet分布(2)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%832 "LDA-math-认识Beta/Dirichlet分布(2)")
-7.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+7.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
 8.  [正态分布的前世今生(一)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%b8%80 "正态分布的前世今生(一)")
 9.  [正态分布的前世今生(五)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%ba%94 "正态分布的前世今生(五)")
 10. [WordPress中的公式编辑器插件](http://www.52nlp.cn/wordpress-equation-editor-plugin "WordPress中的公式编辑器插件")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/ySDla8SGaAE)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/ySDla8SGaAE){width="1"
+height="1"}

@@ -26,9 +26,9 @@ http://binaryware.blogspot.com/2013/01/lda-math-gamma1.html ---
 学习了Gamma 函数之后，多年以来我一直有两个疑问：
 
 -   这个长得这么怪异的一个函数，数学家是如何找到的；
--   为何定义 \$\\Gamma\$
-    函数的时候，不使得这个函数的定义满足\$\\Gamma(n) = n! \$ 而是
-    \$\\Gamma(n) = (n-1)! \$
+-   为何定义
+    \$\\Gamma\$ 函数的时候，不使得这个函数的定义满足\$\\Gamma(n) = n! \$
+    而是 \$\\Gamma(n) = (n-1)! \$
 
 最近翻了一些资料，发现有不少文献资料介绍 Gamma
 函数发现的历史，要说清楚它需要一定的数学推导，这儿只是简要的说一些主线。
@@ -43,17 +43,19 @@ http://binaryware.blogspot.com/2013/01/lda-math-gamma1.html ---
 [\
 \
 ](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/euler)
-[![factorial](http://www.52nlp.cn/wp-content/uploads/2012/12/factorial-300x59.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/factorial)
+[![factorial](http://www.52nlp.cn/wp-content/uploads/2012/12/factorial-300x59.png){width="300"
+height="59"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/factorial)
 [\
 \
 ](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/gamma-func)
-[![factorial-curve](http://www.52nlp.cn/wp-content/uploads/2012/12/factorial-curve.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/factorial-curve)
+[![factorial-curve](http://www.52nlp.cn/wp-content/uploads/2012/12/factorial-curve.png){width="251"
+height="183"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/factorial-curve)
 
 但是哥德巴赫无法解决阶乘往实数集上延拓的这个问题，于是写信请教尼古拉斯.贝努利和他的弟弟丹尼尔.贝努利，由于欧拉当时和丹尼尔.贝努利在一块，他也因此得知了这个问题。而欧拉于1729
 年完美的解决了这个问题，由此导致了\$\\Gamma\$
 函数的诞生，当时欧拉只有22岁。\
 \
-\
+<span></span>\
 \
 事实上首先解决\$n!\$的插值计算问题的是丹尼尔.贝努利，他发现，\
 \
@@ -71,11 +73,12 @@ http://binaryware.blogspot.com/2013/01/lda-math-gamma1.html ---
 \
 \\label{euler-series}\
 \
-\\Bigl[\\Bigl(\\frac{2}{1}\\Bigr)\^n\\frac{1}{n+1}\\Bigr]\
+\\Bigl\[\\Bigl(\\frac{2}{1}\\Bigr)\^n\\frac{1}{n+1}\\Bigr\]\
 \
-\\Bigl[\\Bigl(\\frac{3}{2}\\Bigr)\^n\\frac{2}{n+2}\\Bigr]\
+\\Bigl\[\\Bigl(\\frac{3}{2}\\Bigr)\^n\\frac{2}{n+2}\\Bigr\]\
 \
-\\Bigl[\\Bigl(\\frac{4}{3}\\Bigr)\^n\\frac{3}{n+3}\\Bigr] \\cdots = n!\
+\\Bigl\[\\Bigl(\\frac{4}{3}\\Bigr)\^n\\frac{3}{n+3}\\Bigr\] \\cdots =
+n!\
 \
 \\quad  (\*)\
 \
@@ -134,7 +137,8 @@ m}{(1+n)(2+n)\\cdots m }\
 \
 \$ \\Bigl(\\frac{1}{2}\\Bigr)! = \\frac{\\sqrt{\\pi}}{2} \$
 
-[![euler](http://www.52nlp.cn/wp-content/uploads/2012/12/euler.jpg)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/euler)大数学家欧拉
+[![euler](http://www.52nlp.cn/wp-content/uploads/2012/12/euler.jpg){width="189"
+height="220"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/euler)大数学家欧拉
 
 欧拉和高斯都是具有超凡直觉的数学家，但是欧拉和高斯的风格迥异。高斯是个老狐狸，数学上非常严谨，发表结果的时候却都把思考的痕迹抹去，只留下漂亮的结果，这招致了一些数学家对高斯的批评；而欧拉的风格不同，经常通过经验直觉做大胆的猜测，而他的文章中往往留下他如何做数学猜想的痕迹，而文章有的时候论证不够严谨。
 拉普拉斯曾说过：”读读欧拉,他是所有人的老师。”波利亚在他的名著《数学与猜想》中也对欧拉做数学归纳和猜想的方式推崇备至。
@@ -179,7 +183,8 @@ g \\rightarrow 0\$,\
 \$ \\Gamma(x) = \\int\_0\^1 (-\\log t)\^{x-1}dt = \\int\_0\^{\\infty}
 t\^{x-1}e\^{-t}dt \$
 
-[![gamma-func](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-func-300x211.png)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/gamma-func)
+[![gamma-func](http://www.52nlp.cn/wp-content/uploads/2012/12/gamma-func-300x211.png){width="300"
+height="211"}](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01/gamma-func)
 
 Gamma 函数找到了，我们来看看第二个问题，为何 Gamma 函数被定义为
 \$\\Gamma(n)=(n-1)!\$, 这看起来挺别扭的。如果我们稍微修正一下，把Gamma
@@ -217,6 +222,8 @@ Gamma 函数的定义，使得\$\\Gamma(n)=(n-1)!\$。
 -   Jacques Dutka, The Early History of the Factorial Function
 -   Detlef Gronnau, Why is the gamma function so as it is?
 
+<div>
+
 相关文章:
 
 1.  [LDA-math-神奇的Gamma函数(3)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03 "LDA-math-神奇的Gamma函数(3)")
@@ -224,12 +231,15 @@ Gamma 函数的定义，使得\$\\Gamma(n)=(n-1)!\$。
 3.  [LDA-math-神奇的Gamma函数(2)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02 "LDA-math-神奇的Gamma函数(2)")
 4.  [LDA-math-认识Beta/Dirichlet分布(2)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%832 "LDA-math-认识Beta/Dirichlet分布(2)")
 5.  [LDA-math-认识Beta/Dirichlet分布(1)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%831 "LDA-math-认识Beta/Dirichlet分布(1)")
-6.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
-7.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+6.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+7.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
 8.  [正态分布的前世今生(四)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e5%9b%9b "正态分布的前世今生(四)")
 9.  [WordPress中的公式编辑器插件](http://www.52nlp.cn/wordpress-equation-editor-plugin "WordPress中的公式编辑器插件")
 10. [正态分布的前世今生(一)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%b8%80 "正态分布的前世今生(一)")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/vcsVkaS6zRU)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/vcsVkaS6zRU){width="1"
+height="1"}

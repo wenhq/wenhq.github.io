@@ -47,4 +47,4 @@ JavaScript的面向对象编程是糟糕的例子
 \
 如果你想把软件开发做为职业生涯，那么有很多路可走。有很多好的语言适合起步，结论或许在大学得到了印证（据我了解，还没有计算机科学系以JavaScript做为首选语言）。综上所述，我反对那些想成为专业程序员的人把JavaScript做为首选语言。\
 \
-原文地址：[http://www.itworld.com/career/399111/why-i-dont-suggest-javascript-first-programming-language](http://www.itworld.com/career/399111/why-i-dont-suggest-javascript-first-programming-language)
+原文地址：<http://www.itworld.com/career/399111/why-i-dont-suggest-javascript-first-programming-language>

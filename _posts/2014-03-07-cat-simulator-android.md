@@ -1,11 +1,11 @@
---- layout: post title: "猫叫模拟器 (Cat Simulator) – 模拟猫叫[Android]"
-date: '2014-03-07T11:24:00.001+08:00' author: Wenh Q tags:
-modified\_time: '2014-03-07T11:24:17.542+08:00' blogger\_id:
+--- layout: post title: "猫叫模拟器 (Cat Simulator) –
+模拟猫叫\[Android\]" date: '2014-03-07T11:24:00.001+08:00' author: Wenh
+Q tags: modified\_time: '2014-03-07T11:24:17.542+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-6972347704712426580
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/03/cat-simulator-android.html ---
 [猫叫模拟器 (Cat Simulator) –
-模拟猫叫[Android]](http://www.appinn.com/cat-simulator-for-android/)  通过
+模拟猫叫\[Android\]](http://www.appinn.com/cat-simulator-for-android/)  通过
 [小众软件 - Appinn](http://www.appinn.com/)\
 \
 \

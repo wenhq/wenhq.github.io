@@ -7,240 +7,894 @@ tag:blogger.com,1999:blog-4961947611491238191.post-4889843756627629429
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/07/responsive-web-design.html ---
 
-[\
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
 自适应网页设计（Responsive Web
-Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
+Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)</span>
 
-于 12-4-30 通过 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+</div>
 
-[](http://www.ruanyifeng.com/blog/)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 8pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
-随着3G的普及，越来越多的人使用手机上网。
+<span style="font-family: &quot;Verdana&quot;;">于 12-4-30 通过
+</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[阮一峰的网络日志](http://www.ruanyifeng.com/blog/)</span>
 
-移动设备正超过桌面设备，成为访问互联网的最常见终端。于是，网页设计师不得不面对一个难题：如何才能在不同大小的设备上呈现同样的网页？
+</div>
 
-![](https://lh5.googleusercontent.com/wuKr_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-_rbrD_Bc0ANtTqsU)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-手机的屏幕比较小，宽度通常在600像素以下；PC的屏幕宽度，一般都在1000像素以上（目前主流宽度是1366×768），有的还达到了2000像素。同样的内容，要在大小迥异的屏幕上，都呈现出满意的效果，并不是一件容易的事。
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[](http://www.ruanyifeng.com/blog/)</span>
 
-很多网站的解决方法，是为不同的设备提供不同的网页，比如专门提供一个mobile版本，或者iPhone
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">随着3G的普及，越来越多的人使用手机上网。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">移动设备正超过桌面设备，成为访问互联网的最常见终端。于是，网页设计师不得不面对一个难题：如何才能在不同大小的设备上呈现同样的网页？</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+![](https://lh5.googleusercontent.com/wuKr_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-_rbrD_Bc0ANtTqsU){width="650"
+height="300"}
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">手机的屏幕比较小，宽度通常在600像素以下；PC的屏幕宽度，一般都在1000像素以上（目前主流宽度是1366×768），有的还达到了2000像素。同样的内容，要在大小迥异的屏幕上，都呈现出满意的效果，并不是一件容易的事。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">很多网站的解决方法，是为不同的设备提供不同的网页，比如专门提供一个mobile版本，或者iPhone
 /
-iPad版本。这样做固然保证了效果，但是比较麻烦，同时要维护好几个版本，而且如果一个网站有多个portal（入口），会大大增加架构设计的复杂度。
+iPad版本。这样做固然保证了效果，但是比较麻烦，同时要维护好几个版本，而且如果一个网站有多个portal（入口），会大大增加架构设计的复杂度。</span>
 
-于是，很早就有人设想，能不能"一次设计，普遍适用"，让同一张网页自动适应不同大小的屏幕，根据屏幕宽度，自动调整布局（layout）？
+</div>
 
-![](https://lh3.googleusercontent.com/s0Trqewr9zi__Kt3Gk3SxvEKZkzKpP9AMp1uAWtMXY0slq2-H-kvwNcO6GPdPlTmLsFTmNQOkonnR8bAAIB9DLQ8QT5ZEo17p-S8oiAGKwcG9q3zSmY)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-一、"自适应网页设计"的概念
+<span
+style="font-family: &quot;Verdana&quot;;">于是，很早就有人设想，能不能"一次设计，普遍适用"，让同一张网页自动适应不同大小的屏幕，根据屏幕宽度，自动调整布局（layout）？</span>
 
-2010年，Ethan
-Marcotte提出了["自适应网页设计"](http://www.alistapart.com/articles/responsive-web-design/)（Responsive
-Web Design）这个名词，指可以自动识别屏幕宽度、并做出相应调整的网页设计。
+</div>
 
-他制作了一个[范例](http://www.alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html)，里面是《福尔摩斯历险记》六个主人公的头像。如果屏幕宽度大于1300像素，则6张图片并排在一行。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-![](https://lh6.googleusercontent.com/eEB_OHr7HZ5CPjEE-YjPhhkPPxW0smPIFx8bC5JJGGKllxaiodI0d2yin0yok88jjfimibdGdqcmLK9f_kM1LI9g6zC0leV5JbrjQedKqGVKaFK5skA)
+![](https://lh3.googleusercontent.com/s0Trqewr9zi__Kt3Gk3SxvEKZkzKpP9AMp1uAWtMXY0slq2-H-kvwNcO6GPdPlTmLsFTmNQOkonnR8bAAIB9DLQ8QT5ZEo17p-S8oiAGKwcG9q3zSmY){width="600"
+height="335"}
 
-如果屏幕宽度在600像素到1300像素之间，则6张图片分成两行。
+</div>
 
-![](https://lh4.googleusercontent.com/O3hwhM9sG8cmpojEU5qT3953YSqsRN5BRzSL0CQ-bMArqW_7qge_8Y0VdV0iN1CKls5z-BEGxuk3Ongg0R-EoXJPXsPHQOqsH3Byhh3XkVHzTvbG--Q)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-如果屏幕宽度在400像素到600像素之间，则导航栏移到网页头部。
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">一、"自适应网页设计"的概念</span>
 
-![](https://lh6.googleusercontent.com/Ghz6XQmAeQSi7ASHsF49lPPkcqF9aU7dG14yWCzJutJDdJCd0dG35TpMq6F9Vl_mHec_JeskNSDIObpOO08y1-BHwClG5bUCxnM99cFzKnswK0JTKNU)
+</div>
 
-如果屏幕宽度在400像素以下，则6张图片分成三行。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-![](https://lh4.googleusercontent.com/m9jEIEzp6i4y-nBkge4Q6T0pO6rNiVtZ_j3t9Qy6tifxVjx6AXJLlqzj0bbgyTpysN-mEdHbamKcFvyFPJAZo1_LA9xivyrs4pyFeQGp4qwpFzewjqk)
+<span style="font-family: &quot;Verdana&quot;;">2010年，Ethan
+Marcotte提出了</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">["自适应网页设计"](http://www.alistapart.com/articles/responsive-web-design/)</span><span
+style="font-family: &quot;Verdana&quot;;">（Responsive Web
+Design）这个名词，指可以自动识别屏幕宽度、并做出相应调整的网页设计。</span>
 
-[mediaqueri.es](http://mediaqueri.es/)上面有更多这样的例子。
+</div>
 
-这里还有一个[测试小工具](http://www.benjaminkeen.com/misc/bricss/)，可以在一张网页上，同时显示不同分辨率屏幕的测试效果，我推荐安装。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-二、允许网页宽度自动调整
+<span style="font-family: &quot;Verdana&quot;;">他制作了一个</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[范例](http://www.alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html)</span><span
+style="font-family: &quot;Verdana&quot;;">，里面是《福尔摩斯历险记》六个主人公的头像。如果屏幕宽度大于1300像素，则6张图片并排在一行。</span>
 
-"自适应网页设计"到底是怎么做到的？其实并不难。
+</div>
 
-首先，在网页代码的头部，加入一行[viewport元标签](https://developer.mozilla.org/en/mobile/viewport_meta_tag)。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<meta name="viewport" content="width=device-width, initial-scale=1" /\>
+![](https://lh6.googleusercontent.com/eEB_OHr7HZ5CPjEE-YjPhhkPPxW0smPIFx8bC5JJGGKllxaiodI0d2yin0yok88jjfimibdGdqcmLK9f_kM1LI9g6zC0leV5JbrjQedKqGVKaFK5skA){width="800"
+height="376"}
 
-[viewport](https://developer.apple.com/library/ios/#DOCUMENTATION/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。
+</div>
 
-所有主流浏览器都支持这个设置，包括IE9。对于那些老式浏览器（主要是IE6、7、8），需要使用[css3-mediaqueries.js](http://code.google.com/p/css3-mediaqueries-js/)。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<!--[if lt IE 9]\>
+<span
+style="font-family: &quot;Verdana&quot;;">如果屏幕宽度在600像素到1300像素之间，则6张图片分成两行。</span>
 
-\<script
-src="[http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js](http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js)"\>\</script\>
+</div>
 
-\<![endif]--\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-三、不使用绝对宽度
+![](https://lh4.googleusercontent.com/O3hwhM9sG8cmpojEU5qT3953YSqsRN5BRzSL0CQ-bMArqW_7qge_8Y0VdV0iN1CKls5z-BEGxuk3Ongg0R-EoXJPXsPHQOqsH3Byhh3XkVHzTvbG--Q){width="600"
+height="633"}
 
-由于网页会根据屏幕宽度调整布局，所以不能使用绝对宽度的布局，也不能使用具有绝对宽度的元素。这一条非常重要。
+</div>
 
-具体说，CSS代码不能指定像素宽度：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-width:xxx px;
+<span
+style="font-family: &quot;Verdana&quot;;">如果屏幕宽度在400像素到600像素之间，则导航栏移到网页头部。</span>
 
-只能指定百分比宽度：
+</div>
 
-width: xx%;
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-或者
+![](https://lh6.googleusercontent.com/Ghz6XQmAeQSi7ASHsF49lPPkcqF9aU7dG14yWCzJutJDdJCd0dG35TpMq6F9Vl_mHec_JeskNSDIObpOO08y1-BHwClG5bUCxnM99cFzKnswK0JTKNU){width="226"
+height="800"}
 
-width:auto;
+</div>
 
-四、相对大小的字体
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-字体也不能使用绝对大小（px），而只能使用相对大小（em）。
+<span
+style="font-family: &quot;Verdana&quot;;">如果屏幕宽度在400像素以下，则6张图片分成三行。</span>
 
-body {
+</div>
 
-font: normal 100% Helvetica, Arial, sans-serif;
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-}
+![](https://lh4.googleusercontent.com/m9jEIEzp6i4y-nBkge4Q6T0pO6rNiVtZ_j3t9Qy6tifxVjx6AXJLlqzj0bbgyTpysN-mEdHbamKcFvyFPJAZo1_LA9xivyrs4pyFeQGp4qwpFzewjqk){width="147"
+height="1000"}
 
-上面的代码指定，字体大小是页面默认大小的100%，即16像素。
+</div>
 
-h1 {
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-font-size: 1.5em;
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[mediaqueri.es](http://mediaqueri.es/)</span><span
+style="font-family: &quot;Verdana&quot;;">上面有更多这样的例子。</span>
 
-}
+</div>
 
-然后，h1的大小是默认大小的1.5倍，即24像素（24/16=1.5）。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-small {
+<span style="font-family: &quot;Verdana&quot;;">这里还有一个</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[测试小工具](http://www.benjaminkeen.com/misc/bricss/)</span><span
+style="font-family: &quot;Verdana&quot;;">，可以在一张网页上，同时显示不同分辨率屏幕的测试效果，我推荐安装。</span>
 
-font-size: 0.875em;
+</div>
 
-}
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-small元素的大小是默认大小的0.875倍，即14像素（14/16=0.875）。
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">二、允许网页宽度自动调整</span>
 
-五、流动布局（fluid grid）
+</div>
 
-["流动布局"](http://www.alistapart.com/articles/fluidgrids/)的含义是，各个区块的位置都是浮动的，不是固定不变的。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-.main {
+<span
+style="font-family: &quot;Verdana&quot;;">"自适应网页设计"到底是怎么做到的？其实并不难。</span>
 
-float: right;
+</div>
 
-width: 70%;
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-}
+<span
+style="font-family: &quot;Verdana&quot;;">首先，在网页代码的头部，加入一行</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[viewport元标签](https://developer.mozilla.org/en/mobile/viewport_meta_tag)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
 
-.leftBar {
+</div>
 
-float: left;
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-width: 25%;
+<span style="font-family: &quot;Verdana&quot;;">&lt;meta name="viewport"
+content="width=device-width, initial-scale=1" /&gt;</span>
 
-}
+</div>
 
-[float](http://designshack.net/articles/css/everything-you-never-knew-about-css-floats/)的好处是，如果宽度太小，放不下两个元素，后面的元素会自动滚动到前面元素的下方，不会在水平方向overflow（溢出），避免了水平滚动条的出现。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-另外，绝对定位（position: absolute）的使用，也要非常小心。
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[viewport](https://developer.apple.com/library/ios/#DOCUMENTATION/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)</span><span
+style="font-family: &quot;Verdana&quot;;">是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。</span>
 
-六、选择加载CSS
+</div>
 
-"自适应网页设计"的核心，就是CSS3引入的[Media
-Query](http://www.w3.org/TR/CSS21/media.html)模块。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-它的意思就是，自动探测屏幕宽度，然后加载相应的CSS文件。
+<span
+style="font-family: &quot;Verdana&quot;;">所有主流浏览器都支持这个设置，包括IE9。对于那些老式浏览器（主要是IE6、7、8），需要使用</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[css3-mediaqueries.js](http://code.google.com/p/css3-mediaqueries-js/)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
 
-\<link rel="stylesheet" type="text/css"
+</div>
 
-media="screen and (max-device-width: 400px)"
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-href="tinyScreen.css" /\>
+<span style="font-family: &quot;Verdana&quot;;">&lt;!--\[if lt IE
+9\]&gt;</span>
 
-上面的代码意思是，如果屏幕宽度小于400像素（max-device-width:
-400px），就加载tinyScreen.css文件。
+</div>
 
-\<link rel="stylesheet" type="text/css"
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-media="screen and (min-width: 400px) and (max-device-width: 600px)"
+<span style="font-family: &quot;Verdana&quot;;">&lt;script
+src="</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;"><http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js></span><span
+style="font-family: &quot;Verdana&quot;;">"&gt;&lt;/script&gt;</span>
 
-href="smallScreen.css" /\>
+</div>
 
-如果屏幕宽度在400像素到600像素之间，则加载smallScreen.css文件。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-除了用html标签加载CSS文件，还可以在现有CSS文件中加载。
+<span
+style="font-family: &quot;Verdana&quot;;">&lt;!\[endif\]--&gt;</span>
 
-@import url("tinyScreen.css") screen and (max-device-width: 400px);
+</div>
 
-七、CSS的@media规则
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-同一个CSS文件中，也可以根据不同的屏幕分辨率，选择应用不同的CSS规则。
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">三、不使用绝对宽度</span>
 
-@media screen and (max-device-width: 400px) {
+</div>
 
-.column {
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-float: none;
+<span
+style="font-family: &quot;Verdana&quot;;">由于网页会根据屏幕宽度调整布局，所以不能使用绝对宽度的布局，也不能使用具有绝对宽度的元素。这一条非常重要。</span>
 
-width:auto;
+</div>
 
-}
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\#sidebar {
+<span
+style="font-family: &quot;Verdana&quot;;">具体说，CSS代码不能指定像素宽度：</span>
 
-display:none;
+</div>
 
-}
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-}
+<span style="font-family: &quot;Verdana&quot;;">width:xxx px;</span>
 
-上面的代码意思是，如果屏幕宽度小于400像素，则column块取消浮动（float:none）、宽度自动调节（width:auto），sidebar块不显示（display:none）。
+</div>
 
-八、图片的自适应（fluid image）
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-除了布局和文本，"自适应网页设计"还必须实现图片的[自动缩放](http://unstoppablerobotninja.com/entry/fluid-images)。
+<span
+style="font-family: &quot;Verdana&quot;;">只能指定百分比宽度：</span>
 
-这只要一行CSS代码：
+</div>
 
-img { max-width: 100%;}
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-这行代码对于大多数嵌入网页的视频也有效，所以可以写成：
+<span style="font-family: &quot;Verdana&quot;;">width: xx%;</span>
 
-img, object { max-width: 100%;}
+</div>
 
-老版本的IE不支持max-width，所以只好写成：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-img { width: 100%; }
+<span style="font-family: &quot;Verdana&quot;;">或者</span>
 
-此外，windows平台缩放图片时，可能出现图像失真现象。这时，可以尝试使用IE的[专有命令](http://css-tricks.com/ie-fix-bicubic-scaling-for-images/)：
+</div>
 
-img { -ms-interpolation-mode: bicubic; }
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-或者，Ethan
-Marcotte的[imgSizer.js](http://unstoppablerobotninja.com/demos/resize/imgSizer.js)。
+<span style="font-family: &quot;Verdana&quot;;">width:auto;</span>
 
-addLoadEvent(function() {
+</div>
 
-var imgs =
-document.getElementById("content").getElementsByTagName("img");
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-imgSizer.collate(imgs);
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">四、相对大小的字体</span>
 
-});
+</div>
 
-不过，有条件的话，最好还是根据不同大小的屏幕，加载不同分辨率的图片。有[很多方法](http://blog.cloudfour.com/responsive-imgs-part-2/)可以做到这一条，服务器端和客户端都可以实现。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-（完）
+<span
+style="font-family: &quot;Verdana&quot;;">字体也不能使用绝对大小（px），而只能使用相对大小（em）。</span>
 
-###  {style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 20.8pt; padding-left: 0; padding-right: 0; padding-top: 4.8pt; text-align: left;"}
+</div>
 
-文档信息
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-1.  版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons
-    BY-NC-ND
-    3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
-2.  原文网址：[http://www.ruanyifeng.com/blog/2012/05/responsive\_web\_design.html](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
-3.  最后修改时间：2012年5月 1日 23:06
-4.  付费支持：![](https://lh4.googleusercontent.com/okuG0qGk5qUWg3UJ2U9A41WYzXkudnQDo0nujbZL350mo0ed7JkST6fNWd1-fW50zdkh4636cQ4mVUCk4ecfvj5913B9LZoJNgLrcWxsXRINYW6EVjQ) |
-    ![](https://lh4.googleusercontent.com/eU5gM7iofbJcOT1qiUSBQTLnF-g8WaGbcphHJDERhKMXNixqKkDDv59-rJ54h8dMDuQge8sjox1q-dNDuAo-ovaGnTQUXPLDI6iBvq3oyadQpw0_j_I)
+<span style="font-family: &quot;Verdana&quot;;">body {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">font: normal 100%
+Helvetica, Arial, sans-serif;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">上面的代码指定，字体大小是页面默认大小的100%，即16像素。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">h1 {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">font-size: 1.5em;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">然后，h1的大小是默认大小的1.5倍，即24像素（24/16=1.5）。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">small {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">font-size:
+0.875em;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">small元素的大小是默认大小的0.875倍，即14像素（14/16=0.875）。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">五、流动布局（fluid
+grid）</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">["流动布局"](http://www.alistapart.com/articles/fluidgrids/)</span><span
+style="font-family: &quot;Verdana&quot;;">的含义是，各个区块的位置都是浮动的，不是固定不变的。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">.main {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">float: right;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">width: 70%;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">.leftBar {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">float: left;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">width: 25%;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[float](http://designshack.net/articles/css/everything-you-never-knew-about-css-floats/)</span><span
+style="font-family: &quot;Verdana&quot;;">的好处是，如果宽度太小，放不下两个元素，后面的元素会自动滚动到前面元素的下方，不会在水平方向overflow（溢出），避免了水平滚动条的出现。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">另外，绝对定位（position:
+absolute）的使用，也要非常小心。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">六、选择加载CSS</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">"自适应网页设计"的核心，就是CSS3引入的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Media
+Query](http://www.w3.org/TR/CSS21/media.html)</span><span
+style="font-family: &quot;Verdana&quot;;">模块。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">它的意思就是，自动探测屏幕宽度，然后加载相应的CSS文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;link
+rel="stylesheet" type="text/css"</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">media="screen and
+(max-device-width: 400px)"</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">href="tinyScreen.css"
+/&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">上面的代码意思是，如果屏幕宽度小于400像素（max-device-width:
+400px），就加载tinyScreen.css文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;link
+rel="stylesheet" type="text/css"</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">media="screen and
+(min-width: 400px) and (max-device-width: 600px)"</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">href="smallScreen.css"
+/&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">如果屏幕宽度在400像素到600像素之间，则加载smallScreen.css文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">除了用html标签加载CSS文件，还可以在现有CSS文件中加载。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">@import
+url("tinyScreen.css") screen and (max-device-width: 400px);</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">七、CSS的@media规则</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">同一个CSS文件中，也可以根据不同的屏幕分辨率，选择应用不同的CSS规则。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">@media screen and
+(max-device-width: 400px) {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">.column {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">float: none;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">width:auto;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\#sidebar {</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">display:none;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">上面的代码意思是，如果屏幕宽度小于400像素，则column块取消浮动（float:none）、宽度自动调节（width:auto），sidebar块不显示（display:none）。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">八、图片的自适应（fluid
+image）</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">除了布局和文本，"自适应网页设计"还必须实现图片的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[自动缩放](http://unstoppablerobotninja.com/entry/fluid-images)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">这只要一行CSS代码：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">img { max-width:
+100%;}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">这行代码对于大多数嵌入网页的视频也有效，所以可以写成：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">img, object { max-width:
+100%;}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">老版本的IE不支持max-width，所以只好写成：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">img { width: 100%;
+}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">此外，windows平台缩放图片时，可能出现图像失真现象。这时，可以尝试使用IE的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[专有命令](http://css-tricks.com/ie-fix-bicubic-scaling-for-images/)</span><span
+style="font-family: &quot;Verdana&quot;;">：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">img {
+-ms-interpolation-mode: bicubic; }</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">或者，Ethan
+Marcotte的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[imgSizer.js](http://unstoppablerobotninja.com/demos/resize/imgSizer.js)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">addLoadEvent(function()
+{</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">var imgs =
+document.getElementById("content").getElementsByTagName("img");</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">imgSizer.collate(imgs);</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">});</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">不过，有条件的话，最好还是根据不同大小的屏幕，加载不同分辨率的图片。有</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[很多方法](http://blog.cloudfour.com/responsive-imgs-part-2/)</span><span
+style="font-family: &quot;Verdana&quot;;">可以做到这一条，服务器端和客户端都可以实现。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 16pt; padding-left: 0; padding-right: 0; padding-top: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">（完）</span>
+
+</div>
+
+### <span style="font-family: &quot;Verdana&quot;;"></span> {#section style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 20.8pt; padding-left: 0; padding-right: 0; padding-top: 4.8pt; text-align: left;"}
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 12pt; padding-left: 0; padding-right: 0; padding-top: 12pt;">
+
+<span
+style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;">文档信息</span>
+
+</div>
+
+1.  <span
+    style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;">版权声明：自由转载-非商用-非衍生-保持署名
+    | </span><span
+    style="background-color: #aad2f0; color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Creative
+    Commons BY-NC-ND
+    3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)</span>
+2.  <span
+    style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;">原文网址：</span><span
+    style="background-color: #aad2f0; color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;"><http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html></span>
+3.  <span
+    style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;">最后修改时间：2012年5月
+    1日 23:06</span>
+4.  <span
+    style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;">付费支持：</span>![](https://lh4.googleusercontent.com/okuG0qGk5qUWg3UJ2U9A41WYzXkudnQDo0nujbZL350mo0ed7JkST6fNWd1-fW50zdkh4636cQ4mVUCk4ecfvj5913B9LZoJNgLrcWxsXRINYW6EVjQ){width="32"
+    height="32"}<span
+    style="background-color: #aad2f0; color: #556677; font-family: &quot;Verdana&quot;;"> |
+    </span>![](https://lh4.googleusercontent.com/eU5gM7iofbJcOT1qiUSBQTLnF-g8WaGbcphHJDERhKMXNixqKkDDv59-rJ54h8dMDuQge8sjox1q-dNDuAo-ovaGnTQUXPLDI6iBvq3oyadQpw0_j_I){width="32"
+    height="32"}
 

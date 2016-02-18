@@ -4,14 +4,17 @@ modified\_time: '2013-10-11T13:40:48.728+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-7104938369132099301
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/02/mapreduce.html ---
-[MapReduce的模式、算法和用例](http://blog.jobbole.com/33967/?utm_source=rss&utm_medium=rss&utm_campaign=mapreduce%25e7%259a%2584%25e6%25a8%25a1%25e5%25bc%258f%25e3%2580%2581%25e7%25ae%2597%25e6%25b3%2595%25e5%2592%258c%25e7%2594%25a8%25e4%25be%258b):
-\
+[MapReduce的模式、算法和用例](http://blog.jobbole.com/33967/?utm_source=rss&utm_medium=rss&utm_campaign=mapreduce%25e7%259a%2584%25e6%25a8%25a1%25e5%25bc%258f%25e3%2580%2581%25e7%25ae%2597%25e6%25b3%2595%25e5%2592%258c%25e7%2594%25a8%25e4%25be%258b):\
 英文原文：[MapReduce Patterns, Algorithms, and Use
 Cases](http://highlyscalable.wordpress.com/2012/02/01/mapreduce-patterns/)，编译：[juliashine](http://yangguan.org/mapreduce-patterns-algorithms-and-use-cases/)\
 在这篇文章里总结了几种网上或者论文中常见的MapReduce模式和算法，并系统化的解释了这些技术的不同之处。所有描述性的文字和代码都使用了标准hadoop的MapReduce模型，包括Mappers,
 Reduces, Combiners, Partitioners,和 sorting。如下图所示。\
 
+<div>
+
 [![MapReduce的模式、算法和用例](http://blog.jobbole.com/wp-content/uploads/2013/02/map-reduce-pattern-1.png "MapReduce的模式、算法和用例")](http://blog.jobbole.com/wp-content/uploads/2013/02/map-reduce-pattern-1.png "MapReduce的模式、算法和用例")
+
+</div>
 
 **基本MapReduce模式**\
 **计数与求和**\
@@ -19,15 +22,64 @@ Reduces, Combiners, Partitioners,和 sorting。如下图所示。\
 **解决方案:**\
 让我们先从简单的例子入手。在下面的代码片段里，Mapper每遇到指定词就把频次记1，Reducer一个个遍历这些词的集合然后把他们的频次加和。\
 
-    class Mapper     method Map(docid id, doc d)         for all term t in doc d do              Emit(term t, count 1)class Reducer     method Reduce(term t, counts [c1, c2,...])          sum = 0   for all count c in [c1, c2,...] do               sum = sum + c               Emit(term t, count sum)
+    class Mapper
+         method Map(docid id, doc d)
+             for all term t in doc d do
+                  Emit(term t, count 1)
+
+    class Reducer
+         method Reduce(term t, counts [c1, c2,...])
+              sum = 0
+       for all count c in [c1, c2,...] do
+                   sum = sum + c
+                   Emit(term t, count sum)
+
+<div>
+
+<div>
+
+<div>
+
+<div align="left">
 
 这种方法的缺点显而易见，Mapper提交了太多无意义的计数。它完全可以通过先对每个文档中的词进行计数从而减少传递给Reducer的数据量:
 
-    class Mapper    method Map(docid id, doc d)       H = new AssociativeArray       for all term t in doc d do           H{t} = H{t} + 1       for all term t in H do          Emit(term t, count H{t})
+</div>
+
+    class Mapper
+        method Map(docid id, doc d)
+           H = new AssociativeArray
+           for all term t in doc d do
+               H{t} = H{t} + 1
+           for all term t in H do
+              Emit(term t, count H{t})
+
+</div>
+
+</div>
+
+</div>
 
 如果要累计计数的的不只是单个文档中的内容，还包括了一个Mapper节点处理的所有文档，那就要用到Combiner了:\
 
-    class Mapper    method Map(docid id, doc d)       for all term t in doc d do          Emit(term t, count 1) class Combiner    method Combine(term t, [c1, c2,...])       sum = 0       for all count c in [c1, c2,...] do           sum = sum + c       Emit(term t, count sum) class Reducer    method Reduce(term t, counts [c1, c2,...])       sum = 0       for all count c in [c1, c2,...] do           sum = sum + c       Emit(term t, count sum)
+    class Mapper
+        method Map(docid id, doc d)
+           for all term t in doc d do
+              Emit(term t, count 1)
+
+     class Combiner
+        method Combine(term t, [c1, c2,...])
+           sum = 0
+           for all count c in [c1, c2,...] do
+               sum = sum + c
+           Emit(term t, count sum)
+
+     class Reducer
+        method Reduce(term t, counts [c1, c2,...])
+           sum = 0
+           for all count c in [c1, c2,...] do
+               sum = sum + c
+           Emit(term t, count sum)
 
 **应用:**\
 Log 分析, 数据查询\
@@ -86,7 +138,23 @@ ETL，数据分析\
 以每个邻接点的ID为键发出信息，所有的信息都会按照接受节点分组，reducer
 就能够重算各节点的状态然后更新那些状态改变了的节点。下面展示了这个算法：\
 
-    class Mapper   method Map(id n, object N)      Emit(id n, object N)      for all id m in N.OutgoingRelations do         Emit(id m, message getMessage(N))class Reducer   method Reduce(id m, [s1, s2,...])      M = null      messages = []      for all s in [s1, s2,...] do          if IsObject(s) then             M = s          else               // s is a message             messages.add(s)      M.State = calculateState(messages)      Emit(id m, item M)
+    class Mapper
+       method Map(id n, object N)
+          Emit(id n, object N)
+          for all id m in N.OutgoingRelations do
+             Emit(id m, message getMessage(N))
+
+    class Reducer
+       method Reduce(id m, [s1, s2,...])
+          M = null
+          messages = []
+          for all s in [s1, s2,...] do
+              if IsObject(s) then
+                 M = s
+              else               // s is a message
+                 messages.add(s)
+          M.State = calculateState(messages)
+          Emit(id m, item M)
 
 一个节点的状态可以迅速的沿着网络传全网，那些被感染了的节点又去感染它们的邻居，整个过程就像下面的图示一样：\
 [![MapReduce的模式、算法和用例](http://blog.jobbole.com/wp-content/uploads/2013/02/map-reduce-pattern-2.png "MapReduce的模式、算法和用例")](http://blog.jobbole.com/wp-content/uploads/2013/02/map-reduce-pattern-2.png "MapReduce的模式、算法和用例")\
@@ -97,23 +165,62 @@ ETL，数据分析\
 ****这个问题可以用上一节提到的框架来解决。我们咋下面定义了名为
 getMessage和 calculateState 的方法：\
 
-    class N    State in {True = 2, False = 1, null = 0},    initialized 1 or 2 for end-of-line categories, 0 otherwise method getMessage(object N)    return N.State method calculateState(state s, data [d1, d2,...])    return max( [d1, d2,...] )
+    class N
+        State in {True = 2, False = 1, null = 0},
+        initialized 1 or 2 for end-of-line categories, 0 otherwise
+     method getMessage(object N)
+        return N.State
+     method calculateState(state s, data [d1, d2,...])
+        return max( [d1, d2,...] )
 
 **案例研究：广度优先搜索**\
 ****问题陈述**：**需要计算出一个图结构中某一个节点到其它所有节点的距离。\
 **解决方案：** Source源节点给所有邻接点发出值为0的信号，邻接点把收到的信号再转发给自己的邻接点，每转发一次就对信号值加1：\
 
-    class N    State is distance,    initialized 0 for source node, INFINITY for all other nodes method getMessage(N)    return N.State + 1 method calculateState(state s, data [d1, d2,...])    min( [d1, d2,...] )
+    class N
+        State is distance,
+        initialized 0 for source node, INFINITY for all other nodes
+     method getMessage(N)
+        return N.State + 1
+     method calculateState(state s, data [d1, d2,...])
+        min( [d1, d2,...] )
 
 ** 案例研究：网页排名和 Mapper 端数据聚合**\
 这个算法由Google提出，使用权威的PageRank算法，通过连接到一个网页的其他网页来计算网页的相关性。真实算法是相当复杂的，但是核心思想是权重可以传播，也即通过一个节点的各联接节点的权重的均值来计算节点自身的权重。\
 
-    class N     State is PageRank method getMessage(object N)     return N.State / N.OutgoingRelations.size() method calculateState(state s, data [d1, d2,...])     return ( sum([d1, d2,...]) )
+    class N
+         State is PageRank
+     method getMessage(object N)
+         return N.State / N.OutgoingRelations.size()
+     method calculateState(state s, data [d1, d2,...])
+         return ( sum([d1, d2,...]) )
 
 要指出的是上面用一个数值来作为评分实际上是一种简化，在实际情况下，我们需要在Mapper端来进行聚合计算得出这个值。下面的代码片段展示了这个改变后的逻辑
 （针对于 PageRank 算法）：\
 
-    class Mapper    method Initialize       H = new AssociativeArray    method Map(id n, object N)       p = N.PageRank  / N.OutgoingRelations.size()       Emit(id n, object N)       for all id m in N.OutgoingRelations do          H{m} = H{m} + p    method Close       for all id n in H do          Emit(id n, value H{n}) class Reducer    method Reduce(id m, [s1, s2,...])       M = null       p = 0       for all s in [s1, s2,...] do           if IsObject(s) then              M = s           else              p = p + s       M.PageRank = p       Emit(id m, item M)
+    class Mapper
+        method Initialize
+           H = new AssociativeArray
+        method Map(id n, object N)
+           p = N.PageRank  / N.OutgoingRelations.size()
+           Emit(id n, object N)
+           for all id m in N.OutgoingRelations do
+              H{m} = H{m} + p
+        method Close
+           for all id n in H do
+              Emit(id n, value H{n})
+
+     class Reducer
+        method Reduce(id m, [s1, s2,...])
+           M = null
+           p = 0
+           for all s in [s1, s2,...] do
+               if IsObject(s) then
+                  M = s
+               else
+                  p = p + s
+           M.PageRank = p
+           Emit(id m, item M)
 
 应用：\
 图分析，网页索引\
@@ -123,23 +230,59 @@ G，要分别统计相同G值的记录中不同的F值的数目 (相当于按照
 这个问题可以推而广之应用于分面搜索（某些电子商务网站称之为Narrow
 Search）\
 
-    Record 1: F=1, G={a, b}  Record 2: F=2, G={a, d, e}  Record 3: F=1, G={b}  Record 4: F=3, G={a, b}  Result:  a -&gt; 3 // F=1, F=2, F=3  b -&gt; 2 // F=1, F=3  d -&gt; 1 // F=2  e -&gt; 1 // F=2
+    Record 1: F=1, G={a, b}
+      Record 2: F=2, G={a, d, e}
+      Record 3: F=1, G={b}
+      Record 4: F=3, G={a, b}
+
+      Result:
+      a -&gt; 3 // F=1, F=2, F=3
+      b -&gt; 2 // F=1, F=3
+      d -&gt; 1 // F=2
+      e -&gt; 1 // F=2
 
 **解决方案 I:**\
 第一种方法是分两个阶段来解决这个问题。第一阶段在Mapper中使用F和G组成一个复合值对，然后在Reducer中输出每个值对，目的是为了保证F值的唯一性。在第二阶段，再将值对按照G值来分组计算每组中的条目数。\
 第一阶段：\
 
-    class Mapper    method Map(null, record [value f, categories [g1, g2,...]])      for all category g in [g1, g2,...]        Emit(record [g, f], count 1)  class Reducer    method Reduce(record [g, f], counts [n1, n2, ...])      Emit(record [g, f], null )
+    class Mapper
+        method Map(null, record [value f, categories [g1, g2,...]])
+          for all category g in [g1, g2,...]
+            Emit(record [g, f], count 1)
+
+      class Reducer
+        method Reduce(record [g, f], counts [n1, n2, ...])
+          Emit(record [g, f], null )
 
 第二阶段：\
 
-    class Mapper    method Map(record [f, g], null)      Emit(value g, count 1)  class Reducer    method Reduce(value g, counts [n1, n2,...])      Emit(value g, sum( [n1, n2,...] ) )
+    class Mapper
+        method Map(record [f, g], null)
+          Emit(value g, count 1)
+
+      class Reducer
+        method Reduce(value g, counts [n1, n2,...])
+          Emit(value g, sum( [n1, n2,...] ) )
 
 **解决方案 II:**\
 第二种方法只需要一次MapReduce 即可实现，但扩展性不强。算法很简单-Mapper
 输出值和分类，在Reducer里为每个值对应的分类去重然后给每个所属的分类计数加1，最后再在Reducer结束后将所有计数加和。这种方法适用于只有有限个分类，而且拥有相同F值的记录不是很多的情况。例如网络日志处理和用户分类，用户的总数很多，但是每个用户的事件是有限的，以此分类得到的类别也是有限的。值得一提的是在这种模式下可以在数据传输到Reducer之前使用Combiner来去除分类的重复值。\
 
-    class Mappermethod Map(null, record [value f, categories [g1, g2,...] )for all category g in [g1, g2,...]Emit(value f, category g)class Reducermethod InitializeH = new AssociativeArray : category -&gt; countmethod Reduce(value f, categories [g1, g2,...])[g1', g2',..] = ExcludeDuplicates( [g1, g2,..] )for all category g in [g1', g2',...]H{g} = H{g} + 1method Closefor all category g in H doEmit(category g, count H{g})
+    class Mapper
+    method Map(null, record [value f, categories [g1, g2,...] )
+    for all category g in [g1, g2,...]
+    Emit(value f, category g)
+
+    class Reducer
+    method Initialize
+    H = new AssociativeArray : category -&gt; count
+    method Reduce(value f, categories [g1, g2,...])
+    [g1', g2',..] = ExcludeDuplicates( [g1, g2,..] )
+    for all category g in [g1', g2',...]
+    H{g} = H{g} + 1
+    method Close
+    for all category g in H do
+    Emit(category g, count H{g})
 
 **应用：**\
 日志分析，用户计数\
@@ -154,7 +297,16 @@ Search）\
 
 <!-- -->
 
-    class Mappermethod Map(null, items [i1, i2,...] )for all item i in [i1, i2,...]for all item j in [i1, i2,...]Emit(pair [i j], count 1)class Reducermethod Reduce(pair [i j], counts [c1, c2,...])s = sum([c1, c2,...])Emit(pair[i j], count s)
+    class Mapper
+    method Map(null, items [i1, i2,...] )
+    for all item i in [i1, i2,...]
+    for all item j in [i1, i2,...]
+    Emit(pair [i j], count 1)
+
+    class Reducer
+    method Reduce(pair [i j], counts [c1, c2,...])
+    s = sum([c1, c2,...])
+    Emit(pair[i j], count s)
 
 **Stripes Approach（条方法？不知道这个名字怎么理解）**\
 第二种方法是将数据按照pair中的第一项来分组，并维护一个关联数组，数组中存储的是所有关联项的计数。The
@@ -171,7 +323,20 @@ them, and emits the same result as in the Pairs approach.\
 
 <!-- -->
 
-    class Mappermethod Map(null, items [i1, i2,...] )for all item i in [i1, i2,...]H = new AssociativeArray : item -&gt; counterfor all item j in [i1, i2,...]H{j} = H{j} + 1Emit(item i, stripe H)class Reducermethod Reduce(item i, stripes [H1, H2,...])H = new AssociativeArray : item -&gt; counterH = merge-sum( [H1, H2,...] )for all item j in H.keys()Emit(pair [i j], H{j})
+    class Mapper
+    method Map(null, items [i1, i2,...] )
+    for all item i in [i1, i2,...]
+    H = new AssociativeArray : item -&gt; counter
+    for all item j in [i1, i2,...]
+    H{j} = H{j} + 1
+    Emit(item i, stripe H)
+
+    class Reducer
+    method Reduce(item i, stripes [H1, H2,...])
+    H = new AssociativeArray : item -&gt; counter
+    H = merge-sum( [H1, H2,...] )
+    for all item j in H.keys()
+    Emit(pair [i j], H{j})
 
 **应用：**\
 文本分析，市场分析\
@@ -184,34 +349,69 @@ them, and emits the same result as in the Pairs approach.\
 在这部分我们会讨论一下怎么使用MapReduce来进行主要的关系操作。\
 **筛选（Selection）**\
 
-    class Mappermethod Map(rowkey key, tuple t)if t satisfies the predicateEmit(tuple t, null)
+    class Mapper
+    method Map(rowkey key, tuple t)
+    if t satisfies the predicate
+    Emit(tuple t, null)
 
 **投影（Projection）**\
 投影只比筛选稍微复杂一点，在这种情况下我们可以用Reducer来消除可能的重复值。\
 
-    class Mappermethod Map(rowkey key, tuple t)tuple g = project(t) // extract required fields to tuple gEmit(tuple g, null)class Reducermethod Reduce(tuple t, array n) // n is an array of nullsEmit(tuple t, null)
+    class Mapper
+    method Map(rowkey key, tuple t)
+    tuple g = project(t) // extract required fields to tuple g
+    Emit(tuple g, null)
+
+    class Reducer
+    method Reduce(tuple t, array n) // n is an array of nulls
+    Emit(tuple t, null)
 
 **合并（Union）**\
 两个数据集中的所有记录都送入Mapper，在Reducer里消重。\
 
-    class Mappermethod Map(rowkey key, tuple t)Emit(tuple t, null)class Reducermethod Reduce(tuple t, array n) // n is an array of one or two nullsEmit(tuple t, null)
+    class Mapper
+    method Map(rowkey key, tuple t)
+    Emit(tuple t, null)
+
+    class Reducer
+    method Reduce(tuple t, array n) // n is an array of one or two nulls
+    Emit(tuple t, null)
 
 **交集（Intersection）**\
 将两个数据集中需要做交叉的记录输入Mapper，Reducer
 输出出现了两次的记录。因为每条记录都有一个主键，在每个数据集中只会出现一次，所以这样做是可行的。\
 
-    class Mappermethod Map(rowkey key, tuple t)Emit(tuple t, null)class Reducermethod Reduce(tuple t, array n) // n is an array of one or two nullsif n.size() = 2Emit(tuple t, null)
+    class Mapper
+    method Map(rowkey key, tuple t)
+    Emit(tuple t, null)
+
+    class Reducer
+    method Reduce(tuple t, array n) // n is an array of one or two nulls
+    if n.size() = 2
+    Emit(tuple t, null)
 
 **差异（Difference）**\
 假设有两个数据集R和S，我们要找出R与S的差异。Mapper将所有的元组做上标记，表明他们来自于R还是S，Reducer只输出那些存在于R中而不在S中的记录。\
 
-    class Mappermethod Map(rowkey key, tuple t)Emit(tuple t, string t.SetName) // t.SetName is either 'R' or 'S'class Reducermethod Reduce(tuple t, array n) // array n can be ['R'], ['S'], ['R' 'S'], or ['S', 'R']if n.size() = 1 and n[1] = 'R'Emit(tuple t, null)
+    class Mapper
+    method Map(rowkey key, tuple t)
+    Emit(tuple t, string t.SetName) // t.SetName is either 'R' or 'S'
+
+    class Reducer
+    method Reduce(tuple t, array n) // array n can be ['R'], ['S'], ['R' 'S'], or ['S', 'R']
+    if n.size() = 1 and n[1] = 'R'
+    Emit(tuple t, null)
 
 **分组聚合（GroupBy and Aggregation）**\
 分组聚合可以在如下的一个MapReduce中完成。Mapper抽取数据并将之分组聚合，Reducer
 中对收到的数据再次聚合。典型的聚合应用比如求和与最值可以以流的方式进行计算，因而不需要同时保有所有的值。但是另外一些情景就必须要两阶段MapReduce，前面提到过的惟一值模式就是一个这种类型的例子。\
 
-    class Mappermethod Map(null, tuple [value GroupBy, value AggregateBy, value ...])Emit(value GroupBy, value AggregateBy)class Reducermethod Reduce(value GroupBy, [v1, v2,...])Emit(value GroupBy, aggregate( [v1, v2,...] ) ) // aggregate() : sum(), max(),...
+    class Mapper
+    method Map(null, tuple [value GroupBy, value AggregateBy, value ...])
+    Emit(value GroupBy, value AggregateBy)
+    class Reducer
+    method Reduce(value GroupBy, [v1, v2,...])
+    Emit(value GroupBy, aggregate( [v1, v2,...] ) ) // aggregate() : sum(), max(),...
 
 **连接（Joining）**\
 MapperReduce框架可以很好地处理连接，不过在面对不同的数据量和处理效率要求的时候还是有一些技巧。在这部分我们会介绍一些基本方法，在后面的参考文档中还列出了一些关于这方面的专题文章。\
@@ -225,12 +425,32 @@ MapperReduce框架可以很好地处理连接，不过在面对不同的数据�
 
 尽管如此，再分配连接方式仍然是最通用的方法，特别是其他优化技术都不适用的时候。\
 
-    class Mappermethod Map(null, tuple [join_key k, value v1, value v2,...])Emit(join_key k, tagged_tuple [set_name tag, values [v1, v2, ...] ] )class Reducermethod Reduce(join_key k, tagged_tuples [t1, t2,...])H = new AssociativeArray : set_name -&gt; valuesfor all tagged_tuple t in [t1, t2,...] // separate values into 2 arraysH{t.tag}.add(t.values)for all values r in H{'R'} // produce a cross-join of the two arraysfor all values l in H{'L'}Emit(null, [k r l] )
+    class Mapper
+    method Map(null, tuple [join_key k, value v1, value v2,...])
+    Emit(join_key k, tagged_tuple [set_name tag, values [v1, v2, ...] ] )
+
+    class Reducer
+    method Reduce(join_key k, tagged_tuples [t1, t2,...])
+    H = new AssociativeArray : set_name -&gt; values
+    for all tagged_tuple t in [t1, t2,...] // separate values into 2 arrays
+    H{t.tag}.add(t.values)
+    for all values r in H{'R'} // produce a cross-join of the two arrays
+    for all values l in H{'L'}
+    Emit(null, [k r l] )
 
 **复制链接Replicated Join （Mapper端连接, Hash 连接）**\
 在实际应用中，将一个小数据集和一个大数据集连接是很常见的（如用户与日志记录）。假定要连接两个集合R和L，其中R相对较小，这样，可以把R分发给所有的Mapper，每个Mapper都可以载入它并以连接键来索引其中的数据，最常用和有效的索引技术就是哈希表。之后，Mapper遍历L，并将其与存储在哈希表中的R中的相应记录连接，。这种方法非常高效，因为不需要对L中的数据排序，也不需要通过网络传送L中的数据，但是R必须足够小到能够分发给所有的Mapper。\
 
-    class Mappermethod InitializeH = new AssociativeArray : join_key -&gt; tuple from RR = loadR()for all [ join_key k, tuple [r1, r2,...] ] in RH{k} = H{k}.append( [r1, r2,...] )method Map(join_key k, tuple l)for all tuple r in H{k}Emit(null, tuple [k r l] )
+    class Mapper
+    method Initialize
+    H = new AssociativeArray : join_key -&gt; tuple from R
+    R = loadR()
+    for all [ join_key k, tuple [r1, r2,...] ] in R
+    H{k} = H{k}.append( [r1, r2,...] )
+
+    method Map(join_key k, tuple l)
+    for all tuple r in H{k}
+    Emit(null, tuple [k r l] )
 
 **参考：**\
 
@@ -246,27 +466,32 @@ MapperReduce框架可以很好地处理连接，不过在面对不同的数据�
     Machine Learning on
     Multicore](http://www.cs.stanford.edu/people/ang//papers/nips06-mapreducemulticore.pdf "Map-Reduce for Machine Learning on Multicore").
 -   FFT using MapReduce:
-     [http://www.slideshare.net/hortonworks/large-scale-math-with-hadoop-mapreduce](http://www.slideshare.net/hortonworks/large-scale-math-with-hadoop-mapreduce)
+     <http://www.slideshare.net/hortonworks/large-scale-math-with-hadoop-mapreduce>
 -   MapReduce for integer
-    factorization: [http://www.javiertordable.com/files/MapreduceForIntegerFactorization.pdf](http://www.javiertordable.com/files/MapreduceForIntegerFactorization.pdf)
+    factorization: <http://www.javiertordable.com/files/MapreduceForIntegerFactorization.pdf>
 -   Matrix multiplication with
-    MapReduce: [http://csl.skku.edu/papers/CS-TR-2010-330.pdf](http://csl.skku.edu/papers/CS-TR-2010-330.pdf) and [http://www.norstad.org/matrix-multiply/index.html](http://www.norstad.org/matrix-multiply/index.html)
+    MapReduce: <http://csl.skku.edu/papers/CS-TR-2010-330.pdf> and <http://www.norstad.org/matrix-multiply/index.html>
 
 #### 相关文章
 
 -   [![我是如何向老婆解释MapReduce的？](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/27.jpg)](http://blog.jobbole.com/1321/)[我是如何向老婆解释MapReduce的？](http://blog.jobbole.com/1321/)
--   [![Hadoop生态系统中的HCE计算框架](http://blog.jobbole.com/wp-content/uploads/2011/08/1-HCE-framework-in-Hadoop-150x150.jpg)](http://blog.jobbole.com/1189/)[HCE：提升资源利用率的MapReduce框架](http://blog.jobbole.com/1189/)
+-   [![Hadoop生态系统中的HCE计算框架](http://blog.jobbole.com/wp-content/uploads/2011/08/1-HCE-framework-in-Hadoop-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/1189/)[HCE：提升资源利用率的MapReduce框架](http://blog.jobbole.com/1189/)
 -   [![大象的崛起：Hadoop七年发展风雨录](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/15.jpg)](http://blog.jobbole.com/1412/)[大象的崛起：Hadoop七年发展风雨录](http://blog.jobbole.com/1412/)
--   [![Hadoop：你不得不了解的大数据工具](http://blog.jobbole.com/wp-content/uploads/2012/02/What-You-Need-to-Know-About-This-Important-Big-Data-Tool1-150x109.jpg)](http://blog.jobbole.com/13538/)[Hadoop：你不得不了解的大数据工具](http://blog.jobbole.com/13538/)
+-   [![Hadoop：你不得不了解的大数据工具](http://blog.jobbole.com/wp-content/uploads/2012/02/What-You-Need-to-Know-About-This-Important-Big-Data-Tool1-150x109.jpg){width="150"
+    height="109"}](http://blog.jobbole.com/13538/)[Hadoop：你不得不了解的大数据工具](http://blog.jobbole.com/13538/)
 -   [![圆桌论坛：如何应对海量数据的挑战](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/22.jpg)](http://blog.jobbole.com/1241/)[圆桌论坛：如何应对海量数据的挑战](http://blog.jobbole.com/1241/)
 -   [![Java在线教程–接口篇](http://blog.jobbole.com/wp-content/uploads/2011/11/Java-programming-language-logo.jpg)](http://blog.jobbole.com/32544/)[Java在线教程–接口篇](http://blog.jobbole.com/32544/)
--   [![Javascript模块化编程（一）：模块的写法](http://blog.jobbole.com/wp-content/uploads/2012/10/javascript-module-01-150x150.jpg)](http://blog.jobbole.com/29553/)[Javascript模块化编程（一）：模块的写法](http://blog.jobbole.com/29553/)
+-   [![Javascript模块化编程（一）：模块的写法](http://blog.jobbole.com/wp-content/uploads/2012/10/javascript-module-01-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/29553/)[Javascript模块化编程（一）：模块的写法](http://blog.jobbole.com/29553/)
 -   [![K-均值聚类分析](http://www.jobbole.net/wp-content/uploads/2013/02/kmeans_thumb2-150x150.gifimgmax800)](http://blog.jobbole.com/16048/)[K-均值聚类分析](http://blog.jobbole.com/16048/)
 -   [![为重负网络优化 Nginx 和
-    Node.js](http://blog.jobbole.com/wp-content/uploads/2013/01/high-load-network-ngnix-nodejs-150x150.png)](http://blog.jobbole.com/32670/)[为重负网络优化
-    Nginx 和 Node.js](http://blog.jobbole.com/32670/)
+    Node.js](http://blog.jobbole.com/wp-content/uploads/2013/01/high-load-network-ngnix-nodejs-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/32670/)[为重负网络优化 Nginx
+    和 Node.js](http://blog.jobbole.com/32670/)
 -   [![Saas
-    新手指南](http://blog.jobbole.com/wp-content/uploads/2013/01/css-150x150.jpg)](http://blog.jobbole.com/32741/)[SASS
+    新手指南](http://blog.jobbole.com/wp-content/uploads/2013/01/css-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/32741/)[SASS
     新手指南](http://blog.jobbole.com/32741/)
 
 [MapReduce的模式、算法和用例](http://blog.jobbole.com/33967/)，首发于[博客

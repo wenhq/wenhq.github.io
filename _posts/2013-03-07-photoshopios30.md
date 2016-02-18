@@ -4,8 +4,7 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-2443032917728184349
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/photoshopios30.html ---
-[PHOTOSHOP中改进IOS设计流程的30个诀窍](http://blog.jobbole.com/34981/?utm_source=rss&utm_medium=rss&utm_campaign=photoshop%25e4%25b8%25ad%25e6%2594%25b9%25e8%25bf%259bios%25e8%25ae%25be%25e8%25ae%25a1%25e6%25b5%2581%25e7%25a8%258b%25e7%259a%258430%25e4%25b8%25aa%25e8%25af%2580%25e7%25aa%258d):
-\
+[PHOTOSHOP中改进IOS设计流程的30个诀窍](http://blog.jobbole.com/34981/?utm_source=rss&utm_medium=rss&utm_campaign=photoshop%25e4%25b8%25ad%25e6%2594%25b9%25e8%25bf%259bios%25e8%25ae%25be%25e8%25ae%25a1%25e6%25b5%2581%25e7%25a8%258b%25e7%259a%258430%25e4%25b8%25aa%25e8%25af%2580%25e7%25aa%258d):\
 [英文原文](http://radesign.in/30-tips-to-improve-your-ios-design-workflow-in-photoshop/)，翻译：[飞鸟分享](http://share.9ikblog.com/archives/30-tips-to-improve-your-ios-design-workflow-in-photoshop.html)\
 在本文中我（英文原作者）总结了在photoshop中设计ios软件时所遵守的方法。许多的技巧适用于一般的UI设计。注意：文中所提到的快捷键针对于Windows；Mac
 用户可，Cmd对应Crtl键，Opt对应Alt键。\
@@ -163,12 +162,17 @@ Utility](http://www.bulkrenameutility.co.uk/Main_Intro.php)。\
     iOS 设计师的工具和资源](http://blog.jobbole.com/14517/)
 -   [![为什么Android没有iOS那么顺滑](http://blog.jobbole.com/wp-content/uploads/2011/10/Android-logo.jpg)](http://blog.jobbole.com/9692/)[为什么Android没有iOS那么顺滑](http://blog.jobbole.com/9692/)
 -   [![fresh ui kit
-    smartphone](http://blog.jobbole.com/wp-content/uploads/2012/10/preview-large-40freshuikitsmartphone-150x150.jpg)](http://blog.jobbole.com/29270/)[40个免费的智能手机UI素材PSD资源](http://blog.jobbole.com/29270/)
--   [![当ios游戏开发像做份沙拉那么简单](http://blog.jobbole.com/wp-content/uploads/2011/12/ios-game-develope-like-sala1-150x150.jpg)](http://blog.jobbole.com/9124/)[当ios游戏开发像做份沙拉那么简单](http://blog.jobbole.com/9124/)
--   [![icon-template](http://blog.jobbole.com/wp-content/uploads/2012/09/icon-template-150x150.jpg)](http://blog.jobbole.com/26093/)[25个免费的iOS设计资源](http://blog.jobbole.com/26093/)
--   [![7178415856\_92e71d5e8e\_z](http://blog.jobbole.com/wp-content/uploads/2012/06/7178415856_92e71d5e8e_z-150x150.jpg)](http://blog.jobbole.com/21037/)[MGTileMenu：一个开源iOS控件的诞生](http://blog.jobbole.com/21037/)
+    smartphone](http://blog.jobbole.com/wp-content/uploads/2012/10/preview-large-40freshuikitsmartphone-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/29270/)[40个免费的智能手机UI素材PSD资源](http://blog.jobbole.com/29270/)
+-   [![当ios游戏开发像做份沙拉那么简单](http://blog.jobbole.com/wp-content/uploads/2011/12/ios-game-develope-like-sala1-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/9124/)[当ios游戏开发像做份沙拉那么简单](http://blog.jobbole.com/9124/)
+-   [![icon-template](http://blog.jobbole.com/wp-content/uploads/2012/09/icon-template-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/26093/)[25个免费的iOS设计资源](http://blog.jobbole.com/26093/)
+-   [![7178415856\_92e71d5e8e\_z](http://blog.jobbole.com/wp-content/uploads/2012/06/7178415856_92e71d5e8e_z-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/21037/)[MGTileMenu：一个开源iOS控件的诞生](http://blog.jobbole.com/21037/)
 -   [![WWDC 2012 ios
-    6](http://blog.jobbole.com/wp-content/uploads/2012/06/WWDC-2012-ios-6-150x150.jpg)](http://blog.jobbole.com/21447/)[信息图：iOS
+    6](http://blog.jobbole.com/wp-content/uploads/2012/06/WWDC-2012-ios-6-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/21447/)[信息图：iOS
     6操作系统新功能一览](http://blog.jobbole.com/21447/)
 
 [PHOTOSHOP中改进IOS设计流程的30个诀窍](http://blog.jobbole.com/34981/)，首发于[博客

@@ -5,7 +5,8 @@ HackerNews，让你发现最新最酷的好产品' date:
 tag:blogger.com,1999:blog-4961947611491238191.post-2886494557461037614
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/05/producthunt-hackernews.html ---
-![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Fd00514c8fc3b1bd7495ed94f9a88f227.png&container=blogger&gadget=a&rewriteMime=image%2F*)\
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Fd00514c8fc3b1bd7495ed94f9a88f227.png&container=blogger&gadget=a&rewriteMime=image%2F*){width="640"
+height="306"}\
 \
 有这样一类产品，在他们还没出来前，你不觉得自己有这样的需求，出来之后，你会有种"早该有了嘛！"
 的感觉。\
@@ -16,7 +17,8 @@ http://binaryware.blogspot.com/2014/05/producthunt-hackernews.html ---
 HackerNews 不同的是，ProductHunt
 以天为单位将产品排名分隔开了，相当于每天都会有个新的榜单。\
 \
-![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2F3faef7281e7e6ff85aa1cbf8c6e68c51.png&container=blogger&gadget=a&rewriteMime=image%2F*)\
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2F3faef7281e7e6ff85aa1cbf8c6e68c51.png&container=blogger&gadget=a&rewriteMime=image%2F*){width="640"
+height="333"}\
 \
 目前 ProductHunt
 仍在内测阶段，发布产品以及评论只对部分用户开放，未来用户可以在
@@ -31,7 +33,16 @@ ProductHunt 会比媒体更快、产品状态更早期。\
 \
 如果你对 ProductHunt
 从想法到成型的过程有兴趣，可以移步至[这里](http://www.fastcolabs.com/3023152/open-company/the-wisdom-of-the-20-minute-startup)。
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：["早就该有了嘛！"，ProductHunt 做产品版的
 HackerNews，让你发现最新最酷的好产品](http://www.36kr.com/p/212392.html) 
   通过 [36氪 | 关注互联网创业](http://www.36kr.com/)
+
+</div>

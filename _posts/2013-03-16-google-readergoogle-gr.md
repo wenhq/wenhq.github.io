@@ -4,26 +4,60 @@ modified\_time: '2013-03-16T18:09:18.532+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-5361942053754474355
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/google-readergoogle-gr.html ---
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### Quantum 通过 Google 阅读器发送给您的内容： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### Quantum 通过 Google 阅读器发送给您的内容： {#quantum-通过-google-阅读器发送给您的内容 style="margin:0px 3px;font-family:sans-serif"}
+
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
- {style="margin: 0.25em 0 0 0"}
+</div>
+
+<div
+style="font-family:sans-serif;overflow:auto;width:100%;margin: 0px 10px">
+
+ {#section style="margin: 0.25em 0 0 0"}
+
+<div>
 
 [前Google Reader产品经理证实Google+害死
 GR](http://blog.jobbole.com/35939/?utm_source=rss&utm_medium=rss&utm_campaign=%25e5%2589%258dgoogle-reader%25e4%25ba%25a7%25e5%2593%2581%25e7%25bb%258f%25e7%2590%2586%25e8%25af%2581%25e5%25ae%259egoogle%25e5%25ae%25b3%25e6%25ad%25bb-gr)
 
-于 13-3-14 通过 [博客 - 伯乐在线](http://blog.jobbole.com) 作者：伯乐
+</div>
+
+<div style="margin-bottom: 0.5em">
+
+于 13-3-14 通过 [博客 - 伯乐在线](http://blog.jobbole.com){.f}
+作者：伯乐
+
+</div>
 
 \
-
 Via [TNW](http://thenextweb.com/google/2013/03/14/former-google-reader-product-manager-confirms-our-suspicions-its-demise-is-all-about-google/)，Pic
 via [GOS](http://googlesystem.blogspot.com/2013/03/no-more-google-reader.html)，编译：[谷奥](http://www.guao.hk/posts/former-google-reader-product-manager-confirms-our-suspicions-its-demise-is-all-about-google-plus.html)
 
@@ -59,18 +93,23 @@ Reader团队成员大合照，让我仅代表我个人向他们表达最最崇�
 
 -   [![Google拒绝前员工帮助](http://blog.jobbole.com/wp-content/uploads/2011/11/Google-logo.jpg)](http://blog.jobbole.com/5404/)[Google拒绝前员工帮助](http://blog.jobbole.com/5404/)
 -   [![welcome to
-    feedly](http://blog.jobbole.com/wp-content/uploads/2013/03/welcome-to-feedly-150x150.png)](http://blog.jobbole.com/35970/)[Feedly阅读器（网页版）的简单体验](http://blog.jobbole.com/35970/)
+    feedly](http://blog.jobbole.com/wp-content/uploads/2013/03/welcome-to-feedly-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/35970/)[Feedly阅读器（网页版）的简单体验](http://blog.jobbole.com/35970/)
 -   [![digg
-    logo](http://blog.jobbole.com/wp-content/uploads/2013/03/digg-logo-blue-150x150.jpg)](http://blog.jobbole.com/35953/)[Digg官方宣布开发Google
+    logo](http://blog.jobbole.com/wp-content/uploads/2013/03/digg-logo-blue-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/35953/)[Digg官方宣布开发Google
     Reader替代品](http://blog.jobbole.com/35953/)
 -   [![Google Reader
-    将关闭，五大替代产品推荐](http://blog.jobbole.com/wp-content/uploads/2013/03/58-150x150.jpg)](http://blog.jobbole.com/35908/)[Google
+    将关闭，五大替代产品推荐](http://blog.jobbole.com/wp-content/uploads/2013/03/58-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/35908/)[Google
     Reader将关闭，五大替代产品推荐](http://blog.jobbole.com/35908/)
 -   [![google reader
-    doodle](http://blog.jobbole.com/wp-content/uploads/2013/03/google-reader-doodle-150x150.jpeg)](http://blog.jobbole.com/35836/)[谷歌阅读器（Google
+    doodle](http://blog.jobbole.com/wp-content/uploads/2013/03/google-reader-doodle-150x150.jpeg){width="150"
+    height="150"}](http://blog.jobbole.com/35836/)[谷歌阅读器（Google
     Reader）将于2013年7月1日关闭](http://blog.jobbole.com/35836/)
 -   [![rss
-    logo](http://blog.jobbole.com/wp-content/uploads/2012/04/rss-logo--150x150.jpg)](http://blog.jobbole.com/18436/)[RSS永生不灭](http://blog.jobbole.com/18436/)
+    logo](http://blog.jobbole.com/wp-content/uploads/2012/04/rss-logo--150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/18436/)[RSS永生不灭](http://blog.jobbole.com/18436/)
 -   [![Google未来搜索演变的四张王牌
     ](http://blog.jobbole.com/wp-content/uploads/2011/11/Google-logo.jpg)](http://blog.jobbole.com/9291/)[Google未来搜索演变的四张王牌](http://blog.jobbole.com/9291/)
 -   [![Google到底有多大？Google究竟有多少用户？](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/10.jpg)](http://blog.jobbole.com/647/)[Google到底有多大？Google究竟有多少用户？](http://blog.jobbole.com/647/)
@@ -85,19 +124,44 @@ Reader团队成员大合照，让我仅代表我个人向他们表达最最崇�
 GR](http://blog.jobbole.com/35939/)，首发于[博客 -
 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### 可从此处完成的操作： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### 可从此处完成的操作： {#可从此处完成的操作 style="margin:0px 3px;font-family:sans-serif"}
 
 -   使用 **Google 阅读器**[订阅博客 -
     伯乐在线](http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fblog.jobbole.com%2Ffeed%2F?source=email)
 -   [开始使用 Google
     阅读器](http://www.google.com/reader/?source=email)，轻松地与**您喜爱的所有网站**保持同步更新
 
- 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
+
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
+ 
+
+</div>

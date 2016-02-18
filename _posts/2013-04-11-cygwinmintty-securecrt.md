@@ -4,21 +4,33 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-8291617456949718047
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/04/cygwinmintty-securecrt.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **使用 Cygwin/mintty 代替 SecureCRT**
+
+</div>
+
+<div class="source">
 
 Published on
 [LinuxTOY](http://linuxtoy.org/archives/use-cygwin-mintty-instead-of-securecrt.html)
 | shared via [feedly](http://www.feedly.com)
+
+</div>
+
+<div>
 
 [cygwin](http://cygwin.com) 是 MS-Windows 一个程序，它提供一套 POSIX
 虚拟环境，包括但不限于： POSIX C API，shell 及大多数著名命令行程序。
 
 通过各种小工具的自由组合使用，它可以替代 SSH 协议远程登录 GUI 工具
 SecureCRT 。
+
+<span></span>
 
 原理：
 
@@ -100,7 +112,15 @@ del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/use-cygw
 [无评论](http://linuxtoy.org/archives/use-cygwin-mintty-instead-of-securecrt.html#comments)
 | [捐助本站](http://linuxtoy.org/faq/donate)
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

@@ -5,15 +5,25 @@ tag:blogger.com,1999:blog-4961947611491238191.post-8268612248024332568
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/04/intel-release-graphical-installer-for.html
 ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **Intel Release Graphical Installer for Their Linux Drivers**
+
+</div>
+
+<div class="source">
 
 Published on [OMG!
 Ubuntu!](http://www.omgubuntu.co.uk/2013/04/intel-release-graphical-installer-for-their-linux-drivers?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+d0od+(OMG!+Ubuntu!))
 | shared via [feedly](http://www.feedly.com)
+
+</div>
+
+<div>
 
 **The Intel Linux Graphics Installer provides a friendly way for
 downloading the latest Intel Linux graphics software stack.**
@@ -31,7 +41,7 @@ graphics components –for the more technical this includes:
 -   *libdrm* –the "Direct Rendering Manager" library, for communication
     between user applications and the kernel
 -   the Cairo graphics library, for 2D rendering and acceleration
--   *vaapi-driver-intel*–the APIs for hardware-accelerated video
+-   *vaapi-driver-intel* –the APIs for hardware-accelerated video
     rendering, processing and output
 -   initial support for Wayland
 
@@ -43,7 +53,8 @@ keeping you up-to-date. The installer also performs a check to see if
 your system is running the latest drivers and, if not, it runs a system
 upgrade.
 
-[![intelgraphicsdriverinstaller](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/intelgraphicsdriverinstaller.png)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/intelgraphicsdriverinstaller.png)
+[![intelgraphicsdriverinstaller](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/intelgraphicsdriverinstaller.png){width="804"
+height="382"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/intelgraphicsdriverinstaller.png)
 
 However, the installer doesn't automatically add the repository
 authentication key to your system but it can manually added by opening a
@@ -64,6 +75,8 @@ Installer ](https://01.org/linuxgraphics/downloads/2013/intel-linux-graphics-in
 Drivers](http://www.omgubuntu.co.uk/2013/04/intel-release-graphical-installer-for-their-linux-drivers)
 [OMG! Ubuntu! - Everything Ubuntu. Daily.](http://www.omgubuntu.co.uk)
 
+<div>
+
 [![](http://feeds.feedburner.com/~ff/d0od?i=5GNZDIEmYg4:WH6bas7Z4T0:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=5GNZDIEmYg4:WH6bas7Z4T0:wBxX2hOkimM)
 [![](http://feeds.feedburner.com/~ff/d0od?d=I9og5sOYxJI)](http://feeds.feedburner.com/~ff/d0od?a=5GNZDIEmYg4:WH6bas7Z4T0:I9og5sOYxJI)
 [![](http://feeds.feedburner.com/~ff/d0od?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/d0od?a=5GNZDIEmYg4:WH6bas7Z4T0:qj6IDK7rITs)
@@ -71,9 +84,20 @@ Drivers](http://www.omgubuntu.co.uk/2013/04/intel-release-graphical-installer-fo
 [![](http://feeds.feedburner.com/~ff/d0od?i=5GNZDIEmYg4:WH6bas7Z4T0:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/d0od?a=5GNZDIEmYg4:WH6bas7Z4T0:gIN9vFwOqvQ)
 [![](http://feeds.feedburner.com/~ff/d0od?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/d0od?a=5GNZDIEmYg4:WH6bas7Z4T0:yIl2AUoC8zA)
 
-![](http://feeds.feedburner.com/~r/d0od/~4/5GNZDIEmYg4)
+</div>
+
+![](http://feeds.feedburner.com/~r/d0od/~4/5GNZDIEmYg4){width="1"
+height="1"}
+
+</div>
 
 \
 
+</div>
+
+<div class="footer">
+
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

@@ -4,12 +4,24 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-4304053195690559100
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/01/pythonfullcircle.html ---
+<div dir="ltr">
 
- {style="margin: 0.25em 0px 0px;"}
+<div
+style="font-family: sans-serif; margin: 0px 10px; overflow: auto; width: 100%;">
+
+ {#section style="margin: 0.25em 0px 0px;"}
+
+<div>
 
 [Python教程一【来源FullCircle杂志中文社区】](http://houge-langley.livejournal.com/4249.html)
 
+</div>
+
+<div style="margin-bottom: 0.5em;">
+
 于 10-12-30 通过 [houge\_langley](http://houge-langley.livejournal.com/)
+
+</div>
 
 \
 == Python 编程——第一部分 ==\
@@ -21,30 +33,26 @@ http://binaryware.blogspot.com/2014/01/pythonfullcircle.html ---
 \
 打开gedit一类的文本编辑器，让我们以下短短四行的代码，然后，我们再分析一下每行代码分别的意义和作用：\
 \
-
     #!/usr/bin/env python  print 'Hello. I am a python program.'  name = raw_input("What is your name? ")  print "Hello there, " + name + "!"  
 
 \
 \
 好了，就这么简单。保存文件hello.py到你喜欢的地方。但为了便于今后的调用，我建议你将它保存在Home分区的python\_examples目录里。麻雀虽小，五脏俱全，这几行代码虽短，却相当完整，这足以证明Python的易用性。在我们运行程序之前，需要在终端中切换到当前目录并输入输入"chmod
 +x
-hello.py"赋予它可执行权限\<译者注：这是Linux的提权命令，其中的参数"x"意指给该文件赋予可执行权限。如下文的译注所言，Linux是根据操作权限来判断是否为可执行文件。如果不执行该命令，则不能直接执行下一条命令\>。现在让我们开始执行程序：\
+hello.py"赋予它可执行权限&lt;译者注：这是Linux的提权命令，其中的参数"x"意指给该文件赋予可执行权限。如下文的译注所言，Linux是根据操作权限来判断是否为可执行文件。如果不执行该命令，则不能直接执行下一条命令&gt;。现在让我们开始执行程序：\
 \
-
     greg@earth:~/python_examples$ ./hello.py  Hello. I am a python program.   What is your name? Ferd Burphel  Hello there, Ferd Burphel!  greg@earth:~/python_examples$  
 
 \
 \
 就怎么简单，我们再分析一下每行代码所表示的意义：\
 \
-
     #!/usr/bin/env python  
 
 \
 \
-这行代码告诉系统，这是一个Python程序，应该用Python解释器来运行。\<译者注：如果你将文件的扩展名定为py，那么这一行的存在并不重要。这和Linux对文件的管理机制有关，当一个文件无扩展名时，将会根据文件的内容自动判断文件的类型。当然，如果你是在Windows下运行执行，这一行代码可以说是毫无意义。\>\
+这行代码告诉系统，这是一个Python程序，应该用Python解释器来运行。&lt;译者注：如果你将文件的扩展名定为py，那么这一行的存在并不重要。这和Linux对文件的管理机制有关，当一个文件无扩展名时，将会根据文件的内容自动判断文件的类型。当然，如果你是在Windows下运行执行，这一行代码可以说是毫无意义。&gt;\
 \
-
     print 'Hello. I am a python program.'   
 
 \
@@ -52,7 +60,6 @@ hello.py"赋予它可执行权限\<译者注：这是Linux的提权命令，其�
 不难看出，这行代码使用print命令将"Hello. I am a python
 program."打印到了终端模拟器中。\
 \
-
     name = raw_input("What is your name? ")  
 
 \
@@ -65,31 +72,28 @@ name?"到终端模拟器中，接着等待用户键入相关内容。再看看�
 Burphel"。在这个例子中，Python只是简单地把它装进变量"name"这个"盒子"里，以备接下来使用。\
 \
 我们再一次执行这个命令将内容打印到屏幕上，这次，我们将"Hello there,
-"和"name"变量中的内容，以及后面的感叹号这三个小部分并置在一起，并打印出来\<译者注：大家可能会注意到，"Hello
+"和"name"变量中的内容，以及后面的感叹号这三个小部分并置在一起，并打印出来&lt;译者注：大家可能会注意到，"Hello
 there,
-"和"!"都有一组双引号，而"name"没有，是前两者是文本而后者是变量的缘故\>。\
+"和"!"都有一组双引号，而"name"没有，是前两者是文本而后者是变量的缘故&gt;。\
 \
 好了，这个例程的讲解到此结束。\
 \
 在进行下一个例程之前，我们花上一小片刻的时间，讨论研究一个稍复杂的问题。让我们打开一个终端模拟器，输入命令"python"。如果不出意外，返回的内容是这样的：\
 \
-
     greg@earth:~/python_examples$ python   Python 2.5.2 (r252:60911, Oct 5 2008, 19:24:49)   [GCC 4.3.2] on linux2   Type "help", "copyright", "credits" or "license" for more information.   >>>  
 
 \
 \
 我们现在已经进入了Python
 Shell中了。各种各样的内容便可以直接在这里完成。首先，你应该注意到的是Python的版本号，我使用的2.5.2版，而且这里提到了如何获得相关的英文帮助。现在我放手让你输入"print
-2+2"\<译者注：这里的print可以省略，直接输入2＋2亦可获得同样的结果\>：\
+2+2"&lt;译者注：这里的print可以省略，直接输入2＋2亦可获得同样的结果&gt;：\
 \
-
     >>> print 2+2   4  >>>  
 
 \
 \
 当你输入单词"print"时，你可能会有一些困惑了，如果把首字母改为大写会怎么样呢？Python解释器只会返回如下的结果：\
 \
-
     >>> Print 2+2    File "", line 1      Print 2+2            ^  SyntaxError: invalid syntax  >>>  
 
 \
@@ -99,21 +103,18 @@ Shell中了。各种各样的内容便可以直接在这里完成。首先，你
 好的，这个暂且搁置一旁，我们再更深层次的认识变量，输入"var =
 2+2"，你会发现解释器没有返回任何结果，但是这并不能代表这个命令毫无用处。Python已经悄悄地在后台新建了一个叫"var"的变量，并赋值为"2＋2"。看看现在"var"这个"盒子"里面装了些什么：\
 \
-
     >>> print var  4   >>>  
 
 \
 \
 好的，我们再在原有变量的基础上进行一些运算：\
 \
-
     >>> print var * 2  8  >>>  
 
 \
 \
 如果我们再次输入原有的命令"print var"，我们得到的还是原来的赋值：\
 \
-
     >>> print var  4   >>>  
 
 \
@@ -122,7 +123,6 @@ Shell中了。各种各样的内容便可以直接在这里完成。首先，你
 \
 在终端模拟器中输入：\
 \
-
     >>> strng = 'The time has come for all good men to come to the aid of the party!'   >>> print strng   The time has come for all good men to come to the aid of the party!   >>>  
 
 \
@@ -131,7 +131,6 @@ Shell中了。各种各样的内容便可以直接在这里完成。首先，你
 men to come to the aid of the
 party！"除非你再次改动它，我们的变量"strng"始终都是不变的。但我们再突发奇想，看看这个乘于4后会怎么样：\
 \
-
     >>> print strng * 4  The time has come for all good men to come to the aid of the party!The time has come for all good men to come to the aid of the party!The time has come for all good men to come to the aid of the party!The time has come for all good men to come to the aid of the party!   >>>  
 
 \
@@ -140,7 +139,6 @@ party！"除非你再次改动它，我们的变量"strng"始终都是不变的�
 \
 我们再像以前的例子一样，赋值"s"为"4"：\
 \
-
     >>> s = '4'  >>> print s  4  
 
 \
@@ -148,7 +146,6 @@ party！"除非你再次改动它，我们的变量"strng"始终都是不变的�
 我们想当然的认为变量s的值为整数4，但事实并非如此。实际上变量s的值是字符串形式的"4"。所以，当我们输入"print
 s \* 4"时，我们看到的是…\
 \
-
     >>> print s*4  4444  >>>  
 
 \
@@ -156,14 +153,16 @@ s \* 4"时，我们看到的是…\
 和以前的例子一样，解释器将它读作字符串，原因在于我们在为s赋值的时候，给"4"加上了引号。\
 \
 我接着上面的例子输入"print
-type(s)"\<译者注：这条命令中的type函数是用于查看变量的类型，故输出"str"，即String类型,字符串\>，看看系统对此的输出：\
+type(s)"&lt;译者注：这条命令中的type函数是用于查看变量的类型，故输出"str"，即String类型,字符串&gt;，看看系统对此的输出：\
 \
-
     >>> print type(s)   
 
-[**Error:** Irreparable invalid markup ('\<type 'str'\>') in entry.
-Owner must fix manually. Raw contents below.]\
+<div>
+
+\[**Error:** Irreparable invalid markup ('&lt;type 'str'&gt;') in entry.
+Owner must fix manually. Raw contents below.\]\
 \
+<div style="overflow: auto; width: 95%;">
 
 == Python 编程——第一部分 ==\
 \
@@ -174,43 +173,43 @@ Owner must fix manually. Raw contents below.]\
 \
 打开gedit一类的文本编辑器，让我们以下短短四行的代码，然后，我们再分析一下每行代码分别的意义和作用：\
 \
-\<pre\>\
+&lt;pre&gt;\
 \#!/usr/bin/env python\
 print 'Hello. I am a python program.'\
 name = raw\_input("What is your name? ")\
 print "Hello there, " + name + "!"\
-\</pre\> \
+&lt;/pre&gt;\
 \
 好了，就这么简单。保存文件hello.py到你喜欢的地方。但为了便于今后的调用，我建议你将它保存在Home分区的python\_examples目录里。麻雀虽小，五脏俱全，这几行代码虽短，却相当完整，这足以证明Python的易用性。在我们运行程序之前，需要在终端中切换到当前目录并输入输入"chmod
 +x
-hello.py"赋予它可执行权限\<译者注：这是Linux的提权命令，其中的参数"x"意指给该文件赋予可执行权限。如下文的译注所言，Linux是根据操作权限来判断是否为可执行文件。如果不执行该命令，则不能直接执行下一条命令\>。现在让我们开始执行程序：\
+hello.py"赋予它可执行权限&lt;译者注：这是Linux的提权命令，其中的参数"x"意指给该文件赋予可执行权限。如下文的译注所言，Linux是根据操作权限来判断是否为可执行文件。如果不执行该命令，则不能直接执行下一条命令&gt;。现在让我们开始执行程序：\
 \
-\<pre\>\
+&lt;pre&gt;\
 greg@earth:\~/python\_examples\$ ./hello.py\
-Hello. I am a python program. \
+Hello. I am a python program.\
 What is your name? Ferd Burphel\
 Hello there, Ferd Burphel!\
 greg@earth:\~/python\_examples\$\
-\</pre\>\
+&lt;/pre&gt;\
 \
 就怎么简单，我们再分析一下每行代码所表示的意义：\
 \
-\<pre\>\
+&lt;pre&gt;\
 \#!/usr/bin/env python\
-\</pre\>\
+&lt;/pre&gt;\
 \
-这行代码告诉系统，这是一个Python程序，应该用Python解释器来运行。\<译者注：如果你将文件的扩展名定为py，那么这一行的存在并不重要。这和Linux对文件的管理机制有关，当一个文件无扩展名时，将会根据文件的内容自动判断文件的类型。当然，如果你是在Windows下运行执行，这一行代码可以说是毫无意义。\>\
+这行代码告诉系统，这是一个Python程序，应该用Python解释器来运行。&lt;译者注：如果你将文件的扩展名定为py，那么这一行的存在并不重要。这和Linux对文件的管理机制有关，当一个文件无扩展名时，将会根据文件的内容自动判断文件的类型。当然，如果你是在Windows下运行执行，这一行代码可以说是毫无意义。&gt;\
 \
-\<pre\>\
-print 'Hello. I am a python program.' \
-\</pre\>\
+&lt;pre&gt;\
+print 'Hello. I am a python program.'\
+&lt;/pre&gt;\
 \
 不难看出，这行代码使用print命令将"Hello. I am a python
 program."打印到了终端模拟器中。\
 \
-\<pre\>\
+&lt;pre&gt;\
 name = raw\_input("What is your name? ")\
-\</pre\>\
+&lt;/pre&gt;\
 \
 这一行相对来说就难理解些了，这行代码可以分成"name = "和"raw\_input("What
 is your name? ")"两部分。我们先来看第二部分，"raw\_input"函数将打印"What
@@ -220,146 +219,146 @@ name?"到终端模拟器中，接着等待用户键入相关内容。再看看�
 Burphel"。在这个例子中，Python只是简单地把它装进变量"name"这个"盒子"里，以备接下来使用。\
 \
 我们再一次执行这个命令将内容打印到屏幕上，这次，我们将"Hello there,
-"和"name"变量中的内容，以及后面的感叹号这三个小部分并置在一起，并打印出来\<译者注：大家可能会注意到，"Hello
+"和"name"变量中的内容，以及后面的感叹号这三个小部分并置在一起，并打印出来&lt;译者注：大家可能会注意到，"Hello
 there,
-"和"!"都有一组双引号，而"name"没有，是前两者是文本而后者是变量的缘故\>。\
+"和"!"都有一组双引号，而"name"没有，是前两者是文本而后者是变量的缘故&gt;。\
 \
 好了，这个例程的讲解到此结束。\
 \
 在进行下一个例程之前，我们花上一小片刻的时间，讨论研究一个稍复杂的问题。让我们打开一个终端模拟器，输入命令"python"。如果不出意外，返回的内容是这样的：\
 \
-\<pre\>\
-greg@earth:\~/python\_examples\$ python \
-Python 2.5.2 (r252:60911, Oct 5 2008, 19:24:49) \
-[GCC 4.3.2] on linux2 \
-Type "help", "copyright", "credits" or "license" for more information. \
-\>\>\>\
-\</pre\>\
+&lt;pre&gt;\
+greg@earth:\~/python\_examples\$ python\
+Python 2.5.2 (r252:60911, Oct 5 2008, 19:24:49)\
+\[GCC 4.3.2\] on linux2\
+Type "help", "copyright", "credits" or "license" for more information.\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 我们现在已经进入了Python
 Shell中了。各种各样的内容便可以直接在这里完成。首先，你应该注意到的是Python的版本号，我使用的2.5.2版，而且这里提到了如何获得相关的英文帮助。现在我放手让你输入"print
-2+2"\<译者注：这里的print可以省略，直接输入2＋2亦可获得同样的结果\>：\
+2+2"&lt;译者注：这里的print可以省略，直接输入2＋2亦可获得同样的结果&gt;：\
 \
-\<pre\>\
-\>\>\> print 2+2 \
+&lt;pre&gt;\
+&gt;&gt;&gt; print 2+2\
 4\
-\>\>\>\
-\</pre\>\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 当你输入单词"print"时，你可能会有一些困惑了，如果把首字母改为大写会怎么样呢？Python解释器只会返回如下的结果：\
 \
-\<pre\>\
-\>\>\> Print 2+2\
-File "\<stdin\>", line 1\
+&lt;pre&gt;\
+&gt;&gt;&gt; Print 2+2\
+File "&lt;stdin&gt;", line 1\
 Print 2+2\
 \^\
 SyntaxError: invalid syntax\
-\>\>\>\
-\</pre\>\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 这是因为"print"是一个已知的命令，但"Print"不是。因为Python在这方面极其严格，明白了这个问题非常重要。\
 \
 好的，这个暂且搁置一旁，我们再更深层次的认识变量，输入"var =
 2+2"，你会发现解释器没有返回任何结果，但是这并不能代表这个命令毫无用处。Python已经悄悄地在后台新建了一个叫"var"的变量，并赋值为"2＋2"。看看现在"var"这个"盒子"里面装了些什么：\
 \
-\<pre\>\
-\>\>\> print var\
-4 \
-\>\>\>\
-\</pre\>\
+&lt;pre&gt;\
+&gt;&gt;&gt; print var\
+4\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 好的，我们再在原有变量的基础上进行一些运算：\
 \
-\<pre\>\
-\>\>\> print var \* 2\
+&lt;pre&gt;\
+&gt;&gt;&gt; print var \* 2\
 8\
-\>\>\>\
-\</pre\>\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 如果我们再次输入原有的命令"print var"，我们得到的还是原来的赋值：\
 \
-\<pre\>\
-\>\>\> print var\
-4 \
-\>\>\>\
-\</pre\>\
+&lt;pre&gt;\
+&gt;&gt;&gt; print var\
+4\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 看到了吧，刚才的变量值毫无变化，还是"2＋2"的值或"4"。如我们所说的那样，在刚才的讲解中，我们选取的是相当简单的例程，现在，我们要向更加复杂的问题进军，但在此之前，我们再看一些关于变量的例子：\
 \
 在终端模拟器中输入：\
 \
-\<pre\>\
-\>\>\> strng = 'The time has come for all good men to come to the aid of
-the party!' \
-\>\>\> print strng \
-The time has come for all good men to come to the aid of the party! \
-\>\>\>\
-\</pre\>\
+&lt;pre&gt;\
+&gt;&gt;&gt; strng = 'The time has come for all good men to come to the
+aid of the party!'\
+&gt;&gt;&gt; print strng\
+The time has come for all good men to come to the aid of the party!\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 我可以新建一个名为"strng"的变量，并赋值为"The time has come for all good
 men to come to the aid of the
 party！"除非你再次改动它，我们的变量"strng"始终都是不变的。但我们再突发奇想，看看这个乘于4后会怎么样：\
 \
-\<pre\>\
-\>\>\> print strng \* 4\
+&lt;pre&gt;\
+&gt;&gt;&gt; print strng \* 4\
 The time has come for all good men to come to the aid of the party!The
 time has come for all good men to come to the aid of the party!The time
 has come for all good men to come to the aid of the party!The time has
-come for all good men to come to the aid of the party! \
-\>\>\>\
-\</pre\>\
+come for all good men to come to the aid of the party!\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 哦，结果就是怎样。在我们的意料之外，对吗？它反复打印的"strng"变量四次。这是为什么呢？因为解释器只会将它理解为一个字符串，而非一个数值，你不可能对一个字符串执行数学运算。\
 \
 我们再像以前的例子一样，赋值"s"为"4"：\
 \
-\<pre\>\
-\>\>\> s = '4'\
-\>\>\> print s\
+&lt;pre&gt;\
+&gt;&gt;&gt; s = '4'\
+&gt;&gt;&gt; print s\
 4\
-\</pre\>\
+&lt;/pre&gt;\
 \
 我们想当然的认为变量s的值为整数4，但事实并非如此。实际上变量s的值是字符串形式的"4"。所以，当我们输入"print
 s \* 4"时，我们看到的是…\
 \
-\<pre\>\
-\>\>\> print s\*4\
+&lt;pre&gt;\
+&gt;&gt;&gt; print s\*4\
 4444\
-\>\>\>\
-\</pre\>\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 和以前的例子一样，解释器将它读作字符串，原因在于我们在为s赋值的时候，给"4"加上了引号。\
 \
 我接着上面的例子输入"print
-type(s)"\<译者注：这条命令中的type函数是用于查看变量的类型，故输出"str"，即String类型,字符串\>，看看系统对此的输出：\
+type(s)"&lt;译者注：这条命令中的type函数是用于查看变量的类型，故输出"str"，即String类型,字符串&gt;，看看系统对此的输出：\
 \
-\<pre\>\
-\>\>\> print type(s) \
-\<type 'str'\>\
-\>\>\>\
-\</pre\>\
+&lt;pre&gt;\
+&gt;&gt;&gt; print type(s)\
+&lt;type 'str'&gt;\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 经确认，此时变量s的类型一个字符串类型。如果你确实想把它当作一个数值，可以输入以下代码：\
 \
-\<pre\>\
-\>\>\>\
+&lt;pre&gt;\
+&gt;&gt;&gt;\
 print int(s) \* 4\
 16\
-\>\>\>\
-\</pre\>\
+&gt;&gt;&gt;\
+&lt;/pre&gt;\
 \
 看到了吧，我们已经把字符串"s"转换为一个数值，自然输出的是16。\
 好了到此为止，我们已经初步认识了"print"命令和"raw\_input"函数，变量的赋值以及一些字符串与数值之间的关系。\
-我们又向Python的奇妙世界迈进了一大步，我们输入"quit()"\<译者注：其实也可以按快捷键Ctrl＋D\>，退出Python
+我们又向Python的奇妙世界迈进了一大步，我们输入"quit()"&lt;译者注：其实也可以按快捷键Ctrl＋D&gt;，退出Python
 Shell。\
 \
 ===循环的例程===\
 现在让我们探讨一下关于循环的问题。打开文本编辑器，输入以下代码：\
-\<pre\>\
+&lt;pre&gt;\
 \#! /usr/bin/env python\
 for cntr in range(0,10):\
 print cntr\
-\</pre\> \
+&lt;/pre&gt;\
 \
 确认你已经在"print
 cntr"的行首缩进了。这在Python中相当重要，因为它并不像其他编程语言一样，使用小、大括号来识别程序块。至于空多少格，要求并不苛刻。只要在行首空了格就行，具体空多少格关系不大。但是如果有多行要缩进，一定要保证每行的空格统一。还有一点要切切记住，尽量不要使用Tab键缩进。一般为了方便，Python会将Tab翻译为四个空格后再进行解释，但这并不是完全通行的办法。所以要尽量养成好的编程习惯。然后保存以上代码为"for\_loop.py"文件，然后运行它，看看发生了什么。\
@@ -368,26 +367,26 @@ cntr"的行首缩进了。这在Python中相当重要，因为它并不像其他
 \
 在运行前，可以先执行这条刚才的提权命令:\
 \
-\<pre\>\
+&lt;pre&gt;\
 chmod +x for\_loop.py\
-\</pre\>\
+&lt;/pre&gt;\
 \
 然后运行它：\
 \
-\<pre\>\
-greg@earth:\~/python\_examples\$ ./for\_loop.py \
-0 \
-1 \
-2 \
-3 \
-4 \
-5 \
-6 \
-7 \
-8 \
-9 \
+&lt;pre&gt;\
+greg@earth:\~/python\_examples\$ ./for\_loop.py\
+0\
+1\
+2\
+3\
+4\
+5\
+6\
+7\
+8\
+9\
 greg@earth:\~/python\_examples\$\
-\</pre\>\
+&lt;/pre&gt;\
 \
 正如我们所看到的，它开始工作了，但为什么它只是循环到9就结束了呢？大家可能会想：0－9已经足够有10个数字了，这不正是我们所让它做的吗？把"range(0,10)"的10改为11，不就输出10个数了吗？可真的是我们所想的那样吗？我们应该透过现象看本质，让编程的原理一目了然。如果你确实要弄懂你到底让系统做些什么，这依然是很复杂的。如果你修改代码为"range(1,10)"，它还是只输出1－9，总是在将要达到10时循环就停止了。所以在循环中，包含我们给出的第一个数，但不包括最后一个。\
 在编程过程中，我们一定要注意语法的正确。总结刚才的代码，我们得出这样一条式子："for
@@ -395,29 +394,29 @@ greg@earth:\~/python\_examples\$\
 range(第一个数,最后一个数):"其中的冒号表示，以下还有一个程序块，这在Python编程中相当重要，而且还不要忘记在下面的程序块中缩进。\
 我们再在上文的例子的基础上，把代码改为：\
 \
-\<pre\>\
+&lt;pre&gt;\
 \#! /usr/bin/env python\
 for cntr in range(0,10):\
-print cntr \
-print 'All Done' \
-\</pre\>\
+print cntr\
+print 'All Done'\
+&lt;/pre&gt;\
 \
 于是当循环结束后，在末尾出现了一个"结束语"：\
 \
-\<pre\>\
-greg@earth:\~/python\_examples\$ ./for\_loop.py \
-1 \
-2 \
-3 \
-4 \
-5 \
-6 \
-7 \
-8 \
-9 \
-All Done \
+&lt;pre&gt;\
+greg@earth:\~/python\_examples\$ ./for\_loop.py\
+1\
+2\
+3\
+4\
+5\
+6\
+7\
+8\
+9\
+All Done\
 greg@earth:\~/python\_examples\$\
-\</pre\>\
+&lt;/pre&gt;\
 \
 记住，请在编程的时候再三确认程序块缩进的正确。关于这些，我们会在今后的教程中细细讲解。\
 \
@@ -432,7 +431,24 @@ program.'"这行代码的"Hello"换成中文"你好"。可按照文中的方法�
 coding=utf8"或"\# coding: utf8"。
 好了，这一问题就这么简单，祝你能遨游在Python的奇妙世界中！
 
+</div>
+
+</div>
+
+</div>
+
 \
+<div
+style="background-color: #c3d9ff; font-size: 1px!important; line-height: 0px!important; margin: 0px 2px; padding-top: 1px;">
+
+</div>
+
+<div
+style="background-color: #c3d9ff; font-size: 1px!important; line-height: 0px!important; margin: 0px 1px; padding-top: 1px;">
+
+</div>
 
 ### \
- {style="font-family: sans-serif; margin: 0px 3px;"}
+ {#section-1 style="font-family: sans-serif; margin: 0px 3px;"}
+
+</div>

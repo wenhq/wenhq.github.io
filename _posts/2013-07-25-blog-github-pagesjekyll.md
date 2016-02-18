@@ -7,288 +7,1094 @@ tag:blogger.com,1999:blog-4961947611491238191.post-3957427763204375731
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/07/blog-github-pagesjekyll.html ---
 
-[\
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[\
 搭建一个免费的，无限流量的Blog----github
-Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)
+Pages和Jekyll入门](http://www.ruanyifeng.com/blog/2012/08/blogging_with_jekyll.html)</span>
 
-于 12-8-25 通过 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+</div>
 
-[](http://www.ruanyifeng.com/blog/)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 8pt; padding-left: 0; padding-right: 0; padding-top: 0;">
 
-喜欢写Blog的人，会经历三个阶段。
+<span style="font-family: &quot;Verdana&quot;;">于 12-8-25 通过
+</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[阮一峰的网络日志](http://www.ruanyifeng.com/blog/)</span>
 
-第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。
+</div>
 
-第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[](http://www.ruanyifeng.com/blog/)</span>
 
-大多数Blog作者，都停留在第一和第二阶段，因为第三阶段不太容易到达：你很难找到俯首听命、愿意为你管理服务器的人。
+</div>
 
-![](https://lh4.googleusercontent.com/-XXBW-TjbgmwKI3RgyvQL1aw31wJiuwJCVnJUsnoXkNCv9kDc9CDPajJ1J1FaS4EZ5cEIFVitl5WgZs-GhACmdNrEB7sN8b3cMMkxBmEOxpsIBDpaLw)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-但是两年前，情况出现变化，一些程序员开始在[ｇithub](https://github.com/)网站上搭建blog。他们既拥有绝对管理权，又享受github带来的便利----不管何时何地，只要向主机提交commit，就能发布新文章。更妙的是，这一切还是免费的，github提供无限流量，世界各地都有理想的访问速度。
+<span
+style="font-family: &quot;Verdana&quot;;">喜欢写Blog的人，会经历三个阶段。</span>
 
-今天，我就来示范如何在github上搭建Blog，你可以从中掌握github的Pages功能，以及Jekyll软件的基本用法。更重要的是，你会体会到一种建立网站的全新思路。
+</div>
 
-![](https://lh6.googleusercontent.com/rhOCffuvEDkzb8W5U4ghiprpiIYeG6Z6xc_oV2rmf1QiXYXZwaEgee7v48W-x28_EImH8cppntKZD1DGmjvWotRaP9PAH6jAI_eQhrAUptzfD32obz4)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-一、Github Pages 是什么？
+<span
+style="font-family: &quot;Verdana&quot;;">第一阶段，刚接触Blog，觉得很新鲜，试着选择一个免费空间来写。</span>
 
-如果你对编程有所了解，就一定听说过[github](https://github.com/)。它号称程序员的Facebook，有着极高的人气，许多重要的项目都托管在上面。
+</div>
 
-简单说，它是一个具有版本管理功能的代码仓库，每个项目都有一个主页，列出项目的源文件。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-![](https://lh3.googleusercontent.com/S4IFqzjd3tNUXGfoLffz7ia7TlzrfXdq6l0hf8rRpUyJV8r-3WFV4Rm2bGZYBA0rsFcpZDWLiAVWU6qiOhZUhxmJDw0kCUkrF8cAc3jqAUEqbb66PSU)
+<span
+style="font-family: &quot;Verdana&quot;;">第二阶段，发现免费空间限制太多，就自己购买域名和空间，搭建独立博客。</span>
 
-但是对于一个新手来说，看到一大堆源码，只会让人头晕脑涨，不知何处入手。他希望看到的是，一个简明易懂的网页，说明每一步应该怎么做。因此，github就设计了[Pages功能](http://pages.github.com/)，允许用户自定义项目首页，用来替代默认的源码列表。所以，github
-Pages可以被认为是用户编写的、托管在github上的静态网页。
+</div>
 
-![](https://lh4.googleusercontent.com/4Q1LssLdaq54GWx5bgiDZ3c7DDOp53LnuozBLTbYl-qfTiEM7oT0-QzmMWQAKLaNIJZ73ZqRMAQ5PR3KHUtmh8vgbmGWFsrwixsPH2Tcb5rM31JpUIg)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-github提供模板，允许[站内生成](https://help.github.com/articles/creating-pages-with-the-automatic-generator)网页，但也允许用户自己编写网页，然后上传。有意思的是，这种上传并不是单纯的上传，而是会经过Jekyll程序的再处理。
+<span
+style="font-family: &quot;Verdana&quot;;">第三阶段，觉得独立博客的管理太麻烦，最好在保留控制权的前提下，让别人来管，自己只负责写文章。</span>
 
-二、Jekyll是什么？
+</div>
 
-[Jekyll](http://jekyllrb.com/)（发音/'dʒiːk
-əl/，"杰克尔"）是一个静态站点生成器，它会根据网页源码生成静态文件。它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-![](https://lh4.googleusercontent.com/aNTHWnBMc-nHGCeZaB3F-OVjYcKp-fu1Sauce4rXVzcw3DyGfQW7z3W3bHLPJBkRqjoBNY_HCjuBozCOWGBdniNGRtP5secEbCdbvLK79VI-YwRZJfg)
+<span
+style="font-family: &quot;Verdana&quot;;">大多数Blog作者，都停留在第一和第二阶段，因为第三阶段不太容易到达：你很难找到俯首听命、愿意为你管理服务器的人。</span>
 
-整个思路到这里就很明显了。你先在本地编写符合Jekyll规范的网站源码，然后上传到github，由github生成并托管整个网站。
+</div>
 
-这种做法的好处是：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\* 免费，无限流量。
+![](https://lh4.googleusercontent.com/-XXBW-TjbgmwKI3RgyvQL1aw31wJiuwJCVnJUsnoXkNCv9kDc9CDPajJ1J1FaS4EZ5cEIFVitl5WgZs-GhACmdNrEB7sN8b3cMMkxBmEOxpsIBDpaLw){width="516"
+height="362"}
 
-\* 享受git的版本管理功能，不用担心文章遗失。
+</div>
 
-\*
-你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-它的缺点是：
+<span
+style="font-family: &quot;Verdana&quot;;">但是两年前，情况出现变化，一些程序员开始在</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[ｇithub](https://github.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">网站上搭建blog。他们既拥有绝对管理权，又享受github带来的便利----不管何时何地，只要向主机提交commit，就能发布新文章。更妙的是，这一切还是免费的，github提供无限流量，世界各地都有理想的访问速度。</span>
 
-\* 有一定技术门槛，你必须要懂一点git和网页开发。
+</div>
 
-\*
-它生成的是静态网页，添加动态功能必须使用外部服务，比如评论功能就只能用[disqus](http://disqus.com/)。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\*
-它不适合大型网站，因为没有用到数据库，每运行一次都必须遍历全部的文本文件，网站越大，生成时间越长。
+<span
+style="font-family: &quot;Verdana&quot;;">今天，我就来示范如何在github上搭建Blog，你可以从中掌握github的Pages功能，以及Jekyll软件的基本用法。更重要的是，你会体会到一种建立网站的全新思路。</span>
 
-但是，综合来看，它不失为搭建中小型Blog或项目主页的最佳选项之一。
+</div>
 
-三、一个实例
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-下面，我举一个实例，演示如何在github上搭建blog，你可以跟着一步步做。为了便于理解，这个blog只有最基本的功能。
+![](https://lh6.googleusercontent.com/rhOCffuvEDkzb8W5U4ghiprpiIYeG6Z6xc_oV2rmf1QiXYXZwaEgee7v48W-x28_EImH8cppntKZD1DGmjvWotRaP9PAH6jAI_eQhrAUptzfD32obz4){width="600"
+height="232"}
 
-在搭建之前，你必须已经安装了[git](http://git-scm.com/book/en/Getting-Started-Installing-Git)，并且有[github](https://github.com/)账户。
+</div>
 
-第一步，创建项目。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-在你的电脑上，建立一个目录，作为项目的主目录。我们假定，它的名称为jekyll\_demo。
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">一、Github
+Pages 是什么？</span>
 
-\$ mkdir jekyll\_demo
+</div>
 
-对该目录进行git初始化。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\$ cd jekyll\_demo
+<span
+style="font-family: &quot;Verdana&quot;;">如果你对编程有所了解，就一定听说过</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[github](https://github.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">。它号称程序员的Facebook，有着极高的人气，许多重要的项目都托管在上面。</span>
 
-\$ git init
+</div>
 
-然后，创建一个没有父节点的分支gh-pages。因为github规定，只有该分支中的页面，才会生成网页文件。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\$ git checkout --orphan gh-pages
+<span
+style="font-family: &quot;Verdana&quot;;">简单说，它是一个具有版本管理功能的代码仓库，每个项目都有一个主页，列出项目的源文件。</span>
 
-以下所有动作，都在该分支下完成。
+</div>
 
-第二步，创建设置文件。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-在项目根目录下，建立一个名为\_config.yml的文本文件。它是jekyll的设置文件，我们在里面填入如下内容，其他设置都可以用默认选项，具体解释参见[官方网页](https://github.com/mojombo/jekyll/wiki/Configuration)。
+![](https://lh3.googleusercontent.com/S4IFqzjd3tNUXGfoLffz7ia7TlzrfXdq6l0hf8rRpUyJV8r-3WFV4Rm2bGZYBA0rsFcpZDWLiAVWU6qiOhZUhxmJDw0kCUkrF8cAc3jqAUEqbb66PSU){width="651"
+height="540"}
 
-baseurl: /jekyll\_demo
+</div>
 
-目录结构变成：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-/jekyll\_demo
+<span
+style="font-family: &quot;Verdana&quot;;">但是对于一个新手来说，看到一大堆源码，只会让人头晕脑涨，不知何处入手。他希望看到的是，一个简明易懂的网页，说明每一步应该怎么做。因此，github就设计了</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Pages功能](http://pages.github.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">，允许用户自定义项目首页，用来替代默认的源码列表。</span><span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">所以，github
+Pages可以被认为是用户编写的、托管在github上的静态网页。</span>
 
-|-- \_config.yml
+</div>
 
-第三步，创建模板文件。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-在项目根目录下，创建一个\_layouts目录，用于存放模板文件。
+![](https://lh4.googleusercontent.com/4Q1LssLdaq54GWx5bgiDZ3c7DDOp53LnuozBLTbYl-qfTiEM7oT0-QzmMWQAKLaNIJZ73ZqRMAQ5PR3KHUtmh8vgbmGWFsrwixsPH2Tcb5rM31JpUIg){width="480"
+height="475"}
 
-\$ mkdir \_layouts
+</div>
 
-进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<!DOCTYPE html\>
+<span
+style="font-family: &quot;Verdana&quot;;">github提供模板，允许</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[站内生成](https://help.github.com/articles/creating-pages-with-the-automatic-generator)</span><span
+style="font-family: &quot;Verdana&quot;;">网页，但也允许用户自己编写网页，然后上传。有意思的是，这种上传并不是单纯的上传，而是会经过Jekyll程序的再处理。</span>
 
-\<html\>
+</div>
 
-\<head\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<meta http-equiv="content-type" content="text/html; charset=utf-8" /\>
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">二、Jekyll是什么？</span>
 
-\<title\>{{ "{{" }} page.title }}\</title\>
+</div>
 
-\</head\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<body\>
+<span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; font-weight: bold; text-decoration: underline;">[Jekyll](http://jekyllrb.com/)</span><span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">（发音/'dʒiːk
+əl/，"杰克尔"）是一个静态站点生成器，它会根据网页源码生成静态文件。</span><span
+style="font-family: &quot;Verdana&quot;;">它提供了模板、变量、插件等功能，所以实际上可以用来编写整个网站。</span>
 
-{{ "{{" }} content }}
+</div>
 
-\</body\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\</html\>
+![](https://lh4.googleusercontent.com/aNTHWnBMc-nHGCeZaB3F-OVjYcKp-fu1Sauce4rXVzcw3DyGfQW7z3W3bHLPJBkRqjoBNY_HCjuBozCOWGBdniNGRtP5secEbCdbvLK79VI-YwRZJfg){width="631"
+height="371"}
 
-Jekyll使用[Liquid模板语言](https://github.com/shopify/liquid/wiki/liquid-for-designers)，{{
-"{{" }} page.title }}表示文章标题，{{ "{{" }} content
-}}表示文章内容，更多模板变量请参考[官方文档](https://github.com/mojombo/jekyll/wiki/Template-Data)。
+</div>
 
-目录结构变成：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-/jekyll\_demo
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">整个思路到这里就很明显了。你先在本地编写符合Jekyll规范的网站源码，然后上传到github，由github生成并托管整个网站。</span>
 
-|-- \_config.yml
+</div>
 
-|-- \_layouts
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-|   |-- default.html
+<span
+style="font-family: &quot;Verdana&quot;;">这种做法的好处是：</span>
 
-第四步，创建文章。
+</div>
 
-回到项目根目录，创建一个\_posts目录，用于存放blog文章。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\$ mkdir \_posts
+<span style="font-family: &quot;Verdana&quot;;">\*
+免费，无限流量。</span>
 
-进入该目录，创建第一篇文章。文章就是普通的文本文件，文件名假定为2012-08-25-hello-world.html。(注意，文件名必须为"年-月-日-文章标题.后缀名"的格式。如果网页代码采用html格式，后缀名为html；如果采用[markdown](http://daringfireball.net/projects/markdown/)格式，后缀名为md。）
+</div>
 
-在该文件中，填入以下内容：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
----
+<span style="font-family: &quot;Verdana&quot;;">\*
+享受git的版本管理功能，不用担心文章遗失。</span>
 
-layout: default
+</div>
 
-title: 你好，世界
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
----
+<span style="font-family: &quot;Verdana&quot;;">\*
+你只要用自己喜欢的编辑器写文章就可以了，其他事情一概不用操心，都由github处理。</span>
 
-\<h2\>{{ "{{" }} page.title }}\</h2\>
+</div>
 
-\<p\>我的第一篇文章\</p\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<p\>{{ "{{" }} page.date | date\_to\_string }}\</p\>
+<span style="font-family: &quot;Verdana&quot;;">它的缺点是：</span>
 
-每篇文章的头部，必须有一个[yaml文件头](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)，用来设置一些元数据。它用三根短划线"---"，标记开始和结束，里面每一行设置一种元数据。"layout:default"，表示该文章的模板使用\_layouts目录下的default.html文件；"title:
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\*
+有一定技术门槛，你必须要懂一点git和网页开发。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\*
+它生成的是静态网页，添加动态功能必须使用外部服务，比如评论功能就只能用</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[disqus](http://disqus.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\*
+它不适合大型网站，因为没有用到数据库，每运行一次都必须遍历全部的文本文件，网站越大，生成时间越长。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">但是，综合来看，它不失为搭建中小型Blog或项目主页的最佳选项之一。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">三、一个实例</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">下面，我举一个实例，演示如何在github上搭建blog，你可以跟着一步步做。为了便于理解，这个blog只有最基本的功能。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">在搭建之前，你必须已经安装了</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[git](http://git-scm.com/book/en/Getting-Started-Installing-Git)</span><span
+style="font-family: &quot;Verdana&quot;;">，并且有</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[github](https://github.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">账户。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第一步，创建项目。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">在你的电脑上，建立一个目录，作为项目的主目录。我们假定，它的名称为jekyll\_demo。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ mkdir
+jekyll\_demo</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">对该目录进行git初始化。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ cd
+jekyll\_demo</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git init</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">然后，创建一个没有父节点的分支gh-pages。因为github规定，只有该分支中的页面，才会生成网页文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git checkout --orphan
+gh-pages</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">以下所有动作，都在该分支下完成。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第二步，创建设置文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">在项目根目录下，建立一个名为\_config.yml的文本文件。它是jekyll的设置文件，我们在里面填入如下内容，其他设置都可以用默认选项，具体解释参见</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[官方网页](https://github.com/mojombo/jekyll/wiki/Configuration)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">baseurl:
+/jekyll\_demo</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">目录结构变成：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">/jekyll\_demo</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">|-- \_config.yml</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第三步，创建模板文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">在项目根目录下，创建一个\_layouts目录，用于存放模板文件。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ mkdir
+\_layouts</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">进入该目录，创建一个default.html文件，作为Blog的默认模板。并在该文件中填入以下内容。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;!DOCTYPE
+html&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;html&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;head&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;meta
+http-equiv="content-type" content="text/html; charset=utf-8"
+/&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;title&gt;{{ "{{" }}
+page.title }}&lt;/title&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;/head&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;body&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;"></span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">{{ "{{" }} content
+}}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; height: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;"></span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;/body&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;/html&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">Jekyll使用</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[Liquid模板语言](https://github.com/shopify/liquid/wiki/liquid-for-designers)</span><span
+style="font-family: &quot;Verdana&quot;;">，{{ "{{" }} page.title
+}}表示文章标题，{{ "{{" }} content
+}}表示文章内容，更多模板变量请参考</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[官方文档](https://github.com/mojombo/jekyll/wiki/Template-Data)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">目录结构变成：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">/jekyll\_demo</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">|-- \_config.yml</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">|-- \_layouts</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">|   |--
+default.html</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第四步，创建文章。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">回到项目根目录，创建一个\_posts目录，用于存放blog文章。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ mkdir \_posts</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">进入该目录，创建第一篇文章。文章就是普通的文本文件，文件名假定为2012-08-25-hello-world.html。(注意，文件名必须为"年-月-日-文章标题.后缀名"的格式。如果网页代码采用html格式，后缀名为html；如果采用</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[markdown](http://daringfireball.net/projects/markdown/)</span><span
+style="font-family: &quot;Verdana&quot;;">格式，后缀名为md。）</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">在该文件中，填入以下内容：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">---</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">layout: default</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">title: 你好，世界</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">---</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;h2&gt;{{ "{{" }}
+page.title }}&lt;/h2&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">&lt;p&gt;我的第一篇文章&lt;/p&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;p&gt;{{ "{{" }}
+page.date | date\_to\_string }}&lt;/p&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">每篇文章的头部，必须有一个</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[yaml文件头](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)</span><span
+style="font-family: &quot;Verdana&quot;;">，用来设置一些元数据。它用三根短划线"---"，标记开始和结束，里面每一行设置一种元数据。"layout:default"，表示该文章的模板使用\_layouts目录下的default.html文件；"title:
 你好，世界"，表示该文章的标题是"你好，世界"，如果不设置这个值，默认使用嵌入文件名的标题，即"hello
-world"。
+world"。</span>
 
-在yaml文件头后面，就是文章的正式内容，里面可以使用模板变量。{{ "{{" }}
-page.title }}就是文件头中设置的"你好，世界"，{{ "{{" }} page.date
-}}则是嵌入文件名的日期（也可以在文件头重新定义date变量），"|
-date\_to\_string"表示将page.date变量转化成人类可读的格式。
+</div>
 
-目录结构变成：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-/jekyll\_demo
+<span
+style="font-family: &quot;Verdana&quot;;">在yaml文件头后面，就是文章的正式内容，里面可以使用模板变量。{{
+"{{" }} page.title }}就是文件头中设置的"你好，世界"，{{ "{{" }}
+page.date }}则是嵌入文件名的日期（也可以在文件头重新定义date变量），"|
+date\_to\_string"表示将page.date变量转化成人类可读的格式。</span>
 
-|-- \_config.yml
+</div>
 
-|-- \_layouts
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-|   |-- default.html
+<span style="font-family: &quot;Verdana&quot;;">目录结构变成：</span>
 
-|-- \_posts
+</div>
 
-|   |-- 2012-08-25-hello-world.html
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-第五步，创建首页。
+<span style="font-family: &quot;Verdana&quot;;">/jekyll\_demo</span>
 
-有了文章以后，还需要有一个首页。
+</div>
 
-回到根目录，创建一个index.html文件，填入以下内容。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
----
+<span style="font-family: &quot;Verdana&quot;;">|-- \_config.yml</span>
 
-layout: default
+</div>
 
-title: 我的Blog
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
----
+<span style="font-family: &quot;Verdana&quot;;">|-- \_layouts</span>
 
-\<h2\>{{ "{{" }} page.title }}\</h2\>
+</div>
 
-\<p\>最新文章\</p\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\<ul\>
+<span style="font-family: &quot;Verdana&quot;;">|   |--
+default.html</span>
 
-{{ "{%" }} for post in site.posts %}
+</div>
 
-\<li\>{{ "{{" }} post.date | date\_to\_string }} \<a href="{{ "{{" }}
-site.baseurl }}{{ "{{" }} post.url }}"\>{{ "{{" }} post.title
-}}\</a\>\</li\>
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-{{ "{%" }} endfor %}
+<span style="font-family: &quot;Verdana&quot;;">|-- \_posts</span>
 
-\</ul\>
+</div>
 
-它的Yaml文件头表示，首页使用default模板，标题为"我的Blog"。然后，首页使用了{{
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">|   |--
+2012-08-25-hello-world.html</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第五步，创建首页。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">有了文章以后，还需要有一个首页。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">回到根目录，创建一个index.html文件，填入以下内容。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">---</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">layout: default</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">title: 我的Blog</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">---</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;h2&gt;{{ "{{" }}
+page.title }}&lt;/h2&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">&lt;p&gt;最新文章&lt;/p&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;ul&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">{{ "{%" }} for post in
+site.posts %}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;li&gt;{{ "{{" }}
+post.date | date\_to\_string }} &lt;a href="{{ "{{" }} site.baseurl }}{{
+"{{" }} post.url }}"&gt;{{ "{{" }} post.title
+}}&lt;/a&gt;&lt;/li&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">{{ "{%" }} endfor
+%}</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">&lt;/ul&gt;</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">它的Yaml文件头表示，首页使用default模板，标题为"我的Blog"。然后，首页使用了{{
 "{%" }} for post in site.posts
 %}，表示对所有帖子进行一个遍历。这里要注意的是，Liquid模板语言规定，输出内容使用两层大括号，单纯的命令使用一层大括号。至于{{
-"{{" }}site.baseurl}}就是\_config.yml中设置的baseurl变量。
+"{{" }}site.baseurl}}就是\_config.yml中设置的baseurl变量。</span>
 
-目录结构变成：
+</div>
 
-/jekyll\_demo
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-|-- \_config.yml
+<span style="font-family: &quot;Verdana&quot;;">目录结构变成：</span>
 
-|-- \_layouts
+</div>
 
-|   |-- default.html
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-|-- \_posts
+<span style="font-family: &quot;Verdana&quot;;">/jekyll\_demo</span>
 
-|   |-- 2012-08-25-hello-world.html
+</div>
 
-|-- index.html
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-第六步，发布内容。
+<span style="font-family: &quot;Verdana&quot;;">|-- \_config.yml</span>
 
-现在，这个简单的Blog就可以发布了。先把所有内容加入本地git库。
+</div>
 
-\$ git add .
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\$ git commit -m "first post"
+<span style="font-family: &quot;Verdana&quot;;">|-- \_layouts</span>
 
-然后，在github上创建一个名为jekyll\_demo的repo。再将本地内容推送到github。注意，下面命令中的username，要替换成你的username。
+</div>
 
-\$ git remote add origin
-[https://github.com/](https://github.com/)username/jekyll\_demo.git
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-\$ git push origin gh-pages
+<span style="font-family: &quot;Verdana&quot;;">|   |--
+default.html</span>
 
-上传成功之后，等10分钟左右，访问[http://username.github.com/jekyll\_demo/](http://username.github.com/jekyll_demo/)就可以看到Blog已经生成了（将username换成你的用户名）。
+</div>
 
-首页：
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-![](https://lh6.googleusercontent.com/u8bvwJ5QFOiidxzGWooCLn2_CLDSNWjyC6N7A2awUVWsaUfgNMqPIOK1tsY0wXLc368vEZCzbaanaDq6cgVy9PjVrgZcczuNYAlwm_QWTKmIrSgAxcQ)
+<span style="font-family: &quot;Verdana&quot;;">|-- \_posts</span>
 
-文章页面：
+</div>
 
-![](https://lh6.googleusercontent.com/evcPmo-D7SGfJPsCDf8h_5Xy5AvNrCyBL1UG-GKNN8O5zTxkybrlcw8YDDFGxC60dzo6ZslXIMDvlVLVScEb4G6WLEDGZYnaq8RptNsnXjIxMkfoHmM)
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-第七步，绑定域名。
+<span style="font-family: &quot;Verdana&quot;;">|   |--
+2012-08-25-hello-world.html</span>
 
-如果你不想用[http://username.github.com/jekyll\_demo/](http://username.github.com/jekyll_demo/)这个域名，可以换成自己的域名。
+</div>
 
-具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如[example.com](http://example.com/)或者[xxx.example.com](http://xxx.example.com/)。
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向[username.github.com](http://username.github.com/)（请将username换成你的用户名）。此外，别忘了将\_config.yml文件中的baseurl改成根目录"/"。
+<span style="font-family: &quot;Verdana&quot;;">|-- index.html</span>
 
-至此，最简单的Blog就算搭建完成了。进一步的完善，请参考Jekyll创始人的[示例库](https://github.com/mojombo/tpw)，以及其他用Jekyll搭建的[blog](https://github.com/mojombo/jekyll/wiki/Sites)。
+</div>
 
-（完）
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
 
-###  {style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 20.8pt; padding-left: 0; padding-right: 0; padding-top: 4.8pt; text-align: left;"}
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第六步，发布内容。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">现在，这个简单的Blog就可以发布了。先把所有内容加入本地git库。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git add .</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git commit -m "first
+post"</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">然后，在github上创建一个名为jekyll\_demo的repo。再将本地内容推送到github。注意，下面命令中的username，要替换成你的username。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git remote add origin
+</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;"><https://github.com/></span><span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">username</span><span
+style="font-family: &quot;Verdana&quot;;">/jekyll\_demo.git</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">\$ git push origin
+gh-pages</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">上传成功之后，等10分钟左右，访问</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; font-weight: bold; text-decoration: underline;"><http://username.github.com/jekyll_demo/></span><span
+style="font-family: &quot;Verdana&quot;;">就可以看到Blog已经生成了（将username换成你的用户名）。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">首页：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+![](https://lh6.googleusercontent.com/u8bvwJ5QFOiidxzGWooCLn2_CLDSNWjyC6N7A2awUVWsaUfgNMqPIOK1tsY0wXLc368vEZCzbaanaDq6cgVy9PjVrgZcczuNYAlwm_QWTKmIrSgAxcQ){width="513"
+height="196"}
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">文章页面：</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+![](https://lh6.googleusercontent.com/evcPmo-D7SGfJPsCDf8h_5Xy5AvNrCyBL1UG-GKNN8O5zTxkybrlcw8YDDFGxC60dzo6ZslXIMDvlVLVScEb4G6WLEDGZYnaq8RptNsnXjIxMkfoHmM){width="502"
+height="190"}
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;; font-weight: bold;">第七步，绑定域名。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">如果你不想用</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; font-weight: bold; text-decoration: underline;"><http://username.github.com/jekyll_demo/></span><span
+style="font-family: &quot;Verdana&quot;;">这个域名，可以换成自己的域名。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">具体方法是在repo的根目录下面，新建一个名为CNAME的文本文件，里面写入你要绑定的域名，比如</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[example.com](http://example.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">或者</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[xxx.example.com](http://xxx.example.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">如果绑定的是顶级域名，则DNS要新建一条A记录，指向204.232.175.78。如果绑定的是二级域名，则DNS要新建一条CNAME记录，指向</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[username.github.com](http://username.github.com/)</span><span
+style="font-family: &quot;Verdana&quot;;">（请将username换成你的用户名）。此外，别忘了将\_config.yml文件中的baseurl改成根目录"/"。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding: 0;">
+
+<span
+style="font-family: &quot;Verdana&quot;;">至此，最简单的Blog就算搭建完成了。进一步的完善，请参考Jekyll创始人的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[示例库](https://github.com/mojombo/tpw)</span><span
+style="font-family: &quot;Verdana&quot;;">，以及其他用Jekyll搭建的</span><span
+style="color: #0000ee; font-family: &quot;Verdana&quot;; text-decoration: underline;">[blog](https://github.com/mojombo/jekyll/wiki/Sites)</span><span
+style="font-family: &quot;Verdana&quot;;">。</span>
+
+</div>
+
+<div
+style="color: black; direction: ltr; font-family: &quot;Arial&quot;; font-size: 11pt; margin-bottom: 0; margin-left: 7.5pt; margin-right: 7.5pt; margin-top: 0; padding-bottom: 16pt; padding-left: 0; padding-right: 0; padding-top: 0;">
+
+<span style="font-family: &quot;Verdana&quot;;">（完）</span>
+
+</div>
+
+### <span style="font-family: &quot;Verdana&quot;;"></span> {#section style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 20.8pt; padding-left: 0; padding-right: 0; padding-top: 4.8pt; text-align: left;"}

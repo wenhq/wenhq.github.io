@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-4571327297184166156
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/warzone-2100freeciv0ad.html ---
 [Warzone
-2100，Freeciv，韦诺之战，0.A.D近况](http://linuxtoy.org/archives/warzone-2100%ef%bc%8cfreeciv%ef%bc%8c%e9%9f%a6%e8%af%ba%e4%b9%8b%e6%88%98%ef%bc%8c0-a-d%e8%bf%91%e5%86%b5.html):
-\
+2100，Freeciv，韦诺之战，0.A.D近况](http://linuxtoy.org/archives/warzone-2100%ef%bc%8cfreeciv%ef%bc%8c%e9%9f%a6%e8%af%ba%e4%b9%8b%e6%88%98%ef%bc%8c0-a-d%e8%bf%91%e5%86%b5.html):\
 发几个开源游戏的最新进展吧，工作再忙，也要休息嘛！\
 \
 **Warzone 2100
@@ -60,16 +59,15 @@ ps:以上部分游戏介绍来自网络wiki。有错漏欢迎大家补充！\
 \
 \
 分类:
-[Games](http://linuxtoy.org/category/games "查看 Games 中的全部文章") |
-\
+[Games](http://linuxtoy.org/category/games "查看 Games 中的全部文章") |\
 [永久链接](http://linuxtoy.org/archives/warzone-2100%ef%bc%8cfreeciv%ef%bc%8c%e9%9f%a6%e8%af%ba%e4%b9%8b%e6%88%98%ef%bc%8c0-a-d%e8%bf%91%e5%86%b5.html)
 |\
 [收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/warzone-2100%ef%bc%8cfreeciv%ef%bc%8c%e9%9f%a6%e8%af%ba%e4%b9%8b%e6%88%98%ef%bc%8c0-a-d%e8%bf%91%e5%86%b5.html&title=Warzone%202100%EF%BC%8CFreeciv%EF%BC%8C%E9%9F%A6%E8%AF%BA%E4%B9%8B%E6%88%98%EF%BC%8C0.A.D%E8%BF%91%E5%86%B5)
-| \
+|\
 [Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/warzone-2100%EF%BC%8Cfreeciv%EF%BC%8C%E9%9F%A6%E8%AF%BA%E4%B9%8B%E6%88%98%EF%BC%8C0-a-d%E8%BF%91%E5%86%B5.html)
-| \
+|\
 [无评论](http://linuxtoy.org/archives/warzone-2100%ef%bc%8cfreeciv%ef%bc%8c%e9%9f%a6%e8%af%ba%e4%b9%8b%e6%88%98%ef%bc%8c0-a-d%e8%bf%91%e5%86%b5.html#comments)
 |\
 [捐助本站](http://linuxtoy.org/faq/donate)

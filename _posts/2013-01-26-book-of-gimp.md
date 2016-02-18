@@ -4,7 +4,7 @@ modified\_time: '2013-09-30T14:55:06.400+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-2923809320219398815
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/book-of-gimp.html --- [Book of
-GIMP](http://linuxtoy.org/archives/book-of-gimp.html): \
+GIMP](http://linuxtoy.org/archives/book-of-gimp.html):\
 Book of GIMP 是一本新近出版的针对 GIMP
 的完全指导手册，适合于新入门及进阶用户。\
 \
@@ -31,14 +31,13 @@ PDF, Mobi 和 ePub 版本。在接下来的一周使用优惠代码 `GIMPMASTER`
 \
 [消息来源](http://us4.campaign-archive2.com/?u=7f22e9d06dac9fadee60e1e45&id=78cd544e2a&e=%5BUNIQID%5D)\
 分类:
-[Books](http://linuxtoy.org/category/books "View all posts in Books") |
-\
+[Books](http://linuxtoy.org/category/books "View all posts in Books") |\
 [永久链接](http://linuxtoy.org/archives/book-of-gimp.html) |\
 [收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/book-of-gimp.html&title=Book%20of%20GIMP)
-| \
+|\
 [Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/book-of-gimp.html)
-| \
+|\
 [无评论](http://linuxtoy.org/archives/book-of-gimp.html#comments) |\
 [捐助本站](http://linuxtoy.org/faq/donate)

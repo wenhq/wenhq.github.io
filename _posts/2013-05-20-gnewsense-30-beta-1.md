@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-5764721755809376943
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/gnewsense-30-beta-1.html ---
 [gNewSense 3.0 Beta 1
-发布](http://www.oschina.net/news/40643/gnewsense-3-0-beta1): \
+发布](http://www.oschina.net/news/40643/gnewsense-3-0-beta1):\
 gNewSense 3.0 Beta 1 发布了，该版本基于 Debian 6.0 ，使用 GNOME 2
 桌面系统，详情请看[发行说明](http://lists.nongnu.org/archive/html/gnewsense-users/2013-05/msg00001.html)。\
 下载地址：[gnewsense-livecd-parkes-i386-3.0beta1.iso](http://cdimage.gnewsense.org/gnewsense-livecd-parkes-i386-3.0beta1.iso)

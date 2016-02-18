@@ -6,8 +6,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-8335118093162033220
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/04/10-best-ubuntu-1304-features-from.html
 --- [10 Best Ubuntu 13.04 Features – From Social Lens to Window
-Snapping](http://feedproxy.google.com/~r/d0od/~3/7wuyZX7TKkY/new-ubuntu-13-04-features):
-\
+Snapping](http://feedproxy.google.com/~r/d0od/~3/7wuyZX7TKkY/new-ubuntu-13-04-features):\
 **Next week sees the release of Ubuntu 13.04 – the latest iteration of
 the worlds most popular Linux distribution. **\
 But what can you expect to find in it? Unlike the last few releases
@@ -18,8 +17,13 @@ to Ubuntu 13.04.**\
 
 ### 10. New Window Snap Animation
 
-[![new-window-snap](http://www.omgubuntu.co.uk/wp-content/uploads/2013/01/new-window-snap.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/01/new-window-snap.jpg)\
+<div style="width: 748px;">
+
+[![new-window-snap](http://www.omgubuntu.co.uk/wp-content/uploads/2013/01/new-window-snap.jpg){width="748"
+height="344"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/01/new-window-snap.jpg)\
 New Window Snap Caught in Action
+
+</div>
 
 **Window snapping**, popularised by the ‘Aero Snap’ feature of Windows
 7, is a handy way to quickly display two applications side-by-side
@@ -32,12 +36,18 @@ that of a generic orange box spreading outwards to a semi-transparent
 copy of the window about to be snapped.\
 Rather than read about how it looks hit play on the video below to see
 it in action…\
+
 \
 
 ### 9. New Unity Preview Animations
 
-[![preview](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/preview.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/preview.jpg)\
+<div style="width: 750px;">
+
+[![preview](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/preview.jpg){width="750"
+height="433"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/preview.jpg)\
 Previews
+
+</div>
 
 Unity Previews, introduced last year in Ubuntu 12.10, are a great way to
 see more information about a search result without needing to open it up
@@ -46,6 +56,7 @@ For the latest release the **preview reveal animation has been
 tweaked,** and applications icons at the edges of the preview “ghosted”
 save for the one being previewed.\
 As with the window snapping above, this one is easier to see in action:\
+
 \
 
 ### 8. New Shutdown Dialogs
@@ -55,8 +66,13 @@ be particularly glamorous. But chances are you’ll find yourself doing it
 a a bit more routinely in 13.04 for one reason: to see the new
 **Unity-themed session dialogs** that have been added.\
 
-[![logout](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/logout.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/logout.jpg)\
+<div style="width: 750px;">
+
+[![logout](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/logout.jpg){width="750"
+height="337"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/logout.jpg)\
 Logout Now Looks Sleeker
+
+</div>
 
 ### 7. Per-App Account Toggles
 
@@ -65,7 +81,7 @@ One of my favourite features of the Ubuntu desktop is the centralised
 network, and photo sharing accounts so that other desktop applications
 can access them without me needing to enter my details in each and every
 one.\
-13.04 improves the utility by adding**‘per-app’ toggles** for each
+13.04 improves the utility by adding **‘per-app’ toggles** for each
 network.\
 So, say you’re happy for Facebook to integrate with the new Unity Photos
 Lens, but don’t want Empathy, Ubuntu’s default IM app to log into
@@ -73,8 +89,13 @@ Facebook Chat. Before you had to disable Facebook entirely. Now you can
 simply pick and chose what apps can use what accounts and where.
 Brilliant stuff.\
 
-[![account-toggles](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/account-toggles.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/account-toggles.jpg)\
+<div style="width: 750px;">
+
+[![account-toggles](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/account-toggles.jpg){width="750"
+height="341"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/account-toggles.jpg)\
 Online Accounts Now Has Per-App Toggles
+
+</div>
 
 ### 6. New Sync Menu
 
@@ -86,38 +107,58 @@ uploaded files.\
 It’s not as featured as featured as similar ‘tray applets’ for similar
 services on other operating systems, but it does the job.\
 
+<div style="width: 707px;">
+
 [![Ubuntu One Sync
-Menu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/sync.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/sync.jpg)\
+Menu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/sync.jpg){width="707"
+height="312"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/sync.jpg)\
 Ubuntu One Sync Menu
+
+</div>
 
 ### 5. Workspace Item
 
 Ahh, the poor **Workspace Launcher Item**. It’s no longer shown on the
 Unity launcher by default so you now need to manually go and add it
-from* System Settings \> Appearance \> Behaviour*.\
+from* System Settings &gt; Appearance &gt; Behaviour*.\
 But when you do you’re in for a treat: the icon now displays which
 workspace you’re on.\
 
+<div style="width: 363px;">
+
 [![Workspace Switcher in
-Ubuntu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/indica.jpg "Workspace Switcher in Ubuntu")](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/indica.jpg)\
+Ubuntu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/indica.jpg "Workspace Switcher in Ubuntu"){width="363"
+height="187"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/indica.jpg)\
 Workspace Item
+
+</div>
 
 ### 4. New Bluetooth Menu
 
 Ubuntu’s **Bluetooth panel menu** has been jazzed up with new toggle for
 turning on/off Bluetooth and visibility. Handy stuff.\
 
-[![bluetooth](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/bluetooth.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/bluetooth.jpg)\
+<div style="width: 528px;">
+
+[![bluetooth](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/bluetooth.jpg){width="528"
+height="195"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/bluetooth.jpg)\
 Bluetooth Menu Tweaks
+
+</div>
 
 ### 3. New Lenses
 
 If you have social accounts set up in Online Accounts, or images
-imported into Shotwell, then you’ll see a new lens in the Unity Dash:
-a**photo lens**!\
+imported into Shotwell, then you’ll see a new lens in the Unity Dash: a
+**photo lens**!\
 
-[![photo-lens](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/photo-lens.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/photo-lens.jpg)\
+<div style="width: 750px;">
+
+[![photo-lens](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/photo-lens.jpg){width="750"
+height="424"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/photo-lens.jpg)\
 The new Photo Lens in 13.04
+
+</div>
 
 Similarly, now [Gwibber has been
 removed](http://www.omgubuntu.co.uk/2013/04/gwibber-not-in-ubuntu-13-04-install-friends "Where’d Gwibber Go in Ubuntu 13.04? And What’s Friends?") from
@@ -127,9 +168,14 @@ the **new Social Lens** in the Dash.\
 To access it you will first need to enable a social network in Online
 Accounts (see \#7 above).\
 
+<div style="width: 750px;">
+
 [![Unity Lens
-Friends](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/unity-lens.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/unity-lens.jpg)\
+Friends](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/unity-lens.jpg){width="750"
+height="423"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/unity-lens.jpg)\
 Unity Lens Friends
+
+</div>
 
 ### 2. Window Switching Methods
 
@@ -141,8 +187,13 @@ manage your workflow:\
 -   **Scroll over an application icon on the launcher to cycle through
     its open windows**
 
-[![asd](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/asd.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/asd.jpg)\
+<div style="width: 567px;">
+
+[![asd](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/asd.jpg){width="567"
+height="417"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/04/asd.jpg)\
 Quicklist Window Switching – New to Raring
+
+</div>
 
 ### 1. Speed, baby, speed
 
@@ -160,6 +211,8 @@ And this core experience matters more to most.\
 Snapping](http://www.omgubuntu.co.uk/2013/04/new-ubuntu-13-04-features)
 [OMG! Ubuntu! - Everything Ubuntu. Daily.](http://www.omgubuntu.co.uk/)\
 
+<div>
+
 [![](http://feeds.feedburner.com/~ff/d0od?i=7wuyZX7TKkY:lajydOW5x70:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=7wuyZX7TKkY:lajydOW5x70:wBxX2hOkimM)
 [![](http://feeds.feedburner.com/~ff/d0od?d=I9og5sOYxJI)](http://feeds.feedburner.com/~ff/d0od?a=7wuyZX7TKkY:lajydOW5x70:I9og5sOYxJI)
 [![](http://feeds.feedburner.com/~ff/d0od?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/d0od?a=7wuyZX7TKkY:lajydOW5x70:qj6IDK7rITs)
@@ -167,4 +220,7 @@ Snapping](http://www.omgubuntu.co.uk/2013/04/new-ubuntu-13-04-features)
 [![](http://feeds.feedburner.com/~ff/d0od?i=7wuyZX7TKkY:lajydOW5x70:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/d0od?a=7wuyZX7TKkY:lajydOW5x70:gIN9vFwOqvQ)
 [![](http://feeds.feedburner.com/~ff/d0od?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/d0od?a=7wuyZX7TKkY:lajydOW5x70:yIl2AUoC8zA)
 
-![](http://feeds.feedburner.com/~r/d0od/~4/7wuyZX7TKkY)
+</div>
+
+![](http://feeds.feedburner.com/~r/d0od/~4/7wuyZX7TKkY){width="1"
+height="1"}

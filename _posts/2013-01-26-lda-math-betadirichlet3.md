@@ -4,8 +4,7 @@ modified\_time: '2013-11-30T12:25:43.989+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-2528886975400260080
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/lda-math-betadirichlet3.html ---
-[LDA-math-认识Beta/Dirichlet分布(3)](http://feedproxy.google.com/~r/52nlp/~3/QmrqEcQikDc/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%833):
-\
+[LDA-math-认识Beta/Dirichlet分布(3)](http://feedproxy.google.com/~r/52nlp/~3/QmrqEcQikDc/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%833):\
 **2. LDA-math-认识Beta/Dirichlet分布(3)**\
 \
 **2.3 Dirichlet-Multinomial 共轭**\
@@ -16,18 +15,26 @@ http://binaryware.blogspot.com/2013/01/lda-math-betadirichlet3.html ---
 2.  排序后对应的顺序统计量 \$X\_{(1)},X\_{(2)}，\\cdots, X\_{(n)}\$,
 3.  问 \$(X\_{(k\_1)}, X\_{(k\_1+k\_2)})\$的联合分布是什么；
 
+<div style="text-align: center;">
+
 **游戏3**
+
+</div>
 
 完全类似于第一个游戏的推导过程，我们可以进行如下的概率计算(为了数学公式的简洁对称，我们取\$x\_3\$满足\$x\_1+x\_2+x\_3
 = 1\$,但只有\$x\_1,x\_2\$是变量)\
 \
 \
 
-[![dirichlet-game](http://www.52nlp.cn/wp-content/uploads/2013/01/dirichlet-game.png)](http://www.52nlp.cn/5165/dirichlet-game)
-[\
+<div style="text-align: center;">
+
+[![dirichlet-game](http://www.52nlp.cn/wp-content/uploads/2013/01/dirichlet-game.png){width="917"
+height="171"}](http://www.52nlp.cn/5165/dirichlet-game) [\
 \
 ](http://www.52nlp.cn/5165/dirichlet-distribution)\$(X\_{(k\_1)},
 X\_{(k\_1+k\_2)})\$**的联合分布推导**
+
+</div>
 
 \\begin{align\*}\
 \
@@ -73,12 +80,21 @@ Dirichlet 分布\$Dir(x\_1,x\_2,x\_3|k\_1,k\_2,n-k\_1-k\_2+1)\$。令
 \$\\overrightarrow{\\alpha}=(\\alpha\_1,\\alpha\_2, \\alpha\_3)\$
 延拓到非负实数集合，以上概率分布也是良定义的。\
 
+<div style="text-align: left;">
+
 从形式上我们也能看出，Dirichlet 分布是Beta
 分布在高维度上的推广，他和Beta
 分布一样也是一个百变星君，密度函数可以展现出多种形态。
 
-[![dirichlet-distribution](http://www.52nlp.cn/wp-content/uploads/2013/01/dirichlet-distribution.png)](http://www.52nlp.cn/5165/dirichlet-distribution)**不同
+</div>
+
+<div style="text-align: center;">
+
+[![dirichlet-distribution](http://www.52nlp.cn/wp-content/uploads/2013/01/dirichlet-distribution.png){width="670"
+height="303"}](http://www.52nlp.cn/5165/dirichlet-distribution)**不同
 \$\\alpha\$ 下的Dirichlet 分布**
+
+</div>
 
 类似于魔鬼的游戏2，我们也可以调整一下游戏3，从魔盒中生成\$m\$个随机数\$Y\_1,Y\_2,\\cdots,Y\_m
 {\\stackrel{\\mathrm{iid}}{\\sim}}Uniform(0,1)\$
@@ -93,12 +109,16 @@ X\_{(k\_1+k\_2)})\$相比谁大谁小。于是有如下游戏4\
     \$\\overrightarrow{p}=(p\_1,p\_2,p\_3)\$；
 3.  \$Y\_1,Y\_2,\\cdots,Y\_m
     {\\stackrel{\\mathrm{iid}}{\\sim}}Uniform(0,1)\$,
-    \$Y\_i\$中落到\$[0,p\_1),[p\_1,p\_2),[p\_2,1]\$ 三个区间的个数分别为
-    \$m\_1,m\_2,m\_3\$，\$m=m\_1+m\_2+m3\$；
+    \$Y\_i\$中落到\$\[0,p\_1),\[p\_1,p\_2),\[p\_2,1\]\$
+    三个区间的个数分别为 \$m\_1,m\_2,m\_3\$，\$m=m\_1+m\_2+m3\$；
 4.   问后验分布 \$P(\\overrightarrow{p}|Y\_1,Y\_2,\\cdots,Y\_m)\$
     的分布是什么。
 
+<div style="text-align: center;">
+
 **游戏4**
+
+</div>
 
 为了方便，我们记\
 \
@@ -114,15 +134,19 @@ p\_2\$在\$X\_1,X\_2,\\cdots,X\_n,\$ \$Y\_1,Y\_2,\\cdots,Y\_m\$
 
 1.   我们要猜测参数
     \$\\overrightarrow{p}=(p\_1,p\_2,p\_3)\$，其先验分布为\$Dir(\\overrightarrow{p}|\\overrightarrow{k})\$；
-2.   数据\$Y\_i\$落到\$[0,p\_1),
-    [p\_1,p\_2),[p\_2,1]\$三个区间的个数分别为
+2.   数据\$Y\_i\$落到\$\[0,p\_1),
+    \[p\_1,p\_2),\[p\_2,1\]\$三个区间的个数分别为
     \$m\_1,m\_2,m\_3\$，所以\$\\overrightarrow{m}=(m\_1,m\_2,m\_3)\$
     服从多项分布\$Mult(\\overrightarrow{m}|\\overrightarrow{p})\$
 3.   在给定了来自数据提供的知识\$\\overrightarrow{m}\$后，\$\\overrightarrow{p}\$
     的后验分布变为
     \$Dir(\\overrightarrow{p}|\\overrightarrow{k}+\\overrightarrow{m})\$
 
+<div style="text-align: center;">
+
 **贝叶斯推理过程**
+
+</div>
 
 以上贝叶斯分析过程的简单直观的表述就是\
 \
@@ -248,19 +272,23 @@ E(\\overrightarrow{p}) =
 \
 以上两个结论很重要，因为我们在后面的 LDA 数学推导中需要使用这个结论。\
 
-相关文章:\
+<div>
 
+相关文章:\
 1.  [LDA-math-认识Beta/Dirichlet分布(1)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%831 "LDA-math-认识Beta/Dirichlet分布(1)")
 2.  [LDA-math-认识Beta/Dirichlet分布(2)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%832 "LDA-math-认识Beta/Dirichlet分布(2)")
 3.  [LDA-math-神奇的Gamma函数(3)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03 "LDA-math-神奇的Gamma函数(3)")
 4.  [LDA-math-神奇的Gamma函数(1)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b01 "LDA-math-神奇的Gamma函数(1)")
 5.  [LDA-math-神奇的Gamma函数(2)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02 "LDA-math-神奇的Gamma函数(2)")
-6.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
-7.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+6.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+7.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
 8.  [正态分布的前世今生(四)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e5%9b%9b "正态分布的前世今生(四)")
 9.  [正态分布的前世今生(二)](http://www.52nlp.cn/%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e7%9a%84%e5%89%8d%e4%b8%96%e4%bb%8a%e7%94%9f%e4%ba%8c "正态分布的前世今生(二)")
 10. [HMM学习最佳范例七：前向-后向算法5](http://www.52nlp.cn/hmm-learn-best-practices-seven-forward-backward-algorithm-5 "HMM学习最佳范例七：前向-后向算法5")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/QmrqEcQikDc)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/QmrqEcQikDc){width="1"
+height="1"}

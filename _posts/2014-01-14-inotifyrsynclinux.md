@@ -3,7 +3,7 @@
 '2014-01-14T10:46:37.554+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-3973714558311486987
 blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/01/inotifyrsynclinux.html --- \
+http://binaryware.blogspot.com/2014/01/inotifyrsynclinux.html ---\
 \
 公司一套系统的同步使用的donotify，不能实现子目录的实时同步，通过查资料，发现inotify可以实现子目录的实时同步，以下为笔记。\
 \
@@ -54,7 +54,7 @@ IN\_CLOSE\_NOWRITE)\
 　　1、inotify-tools：The general purpose of this package is to allow
 inotify's features to be used from within shell scripts.\
 \
-　　下载地址：[http://inotify-tools.sourceforge.net/](http://inotify-tools.sourceforge.net/)\
+　　下载地址：<http://inotify-tools.sourceforge.net/>\
 \
 　　编译安装\
 \
@@ -126,9 +126,9 @@ are not\
 it will not state when it has completed establishing all inotify
 watches.\
 \
-　　-e , --event \
+　　-e , --event\
 \
- 　　Listen for specific event(s) only. The events which can be listened
+　　Listen for specific event(s) only. The events which can be listened
 for are listed in the EVENTS section. This option can be specified more
 than once. If omitted, all events are listened for. use"，"separate
 multi events\
@@ -140,14 +140,14 @@ multi events\
 \
 　　1.查看是否支持inotify，从kernel
 2.6.13开始正式并入内核，RHEL5已经支持。看看是否有
-/proc/sys/fs/inotify/目录，以确定内核是否支持inotify \
+/proc/sys/fs/inotify/目录，以确定内核是否支持inotify\
 \
 \
-[root@RHEL5 Rsync]\# ll /proc/sys/fs/inotify\
- total 0\
+\[root@RHEL5 Rsync\]\# ll /proc/sys/fs/inotify\
+total 0\
 -rw-r--r-- 1 root root 0 Oct 9 09:36 max\_queued\_events\
- -rw-r--r-- 1 root root 0 Oct 9 09:36 max\_user\_instances\
- -rw-r--r-- 1 root root 0 Oct 9 09:36 max\_user\_watches\
+-rw-r--r-- 1 root root 0 Oct 9 09:36 max\_user\_instances\
+-rw-r--r-- 1 root root 0 Oct 9 09:36 max\_user\_watches\
 \
 　　2.关于递归：\
 \
@@ -161,20 +161,20 @@ and can recursively watch entire directory trees.\
 \
 \
 \#!/bin/sh\
- src=/opt/webmail\
+src=/opt/webmail\
 des=/tmp\
- ip=192.168.7.192\
- /usr/local/bin/inotifywait -mrq --timefmt '%d/%m/%y %H:%M' --format '%T
+ip=192.168.7.192\
+/usr/local/bin/inotifywait -mrq --timefmt '%d/%m/%y %H:%M' --format '%T
 %w%f' \\\
- -e modify,delete,create,attrib \\\
+-e modify,delete,create,attrib \\\
 \${src} \\\
 | while read file\
- do\
- rsync -avz --delete --progress \${src} root@\${ip}:\${des} &&\
- echo "\${src} was rsynced"\
- echo
+do\
+rsync -avz --delete --progress \${src} root@\${ip}:\${des} &&\
+echo "\${src} was rsynced"\
+echo
 "---------------------------------------------------------------------------"\
- done\
+done\
 \
 　　注：当要排出同步某个目录时，为rsync添加--exculde=PATTERN参数，注意，路径是相对路径。详细查看man
 rsync\
@@ -222,34 +222,34 @@ inotify\_rsync.tar.gz\
 \
 \
 \#!/bin/sh\
- \#set -x\
-\#var \
+\#set -x\
+\#var\
 src="/usr/local/nginx/html/lib /usr/local/nginx/html/www
 /usr/local/nginx/html/var/www.work.com.conf.php"\
- des\_ip="172.18.1.35 172.18.1.36 172.18.1.37 172.18.1.38"\
- \#function\
+des\_ip="172.18.1.35 172.18.1.36 172.18.1.37 172.18.1.38"\
+\#function\
 inotify\_fun ()\
 {\
 /usr/local/bin/inotifywait -mrq --timefmt '%d/%m/%y-%H:%M' --format '%T
 %w%f' \\\
- -e modify,delete,create,move \$1|while read time file\
- do \
+-e modify,delete,create,move \$1|while read time file\
+do\
 for ip in \$des\_ip\
 do\
- echo "\`date +%Y%m%d-%T\`: rsync -avzq --delete --progress \$1
+echo "\`date +%Y%m%d-%T\`: rsync -avzq --delete --progress \$1
 \$ip:\`dirname \$1\`"\
- rsync -avzq --delete --progress \$1 \$ip:\`dirname \$1\`\
- echo\
+rsync -avzq --delete --progress \$1 \$ip:\`dirname \$1\`\
+echo\
 done\
 done\
 }\
 \#main\
 for a in \$src\
 do\
- inotify\_fun \$a & \
+inotify\_fun \$a &\
 done\
 \
-　　参考：[http://www.ibm.com/developerworks/cn/linux/l-ubuntu-inotify/index.html](http://www.ibm.com/developerworks/cn/linux/l-ubuntu-inotify/index.html)\
+　　参考：<http://www.ibm.com/developerworks/cn/linux/l-ubuntu-inotify/index.html>\
 \
 \
 \
@@ -286,48 +286,48 @@ move事件，触发rsync，只同步修改了的文件。delete事件，同步�
 \
 \#!/bin/sh\
 \#\
- basedir=/home/jason/Rsync\
- destNum=\`grep -c '\^dest' \${basedir}/rsync.conf\`\
- src=\`grep 'local directory=' \${basedir}/rsync.conf|cut -d '=' -f 2\`\
- des=\`grep '\^dest' \${basedir}/rsync.conf| cut -d '=' -f 2 \`\
- \#\
+basedir=/home/jason/Rsync\
+destNum=\`grep -c '\^dest' \${basedir}/rsync.conf\`\
+src=\`grep 'local directory=' \${basedir}/rsync.conf|cut -d '=' -f 2\`\
+des=\`grep '\^dest' \${basedir}/rsync.conf| cut -d '=' -f 2 \`\
+\#\
 inotifywait -mrq --timefmt '%d/%m/%y %H:%M' --format '%T %w%f %e' \\\
- --event modify,create,move,delete \${src} | while read date time file
+--event modify,create,move,delete \${src} | while read date time file
 event\
- do\
- echo \$event\
- for i in \$des\
- do\
- case \$event in\
- MODIFY|CREATE|MOVE|MODIFY,ISDIR|CREATE,ISDIR|MODIFY,ISDIR)\
- \#echo \$src\
- no\_src\_root\_file\_name=\`echo \$file|sed "s\#\$src\#\#g"\`\
- final\_target\_dest=\$i\$no\_src\_root\_file\_name\
+do\
+echo \$event\
+for i in \$des\
+do\
+case \$event in\
+MODIFY|CREATE|MOVE|MODIFY,ISDIR|CREATE,ISDIR|MODIFY,ISDIR)\
+\#echo \$src\
+no\_src\_root\_file\_name=\`echo \$file|sed "s\#\$src\#\#g"\`\
+final\_target\_dest=\$i\$no\_src\_root\_file\_name\
 \
- echo rsync -avz --delete --progress \$file \$final\_target\_dest\
- rsync -avz --delete --progress \$file \$final\_target\_dest\
- ;;\
- DELETE|DELETE,ISDIR)\
- src\_file\_up\_dir=\`echo \$file|awk -F"/" '{NF=NF-1;OFS="/";print
+echo rsync -avz --delete --progress \$file \$final\_target\_dest\
+rsync -avz --delete --progress \$file \$final\_target\_dest\
+;;\
+DELETE|DELETE,ISDIR)\
+src\_file\_up\_dir=\`echo \$file|awk -F"/" '{NF=NF-1;OFS="/";print
 \$0}'\`\
- no\_root\_src\_file\_up\_dir=\`echo \$file|awk -F"/"
+no\_root\_src\_file\_up\_dir=\`echo \$file|awk -F"/"
 '{NF=NF-2;OFS="/";print \$0}'|sed "s\#\$src\#\#g"\`\
- final\_target\_dest\_up\_dir=\$i\$no\_root\_src\_file\_up\_dir\
- echo rsync -avz --delete --progress \$src\_file\_up\_dir
+final\_target\_dest\_up\_dir=\$i\$no\_root\_src\_file\_up\_dir\
+echo rsync -avz --delete --progress \$src\_file\_up\_dir
 \$final\_target\_dest\_up\_dir\
- rsync -avz --delete --progress \$src\_file\_up\_dir
+rsync -avz --delete --progress \$src\_file\_up\_dir
 \$final\_target\_dest\_up\_dir\
- ;;\
- esac\
- done\
- done\
+;;\
+esac\
+done\
+done\
 \#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\#\
 rsync.conf\
 local directory=/EBS/www/projects\
- \#dest\_here\
+\#dest\_here\
 dest=root@174.129.219.40:/EBS/www\
- 20090723：\
---format '%T %w%f' \
+20090723：\
+--format '%T %w%f'\
 \
 　　其中的%f参数： %f When an event occurs within a directory, this will
 be replaced with the name of the File which caused he event to occur.

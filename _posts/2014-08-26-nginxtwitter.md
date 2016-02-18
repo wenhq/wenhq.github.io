@@ -20,7 +20,7 @@ subs\_filter mobile.twitter.com jude.me/twitter;\
 \
 subs\_filter 'href="/' 'href="https://jude.me/twitter/';\
 \
-subs\_filter '\<form action="/' '\<form
+subs\_filter '&lt;form action="/' '&lt;form
 action="https://jude.me/twitter/';\
 \
 subs\_filter 't.co' 'jude.me/t.co';\
@@ -36,13 +36,16 @@ proxy\_pass http://t.co/;\
 \
 }\
 \
-现在就可以访问[https://jude.me/twitter/](https://jude.me/twitter/)，和正常的twitter
-mobile一样。\
+现在就可以访问<https://jude.me/twitter/>，和正常的twitter mobile一样。\
 \
 \
 \
 \
 引用 地址：https://jude.me/2012/12/31/twitter-mirror.html
+<div>
+
 来源：[nginx反向代理twitter镜像站](http://feedproxy.google.com/~r/chinagfwblog/~3/T6Jb1acfgHM/nginxtwitter.html)  通过 [中国数字时代
 »
 编辑推荐](http://pipes.yahoo.com/pipes/pipe.info?_id=4ebbe79f06d4342d785a0cab9913dc0c)
+
+</div>

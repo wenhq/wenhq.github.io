@@ -4,13 +4,30 @@ modified\_time: '2013-12-10T12:44:03.793+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-3280407136888701975
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/12/aaacaeeeaaeecaea.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
 
 [一体化电动自行车可以胜过电动汽车吗?](http://www.kuailiyu.com/article/6501.html)
+
+</div>
+
+<div style="font-size: 13px;">
 
 Via
 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
 
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
+<div style="text-align: center;">
+
 ![](http://www.kuailiyu.com/uploadfile/2013/1209/20131209112058702.jpg)
+
+</div>
 
 电动车、混合动力车的流行，让人们相信它们就是解决交通问题的有效方案。但是措施不止如此，因为随着电动自行车的逐渐流行，这种最简单的出行方式也受到了更多的关注。\
 　　而Navigant
@@ -23,6 +40,7 @@ Research公司认为，他们推出的一体化电动自行车，有潜力打破
 Research认为他们的产品不可能吸引所有的用户，比如有些人就是想保留原有的变速齿轮，有些人就是想要盘式刹车片等等，但是去年他们还是销售了72000辆车，而今年他们计划向全美市场进军，并突破去年的业绩。\
 　　另外还有一些电动自行车比上面的产品还要便宜，主要是因为功能上要更简单些。因此可以吸引更多的人选择这种出行方式。\
 [点击参与讨论此文](http://www.kuailiyu.com/article/6501.html?utm_source=articletail&utm_medium=RSS#comments)\
+<div style="font-size: 16px;">
 
 ### **关于快鲤鱼**
 
@@ -30,10 +48,17 @@ Research认为他们的产品不可能吸引所有的用户，比如有些人就
 这是一个专注挖掘、报道TMT领域创新性公司的科技博客，它的作者们遍布太平洋两岸，以钓者的姿态，为读者快速地寻觅下一条大鱼。\
 我们不是姜太公，我们年轻、有速度;我们关注鲤鱼公司，但也不排斥鲸鱼公司，我们大小通吃！\
 与其说快鲤鱼是一个科技博客，不如说是捍卫互联网生态链的刀笔吏！\
+<div>
 
 不废话了，更多内容，敬请关注快鲤鱼帐号\
 新浪微博：[@快鲤鱼](http://weibo.com/p/1002062696344613/mblog)\
 腾讯微博：[@快鲤鱼](http://t.qq.com/kuailiyucyzone)\
-RSS订阅
-：[http://www.kuailiyu.com/feed/](http://www.kuailiyu.com/feed/)\
-微信扫码：![akuailiyu](http://tpl6.kuailiyu.com/templates/white/images/weixin.jpg)
+RSS订阅 ：<http://www.kuailiyu.com/feed/>\
+微信扫码：![akuailiyu](http://tpl6.kuailiyu.com/templates/white/images/weixin.jpg){width="123"
+height="132"}
+
+</div>
+
+</div>
+
+</div>

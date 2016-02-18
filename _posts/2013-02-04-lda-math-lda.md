@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-8544040856908806449
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/02/lda-math-lda.html ---
 [LDA-math-LDA
-文本建模](http://feedproxy.google.com/~r/52nlp/~3/cN7oqs3bULA/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1):
-\
+文本建模](http://feedproxy.google.com/~r/52nlp/~3/cN7oqs3bULA/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1):\
 **5. LDA 文本建模**\
 **5.1 游戏规则**\
 对于上述的 PLSA 模型，贝叶斯学派显然是有意见的，doc-topic
@@ -18,11 +17,21 @@ Unigram Model 的贝叶斯改造，
 \$\\overrightarrow{\\varphi}\_k\$和\$\\overrightarrow{\\theta}\_m\$都对应到多项分布，所以先验分布的一个好的选择就是Drichlet
 分布，于是我们就得到了 LDA(Latent Dirichlet Allocation)模型。\
 
-**[![lda-dice](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dice.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dice)LDA模型**
+<div style="text-align: center;">
+
+**[![lda-dice](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dice.jpg){width="401"
+height="245"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dice)LDA模型**
+
+</div>
 
 在 LDA 模型中, 上帝是按照如下的规则玩文档生成的游戏的\
 
-[![game-lda-1](http://www.52nlp.cn/wp-content/uploads/2013/02/game-lda-1.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/game-lda-1)
+<div style="text-align: left;">
+
+[![game-lda-1](http://www.52nlp.cn/wp-content/uploads/2013/02/game-lda-1.jpg){width="764"
+height="504"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/game-lda-1)
+
+</div>
 
 假设语料库中有 \$M\$ 篇文档，所有的的word和对应的 topic 如下表示\
 \
@@ -39,13 +48,23 @@ Unigram Model 的贝叶斯改造，
 其中， \$\\overrightarrow{w}\_m\$ 表示第\$m\$ 篇文档中的词，
 \$\\overrightarrow{z}\_m\$ 表示这些词对应的 topic 编号。\
 
-**[![word-topic-vector](http://www.52nlp.cn/wp-content/uploads/2013/02/word-topic-vector.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/word-topic-vector)语料生成过程中的
+<div style="text-align: center;">
+
+**[![word-topic-vector](http://www.52nlp.cn/wp-content/uploads/2013/02/word-topic-vector.jpg){width="215"
+height="185"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/word-topic-vector)语料生成过程中的
 word 和 topic**
+
+</div>
 
 **5.2 物理过程分解**\
 使用概率图模型表示， LDA 模型的游戏过程如图所示。\
 
-**[![lda-graph-model](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-graph-model.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-graph-model)LDA概率图模型表示**
+<div style="text-align: center;">
+
+**[![lda-graph-model](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-graph-model.jpg){width="217"
+height="184"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-graph-model)LDA概率图模型表示**
+
+</div>
 
 这个概率图可以分解为两个主要的物理过程：\
 
@@ -77,7 +96,8 @@ LDA 所需要的所有数学就是理解 Dirichlet-Multiomail
 对应于 Dirichlet 分布， \$\\overrightarrow{\\theta}\_m \\rightarrow
 \\overrightarrow{z}\_{m}\$ 对应于 Multinomial 分布， 所以整体是一个
 Dirichlet-Multinomial 共轭结构；\
-[![lda-dir-mult-conjugate-1](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dir-mult-conjugate-1.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dir-mult-conjugate-1)\
+[![lda-dir-mult-conjugate-1](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dir-mult-conjugate-1.jpg){width="363"
+height="73"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dir-mult-conjugate-1)\
 \
 前文介绍 Bayesian Unigram Model 的小节中我们对 Dirichlet-Multinomial
 共轭结构做了一些计算。借助于该小节中的结论，我们可以得到\
@@ -121,7 +141,8 @@ topic-word骰子。但实际上有一些抛骰子的顺序是可以交换的，�
 topics,然后基于得到的每个词的 topic
 编号，后\$N\$次只抛topic-word骰子生成 \$N\$ 个word。于是上帝在玩 LDA
 游戏的时候，可以等价的按照如下过程进行：\
-[![game-lda-2](http://www.52nlp.cn/wp-content/uploads/2013/02/game-lda-2.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/game-lda-2)\
+[![game-lda-2](http://www.52nlp.cn/wp-content/uploads/2013/02/game-lda-2.jpg){width="745"
+height="370"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/game-lda-2)\
 以上游戏是先生成了语料中所有词的 topic, 然后对每个词在给定 topic
 的条件下生成 word。在语料中所有词的 topic 已经生成的条件下，任何两个
 word 的生成动作都是可交换的。于是我们把语料中的词进行交换，把具有相同
@@ -150,7 +171,8 @@ topic 生成的词。考虑如下过程 \$\\overrightarrow{\\beta} \\rightarrow
 \\overrightarrow{\\varphi}\_k \\rightarrow \\overrightarrow{w}\_{(k)}\$
 对应于 Multinomial 分布， 所以整体也还是一个 Dirichlet-Multinomial
 共轭结构；\
-[![lda-dir-mult-conjugate-2](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dir-mult-conjugate-2.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dir-mult-conjugate-2)\
+[![lda-dir-mult-conjugate-2](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-dir-mult-conjugate-2.jpg){width="359"
+height="73"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-dir-mult-conjugate-2)\
 \
 同样的，我们可以得到\
 \
@@ -374,8 +396,13 @@ p(word|topic)\$，这个概率其实是 \$doc \\rightarrow topic \\rightarrow
 word\$ 的路径概率，由于topic 有\$K\$ 个，所以 Gibbs Sampling
 公式的物理意义其实就是在这\$K\$ 条路径中进行采样。\
 
-**[![gibbs-path-search](http://www.52nlp.cn/wp-content/uploads/2013/02/gibbs-path-search.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/gibbs-path-search)doc-topic-word
+<div style="text-align: center;">
+
+**[![gibbs-path-search](http://www.52nlp.cn/wp-content/uploads/2013/02/gibbs-path-search.jpg){width="358"
+height="161"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/gibbs-path-search)doc-topic-word
 路径概率**
+
+</div>
 
 **5.4 Training and Inference**\
 有了 LDA 模型，当然我们的目标有两个\
@@ -390,7 +417,8 @@ word\$ 的路径概率，由于topic 有\$K\$ 个，所以 Gibbs Sampling
 模型，并应用训练得到的模型对新的文档进行 topic
 语义分析。训练的过程就是获取语料中的 \$(z,w)\$
 的样本，而模型中的所有的参数都可以基于最终采样得到的样本进行估计。训练的流程很简单:\
-[![lda-training](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-training.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-training)\
+[![lda-training](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-training.jpg){width="745"
+height="217"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-training)\
 对于 Gibbs Sampling 算法实现的细节，请参考 Gregor Heinrich 的 *Parameter
 estimation for text analysis* 中对算法的描述，以及
 PLDA(http://code.google.com/p/plda) 的代码实现，此处不再赘述。\
@@ -413,7 +441,8 @@ Gibbs Sampling 收敛之后的 \$n\$
 \$\\hat{\\varphi}\_{kt}\$
 部分是稳定不变的，是由训练语料得到的模型提供的，所以采样过程中我们只要估计该文档的
 topic 分布\$\\overrightarrow{\\theta}\_{new}\$就好了。\
-[![lda-inference](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-inference.jpg)](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-inference)\
+[![lda-inference](http://www.52nlp.cn/wp-content/uploads/2013/02/lda-inference.jpg){width="745"
+height="217"}](http://www.52nlp.cn/lda-math-lda-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1/lda-inference)\
 \
 **6. 后记**\
 LDA 对于专业做机器学习的兄弟而言，只能算是一个简单的Topic
@@ -447,19 +476,24 @@ Model 的时间不长，主要是由于2年前和 PLDA 的作者 Wangyi
 学习一个模型的时候我喜欢追根溯源，常常希望把模型中的每一个数学推导的细节搞明白，把公式的物理意义想清楚，不过数学推导本身并不是我想要的，把数学推导还原为物理过程才是我乐意做的事。最后引用一下物理学家费曼的名言结束
 LDA 的数学科普：\
 
+<div style="text-align: center;">
+
 ***What I cannot create, I do not understand. ***\
 \
 ***— Richard Feynman***
 
-相关文章:\
+</div>
 
+<div>
+
+相关文章:\
 1.  [LDA-math-文本建模](http://www.52nlp.cn/lda-math-%e6%96%87%e6%9c%ac%e5%bb%ba%e6%a8%a1 "LDA-math-文本建模")
 2.  [LDA-math-认识Beta/Dirichlet分布(3)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%833 "LDA-math-认识Beta/Dirichlet分布(3)")
-3.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+3.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
 4.  [LDA-math-神奇的Gamma函数(3)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b03 "LDA-math-神奇的Gamma函数(3)")
-5.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+5.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
 6.  [LDA-math-认识Beta/Dirichlet分布(1)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%831 "LDA-math-认识Beta/Dirichlet分布(1)")
 7.  [LDA-math-认识Beta/Dirichlet分布(2)](http://www.52nlp.cn/lda-math-%e8%ae%a4%e8%af%86betadirichlet%e5%88%86%e5%b8%832 "LDA-math-认识Beta/Dirichlet分布(2)")
 8.  [概率语言模型及其变形系列-LDA及Gibbs
@@ -468,4 +502,7 @@ LDA 的数学科普：\
     的JAVA实现](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda-gibbs-sampling-%e7%9a%84java%e5%ae%9e%e7%8e%b0 "概率语言模型及其变形系列-LDA Gibbs Sampling 的JAVA实现")
 10. [LDA-math-神奇的Gamma函数(2)](http://www.52nlp.cn/lda-math-%e7%a5%9e%e5%a5%87%e7%9a%84gamma%e5%87%bd%e6%95%b02 "LDA-math-神奇的Gamma函数(2)")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/cN7oqs3bULA)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/cN7oqs3bULA){width="1"
+height="1"}

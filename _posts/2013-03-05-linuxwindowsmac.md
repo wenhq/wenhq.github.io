@@ -4,8 +4,7 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-8588709718300611665
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/linuxwindowsmac.html ---
-[王垠：漫谈Linux、Windows和Mac](http://blog.jobbole.com/34764/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%258e%258b%25e5%259e%25a0%25ef%25bc%259a%25e6%25bc%25ab%25e8%25b0%2588linux%25e3%2580%2581windows%25e5%2592%258cmac):
-\
+[王垠：漫谈Linux、Windows和Mac](http://blog.jobbole.com/34764/?utm_source=rss&utm_medium=rss&utm_campaign=%25e7%258e%258b%25e5%259e%25a0%25ef%25bc%259a%25e6%25bc%25ab%25e8%25b0%2588linux%25e3%2580%2581windows%25e5%2592%258cmac):\
 来源：[王垠的博客](http://blog.sina.com.cn/s/blog_5d90e82f0101iiwl.html)\
 好了，现在来一点技术性的。这段时间受到很多人的来信（大部分是菜鸟）。他们看了我很早以前写的推崇
 Linux 的文章，想知道如何“抛弃 Windows，学习
@@ -87,14 +86,23 @@ Mac
 Windows。这些系统的纷争基本上已经不关我什么事。我只是想告诉新人们，去除头脑里的宗教，偏激，仇恨和鄙视。每一次仇恨一个东西，你就失去了向它学习的机会。\
 \
 
+<div style="text-align: center;">
+
 ———-额外配图：粉丝眼中的操作系统———-
 
+</div>
+
+<div style="text-align: center;">
+
 [![粉丝眼中的操作系统](http://blog.jobbole.com/wp-content/uploads/2013/03/%E7%B2%89%E4%B8%9D%E7%9C%BC%E4%B8%AD%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.jpg "粉丝眼中的操作系统")](http://blog.jobbole.com/wp-content/uploads/2013/03/%E7%B2%89%E4%B8%9D%E7%9C%BC%E4%B8%AD%E7%9A%84%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.jpg "粉丝眼中的操作系统")
+
+</div>
 
 #### 相关文章
 
 -   [![ubuntu
-    logo](http://blog.jobbole.com/wp-content/uploads/2012/10/ubuntu-logo-150x150.jpg)](http://blog.jobbole.com/29546/)[Ubuntu桌面生存指南(1)：选择
+    logo](http://blog.jobbole.com/wp-content/uploads/2012/10/ubuntu-logo-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/29546/)[Ubuntu桌面生存指南(1)：选择
     Linux](http://blog.jobbole.com/29546/)
 -   [![受够了Linux服务器
     重返Windows](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/2.jpg)](http://blog.jobbole.com/1574/)[受够了Linux服务器
@@ -102,11 +110,13 @@ Windows。这些系统的纷争基本上已经不关我什么事。我只是想�
 -   [![王垠：从工具的奴隶到工具的主人](http://blog.jobbole.com/wp-content/uploads/2013/02/scheme-150x125.jpg)](http://blog.jobbole.com/26741/)[王垠：从工具的奴隶到工具的主人](http://blog.jobbole.com/26741/)
 -   [![流行Linux和Windows脚本语言列表](http://blog.jobbole.com/wp-content/uploads/2012/01/programming-languages.jpg)](http://blog.jobbole.com/22838/)[流行Linux和Windows脚本语言列表](http://blog.jobbole.com/22838/)
 -   [![Mac OS X
-    背后的故事](http://blog.jobbole.com/wp-content/uploads/2013/01/mac-osx-01-150x150.jpg)](http://blog.jobbole.com/32586/)[Mac
-    OS X 背后的故事](http://blog.jobbole.com/32586/)
+    背后的故事](http://blog.jobbole.com/wp-content/uploads/2013/01/mac-osx-01-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/32586/)[Mac OS X
+    背后的故事](http://blog.jobbole.com/32586/)
 -   [![开发人员为什么需要Mac？](http://blog.jobbole.com/wp-content/uploads/2011/11/software-development-logo.jpg)](http://blog.jobbole.com/9597/)[开发人员为什么需要Mac？](http://blog.jobbole.com/9597/)
 -   [![计算机的10大经典错误](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/28.jpg)](http://blog.jobbole.com/1215/)[计算机的10大经典错误](http://blog.jobbole.com/1215/)
--   [![Ubuntu桌面生存指南(2)：Ubuntu桌面体验简介](http://blog.jobbole.com/wp-content/uploads/2012/10/ubuntu-01-150x150.png)](http://blog.jobbole.com/29668/)[Ubuntu桌面生存指南(2)：Ubuntu桌面体验简介](http://blog.jobbole.com/29668/)
+-   [![Ubuntu桌面生存指南(2)：Ubuntu桌面体验简介](http://blog.jobbole.com/wp-content/uploads/2012/10/ubuntu-01-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/29668/)[Ubuntu桌面生存指南(2)：Ubuntu桌面体验简介](http://blog.jobbole.com/29668/)
 -   [![Windows
     8将带来什么](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/30.jpg)](http://blog.jobbole.com/1511/)[Windows
     8将带来什么](http://blog.jobbole.com/1511/)

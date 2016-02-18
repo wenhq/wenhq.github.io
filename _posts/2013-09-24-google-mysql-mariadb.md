@@ -4,11 +4,24 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-8918889341428183757
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/09/google-mysql-mariadb.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
 
 [Google 告别 MySQL 移步
 MariaDB](http://www.oschina.net/news/44473/google-move-to-mariadb)
 
+</div>
+
+<div style="font-size: 13px;">
+
 Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
 
 据外媒报道，近日，谷歌高级系统工程师对其数据库MySQL生态系统现状的展示中显示，谷歌的数据库已大部分由MySQL迁移至MariaDB，这是MySQL被Oracle收购后又一次被重量级用户抛弃。\
 据悉，在上周的斯坦福大学大型数据库会议上，谷歌高级系统工程师Jeremy
@@ -20,7 +33,6 @@ MySQL5.1版已经有点过时，所以要迁移至 MariaDB 10.0"。\
 数据库社区必须嵌入Oracle的开源数据库，才能获得它的技术支持。为了摆脱此束缚，苹果、维基百科等重量级用户先后迁移数据，转战他方，而此次又一互
 联网巨头的迁移，对于当下的人气之王MySQL来说着实是个不小的打击。\
 目前改用 MariaDB 的包括有：\
-
 -   **Fedora Project：**2013年元月，Fedora
     Project开始征集用户使用MariaDB的意向。而在夏季的 Fedora 19
     中，Fedora Project已经换用 MariaDB成为依赖软件的默认选择。
@@ -33,3 +45,5 @@ MySQL5.1版已经有点过时，所以要迁移至 MariaDB 10.0"。\
     Fedora已宣布从MySQL 切换到MariaDB。
 
 以上是一些不完全的统计（比如还有 openSUSE等等）
+
+</div>

@@ -19,7 +19,16 @@ K2pdfopt 预设了 Kindle、Nook、Kobo
 有哪位同学能提供下常见移动设备的宽、高度呢？\
 \
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fimg3.appinn.com%2Fwp-content%2Fdown.gif&container=blogger&gadget=a&rewriteMime=image%2F*)[www.willus.com/k2pdfopt/](http://www.willus.com/k2pdfopt/)
+<div>
+
 \
-来源：[K2pdfopt – 调整 PDF 文档尺寸适合移动设备[Win/OS
-X/Linux]](http://www.appinn.com/k2pdfopt/)  通过 [小众软件 -
+
+</div>
+
+<div>
+
+来源：[K2pdfopt – 调整 PDF 文档尺寸适合移动设备\[Win/OS
+X/Linux\]](http://www.appinn.com/k2pdfopt/)  通过 [小众软件 -
 Appinn](http://www.appinn.com/)
+
+</div>

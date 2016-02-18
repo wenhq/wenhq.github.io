@@ -4,9 +4,20 @@ modified\_time: '2014-01-01T13:36:19.084+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-7186911659259341526
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/01/data-science.html ---
+<div dir="ltr">
+
 +--------------------------------------+--------------------------------------+
+| <div style="margin-top: 15px;">      |                                      |
+|                                      |                                      |
 | 通过 [博客 -                         |                                      |
 | 伯乐在线](http://blog.jobbole.com/)  |                                      |
+|                                      |                                      |
+| </div>                               |                                      |
+|                                      |                                      |
+| <div dir="ltr"                       |                                      |
+| style="font-size: 14px; line-height: |                                      |
+|  20px; margin-top: 15px;">           |                                      |
+|                                      |                                      |
 | 数据科学是[OSEMN](http://www.dataists.com |                                 |
 | /2010/09/a-taxonomy-of-data-science/ |                                      |
 | )（和                                |                                      |
@@ -370,6 +381,10 @@ http://binaryware.blogspot.com/2014/01/data-science.html ---
 | 如果感兴趣，欢迎[follow me on        |                                      |
 | Twitter](https://twitter.com/jeroenh |                                      |
 | janssens/)。\                        |                                      |
+| <div>                                |                                      |
+|                                      |                                      |
+| <div>                                |                                      |
+|                                      |                                      |
 | ### 相关文章                         |                                      |
 |                                      |                                      |
 | -   [Google Dremel 原理 –            |                                      |
@@ -394,11 +409,18 @@ http://binaryware.blogspot.com/2014/01/data-science.html ---
 | -   [Presto：Facebook的分布式SQL查询引擎](htt |                             |
 | p://blog.jobbole.com/51177/)         |                                      |
 |                                      |                                      |
+| </div>                               |                                      |
+|                                      |                                      |
+| </div>                               |                                      |
+|                                      |                                      |
 | [七个用于数据科学(data               |                                      |
 | science)的命令行工具](http://blog.jobbole. |                                |
 | com/54308/)，首发于[博客             |                                      |
 | -                                    |                                      |
 | 伯乐在线](http://blog.jobbole.com/)。 |                                     |
+|                                      |                                      |
+|                                      |                                      |
+| </div>                               |                                      |
 +--------------------------------------+--------------------------------------+
 
-
+</div>

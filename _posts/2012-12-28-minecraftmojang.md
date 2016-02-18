@@ -4,8 +4,7 @@ modified\_time: '2013-09-30T15:13:19.116+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-6097717386873347058
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2012/12/minecraftmojang.html ---
-[纪录片《Minecraft：Mojang的故事》](http://www.ruanyifeng.com/blog/2012/12/minecraft_the_story_of_mojang.html):
-\
+[纪录片《Minecraft：Mojang的故事》](http://www.ruanyifeng.com/blog/2012/12/minecraft_the_story_of_mojang.html):\
 2009年，30岁的瑞典程序员[Markus
 Persson](http://en.wikipedia.org/wiki/Markus_Persson)写了一个小游戏[Minecraft](http://en.wikipedia.org/wiki/Minecraft)。\
 ![](http://image.beekka.com/blog/201212/bg2012122503.jpg)\
@@ -90,15 +89,24 @@ Productions](http://www.2playerproductions.com/)（简称2PP）的制片工作�
 style不也是这样吗），这些做法具有探索意义，令人耳目一新，而且具有可操作性，完全可以被其他项目仿效和借鉴。\
 （完）\
 
+<div
+style="background-color: #aad2f0; border-radius: 10px; border: 1px solid #d3d3d3; color: #556677; line-height: 160%; margin: 1em; padding: 0.3em 0.5em;">
+
 ### 文档信息
 
 -   版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons
     BY-NC-ND
     3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
--   原文网址：[http://www.ruanyifeng.com/blog/2012/12/minecraft\_the\_story\_of\_mojang.html](http://www.ruanyifeng.com/blog/2012/12/minecraft_the_story_of_mojang.html)
+-   原文网址：<http://www.ruanyifeng.com/blog/2012/12/minecraft_the_story_of_mojang.html>
 -   最后修改时间：2012年12月28日 12:11
 -   付费支持：[![人民币 -
     支付宝](http://www.ruanyifeng.com/blog/images/rmb_32.png "人民币")](https://me.alipay.com/ruanyf)
     | [![美元 -
     paypal](http://www.ruanyifeng.com/blog/images/dollar_32.png "美元")](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yifeng.ruan@gmail.com&currency_code=USD&amount=0.99&return=http://www.ruanyifeng.com/thank.html&item_name=Ruan%20YiFeng%27s%20Blog&undefined_quantity=1&no_note=0)
 
+</div>
+
+<div
+style="border-radius: 10px; color: #556677; line-height: 160%; margin: 1em; padding: 0.3em 0.5em;">
+
+</div>

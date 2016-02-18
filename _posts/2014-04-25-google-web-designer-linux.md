@@ -15,10 +15,18 @@ http://binaryware.blogspot.com/2014/04/google-web-designer-linux.html
 google-webdesigner\
 \
 \
-下载地址：[https://www.google.com/webdesigner/](https://www.google.com/webdesigner/)\
-ArchLinux
-用户：[https://aur.archlinux.org/packages/google-webdesigner/](https://aur.archlinux.org/packages/google-webdesigner/)
+下载地址：<https://www.google.com/webdesigner/>\
+ArchLinux 用户：<https://aur.archlinux.org/packages/google-webdesigner/>
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[Google Web Designer 开始支持
 Linux](http://www.oschina.net/news/51115/google-web-designer-support-linux) 
   通过 [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
+
+</div>

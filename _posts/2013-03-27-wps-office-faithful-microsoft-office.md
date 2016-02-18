@@ -5,9 +5,9 @@ tag:blogger.com,1999:blog-4961947611491238191.post-3509192989329519458
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/wps-office-faithful-microsoft-office.html
 --- [WPS Office – A Faithful Microsoft Office Clone for
-Linux](http://feedproxy.google.com/~r/d0od/~3/oQzDMlynaI0/wps-office-for-linux-looks-like-microsoft-office-but-isnt):
-\
-![wps-office-ribbon](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/wps-office-ribbon-750x404.jpg)\
+Linux](http://feedproxy.google.com/~r/d0od/~3/oQzDMlynaI0/wps-office-for-linux-looks-like-microsoft-office-but-isnt):\
+![wps-office-ribbon](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/wps-office-ribbon-750x404.jpg){width="750"
+height="404"}\
 **When is Microsoft Office not Microsoft Office? When it’s actually a
 faithfully-crafted imitation, of course!**\
 WPS Office, built by Chinese development group *Kingsoft*, claims to be
@@ -37,9 +37,14 @@ authentic looking.\
 For non-Ribbon fans WPS Office comes with the option of enabling the
 old, menu-based Office look\
 
+<div style="width: 750px;">
+
 [!["Classic Look" Enabled in WPS
-Office](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/old-look-750x353.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/old-look.jpg)\
+Office](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/old-look-750x353.jpg){width="750"
+height="353"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/old-look.jpg)\
 “Classic Look” Enabled in WPS Office.
+
+</div>
 
 WPS Office also adds a few handy features of its own, including an
 online pool of document templates and the ability to edit multiple
@@ -55,8 +60,12 @@ fix for the latter on his blog).\
 The latest version of WPS Office, a beta, can be downloaded for Ubuntu
 32bit by hitting the button below:\
 
+<div style="text-align: center;">
+
 [WPS Office for
 Linux](http://wdl.cache.ijinshan.com/wps/download/Linux/unstable/wps-office_8.1.0.3724~b1p2_i386.deb "Download WPS Office for Linux")
+
+</div>
 
 Once the suite has fully downloaded double-click on the .Deb file to
 install through the Ubuntu Software Center.\
@@ -66,11 +75,18 @@ On first run you’ll be prompted to sign up to.. Well, I don’t know
 because my Chinese is non-existent. Suffice to say, you can slap any old
 rubbish into the required fields and it’ll disappear.\
 
+<div style="width: 553px;">
+
 [![I Ain't Telling You
-Nothing...](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/sigh-up.jpg)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/sigh-up.jpg)\
+Nothing...](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/sigh-up.jpg){width="553"
+height="395"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/sigh-up.jpg)\
 I Ain’t Telling You Nothing…
 
+</div>
+
 \
+
+<div>
 
 [![](http://feeds.feedburner.com/~ff/d0od?i=oQzDMlynaI0:lIN3YhQCvAQ:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=oQzDMlynaI0:lIN3YhQCvAQ:wBxX2hOkimM)
 [![](http://feeds.feedburner.com/~ff/d0od?d=I9og5sOYxJI)](http://feeds.feedburner.com/~ff/d0od?a=oQzDMlynaI0:lIN3YhQCvAQ:I9og5sOYxJI)
@@ -79,4 +95,7 @@ I Ain’t Telling You Nothing…
 [![](http://feeds.feedburner.com/~ff/d0od?i=oQzDMlynaI0:lIN3YhQCvAQ:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/d0od?a=oQzDMlynaI0:lIN3YhQCvAQ:gIN9vFwOqvQ)
 [![](http://feeds.feedburner.com/~ff/d0od?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/d0od?a=oQzDMlynaI0:lIN3YhQCvAQ:yIl2AUoC8zA)
 
-![](http://feeds.feedburner.com/~r/d0od/~4/oQzDMlynaI0)
+</div>
+
+![](http://feeds.feedburner.com/~r/d0od/~4/oQzDMlynaI0){width="1"
+height="1"}

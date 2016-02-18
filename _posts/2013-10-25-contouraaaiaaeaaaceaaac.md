@@ -4,9 +4,25 @@ modified\_time: '2013-10-25T14:01:07.298+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-5780525024281889607
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/10/contouraaaiaaeaaaceaaac.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [Contour创始人：教你一招识别"优秀领导人才"的方法](http://www.kuailiyu.com/article/5643.html)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via
 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
 **　近日运动相机Contour公司的创始人Marc
 Barros发布文章，分享了他为团队挑选领导人的体会，文章如下：**\
 ![](http://www.kuailiyu.com/uploadfile/2013/1025/20131025103850719.jpg)\
@@ -21,3 +37,5 @@ Barros发布文章，分享了他为团队挑选领导人的体会，文章如�
 　　另外要注意候选人的肢体语言，你要的是一个能够快速决断和坚决执行的人。另外你需要的不是没有感情的机器人，如果候选人是那样的，请三思。\
 　　找到一个合适的团队领导人很难，但是他们能帮助公司取得巨大的成功。\
 [点击参与讨论此文](http://www.kuailiyu.com/article/5643.html?utm_source=articletail&utm_medium=RSS#comments)
+
+</div>

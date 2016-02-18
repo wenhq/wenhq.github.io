@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-1513058333118890707
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/ldagibbs-sampling.html ---
 [概率语言模型及其变形系列-LDA及Gibbs
-Sampling](http://feedproxy.google.com/~r/52nlp/~3/H8T0pgA8Jvg/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling):
-\
+Sampling](http://feedproxy.google.com/~r/52nlp/~3/H8T0pgA8Jvg/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling):\
 本系列博文介绍常见概率语言模型及其变形模型，主要总结PLSA、LDA及LDA的变形模型及参数Inference方法。初步计划内容如下\
 第一篇：[PLSA及EM算法](http://blog.csdn.net/yangliuy/article/details/8330640)\
 第二篇：[LDA及Gibbs
@@ -15,10 +14,10 @@ Samping](http://blog.csdn.net/yangliuy/article/details/8302599)\
 LDA，TimeUserLDA，ATM，Labeled-LDA，MaxEnt-LDA等\
 第四篇：基于变形LDA的paper分类总结\
 第二篇 LDA及Gibbs Sampling\
-[Update 2012/12/21
+\[Update 2012/12/21
 为了解决部分朋友反映的网页图片无法显示的问题，更新PDF版本\
 下载地址 [LDA及Gibbs
-Sampling-yangliuy](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/lda%e5%8f%8agibbs-sampling-yangliuy)]\
+Sampling-yangliuy](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/lda%e5%8f%8agibbs-sampling-yangliuy)\]\
 1 LDA概要\
 LDA是由Blei,Ng, Jordan
 2002年发表于JMLR的概率语言模型，应用到文本建模范畴，就是对文本进行“隐性语义分析”（LSA），目的是要以无指导学习的方法从文本中发现隐含的语义维度-即“Topic”或者“Concept”。隐性语义分析的实质是要利用文本中词项(term)的共现特征来发现文本的Topic结构，这种方法不需要任何关于文本的背景知识。文本的隐性语义表示可以对“一词多义”和“一义多词”的语言现象进行建模，这使得搜索引擎系统得到的搜索结果与用户的query在语义层次上match，而不是仅仅只是在词汇层次上出现交集。\
@@ -47,9 +46,12 @@ delta函数，可以看做是Beta函数拓展到K的情况，但是在有的文�
 其分布律如下\
 ![](http://img.my.csdn.net/uploads/201212/17/1355730281_5010.JPG)\
 关于Dirichlet分布，维基百科上有一张很有意思的图如下\
-[![LogDirichletDensity-alpha\_0.3\_to\_alpha\_2.0](http://www.52nlp.cn/wp-content/uploads/2012/12/LogDirichletDensity-alpha_0.3_to_alpha_2.0-300x300.gif)](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/logdirichletdensity-alpha_0-3_to_alpha_2-0)\
+[![LogDirichletDensity-alpha\_0.3\_to\_alpha\_2.0](http://www.52nlp.cn/wp-content/uploads/2012/12/LogDirichletDensity-alpha_0.3_to_alpha_2.0-300x300.gif){width="300"
+height="300"}](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/logdirichletdensity-alpha_0-3_to_alpha_2-0)\
 这个图将Dirichlet分布的概率密度函数取对数,并且使用对称Dirichlet分布，取K=3，也就是有两个独立参数 ![x\_1,
-x\_2](http://upload.wikimedia.org/math/9/8/6/9865b118af4cfc107929ec116ab9eb80.png) ，分别对应图中的两个坐标轴，第三个参数始终满足[![111](http://www.52nlp.cn/wp-content/uploads/2012/12/111.png)](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/111)且[![222](http://www.52nlp.cn/wp-content/uploads/2012/12/222.png)](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/222) ，图中反映的是![\\alpha](http://upload.wikimedia.org/math/b/c/c/bccfc7022dfb945174d9bcebad2297bb.png)从0.3变化到2.0的概率对数值的变化情况。\
+x\_2](http://upload.wikimedia.org/math/9/8/6/9865b118af4cfc107929ec116ab9eb80.png) ，分别对应图中的两个坐标轴，第三个参数始终满足[![111](http://www.52nlp.cn/wp-content/uploads/2012/12/111.png){width="140"
+height="18"}](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/111)且[![222](http://www.52nlp.cn/wp-content/uploads/2012/12/222.png){width="152"
+height="13"}](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/222) ，图中反映的是![\\alpha](http://upload.wikimedia.org/math/b/c/c/bccfc7022dfb945174d9bcebad2297bb.png)从0.3变化到2.0的概率对数值的变化情况。\
 3 unigram model\
 我们先介绍比较简单的unigram model。其概率图模型图示如下\
 \
@@ -110,7 +112,8 @@ delta函数组成的表达式\
 rule，即排除当前词的主题分配，根据其他词的主题分配和观察到的单词来计算当前词主题的概率公式\
 ![](http://img.my.csdn.net/uploads/201212/17/1355746368_5899.JPG)\
 里面用到了伽马函数的性质\
-[![333](http://www.52nlp.cn/wp-content/uploads/2012/12/333.png)](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/333)\
+[![333](http://www.52nlp.cn/wp-content/uploads/2012/12/333.png){width="152"
+height="21"}](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%97-lda%e5%8f%8agibbs-sampling/attachment/333)\
 同时需要注意到\
 ![](http://img.my.csdn.net/uploads/201212/17/1355746691_5068.JPG)\
 这一项与当前词的主题分配无关，因为无论分配那个主题，对所有k求和的结果都是一样的，区别只在于拿掉的是哪个主题下的一个词。因此可以当成常量，最后我们只需要得到一个成正比的计算式来作为Gibbs
@@ -140,29 +143,29 @@ analysis，感谢Gregor Heinrich详实细致的Technical report。
 看过的一些关于LDA和Gibbs Sampling 的Notes，
 这个是最准确细致的，内容最为全面系统。下面几个Notes对Topic
 Model感兴趣的朋友也推荐看一看。\
-[1] Christopher M. Bishop. Pattern Recognition and Machine Learning
+\[1\] Christopher M. Bishop. Pattern Recognition and Machine Learning
 (Information Science and Statistics). Springer-Verlag New York, Inc.,
 Secaucus, NJ, USA, 2006.\
 \
-[2] Gregor Heinrich. Parameter estimation for text analysis. Technical
+\[2\] Gregor Heinrich. Parameter estimation for text analysis. Technical
 report, 2004.\
 \
-[3] Wang Yi. Distributed Gibbs Sampling of Latent Topic Models: The
+\[3\] Wang Yi. Distributed Gibbs Sampling of Latent Topic Models: The
 Gritty Details Technical report, 2005.\
-[4] Wayne Xin Zhao, Note for pLSA and LDA, Technical report, 2011.\
-[5] Freddy Chong Tat Chua. Dimensionality reduction and clustering of
+\[4\] Wayne Xin Zhao, Note for pLSA and LDA, Technical report, 2011.\
+\[5\] Freddy Chong Tat Chua. Dimensionality reduction and clustering of
 text documents.Technical report, 2009.\
-[6] Wikipedia, Dirichlet
+\[6\] Wikipedia, Dirichlet
 distribution , http://en.wikipedia.org/wiki/Dirichlet\_distribution\
 更多语言模型相关文章见http://blog.csdn.net/yangliuy/\
+<div>
 
 相关文章:\
-
 1.  [概率语言模型及其变形系列-PLSA及EM算法](http://www.52nlp.cn/%e6%a6%82%e7%8e%87%e8%af%ad%e8%a8%80%e6%a8%a1%e5%9e%8b%e5%8f%8a%e5%85%b6%e5%8f%98%e5%bd%a2%e7%b3%bb%e5%88%971-plsa%e5%8f%8aem%e7%ae%97%e6%b3%95 "概率语言模型及其变形系列-PLSA及EM算法")
-2.  [LDA-math-MCMC 和 Gibbs
-    Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
-3.  [LDA-math-MCMC 和 Gibbs
-    Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
+2.  [LDA-math-MCMC 和
+    Gibbs Sampling(2)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling2 "LDA-math-MCMC 和 Gibbs Sampling(2)")
+3.  [LDA-math-MCMC 和
+    Gibbs Sampling(1)](http://www.52nlp.cn/lda-math-mcmc-%e5%92%8c-gibbs-sampling1 "LDA-math-MCMC 和 Gibbs Sampling(1)")
 4.  [“眼泪”与“门外汉”——向自然语言处理的大牛们学习](http://www.52nlp.cn/tears-and-uninitiated-learn-from-natural-language-processing-heros "“眼泪”与“门外汉”——向自然语言处理的大牛们学习")
 5.  [贝叶斯模型文献阅读指南](http://www.52nlp.cn/bayesian-modeling-for-language-tutorial-reading "贝叶斯模型文献阅读指南")
 6.  [MIT自然语言处理第三讲：概率语言模型（第六部分）](http://www.52nlp.cn/mit-nlp-third-lesson-probabilistic-language-modeling-sixth-part "MIT自然语言处理第三讲：概率语言模型（第六部分）")
@@ -172,4 +175,7 @@ distribution , http://en.wikipedia.org/wiki/Dirichlet\_distribution\
 10. [转载:　Topic modeling made just simple
     enough](http://www.52nlp.cn/%e8%bd%ac%e8%bd%bd-topic-modeling-made-just-simple-enough "转载:　Topic modeling made just simple enough")
 
-![](http://feeds.feedburner.com/~r/52nlp/~4/H8T0pgA8Jvg)
+</div>
+
+![](http://feeds.feedburner.com/~r/52nlp/~4/H8T0pgA8Jvg){width="1"
+height="1"}

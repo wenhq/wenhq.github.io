@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-4097464387322111358
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/gnomemiguel-de-icazamac.html ---
 [GNOME之父Miguel de
-Icaza：我是怎样投奔Mac的](http://blog.jobbole.com/34896/?utm_source=rss&utm_medium=rss&utm_campaign=gnome%25e4%25b9%258b%25e7%2588%25b6miguel-de-icaza%25ef%25bc%259a%25e6%2588%2591%25e6%2598%25af%25e6%2580%258e%25e6%25a0%25b7%25e6%258a%2595%25e5%25a5%2594mac%25e7%259a%2584):
-\
+Icaza：我是怎样投奔Mac的](http://blog.jobbole.com/34896/?utm_source=rss&utm_medium=rss&utm_campaign=gnome%25e4%25b9%258b%25e7%2588%25b6miguel-de-icaza%25ef%25bc%259a%25e6%2588%2591%25e6%2598%25af%25e6%2580%258e%25e6%25a0%25b7%25e6%258a%2595%25e5%25a5%2594mac%25e7%259a%2584):\
 英文原文：[How I ended up with
 Mac](http://tirania.org/blog/archive/2013/Mar-05.html) by [Miguel de
 Icaza](https://twitter.com/migueldeicaza)，翻译：[Soimort](http://www.soimort.org/posts/144/)\
@@ -17,7 +16,7 @@ Icaza](http://en.wikipedia.org/wiki/Miguel_de_Icaza)今天发了[一篇博](http
 Icaza：我是怎样投奔Mac的](http://blog.jobbole.com/wp-content/uploads/2013/03/P27mcKE.png "GNOME之父Miguel de Icaza：我是怎样投奔Mac的")](http://blog.jobbole.com/wp-content/uploads/2013/03/P27mcKE.png "GNOME之父Miguel de Icaza：我是怎样投奔Mac的")\
 现将翻译和原文一并贴上来。如下：\
 
-* * * * *
+------------------------------------------------------------------------
 
 在读到Dave
 Winer的[《为什么Windows输给了Mac》](http://threads2.scripting.com/2013/march/whyWindowsLostToMac)时，我注意到自己在Linux和Mac上的经历与他有许多平行之处。
@@ -37,23 +36,32 @@ OS上实现对Mono的支持），而让自己适应在Mac上进行常规工作�
 
 #### 相关文章
 
--   [![前端开发工程师如何在2013年里提升自己](http://blog.jobbole.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-17-at-10.49.49-150x150.jpg)](http://blog.jobbole.com/31753/)[前端开发工程师如何在2013年里提升自己](http://blog.jobbole.com/31753/)
+-   [![前端开发工程师如何在2013年里提升自己](http://blog.jobbole.com/wp-content/uploads/2012/12/Screen-Shot-2012-12-17-at-10.49.49-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/31753/)[前端开发工程师如何在2013年里提升自己](http://blog.jobbole.com/31753/)
 -   [![Herb Sutter
-    世界首屈一指的C++专家](http://blog.jobbole.com/wp-content/uploads/2012/04/herb-sutter-going-native-150x150.jpg)](http://blog.jobbole.com/17832/)[现代C++与受控代码的对弈：性能
+    世界首屈一指的C++专家](http://blog.jobbole.com/wp-content/uploads/2012/04/herb-sutter-going-native-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/17832/)[现代C++与受控代码的对弈：性能
     vs 生产力](http://blog.jobbole.com/17832/)
--   [![Javascript定义类（class）的三种方法](http://blog.jobbole.com/wp-content/uploads/2012/07/three-methods-of-Javascript-defined-class2-150x150.png)](http://blog.jobbole.com/23563/)[Javascript定义类（class）的三种方法](http://blog.jobbole.com/23563/)
+-   [![Javascript定义类（class）的三种方法](http://blog.jobbole.com/wp-content/uploads/2012/07/three-methods-of-Javascript-defined-class2-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/23563/)[Javascript定义类（class）的三种方法](http://blog.jobbole.com/23563/)
 -   [![2012年7月编程语言排行榜 Top 20
-    具体榜单](http://blog.jobbole.com/wp-content/uploads/2012/03/top-20-in-July-150x150.png)](http://blog.jobbole.com/14211/)[2012年7月编程语言排行榜：Objective-C超越C++](http://blog.jobbole.com/14211/)
--   [![Facebook技术总监：如何管理10亿用户的数据？](http://blog.jobbole.com/wp-content/uploads/2013/01/facebook-managing-billion-user-data-150x150.jpg)](http://blog.jobbole.com/32804/)[Facebook技术总监：如何管理10亿用户的数据？](http://blog.jobbole.com/32804/)
+    具体榜单](http://blog.jobbole.com/wp-content/uploads/2012/03/top-20-in-July-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/14211/)[2012年7月编程语言排行榜：Objective-C超越C++](http://blog.jobbole.com/14211/)
+-   [![Facebook技术总监：如何管理10亿用户的数据？](http://blog.jobbole.com/wp-content/uploads/2013/01/facebook-managing-billion-user-data-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/32804/)[Facebook技术总监：如何管理10亿用户的数据？](http://blog.jobbole.com/32804/)
 -   [![Saas
-    新手指南](http://blog.jobbole.com/wp-content/uploads/2013/01/css-150x150.jpg)](http://blog.jobbole.com/32741/)[SASS
+    新手指南](http://blog.jobbole.com/wp-content/uploads/2013/01/css-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/32741/)[SASS
     新手指南](http://blog.jobbole.com/32741/)
 -   [![为重负网络优化 Nginx 和
-    Node.js](http://blog.jobbole.com/wp-content/uploads/2013/01/high-load-network-ngnix-nodejs-150x150.png)](http://blog.jobbole.com/32670/)[为重负网络优化
-    Nginx 和 Node.js](http://blog.jobbole.com/32670/)
+    Node.js](http://blog.jobbole.com/wp-content/uploads/2013/01/high-load-network-ngnix-nodejs-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/32670/)[为重负网络优化 Nginx
+    和 Node.js](http://blog.jobbole.com/32670/)
 -   [![Java在线教程–接口篇](http://blog.jobbole.com/wp-content/uploads/2011/11/Java-programming-language-logo.jpg)](http://blog.jobbole.com/32544/)[Java在线教程–接口篇](http://blog.jobbole.com/32544/)
--   [![web前端性能优化进阶路](http://blog.jobbole.com/wp-content/uploads/2013/01/3-150x150.png)](http://blog.jobbole.com/32550/)[web前端性能优化进阶路](http://blog.jobbole.com/32550/)
--   [![Kinect身份识别：技术与经验](http://blog.jobbole.com/wp-content/uploads/2013/01/kinect-01-150x150.jpg)](http://blog.jobbole.com/32607/)[Kinect身份识别：技术与经验](http://blog.jobbole.com/32607/)
+-   [![web前端性能优化进阶路](http://blog.jobbole.com/wp-content/uploads/2013/01/3-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/32550/)[web前端性能优化进阶路](http://blog.jobbole.com/32550/)
+-   [![Kinect身份识别：技术与经验](http://blog.jobbole.com/wp-content/uploads/2013/01/kinect-01-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/32607/)[Kinect身份识别：技术与经验](http://blog.jobbole.com/32607/)
 
 [GNOME之父Miguel de
 Icaza：我是怎样投奔Mac的](http://blog.jobbole.com/34896/)，首发于[博客 -

@@ -3,14 +3,24 @@
 '2013-06-06T09:09:38.539+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-1945412094679190234
 blogger\_orig\_url:
-http://binaryware.blogspot.com/2013/06/newszeit-google-reader.html --- \
+http://binaryware.blogspot.com/2013/06/newszeit-google-reader.html ---\
+<div
+style="font-family: sans-serif; margin: 0px 10px; overflow: auto; width: 100%;">
 
- {style="margin: 0.25em 0 0 0;"}
+ {#section style="margin: 0.25em 0 0 0;"}
+
+<div>
 
 [NewsZeit：优秀的 Google Reader
 替代品](http://linuxtoy.org/archives/newszeit.html)
 
-于 13-6-3 通过 [LinuxTOY](http://linuxtoy.org/) 作者：Toy
+</div>
+
+<div style="margin-bottom: 0.5em;">
+
+于 13-6-3 通过 [LinuxTOY](http://linuxtoy.org/){.f} 作者：Toy
+
+</div>
 
 \
 {撰文/Bruce You}\
@@ -31,7 +41,6 @@ Google Reader 的功能，还额外增加了一些实用的功能，从 Google R
 NewsBlur
 吗？我同样也有这个问题，我的第一个感觉就是由于服务器位置的关系，NewsZeit
 比原网站快很多。关于这个问题，NewsZeit 的开发者总结了重新部署的意义：\
-
 1.  提高国内访问速度；
 2.  改善中文支持；
 3.  可以继续开发更多适合国内的功能，举个例子如中文昵称、分享到微博等；
@@ -49,6 +58,8 @@ del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/newszeit
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/newszeit.html)
 | [5 评论](http://linuxtoy.org/archives/newszeit.html#comments) |
 [捐助本站](http://linuxtoy.org/faq/donate)
+
+</div>
 
 \
 

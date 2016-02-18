@@ -4,15 +4,25 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-1421934572020509664
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/google-play.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **Google Play应用商店下架广告屏蔽类应用**
+
+</div>
+
+<div class="source">
 
 Published on [博客 -
 伯乐在线](http://blog.jobbole.com/35664/?utm_source=rss&utm_medium=rss&utm_campaign=online-blackjack-card-counter-hi-lo)
 | shared via [feedly](http://www.feedly.com)
+
+</div>
+
+<div>
 
 来源：[新浪科技](http://tech.sina.com.cn/i/2013-03-14/13468145598.shtml)
 
@@ -43,27 +53,41 @@ Play中下架，但开发者仍可以通过其他渠道自由发布及销售这�
 -   [![忘掉LinkedIn，来GitHub挖科技人才吧](http://blog.jobbole.com/wp-content/uploads/2013/03/github-logo1-150x150.jpg)](http://blog.jobbole.com/26380/)[忘掉LinkedIn，来GitHub挖科技人才吧](http://blog.jobbole.com/26380/)
 -   [![2013年6个热门的技术和设计职位](http://www.jobbole.net/wp-content/uploads/2013/02/money-logo-11-150x150.jpg)](http://blog.jobbole.com/31722/)[2013年6个热门的技术和设计职位](http://blog.jobbole.com/31722/)
 -   [![Bootstrap
-    logo](http://blog.jobbole.com/wp-content/uploads/2013/02/Bootstrap-logo.png)](http://blog.jobbole.com/33650/)[Bootstrap
-    2.3 有哪些改进？](http://blog.jobbole.com/33650/)
+    logo](http://blog.jobbole.com/wp-content/uploads/2013/02/Bootstrap-logo.png){width="144"
+    height="144"}](http://blog.jobbole.com/33650/)[Bootstrap 2.3
+    有哪些改进？](http://blog.jobbole.com/33650/)
 -   [![ted
-    logo](http://blog.jobbole.com/wp-content/uploads/2013/02/ted-logo-150x150.jpg)](http://blog.jobbole.com/33797/)[有抱负的程序员应看的10个TED演讲](http://blog.jobbole.com/33797/)
+    logo](http://blog.jobbole.com/wp-content/uploads/2013/02/ted-logo-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/33797/)[有抱负的程序员应看的10个TED演讲](http://blog.jobbole.com/33797/)
 -   [![调查：2013年十大急需的热门IT技能](http://blog.jobbole.com/wp-content/uploads/2013/02/Internet-logo2-150x150.jpg)](http://blog.jobbole.com/30894/)[调查：2013年十大急需的热门IT技能](http://blog.jobbole.com/30894/)
 -   [![Reshma
-    Saujani](http://blog.jobbole.com/wp-content/uploads/2012/06/Reshma-Saujani-150x150.jpg)](http://blog.jobbole.com/22702/)[Google等宣布加入编程女生倡议：增加女程序员数量](http://blog.jobbole.com/22702/)
+    Saujani](http://blog.jobbole.com/wp-content/uploads/2012/06/Reshma-Saujani-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/22702/)[Google等宣布加入编程女生倡议：增加女程序员数量](http://blog.jobbole.com/22702/)
 -   [![WordPress
-    logo](http://blog.jobbole.com/wp-content/uploads/2011/11/WordPress-logo-150x150.jpg)](http://blog.jobbole.com/31329/)[2012年Linux
+    logo](http://blog.jobbole.com/wp-content/uploads/2011/11/WordPress-logo-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/31329/)[2012年Linux
     Journal读者选择奖结果公布](http://blog.jobbole.com/31329/)
 -   [![Guido Van Rossum has tweeted Today is my last day at
-    Google](http://blog.jobbole.com/wp-content/uploads/2012/12/Guido-Van-Rossum-has-tweeted-Today-is-my-last-day-at-Google--150x150.png)](http://blog.jobbole.com/31146/)[Python之父从Google离职，加入Dropbox](http://blog.jobbole.com/31146/)
+    Google](http://blog.jobbole.com/wp-content/uploads/2012/12/Guido-Van-Rossum-has-tweeted-Today-is-my-last-day-at-Google--150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/31146/)[Python之父从Google离职，加入Dropbox](http://blog.jobbole.com/31146/)
 -   [![PYPL PopularitY of Programming Language index Longtern Trends in
     2013
-    Jan](http://blog.jobbole.com/wp-content/uploads/2012/12/PYPL-PopularitY-of-Programming-Language-index-Longtern-Trends-in-2013-Jan-150x150.png)](http://blog.jobbole.com/31326/)[PYPL编程语言人气指数：C\#才是2012年度语言](http://blog.jobbole.com/31326/)
+    Jan](http://blog.jobbole.com/wp-content/uploads/2012/12/PYPL-PopularitY-of-Programming-Language-index-Longtern-Trends-in-2013-Jan-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/31326/)[PYPL编程语言人气指数：C\#才是2012年度语言](http://blog.jobbole.com/31326/)
 
 [Google
 Play应用商店下架广告屏蔽类应用](http://blog.jobbole.com/35664/)，首发于[博客
 - 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

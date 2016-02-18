@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-2998074032892277956
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/hadoop-etl.html --- [Hadoop
 目前只是“穷人的
-ETL”](http://www.oschina.net/news/40534/hadoop-is-poor-etl): \
+ETL”](http://www.oschina.net/news/40534/hadoop-is-poor-etl):\
 **虽然企业部署Hadoop大数据系统的最终目的是进行“性感”的分析应用，但是大多数企业距离这一目标还很远很远。**\
 根据IDC发布的Hadoop-MapReduce软件生态系统预测[报告](http://www.idc.com/getdoc.jsp?containerId=prUS23471212)，Hadoop
 市场正在以60%的年复合增长率高速扩张。但是该报告也揭示了一个让人吃惊的事实，作为大数据分析应用的代名词，Hadoop的流行其实与数据分析无关。

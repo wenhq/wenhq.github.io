@@ -4,16 +4,21 @@ modified\_time: '2013-10-11T13:40:48.726+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-3433369492999484283
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/02/seomozgoogle.html ---
-[SEOMoz：Google搜索算法变迁史](http://blog.jobbole.com/33087/?utm_source=rss&utm_medium=rss&utm_campaign=seomoz%25ef%25bc%259agoogle%25e6%2590%259c%25e7%25b4%25a2%25e7%25ae%2597%25e6%25b3%2595%25e5%258f%2598%25e8%25bf%2581%25e5%258f%25b2):
-\
+[SEOMoz：Google搜索算法变迁史](http://blog.jobbole.com/33087/?utm_source=rss&utm_medium=rss&utm_campaign=seomoz%25ef%25bc%259agoogle%25e6%2590%259c%25e7%25b4%25a2%25e7%25ae%2597%25e6%25b3%2595%25e5%258f%2598%25e8%25bf%2581%25e5%258f%25b2):\
 英文原文：[Seomoz](http://www.seomoz.org/google-algorithm-change)，编译：深圳SEO博主
-（原博文站已”挂”，2011年编译）\
-近日Seomoz发布了一则新专题，有关Google算法变迁的。从2000年到2011年每一次升级都做了详细的列举，具体如下：（[伯乐](http://www.jobbole.com/ "伯乐")在线注：这个专题一直在更新，2013年已有一次小更新）\
+<span style="color: red;">（原博文站已”挂”，2011年编译）</span>\
+近日Seomoz发布了一则新专题，有关Google算法变迁的。从2000年到2011年每一次升级都做了详细的列举，具体如下：<span
+style="color: red;">（[伯乐](http://www.jobbole.com/ "伯乐")在线注：这个专题一直在更新，2013年已有一次小更新）</span>\
 Google每年的算法改变高达500-600次，只不过很多改动都很小。但是每隔几个月，Google都会做一次比较大的算法升级，这些升级都会直接影响到搜索的排名结果。\
 作为一个搜索引擎营销人员，了解这些算法的改变有助于分析网站排名以及流量的变化状况，下面我们列出了几次影响比较大的算法升级，熟悉这些算法的变动将会有助于你的SEO工作。\
 
+<div style="text-align: center;">
+
 [![Google Algorithm Change
-History](http://blog.jobbole.com/wp-content/uploads/2013/02/Google-Algorithm-Change-History.jpg "Google Algorithm Change History")](http://blog.jobbole.com/wp-content/uploads/2013/02/Google-Algorithm-Change-History.jpg "Google Algorithm Change History")
+History](http://blog.jobbole.com/wp-content/uploads/2013/02/Google-Algorithm-Change-History.jpg "Google Algorithm Change History"){width="569"
+height="379"}](http://blog.jobbole.com/wp-content/uploads/2013/02/Google-Algorithm-Change-History.jpg "Google Algorithm Change History")
+
+</div>
 
 **2000年**\
 **2000年12月 – Google工具条**\
@@ -171,10 +176,10 @@ Google每年的算法改变高达500-600次，只不过很多改动都很小。�
 ……\
 \
 
-* * * * *
+------------------------------------------------------------------------
 
 Copyright © 2008\
-This feed is for personal, non-commercial use only. \
+This feed is for personal, non-commercial use only.\
 The use of this feed on other websites breaches copyright. If this
 content is not in your news reader, it makes the page you are viewing an
 infringement of the copyright. (Digital Fingerprint:\

@@ -5,18 +5,29 @@ tag:blogger.com,1999:blog-4961947611491238191.post-5618332088792246879
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/ubuntu-to-become-official-os-of-china.html
 ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **Ubuntu To Become The Official OS Of China**
+
+</div>
+
+<div class="source">
 
 Published on [OMG!
 Ubuntu!](http://www.omgubuntu.co.uk/2013/03/ubuntu-to-become-the-official-os-of-china?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+d0od+(OMG!+Ubuntu!))
 | shared via [feedly](http://www.feedly.com)
 
+</div>
+
+<div>
+
 [![China
-Ubuntu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/China-Ubuntu.png)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/China-Ubuntu.png)
+Ubuntu](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/China-Ubuntu.png){width="640"
+height="360"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/China-Ubuntu.png)
 
 **Canonical, the makers of Ubuntu have announced that they will be
 officially affiliated with the Chinese government to bring a new Ubuntu
@@ -66,6 +77,8 @@ in the comments section below.**
 
  
 
+<div>
+
 [![](http://feeds.feedburner.com/~ff/d0od?i=VHbbVjAmacc:URYYNfREsJ0:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=VHbbVjAmacc:URYYNfREsJ0:wBxX2hOkimM)
 [![](http://feeds.feedburner.com/~ff/d0od?d=I9og5sOYxJI)](http://feeds.feedburner.com/~ff/d0od?a=VHbbVjAmacc:URYYNfREsJ0:I9og5sOYxJI)
 [![](http://feeds.feedburner.com/~ff/d0od?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/d0od?a=VHbbVjAmacc:URYYNfREsJ0:qj6IDK7rITs)
@@ -73,9 +86,20 @@ in the comments section below.**
 [![](http://feeds.feedburner.com/~ff/d0od?i=VHbbVjAmacc:URYYNfREsJ0:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/d0od?a=VHbbVjAmacc:URYYNfREsJ0:gIN9vFwOqvQ)
 [![](http://feeds.feedburner.com/~ff/d0od?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/d0od?a=VHbbVjAmacc:URYYNfREsJ0:yIl2AUoC8zA)
 
-![](http://feeds.feedburner.com/~r/d0od/~4/VHbbVjAmacc)
+</div>
+
+![](http://feeds.feedburner.com/~r/d0od/~4/VHbbVjAmacc){width="1"
+height="1"}
+
+</div>
 
 \
 
+</div>
+
+<div class="footer">
+
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

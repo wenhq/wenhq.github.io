@@ -20,20 +20,15 @@ HumbleFinance 一个HTML5数据可视化控件， 它 利用html5
 附件的demo显示了google 2010年3月15号IPO的历史数据。 数据来自Google
 财经频道。\
 \
-值得一提的是，用户可以移动鼠标来显示某个时间点上的更详细的数据值，也可以使用鼠标放大、缩小、移动图表（类似百度地图）
+值得一提的是，用户可以移动鼠标来显示某个时间点上的更详细的数据值，也可以使用鼠标放大、缩小、移动图表（类似百度地图）\
 \
+组件在 FireFox, Chrome, Safari等浏览器上表现良好。\
 \
-组件在 FireFox, Chrome, Safari等浏览器上表现良好。 \
+网站  <http://www.humblesoftware.com/finance/index>\
 \
-网站
- [http://www.humblesoftware.com/finance/index](http://www.humblesoftware.com/finance/index)
+下载地址  <http://www.humblesoftware.com/finance/source>\
 \
-\
-下载地址
- [http://www.humblesoftware.com/finance/source](http://www.humblesoftware.com/finance/source)
-\
-\
-开源协议 MIT \
+开源协议 MIT\
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fwww.cnblogs.com%2Flongboo%2Faggbug%2F1944757.html%3Ftype%3D1&container=blogger&gadget=a&rewriteMime=image%2F*)\
 \
 作者: [web最新技术分享](http://www.cnblogs.com/longboo/) 发表于

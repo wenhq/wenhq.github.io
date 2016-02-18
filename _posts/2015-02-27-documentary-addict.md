@@ -23,8 +23,8 @@ Documentary Addict
 網站搜尋看看，相信能找到你需要的內容（當然網站收錄的紀錄片多以英文為主，若要尋找中文的紀錄片，建議可直接到
 YouTube 等網站搜尋）。\
 \
-網站名稱：Documentary Addict \
-網站鏈結：[http://documentaryaddict.com/](http://documentaryaddict.com/)\
+網站名稱：Documentary Addict\
+網站鏈結：<http://documentaryaddict.com/>\
 使用教學\
 \
 Step 1\
@@ -90,6 +90,24 @@ YouTube、Vimeo），若需要也可以使用其他工具或軟體將影片下�
 \
 \
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Ffree.com.tw%2Fblog%2Fwp-content%2Fuploads%2F2015%2F02%2FDocumentary-Addict-%25E5%259C%25B0%25E8%25A1%25A8%25E6%259C%2580%25E8%25B1%2590%25E5%25AF%258C%25E3%2580%2581%25E5%25AE%258C%25E6%2595%25B4%25E7%259A%2584%25E7%25B4%2580%25E9%258C%2584%25E7%2589%2587%25E9%25A0%25BB%25E9%2581%2593%25EF%25BC%258C%25E5%2590%2584%25E9%25A1%259E%25E5%25BD%25B1%25E7%2589%2587%25E7%25B7%259A%25E4%25B8%258A%25E7%259C%258B%25E5%2585%258D%25E4%25B8%258B%25E8%25BC%25892015-02-23_1306.png&container=blogger&gadget=a&rewriteMime=image%2F*)\
+<div dir="ltr"
+style="font-size: 14px; line-height: 20px; margin-top: 15px;">
+
+<div style="background-color: #f2f2f2; color: #303030;">
+
+</div>
+
+</div>
+
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[Documentary Addict
 地表最豐富、完整的紀錄片頻道，各類影片線上看免下載](http://free.com.tw/documentary-addict/)  通过 [免費資源網路社群](http://free.com.tw/)
+
+</div>

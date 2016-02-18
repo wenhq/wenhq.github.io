@@ -14,35 +14,36 @@ http://binaryware.blogspot.com/2014/01/angularjs.html --- [AngularJS
 \
 让我们从一个简单的例子开始。我想要显示一个书本(book)的页面。下面是控制器(Controller)：\
 \
-BookControllerapp.controller('BookController', ['\$scope',
+BookControllerapp.controller('BookController', \['\$scope',
 function(\$scope) { \$scope.book = { id: 1, name: 'Harry Potter',
-author: 'J. K. Rowling', stores: [ { id: 1, name: 'Barnes & Noble',
+author: 'J. K. Rowling', stores: \[ { id: 1, name: 'Barnes & Noble',
 quantity: 3}, { id: 2, name: 'Waterstones', quantity: 2}, { id: 3, name:
-'Book Depository', quantity: 5} ] }; }]);\
+'Book Depository', quantity: 5} \] }; }\]);\
 \
 \
 这个控制器创建了一个书本的模型，我们可以在后面的模板中(templage)中使用它。\
 \
 template for displaying a book\
-\<div ng-controller="BookController"\> Id: \<span
-ng-bind="[book.id](http://book.id/)"\>\</span\> \<br/\> Name:\<input
-type="text" ng-model="[book.name](http://book.name/)" /\> \<br/\>
-Author: \<input type="text" ng-model="book.author" /\> \</div\>\
+&lt;div ng-controller="BookController"&gt; Id: &lt;span
+ng-bind="[book.id](http://book.id/)"&gt;&lt;/span&gt; &lt;br/&gt;
+Name:&lt;input type="text" ng-model="[book.name](http://book.name/)"
+/&gt; &lt;br/&gt; Author: &lt;input type="text" ng-model="book.author"
+/&gt; &lt;/div&gt;\
 \
 \
 \
 假如我们需要从后台的api获取书本的数据，我们需要使用\$http:\
 \
-BookController with \$httpapp.controller('BookController', ['\$scope',
+BookController with \$httpapp.controller('BookController', \['\$scope',
 '\$http', function(\$scope, \$http) { var bookId = 1;
 \$http.get('ourserver/books/' + bookId).success(function(bookData) {
-\$scope.book = bookData; }); }]);\
+\$scope.book = bookData; }); }\]);\
 \
 \
 注意到这里的bookData仍然是一个JSON对象。接下来我们想要使用这些数据做一些事情。比如，更新书本信息，删除书本，甚至其他的一些不涉及到后台的操作，比如根据请求的图片大小生成一个书本图片的url，或者判断书本是否有效。这些方法都可以被定义在控制器中。\
 \
 BookController with several book actionsapp.controller('BookController',
-['\$scope', '\$http', function(\$scope, \$http) { var bookId = 1;
+\['\$scope', '\$http', function(\$scope, \$http) { var bookId = 1;
 \$http.get('ourserver/books/' + bookId).success(function(bookData) {
 \$scope.book = bookData; }); \$scope.deleteBook = function() {
 \$http.delete('ourserver/books/' + bookId); }; \$scope.updateBook =
@@ -51,20 +52,22 @@ function() { \$http.put('ourserver/books/' + bookId, \$scope.book); };
 'our/image/service/' + bookId + '/width/height'; }; \$scope.isAvailable
 = function() { if (!\$scope.book.stores || \$scope.book.stores.length
 === 0) { return false; } return \$scope.book.stores.some(function(store)
-{ return store.quantity \> 0; }); }; }]);\
+{ return store.quantity &gt; 0; }); }; }\]);\
 \
 \
 然后在我们的模板中：\
 \
 template for displaying a complete book\
-\<div ng-controller="BookController"\> \<div ng-style="{
-backgroundImage: 'url(' + getBookImageUrl(100, 100) + ')' }"\>\</div\>
-Id: \<span ng-bind="[book.id](http://book.id/)"\>\</span\> \<br/\>
-Name:\<input type="text" ng-model="[book.name](http://book.name/)" /\>
-\<br/\> Author: \<input type="text" ng-model="book.author" /\> \<br/\>
-Is Available: \<span ng-bind="isAvailable() ? 'Yes' : 'No' "\>\</span\>
-\<br/\> \<button ng-click="deleteBook()"\>Delete\</button\> \<br/\>
-\<button ng-click="updateBook()"\>Update\</button\> \</div\>\
+&lt;div ng-controller="BookController"&gt; &lt;div ng-style="{
+backgroundImage: 'url(' + getBookImageUrl(100, 100) + ')'
+}"&gt;&lt;/div&gt; Id: &lt;span
+ng-bind="[book.id](http://book.id/)"&gt;&lt;/span&gt; &lt;br/&gt;
+Name:&lt;input type="text" ng-model="[book.name](http://book.name/)"
+/&gt; &lt;br/&gt; Author: &lt;input type="text" ng-model="book.author"
+/&gt; &lt;br/&gt; Is Available: &lt;span ng-bind="isAvailable() ? 'Yes'
+: 'No' "&gt;&lt;/span&gt; &lt;br/&gt; &lt;button
+ng-click="deleteBook()"&gt;Delete&lt;/button&gt; &lt;br/&gt; &lt;button
+ng-click="updateBook()"&gt;Update&lt;/button&gt; &lt;/div&gt;\
 \
 \
 \
@@ -72,7 +75,7 @@ Is Available: \<span ng-bind="isAvailable() ? 'Yes' : 'No' "\>\</span\>
 \
 如果书本的结构和方法只和一个控制器有关，那我们现在的工作已经可以应付。但是随着应用的增长，会有其他的控制器也需要和书本打交道。那些控制器很多时候也需要获取书本，更新它，删除它，或者获得它的图片url以及看它是否有效。因此，我们需要在控制器之间共享这些书本的行为。我们需要使用一个返回书本行为的factory来实现这个目的。在动手写一个factory之前，我想在这里先提一下，我们创建一个factory来返回带有这些book辅助方法的对象，但我更倾向于使用prototype来构造一个Book类，我觉得这是更正确的选择：\
 \
-Book model serviceapp.factory('Book', ['\$http', function(\$http) {
+Book model serviceapp.factory('Book', \['\$http', function(\$http) {
 function Book(bookData) { if (bookData) { this.setData(bookData): } //
 Some other initializations related to book }; Book.prototype = {
 setData: function(bookData) { angular.extend(this, bookData); }, load:
@@ -84,28 +87,29 @@ getImageUrl: function(width, height) { return 'our/image/service/' +
 [this.book.id](http://this.book.id/) + '/width/height'; }, isAvailable:
 function() { if (!this.book.stores || this.book.stores.length === 0) {
 return false; } return this.book.stores.some(function(store) { return
-store.quantity \> 0; }); } }; return Book; }]);\
+store.quantity &gt; 0; }); } }; return Book; }\]);\
 \
 \
 这种方式下，书本相关的所有行为都被封装在Book服务内。现在，我们在BookController中来使用这个亮眼的Book服务。\
 \
 BookController that uses Book modelapp.controller('BookController',
-['\$scope', 'Book', function(\$scope, Book) { \$scope.book = new Book();
-\$scope.book.load(1); }]);\
+\['\$scope', 'Book', function(\$scope, Book) { \$scope.book = new
+Book(); \$scope.book.load(1); }\]);\
 \
 \
 正如你看到的，控制器变得非常简单。它创建一个Book实例，指派给scope，并从后台加载。当书本被加载成功时，它的属性会被改变，模板也随着被更新。记住其他的控制器想要使用书本功能，只要简单地注入Book服务即可。此外，我们还要改变template使用book的方法。\
 \
 template that uses book instance\
- \<div ng-controller="BookController"\> \<div ng-style="{
-backgroundImage: 'url(' + book.getImageUrl(100, 100) + ')' }"\>\</div\>
-Id: \<span ng-bind="[book.id](http://book.id/)"\>\</span\> \<br/\>
-Name:\<input type="text" ng-model="[book.name](http://book.name/)" /\>
-\<br/\> Author: \<input type="text" ng-model="book.author" /\> \<br/\>
-Is Available: \<span ng-bind="book.isAvailable() ? 'Yes' : 'No'
-"\>\</span\> \<br/\> \<button
-ng-click="book.delete()"\>Delete\</button\> \<br/\> \<button
-ng-click="book.update()"\>Update\</button\> \</div\>\
+&lt;div ng-controller="BookController"&gt; &lt;div ng-style="{
+backgroundImage: 'url(' + book.getImageUrl(100, 100) + ')'
+}"&gt;&lt;/div&gt; Id: &lt;span
+ng-bind="[book.id](http://book.id/)"&gt;&lt;/span&gt; &lt;br/&gt;
+Name:&lt;input type="text" ng-model="[book.name](http://book.name/)"
+/&gt; &lt;br/&gt; Author: &lt;input type="text" ng-model="book.author"
+/&gt; &lt;br/&gt; Is Available: &lt;span ng-bind="book.isAvailable() ?
+'Yes' : 'No' "&gt;&lt;/span&gt; &lt;br/&gt; &lt;button
+ng-click="book.delete()"&gt;Delete&lt;/button&gt; &lt;br/&gt; &lt;button
+ng-click="book.update()"&gt;Update&lt;/button&gt; &lt;/div&gt;\
 \
 \
 \
@@ -120,14 +124,14 @@ ng-click="book.update()"\>Update\</button\> \</div\>\
 \
 解决这个问题的办法是在所有的控制器中使用相同的书本实例。在这种方式下，书本列表和书本修改的页面和控制器都持有相同的书本实例，一旦这个实例发生变化，就会被立刻反映到所有的视图中。那么按这种方式行动起来，我们需要创建一个booksManager服务（我们没有大写开头的b字母，是因为这是一个对象而不是一个类）来管理所有的书本实例池，并且富足返回这些书本实例。如果被请求的书本实例不在实例池中，这个服务会创建它。如果已经在池中，那么就直接返回它。请牢记，所有的加载书本的方法最终都会被定义在booksManager服务中，因为它是唯一的提供书本实例的组件。\
 \
-booksManager serviceapp.factory('booksManager', ['\$http', '\$q',
+booksManager serviceapp.factory('booksManager', \['\$http', '\$q',
 'Book', function(\$http, \$q, Book) { var booksManager = { \_pool: {},
 \_retrieveInstance: function(bookId, bookData) { var instance =
-this.\_pool[bookId]; if (instance) { instance.setData(bookData); } else
-{ instance = new Book(bookData); this.\_pool[bookId] = instance; }
-return instance; }, \_search: function(bookId) { return
-this.\_pool[bookId]; }, \_load: function(bookId, deferred) { var scope =
-this; \$http.get('ourserver/books/' + bookId)
+this.\_pool\[bookId\]; if (instance) { instance.setData(bookData); }
+else { instance = new Book(bookData); this.\_pool\[bookId\] = instance;
+} return instance; }, \_search: function(bookId) { return
+this.\_pool\[bookId\]; }, \_load: function(bookId, deferred) { var scope
+= this; \$http.get('ourserver/books/' + bookId)
 .success(function(bookData) { var book =
 scope.\_retrieveInstance(bookData.id, bookData); deferred.resolve(book);
 }) .error(function() { deferred.reject(); }); }, /\* Public Methods \*/
@@ -138,7 +142,7 @@ this.\_load(bookId, deferred); } return deferred.promise; }, /\* Use
 this function in order to get instances of all the books \*/
 loadAllBooks: function() { var deferred = \$q.defer(); var scope = this;
 \$http.get('ourserver/books) .success(function(booksArray) { var books =
-[]; booksArray.forEach(function(bookData) { var book =
+\[\]; booksArray.forEach(function(bookData) { var book =
 scope.\_retrieveInstance(bookData.id, bookData); books.push(book); });
 deferred.resolve(books); }) .error(function() { deferred.reject(); });
 return deferred.promise; }, /\* This function is useful when we got
@@ -147,13 +151,13 @@ a book instance in return \*/ setBook: function(bookData) { var scope =
 this; var book = this.\_search(bookData.id); if (book) {
 book.setData(bookData); } else { book =
 scope.\_retrieveInstance(bookData); } return book; }, }; return
-booksManager; }]);\
+booksManager; }\]);\
 \
 \
 下面是我们的EditableBookController和BooksListController两个控制器的代码：\
 \
 EditableBookController and BooksListController that uses
-booksManagerapp.factory('Book', ['\$http', function(\$http) { function
+booksManagerapp.factory('Book', \['\$http', function(\$http) { function
 Book(bookData) { if (bookData) { this.setData(bookData): } // Some other
 initializations related to book }; Book.prototype = { setData:
 function(bookData) { angular.extend(this, bookData); }, delete:
@@ -163,7 +167,7 @@ getImageUrl: function(width, height) { return 'our/image/service/' +
 [this.book.id](http://this.book.id/) + '/width/height'; }, isAvailable:
 function() { if (!this.book.stores || this.book.stores.length === 0) {
 return false; } return this.book.stores.some(function(store) { return
-store.quantity \> 0; }); } }; return Book; }]);\
+store.quantity &gt; 0; }); } }; return Book; }\]);\
 \
 \
 需要注意的是，模块（template）中还是保持原来使用book实例的方式。现在应用中只持有一个id为1的book实例，它发生的所有改变都会被反映到使用它的各个页面上。\
@@ -176,16 +180,13 @@ store.quantity \> 0; }); } }; return Book; }]);\
 \
 相关文章\
 [七步从AngularJS菜鸟到专家（6）：服务](http://blog.jobbole.com/49745/)\
-[七步从AngularJS菜鸟到专家（7）：Routing](http://blog.jobbole.com/50533/)
-\
+[七步从AngularJS菜鸟到专家（7）：Routing](http://blog.jobbole.com/50533/)\
 [AngularJS 中的一些坑](http://blog.jobbole.com/52857/)\
 [2013年AngularJS学习资源精选](http://blog.jobbole.com/54716/)\
-[构建自己的AngularJS（1）：Scope和Digest](http://blog.jobbole.com/51558/)
-\
+[构建自己的AngularJS（1）：Scope和Digest](http://blog.jobbole.com/51558/)\
 [优化AngularJS：1200毫秒到35毫秒的蜕变](http://blog.jobbole.com/51180/)\
 [七步从Angular.JS菜鸟到专家（3）：数据绑定和AJAX](http://blog.jobbole.com/48780/)\
-[七步从AngularJS菜鸟到专家（4和5）：指令和表达式](http://blog.jobbole.com/50022/)
-\
+[七步从AngularJS菜鸟到专家（4和5）：指令和表达式](http://blog.jobbole.com/50022/)\
 [七步从Angular.JS菜鸟到专家（1）：如何开始](http://blog.jobbole.com/46779/)\
 [七步从Angular.JS菜鸟到专家（2）：Scopes](http://blog.jobbole.com/48593/)\
 \

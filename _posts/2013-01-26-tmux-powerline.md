@@ -4,7 +4,7 @@ modified\_time: '2013-09-30T14:55:16.438+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-4454651810230929682
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/tmux-powerline.html --- [tmux
-powerline](http://linuxtoy.org/archives/tmux-powerline.html): \
+powerline](http://linuxtoy.org/archives/tmux-powerline.html):\
 我们已经介绍过
 [vim](http://linuxtoy.org/archives/scripting-tmux.html)、[bash](http://linuxtoy.org/archives/powerline-like-prompt-for-bash-and-zsh.html)
 以及
@@ -34,13 +34,13 @@ tmux powerline 可从 [GitHub](https://github.com/erikw/tmux-powerline)
 获取。\
 分类:
 [Scripts](http://linuxtoy.org/category/apps/scripts "View all posts in Scripts")
-| \
+|\
 [永久链接](http://linuxtoy.org/archives/tmux-powerline.html) |\
 [收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/tmux-powerline.html&title=tmux%20powerline)
-| \
+|\
 [Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/tmux-powerline.html)
-| \
+|\
 [9 评论](http://linuxtoy.org/archives/tmux-powerline.html#comments) |\
 [捐助本站](http://linuxtoy.org/faq/donate)

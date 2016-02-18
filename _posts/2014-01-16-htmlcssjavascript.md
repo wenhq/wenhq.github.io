@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-1185054457308971195
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/01/htmlcssjavascript.html ---
 [实用HTML，CSS和JavaScript速查表](http://news.cnblogs.com/n/74858/)  于
-10-9-19 通过 [博客园新闻频道](http://news.cnblogs.com/) \
+10-9-19 通过 [博客园新闻频道](http://news.cnblogs.com/)\
 \
 速查表是帮你记住东西的有效工具。Web设计师和开发者经常使用的快捷键简表会使他们在网上的工作效率大大提高。\
 \
@@ -91,5 +91,5 @@ Javascript\
 \
 希望你能喜欢我收集到的这些速查表，并请分享给你的做开发工作的朋友们。\
 \
-[英文出处]：[Most Useful Cheat Sheet For HTML, CSS and
+\[英文出处\]：[Most Useful Cheat Sheet For HTML, CSS and
 Javascript](http://technologytosoftware.com/css-javascript-cheat-sheet.html)

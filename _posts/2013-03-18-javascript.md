@@ -4,19 +4,29 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-5427409769961251997
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/javascript.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **处理 JavaScript 异常的一个想法**
+
+</div>
+
+<div class="source">
 
 Published on [博客 -
 伯乐在线](http://blog.jobbole.com/36084/?utm_source=rss&utm_medium=rss&utm_campaign=%25e5%25a4%2584%25e7%2590%2586-javascript-%25e5%25bc%2582%25e5%25b8%25b8%25e7%259a%2584%25e4%25b8%2580%25e4%25b8%25aa%25e6%2583%25b3%25e6%25b3%2595)
 | shared via [feedly](http://www.feedly.com)
 
+</div>
+
+<div>
+
 来源：[Sofish](http://sofish.de/2144)
 
-可能由于网络、[浏览器](http://blog.jobbole.com/12749/ "浏览器")问题、缓存等原因，可能导致线上执行
+可能由于网络、<span>[浏览器](http://blog.jobbole.com/12749/ "浏览器")</span>问题、缓存等原因，可能导致线上执行
 js 的时候与开发环境并不一样，会抛出异常。js
 异常基本上是前端开发工程师的家常便饭。如何记录，并使用它，却很少人关注。最近在考虑一个想法，基本上涉及到两步：收集和使用。
 
@@ -98,9 +108,11 @@ URL 为索引），是否继续，还需要时间和进一步考虑，先发出�
 -   [![异常的代价](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/14.jpg)](http://blog.jobbole.com/844/)[异常的代价](http://blog.jobbole.com/844/)
 -   [![Java异常处理的陋习展播](http://blog.jobbole.com/wp-content/uploads/2013/02/java-black-1-150x150.jpg)](http://blog.jobbole.com/30230/)[Java异常处理的陋习展播](http://blog.jobbole.com/30230/)
 -   [![JavaScript需要Blocks](http://blog.jobbole.com/wp-content/uploads/2011/06/javascript-logo.png)](http://blog.jobbole.com/12042/)[JavaScript需要Blocks](http://blog.jobbole.com/12042/)
--   [![50个jQuery代码段帮你成为更出色的JS开发者](http://blog.jobbole.com/wp-content/uploads/2012/04/snippets-150x150.jpg)](http://blog.jobbole.com/18513/)[50个jQuery代码段帮你成为更出色的JS开发者](http://blog.jobbole.com/18513/)
+-   [![50个jQuery代码段帮你成为更出色的JS开发者](http://blog.jobbole.com/wp-content/uploads/2012/04/snippets-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/18513/)[50个jQuery代码段帮你成为更出色的JS开发者](http://blog.jobbole.com/18513/)
 -   [![向非程序员解释
-    JavaScript](http://blog.jobbole.com/wp-content/uploads/2012/07/Explaining-What-JavaScript-is-to-Non-programmers-150x150.jpg)](http://blog.jobbole.com/24602/)[向非程序员解释
+    JavaScript](http://blog.jobbole.com/wp-content/uploads/2012/07/Explaining-What-JavaScript-is-to-Non-programmers-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/24602/)[向非程序员解释
     JavaScript](http://blog.jobbole.com/24602/)
 -   [![headtrackr：一个头部/脸部追踪的JavaScript库](http://blog.jobbole.com/wp-content/uploads/2013/02/687474703a2f2f617564756e6f2e6769746875622e636f6d2f68656164747261636b722f6578616d706c65732f6d656469612f66616365747261636b696e675f7468756d626e61696c2e706e67-150x134.)](http://blog.jobbole.com/31213/)[headtrackr：一个头部/脸部追踪的JavaScript库](http://blog.jobbole.com/31213/)
 -   [![14个Google地图的JavaScript资源](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/16.jpg)](http://blog.jobbole.com/1313/)[14个Google地图的JavaScript资源](http://blog.jobbole.com/1313/)
@@ -113,7 +125,15 @@ URL 为索引），是否继续，还需要时间和进一步考虑，先发出�
 异常的一个想法](http://blog.jobbole.com/36084/)，首发于[博客 -
 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

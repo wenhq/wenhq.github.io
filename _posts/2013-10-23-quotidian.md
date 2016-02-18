@@ -5,9 +5,25 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-4082366063506193422
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/10/quotidian.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [风投机构Quotidian：行业知识要比懂得编程重要的多](http://www.kuailiyu.com/article/5584.html)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via
 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
 　![](http://www.kuailiyu.com/uploadfile/2013/1022/20131022025706239.jpg)\
 今年消费互联网产品发展迅速的一年，然而大部分互联网科技企业却仍然没有完成盈利。自从Facebook上市以来，风投们对于Web应用的热情有所降低，转而开始乐忠于投资那些能够赚钱的企业。这些企业的共性，就是既有大量用户，又能够实现盈利。\
 　　来自纽约的Quotidian
@@ -27,3 +43,5 @@ Andreessen此前曾发表过一篇著名的文章，他称软件将会改变全�
 Dixon也曾经说过，成功的创始人都有自己的秘诀，而这些秘诀则来源于对某一产业第一手的认识。\
 　　Quotidian在做的，就是将这两种理论合二为一。首先，他们先寻找那些还没有被软件改变的行业；其次在寻找那些对于行业本身有着深刻认识的非技术创始人。Quotidian将会在10月22日在纽约召开一个大会，大会的名称为"i2i：为何行业知识要比懂得编程重要的多"。\
 [点击参与讨论此文](http://www.kuailiyu.com/article/5584.html?utm_source=articletail&utm_medium=RSS#comments)
+
+</div>

@@ -9,8 +9,12 @@ http://binaryware.blogspot.com/2012/12/where-is-sentimentdemojar.html
 content {#pagetitle}
 =======
 
-[Sentiment
-Tutorial](http://alias-i.com/lingpipe/demos/tutorial/sentiment/read-me.html)
+<div id="pagetitle">
+
+[<span style="font-weight: normal;">Sentiment
+Tutorial</span>](http://alias-i.com/lingpipe/demos/tutorial/sentiment/read-me.html)
+
+</div>
 
 \
 \
@@ -50,8 +54,12 @@ All right, we can see the result:\
 Log {#pagetitle}
 ===
 
-create 2012-12-04 {#pagetitle}
-=================
+<span style="font-weight: normal;"><span style="font-size: small;">create 2012-12-04</span></span> {#pagetitle}
+==================================================================================================
 
-\
+<div>
 
+<span style="font-weight: normal;"><span style="font-size: small;">\
+</span></span>
+
+</div>

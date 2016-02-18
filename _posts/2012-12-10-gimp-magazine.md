@@ -8,7 +8,7 @@ Magazine
 第二期](http://linuxtoy.org/archives/gimp-magazine-issue-2.html):
 
 高质量的 GIMP 教学杂志 GIMP Magazine 第二期发布，本次带来了绘图小说版的
-GIMP 教程。
+GIMP 教程。<span></span>
 
 \
 
@@ -36,15 +36,15 @@ GIMP 教程。
 分类:
 [Books](http://linuxtoy.org/category/books "View all posts in Books"),
 [Tutorials](http://linuxtoy.org/category/tutorials "View all posts in Tutorials")
-| \
- [永久链接](http://linuxtoy.org/archives/gimp-magazine-issue-2.html) |\
- [收藏到
+|\
+[永久链接](http://linuxtoy.org/archives/gimp-magazine-issue-2.html) |\
+[收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/gimp-magazine-issue-2.html&title=GIMP%20Magazine%20%E7%AC%AC%E4%BA%8C%E6%9C%9F)
-| \
- [Email
+|\
+[Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/gimp-magazine-issue-2.html)
-| \
- [12
+|\
+[12
 评论](http://linuxtoy.org/archives/gimp-magazine-issue-2.html#comments)
 |\
- [捐助本站](http://linuxtoy.org/faq/donate)
+[捐助本站](http://linuxtoy.org/faq/donate)

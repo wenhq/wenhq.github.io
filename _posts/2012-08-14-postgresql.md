@@ -34,7 +34,7 @@ Ubuntu中已经默认包含PostgreSQL，执行命令：\
 Ref
 ---
 
-​1. [Linux downloads
+1\. [Linux downloads
 (Ubuntu)](http://www.postgresql.org/download/linux/ubuntu/)\
 
 Log

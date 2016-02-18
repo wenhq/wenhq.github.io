@@ -5,9 +5,10 @@ Wenh Q tags: modified\_time: '2014-05-15T17:53:49.563+08:00'
 blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-7562607665816551004
 blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/05/diydarby-smart630a.html --- \
+http://binaryware.blogspot.com/2014/05/diydarby-smart630a.html ---\
 \
-![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Fb3864911fd350d9e5ed47201c59dd211.png&container=blogger&gadget=a&rewriteMime=image%2F*)\
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Fb3864911fd350d9e5ed47201c59dd211.png&container=blogger&gadget=a&rewriteMime=image%2F*){width="640"
+height="364"}\
 \
 我高中门口有家学姐开的小手工店，每当放学里面便坐满了女生，和学姐一起做手工。在我上高中的三年里，就没有看见这家店空过。今天我看到数据显示美国的手工DIY产品的市场达到290亿美元，这才发现手工小店的火爆并非偶然，只是对男生来说这块市场太过隐蔽罢了。\
 \
@@ -34,7 +35,16 @@ Smart采纳，放在主页上展示并售卖原材料，设计师也会得到分
 \
 除非注明，本站文章均为原创或编译，转载请注明： 文章来自
 [36氪](http://www.36kr.com/)
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源： [萌妹纸杀手：展示DIY手工并寄出原材料的电商网站Darby
 Smart获630万美元A轮融资](http://www.36kr.com/p/212000.html)  通过 [36氪
 | 关注互联网创业](http://www.36kr.com/)
+
+</div>

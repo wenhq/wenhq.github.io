@@ -11,7 +11,7 @@ Reference: Git
 [Git Reference](http://gitref.org/) 是由 GitHub 所建立的一个关于 Git
 分布式版本控制系统的站点。如果你是一个 Git
 新手，通过该站点可让你快速入门，并掌握 Git 的精要；即便你对 Git
-已经相当熟悉，Git Reference 仍可作为参考，以备不时之需。 \
+已经相当熟悉，Git Reference 仍可作为参考，以备不时之需。\
 \
 Git Reference 可通过 [gitref.org](http://gitref.org/) 访问。\
 \

@@ -5,8 +5,9 @@ tag:blogger.com,1999:blog-4961947611491238191.post-1540335578073360003
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/linux-deepin-1212-beta.html ---
 [Linux Deepin 12.12 Beta
-发布](http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html):
-\
+发布](http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html):\
+
+<div>
 
 在[两个月前的 Alpha
 版本](http://linuxtoy.org/archives/linux-deepin-12-12-alpha-release.html)之后，Linux
@@ -14,13 +15,24 @@ Deepin 12.12 Beta
 版本发布。以下内容转载自[官方发布公告](http://planet.linuxdeepin.com/2013/03/28/linux-deepin-12-12-beta-release-out/)。*感谢
 wdj 提供消息来源*
 
+</div>
+
 \
 \
 
 一、概述
 --------
 
-![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-coming.jpg "Linux Deepin 12.12 Beta 发布")
+<div>
+
+![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-coming.jpg "Linux Deepin 12.12 Beta 发布"){width="645"
+height="265"}
+
+</div>
+
+<div>
+
+</div>
 
 两个月前，我们发布了搭载独立开发的“深度桌面环境”的 [Linux Deepin 12.12
 Alpha
@@ -50,7 +62,11 @@ Linux Deepin
 Deepin 社区版的主要开发者翁学天(csslayer)几个月以来的辛勤努力。\
 \
 
-![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/wps-linuxdeepin-12.12beta-sogou.jpg "wps-linuxdeepin-12.12beta-sogou")
+<div>
+
+![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/wps-linuxdeepin-12.12beta-sogou.jpg "wps-linuxdeepin-12.12beta-sogou"){width="500"}
+
+</div>
 
 搜狗输入法 Linux Deepin 社区版首次发布于 Linux Deepin 12.12 Beta
 版本中，专门针对 Linux Deepin
@@ -68,7 +84,11 @@ Linux Deepin 系统。\
 Deepin
 从此拥有了自己的桌面环境。该版本着重完善深度桌面环境的基础功能和性能优化，下面是几点值得我们关注的功能改进。\
 
-![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-dde-dock.jpg "linuxdeepin-12.12-beta-dde-dock")
+<div>
+
+![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-dde-dock.jpg "linuxdeepin-12.12-beta-dde-dock"){width="500"}
+
+</div>
 
 **1、系统托盘：日渐完善**\
 相比 Alpha 版本，增加和完善了电源、USB
@@ -98,7 +118,11 @@ Super+D，打开文件管理器为 Super+E。\
 四、深度软件中心
 ----------------
 
-![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-deepin-software-center.jpg "linuxdeepin-12.12-beta-deepin-software-center")
+<div>
+
+![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-deepin-software-center.jpg "linuxdeepin-12.12-beta-deepin-software-center"){width="500"}
+
+</div>
 
 深度软件中心 3.0 Beta 相比 Alpha 版本，主要变动：\
 \* 完善软件分类。人工对仓库中上千款软件分类进行调整，软件分类更加明晰。\
@@ -141,7 +165,11 @@ Linux Deepin 12.12 Beta 版本也对下面内容进行了更新：\
 -   Deepin Emacs 增加了对 QML 脚本语言的支持
 -   更新 Deepin Ui 图形界面库（针对开发者）\
 
-    ![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-user-manual.jpg "linuxdeepin-12.12-beta-user-manual")
+    <div>
+
+    ![](http://planet.linuxdeepin.com/wp-content/uploads/2013/03/linuxdeepin-12.12-beta-user-manual.jpg "linuxdeepin-12.12-beta-user-manual"){width="500"}
+
+    </div>
 
     七、下载
     --------
@@ -164,21 +192,24 @@ MD5(简体 64 位)：1c047e4ac7fa756bcbcd7c84b553bafe\
 兰州大学镜像站点：\
 \
 
--   [ftp://mirror.lzu.edu.cn/deepin-releases/](ftp://mirror.lzu.edu.cn/deepin-releases/)
--   [http://mirror.lzu.edu.cn/deepin-releases/](http://mirror.lzu.edu.cn/deepin-releases/ "兰州大学 linux deepin CD 下载")
+<div>
 
-中国开源软件社区镜像站点：[http://mirrors.oss.org.cn/deepin-cd/](http://mirrors.oss.org.cn/deepin-cd/ "中国开源软件社区 linux deepin CD 下载")\
-中国科学技术大学站点：[http://mirrors.ustc.edu.cn/deepin-cd/](http://mirrors.ustc.edu.cn/deepin-cd/ "中国科学技术大学 linux deepin CD 下载")\
-北京理工大学镜像站点：[http://mirror.bit.edu.cn/deepin-cd/](http://mirror.bit.edu.cn/deepin-cd/ "北京理工大学 linux deepin CD 下载")\
-天津大学开源镜像站点：[http://mirror.tju.edu.cn/deepin-cdimage/](http://mirror.tju.edu.cn/deepin-cdimage/ "天津大学 linux deepin CD 下载")\
-清华大学开源镜像站点：[http://mirrors.tuna.tsinghua.edu.cn/deepin-releases/](http://mirrors.tuna.tsinghua.edu.cn/deepin-releases/ "清华大学 linux deepin CD 下载")\
-西南大学开源镜像站点：[http://mirrors.linuxstory.org/deepin-cd/](http://mirrors.linuxstory.org/deepin-cd/ "西南大学 linux deepin CD 下载")\
-北京交通大学站点：[http://mirror.bjtu.edu.cn/deepin-cd/](http://mirror.bjtu.edu.cn/deepin-cd/ "北京交通大学 linux deepin CD 下载")\
+-   <ftp://mirror.lzu.edu.cn/deepin-releases/>
+-   <http://mirror.lzu.edu.cn/deepin-releases/>
 
+中国开源软件社区镜像站点：<http://mirrors.oss.org.cn/deepin-cd/>\
+中国科学技术大学站点：<http://mirrors.ustc.edu.cn/deepin-cd/>\
+北京理工大学镜像站点：<http://mirror.bit.edu.cn/deepin-cd/>\
+天津大学开源镜像站点：<http://mirror.tju.edu.cn/deepin-cdimage/>\
+清华大学开源镜像站点：<http://mirrors.tuna.tsinghua.edu.cn/deepin-releases/>\
+西南大学开源镜像站点：<http://mirrors.linuxstory.org/deepin-cd/>\
+北京交通大学站点：<http://mirror.bjtu.edu.cn/deepin-cd/>\
 八、反馈与交流
 --------------
 
 下面是 Beta 版已知的较大 Bug， 我们将尽快在短时间内修复：
+
+</div>
 
 \
 \
@@ -196,10 +227,10 @@ Mantis](http://www.linuxdeepin.com/mantis "Linux Deepin 问题反馈系统")\
 a：deepindev@googlegroups.com 开发者邮件列表\
 b：deepinusers@googlegroups.com 用户邮件列表\
 \
-官方论坛：[http://www.linuxdeepin.com/forum](http://www.linuxdeepin.com/forum "Linux Deepin 官方论坛")\
+官方论坛：<http://www.linuxdeepin.com/forum>\
 官方博客：[http://planet.linuxdeepin.com](http://planet.linuxdeepin.com/ "Linux Deepin 官方博客")\
-官方新浪微博：[http://weibo.com/linuxdeepinnew](http://weibo.com/linuxdeepinnew "关注我们 Linux Deepin 新浪微博")\
-加入我们：[http://www.linuxdeepin.com/joinus/job](http://www.linuxdeepin.com/joinus/job "加入 Linux Deepin 团队")\
+官方新浪微博：<http://weibo.com/linuxdeepinnew>\
+加入我们：<http://www.linuxdeepin.com/joinus/job>\
 \
 
 九、结束语
@@ -213,15 +244,15 @@ Linux Deepin 团队成员和社区的辛勤工作与无私奉献。\
 感谢为 Linux Deepin 发展做出贡献的每一个人！\
 \
 分类: [News](http://linuxtoy.org/category/news "View all posts in News")
-| \
+|\
 [永久链接](http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html)
 |\
 [收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html&title=Linux%20Deepin%2012.12%20Beta%20%E5%8F%91%E5%B8%83)
-| \
+|\
 [Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html)
-| \
+|\
 [无评论](http://linuxtoy.org/archives/linux-deepin-12-12-beta-release.html#comments)
 |\
 [捐助本站](http://linuxtoy.org/faq/donate)

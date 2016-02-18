@@ -1,13 +1,29 @@
---- layout: post title: "[图]揭秘全美第一黑客组织 Anonymous" date:
+--- layout: post title: "\[图\]揭秘全美第一黑客组织 Anonymous" date:
 '2013-09-09T13:24:00.003+08:00' author: Wenh Q tags: modified\_time:
 '2013-09-09T13:24:25.465+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-5689930881949614141
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/09/anonymous.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [\
-[图]揭秘全美第一黑客组织
+\[图\]揭秘全美第一黑客组织
 Anonymous](http://www.oschina.net/news/43976/anonymous)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
 本文关注的是世界著名的黑客组织Anonymous（匿名者）。"我将描述他们的攻击方法和方式的计划，但我们将聚焦更多关于他们使用武器或工具。"Anonymous这个词仅仅意味着没有名字或匿名身份，该组织是一个派系的匿名黑客或黑客活动分子。\
 ![Anonymous](http://static.oschina.net/uploads/img/201309/07082635_zkX7.jpg)\
    
@@ -71,3 +87,5 @@ References：\
 http://en.wikipedia.org/wiki/Anonymous\_（group）\
 http://resources.infosecinstitute.com/weapon-of-anonymous/（原文）\
 http://arstechnica.com/business/2012/02/high-orbits-and-slowlorises-understanding-the-anonymous-attack-tools/
+
+</div>

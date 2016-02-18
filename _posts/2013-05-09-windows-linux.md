@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-253063547380869610
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/windows-linux.html ---
 [国际空间站决定弃用 Windows 启用
-Linux](http://www.oschina.net/news/40351/iss-turn-to-linux): \
+Linux](http://www.oschina.net/news/40351/iss-turn-to-linux):\
 似乎Windows
 8就是一个不该出生的孩子。在地球上不受欢迎也就算了，远在太空的国际空间站(ISS)也没有打算接受这个“野心颇大”的系统。据外媒报道，ISS决定在接下来的系统升级中，弃用Windows，转而使用Linux。\
 ![](http://static.oschina.net/uploads/space/2013/0509/075930_lrQX_12.jpg)\

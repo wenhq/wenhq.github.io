@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-3315400311964545791
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/06/ibm-mongodb.html ---
 [打通移动商务前后端，IBM牵手
-MongoDB](http://www.oschina.net/news/41151/ibm-union-mongodb): \
+MongoDB](http://www.oschina.net/news/41151/ibm-union-mongodb):\
 ![](http://static.oschina.net/uploads/space/2013/0606/061657_mfzz_12.jpg)\
 IBM曾亲手将SQL、Linux和Java送入“上流社会”，如今，IBM又把目光瞄准了MongoDB，目的是帮助企业打通移动商务应用与传统的关键业务数据库。\
 近日，IBM宣布与MongoDB的开发企业10Gen合作开发新的移动应用开发标准，让基于NoSQL数据库的移动应用能访问运行企业关键业务的传统数据库。\

@@ -4,8 +4,7 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-6930804465515370454
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/boyer-moore.html ---
-[字符串匹配的Boyer-Moore算法](http://blog.jobbole.com/39132/?utm_source=rss&utm_medium=rss&utm_campaign=%25e5%25ad%2597%25e7%25ac%25a6%25e4%25b8%25b2%25e5%258c%25b9%25e9%2585%258d%25e7%259a%2584boyer-moore%25e7%25ae%2597%25e6%25b3%2595):
-\
+[字符串匹配的Boyer-Moore算法](http://blog.jobbole.com/39132/?utm_source=rss&utm_medium=rss&utm_campaign=%25e5%25ad%2597%25e7%25ac%25a6%25e4%25b8%25b2%25e5%258c%25b9%25e9%2585%258d%25e7%259a%2584boyer-moore%25e7%25ae%2597%25e6%25b3%2595):\
 来源：[阮一峰](http://www.ruanyifeng.com/blog/2013/05/boyer-moore_string_search_algorithm.html)\
 上一篇文章，我介绍了[KMP算法](http://blog.jobbole.com/39066/)。\
 但是，它并不是效率最高的算法，实际采用并不多。各种文本编辑器的”查找”功能（Ctrl+F），大多采用[Boyer-Moore算法](http://en.wikipedia.org/wiki/Boyer%E2%80%93Moore_string_search_algorithm)。\
@@ -82,17 +81,25 @@ suffix），即所有尾部匹配的字符串。**注意，”MPLE”、”PLE�
 
 -   [![K-均值聚类分析](http://www.jobbole.net/wp-content/uploads/2013/02/kmeans_thumb2-150x150.gifimgmax800)](http://blog.jobbole.com/16048/)[K-均值聚类分析](http://blog.jobbole.com/16048/)
 -   [![the
-    godfather](http://blog.jobbole.com/wp-content/uploads/2012/05/the-godfather-150x150.jpg)](http://blog.jobbole.com/20692/)[浅谈网页搜索排序中的投票模型](http://blog.jobbole.com/20692/)
+    godfather](http://blog.jobbole.com/wp-content/uploads/2012/05/the-godfather-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/20692/)[浅谈网页搜索排序中的投票模型](http://blog.jobbole.com/20692/)
 -   [![张洋：浅析PageRank算法](http://blog.jobbole.com/wp-content/uploads/2012/07/google-pagerank.png)](http://blog.jobbole.com/23286/)[张洋：浅析PageRank算法](http://blog.jobbole.com/23286/)
--   [![Simhash算法原理和网页查重应用](http://blog.jobbole.com/wp-content/uploads/2012/06/Simhash-algorithm-principle-and-web-pages-to-check-for-re-application1-150x150.png)](http://blog.jobbole.com/21928/)[Simhash算法原理和网页查重应用](http://blog.jobbole.com/21928/)
--   [![字符串匹配的KMP算法](http://blog.jobbole.com/wp-content/uploads/2013/05/kmp-01-150x150.jpg)](http://blog.jobbole.com/39066/)[字符串匹配的KMP算法](http://blog.jobbole.com/39066/)
--   [![霍夫曼编码压缩算法](http://blog.jobbole.com/wp-content/uploads/2012/05/Huffman-encoding-compression-algorithm1-150x150.png)](http://blog.jobbole.com/20091/)[霍夫曼编码压缩算法](http://blog.jobbole.com/20091/)
--   [![基数估计算法概览](http://blog.jobbole.com/wp-content/uploads/2012/11/cardinality-estimation-150x150.jpg)](http://blog.jobbole.com/30671/)[基数估计算法概览](http://blog.jobbole.com/30671/)
--   [![蚂蚁觅食和互联网算法](http://blog.jobbole.com/wp-content/uploads/2012/08/anternet_thumb-150x150.jpg)](http://blog.jobbole.com/26123/)[蚂蚁觅食和互联网算法](http://blog.jobbole.com/26123/)
+-   [![Simhash算法原理和网页查重应用](http://blog.jobbole.com/wp-content/uploads/2012/06/Simhash-algorithm-principle-and-web-pages-to-check-for-re-application1-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/21928/)[Simhash算法原理和网页查重应用](http://blog.jobbole.com/21928/)
+-   [![字符串匹配的KMP算法](http://blog.jobbole.com/wp-content/uploads/2013/05/kmp-01-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/39066/)[字符串匹配的KMP算法](http://blog.jobbole.com/39066/)
+-   [![霍夫曼编码压缩算法](http://blog.jobbole.com/wp-content/uploads/2012/05/Huffman-encoding-compression-algorithm1-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/20091/)[霍夫曼编码压缩算法](http://blog.jobbole.com/20091/)
+-   [![基数估计算法概览](http://blog.jobbole.com/wp-content/uploads/2012/11/cardinality-estimation-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/30671/)[基数估计算法概览](http://blog.jobbole.com/30671/)
+-   [![蚂蚁觅食和互联网算法](http://blog.jobbole.com/wp-content/uploads/2012/08/anternet_thumb-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/26123/)[蚂蚁觅食和互联网算法](http://blog.jobbole.com/26123/)
 -   [![Google
-    按图搜索的原理](http://blog.jobbole.com/wp-content/uploads/2012/05/What-is-the-principle-of-Google-Image-Search1-150x150.jpg)](http://blog.jobbole.com/20536/)[Google
+    按图搜索的原理](http://blog.jobbole.com/wp-content/uploads/2012/05/What-is-the-principle-of-Google-Image-Search1-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/20536/)[Google
     按图搜索的原理](http://blog.jobbole.com/20536/)
--   [![基于用户投票的排名算法（二）：Reddit](http://blog.jobbole.com/wp-content/uploads/2012/03/ranking-algorithm-based-on-users-vote201-150x150.jpg)](http://blog.jobbole.com/15727/)[基于用户投票的排名算法：Reddit](http://blog.jobbole.com/15727/)
+-   [![基于用户投票的排名算法（二）：Reddit](http://blog.jobbole.com/wp-content/uploads/2012/03/ranking-algorithm-based-on-users-vote201-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/15727/)[基于用户投票的排名算法：Reddit](http://blog.jobbole.com/15727/)
 
 [字符串匹配的Boyer-Moore算法](http://blog.jobbole.com/39132/)，首发于[博客
 - 伯乐在线](http://blog.jobbole.com/)。

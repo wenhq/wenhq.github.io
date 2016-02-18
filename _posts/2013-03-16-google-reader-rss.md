@@ -4,28 +4,62 @@ modified\_time: '2013-03-16T18:28:30.322+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-7496195974713291537
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/google-reader-rss.html ---
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### Quantum 通过 Google 阅读器发送给您的内容： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### Quantum 通过 Google 阅读器发送给您的内容： {#quantum-通过-google-阅读器发送给您的内容 style="margin:0px 3px;font-family:sans-serif"}
+
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
- {style="margin: 0.25em 0 0 0"}
+</div>
+
+<div
+style="font-family:sans-serif;overflow:auto;width:100%;margin: 0px 10px">
+
+ {#section style="margin: 0.25em 0 0 0"}
+
+<div>
 
 [Google Reader 关闭，各路 RSS
 订阅服务风生水起](http://www.ifanr.com/262358)
 
-于 13-3-13 通过 [爱范儿 · Beats of Bits](http://www.ifanr.com)
+</div>
+
+<div style="margin-bottom: 0.5em">
+
+于 13-3-13 通过 [爱范儿 · Beats of Bits](http://www.ifanr.com){.f}
 作者：刘文慧
 
-\
+</div>
 
-[![272](http://cdn.ifanr.cn/wp-content/uploads/2013/03/272.jpg)](http://www.ifanr.com/262358/attachment/272)
+\
+[![272](http://cdn.ifanr.cn/wp-content/uploads/2013/03/272.jpg){width="600"
+height="375"}](http://www.ifanr.com/262358/attachment/272)
 
 如果你有一千个使用 Google Reader 的理由，现在你就有一千个伤心的理由。
 
@@ -34,22 +68,25 @@ RSS
 订阅服务纷纷借机推广，极客精神又在此刻闪烁光芒，忙碌之余，人们也不禁好奇：Google
 为什么要关闭 Google Reader 呢？
 
-在解决这些问题之前，让我们先把 Google Reader 中的数据导出。
+在解决这些问题之前，让我们先把 Google Reader 中的数据导出。<span></span>
 
 ### 女生都轻松掌握的方法
 
 进入 Gmail 邮箱界面（如果你进入 Google Reader
 界面，请直接跳过这一步），点击顶部的更多，找到"阅读器"，点击进去。
 
-[![Snip20130314\_6](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_6-360x214.png)](http://www.ifanr.com/262358/snip20130314_6)
+[![Snip20130314\_6](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_6-360x214.png){width="360"
+height="214"}](http://www.ifanr.com/262358/snip20130314_6)
 
 在阅读器页面右上角找到设置菜单，点击阅读器设置。
 
-[![Snip20130314\_2](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_2-360x246.png)](http://www.ifanr.com/262358/snip20130314_2)
+[![Snip20130314\_2](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_2-360x246.png){width="360"
+height="246"}](http://www.ifanr.com/262358/snip20130314_2)
 
 在设置中选择"导入/导出"，选中"导出您的信息"，便可得到你的"订阅包裹"，带着它离开这个伤心之地。
 
-[![Snip20130314\_3](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_3-360x175.png)](http://www.ifanr.com/262358/snip20130314_3-2)
+[![Snip20130314\_3](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_3-360x175.png){width="360"
+height="175"}](http://www.ifanr.com/262358/snip20130314_3-2)
 
 ### 其他 RSS 订阅服务的出头天
 
@@ -86,13 +123,15 @@ Reeder 急急忙忙地发了推特，告知广大消费者："我们不会跟 Go
 Google
 Reader。推特上，网友 [@muzuiget ](https://twitter.com/muzuiget)就认为：
 
-[![Snip20130314\_7](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_7-360x120.png)](http://www.ifanr.com/262358/snip20130314_7)
+[![Snip20130314\_7](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_7-360x120.png){width="360"
+height="120"}](http://www.ifanr.com/262358/snip20130314_7)
 
 甚至已经有用户建立了 [KEEP GOOGLE
 READER ](http://keepgooglereader.com/index.php)网站，大家联名声援，支持
 Google Reader。
 
-[![Snip20130314\_8](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_8-360x389.png)](http://www.ifanr.com/262358/snip20130314_8)
+[![Snip20130314\_8](http://cdn.ifanr.cn/wp-content/uploads/2013/03/Snip20130314_8-360x389.png){width="360"
+height="389"}](http://www.ifanr.com/262358/snip20130314_8)
 
 ### 一直处于险境的 Google Reader
 
@@ -126,33 +165,95 @@ Farewell，Google Reader……
 [加入爱范社区！](http://bbs.ifanr.com/)
 
 \
+<div style="text-align:center;border-top:1px dotted #ccc">
+
+</div>
 
 ![](http://ifanr.feedsportal.com/c/33866/f/642084/s/262358/mf.gif)\
 \
-[![](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.img)](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.htm)![](http://pi.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2t.img)
+[![](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.img)](http://da.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2.htm)![](http://pi.feedsportal.com/r/144540365956/u/362/f/642084/c/33866/s/262358/a2t.img){width="1"
+height="1"}
+<div
+style="border:1px solid #ccc;font-size:14px;margin:27px auto;font-family:Arial">
 
-[![](http://cdn.ifanr.cn/wp-content/uploads/2012/09/lwh.jpg)](http://www.ifanr.com/author/liuwenhui)
+<div style="overflow:hidden">
+
+[![](http://cdn.ifanr.cn/wp-content/uploads/2012/09/lwh.jpg){width="50"
+height="50"}](http://www.ifanr.com/author/liuwenhui)
+<div style="text-align:left;line-height:23px;margin-left:80px">
+
+<div style="padding:10px 10px 10px 0">
+
+<div style="margin:0;font-size:14px">
 
 **[刘文慧](http://www.ifanr.com/author/liuwenhui)**
 
+</div>
+
+<div style="font-size:13px;line-height:20px">
+
 虚拟网络连接真实关系，冰冷金属也有温情一面，专注人文化科技报道。
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div
+style="text-align:right;border-top:1px dotted #ccc;padding:2px 10px;font-size:12px">
+
+<div>
 
 [邮箱](mailto:wenhui_dream@sina.com)
 [新浪微博](http://weibo.com/u/1571697617?&topnav=1&topsug=1)
 
+</div>
+
+</div>
+
+</div>
+
+</div>
+
 \
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### 可从此处完成的操作： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### 可从此处完成的操作： {#可从此处完成的操作 style="margin:0px 3px;font-family:sans-serif"}
 
 -   使用 **Google 阅读器**[订阅爱范儿 · Beats of
     Bits](http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fwww.ifanr.com%2Ffeed?source=email)
 -   [开始使用 Google
     阅读器](http://www.google.com/reader/?source=email)，轻松地与**您喜爱的所有网站**保持同步更新
 
- 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
+
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
+ 
+
+</div>

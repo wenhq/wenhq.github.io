@@ -4,26 +4,60 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-2154865067026802734
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/04/eclipse-java-10.html ---
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### Quantum 通过 Google 阅读器发送给您的内容： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### Quantum 通过 Google 阅读器发送给您的内容： {#quantum-通过-google-阅读器发送给您的内容 style="margin:0px 3px;font-family:sans-serif"}
+
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
- {style="margin: 0.25em 0 0 0"}
+</div>
+
+<div
+style="font-family:sans-serif;overflow:auto;width:100%;margin: 0px 10px">
+
+ {#section style="margin: 0.25em 0 0 0"}
+
+<div>
 
 [使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/37893/?utm_source=rss&utm_medium=rss&utm_campaign=%25e4%25bd%25bf%25e7%2594%25a8-eclipse-%25e8%25b0%2583%25e8%25af%2595-java-%25e7%25a8%258b%25e5%25ba%258f%25e7%259a%2584-10-%25e4%25b8%25aa%25e6%258a%2580%25e5%25b7%25a7)
 
-于 13-4-9 通过 [博客 - 伯乐在线](http://blog.jobbole.com) 作者：童海波
+</div>
+
+<div style="margin-bottom: 0.5em">
+
+于 13-4-9 通过 [博客 - 伯乐在线](http://blog.jobbole.com){.f}
+作者：童海波
+
+</div>
 
 \
-
 英文原文： [Again! – 10 Tips on Java Debugging with
 Eclipse](http://blog.codecentric.de/en/2013/04/again-10-tips-on-java-debugging-with-eclipse/)
 来源[ oschina](http://www.oschina.net/translate/again-10-tips-on-java-debugging-with-eclipse)
@@ -42,7 +76,7 @@ Properties"）设置。你可以在条件代码片段为true的时候暂停程�
 
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211426_5OGf.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
- [![使用 Eclipse 调试 Java 程序的 10
+[![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211427_RZNd.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211427_RZNd.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
 **- 变量视图：展示逻辑结构**
@@ -52,10 +86,10 @@ Logical
 Structure"的按钮。它非常有用，尤其当你的对象的toString()方法所展示的信息并不友好的时候。我的老大在几周前为我展示了这个功能。你知道，他经常跟PowerPoint或者Excel打交道。对于我这么一个开发人员，多丢脸哦 ![;-)](http://static.oschina.net/uploads/img/201304/08211425_V3u4.gif)
 
 未开启"Show Logical Structure"\
- [![使用 Eclipse 调试 Java 程序的 10
+[![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211429_x6RR.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
- 开启"Show Logical Structure"\
- [![使用 Eclipse 调试 Java 程序的 10
+开启"Show Logical Structure"\
+[![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211430_GNOo.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211430_GNOo.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
 **- 变量视图：更改变量值…**
@@ -67,8 +101,8 @@ Structure"的按钮。它非常有用，尤其当你的对象的toString()方法
 
 **- Display视图**
 
-你知道"Display视图"吗？你可以在调试过程中，通过"Window" -\> "Show View"
--\>
+你知道"Display视图"吗？你可以在调试过程中，通过"Window" -&gt; "Show
+View" -&gt;
 "Display"来激活它。现在，你的eclipse应该是一个空白的新视图。你可以使用这个视图，输入或者演算一些新的代码。这些代码在当前的调试位置的上下文环境中被执行，这意味着，你可以使用所有变量甚至是内容助手。要执行你的代码的话，只需标记它，并使用右键菜单或者CTRL+U(执行)或者 CTRL+SHIFT+I
 (检查).
 
@@ -83,7 +117,7 @@ to Frame".
 使用这个特性你可以及时回退 ![;-)](http://static.oschina.net/uploads/img/201304/08211425_V3u4.gif) 
 你可以直接回退到运行过的java堆栈帧中某一帧。当我调试时，一不小心错过了某个关注的代码行时，我常常用这个回退一帧。使用"Drop
 to Frame"这个特性我可以简单的重新运行某帧代码。\
- [![使用 Eclipse 调试 Java 程序的 10
+[![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211435_mwS1.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211435_mwS1.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
 
 #### - 导航: Step into Selection
@@ -98,7 +132,7 @@ line"也是很棒的特性。只需要把光标放在你想运行到的哪一行
 
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211437_FeyO.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
- **- 导航器：使用键盘**
+**- 导航器：使用键盘**
 
 如果避免使用鼠标的话，你的操作速度会更快。你至少应该如下的快捷键：
 
@@ -123,7 +157,7 @@ line"也是很棒的特性。只需要把光标放在你想运行到的哪一行
 
 变量视图是使用对象的toString方法来现实对应的值。因为这个原因，如果提供友好的toString方法实现，对调试来说会非常有用。在javadoc中关于java.lang.Object的默认toString实现，也是这样推荐的：
 
-> 返回一个表示该对象的字符串。通常\<code\>toString\</code\>方法返回这么一个字符串，"字面表示"该对象。返回结果必须是一个简洁却富含可表示该对象的信息，并且友好可读取。我们推荐所有的子类都覆盖这个方法。
+> 返回一个表示该对象的字符串。通常&lt;code&gt;toString&lt;/code&gt;方法返回这么一个字符串，"字面表示"该对象。返回结果必须是一个简洁却富含可表示该对象的信息，并且友好可读取。我们推荐所有的子类都覆盖这个方法。
 
 你可以参考commons-lang中的 [ToStringBuilder](http://commons.apache.org/proper/commons-lang/apidocs/org/apache/commons/lang3/builder/ToStringBuilder.html)。它提供一些功能来编写
 （引用自javadoc ） "良好并连贯" 的toString方法。
@@ -132,10 +166,10 @@ line"也是很棒的特性。只需要把光标放在你想运行到的哪一行
 
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211440_eUhn.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
- 默认的ToStringBuilder例子\
- [![使用 Eclipse 调试 Java 程序的 10
+默认的ToStringBuilder例子\
+[![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211441_AsCq.png "使用 Eclipse 调试 Java 程序的 10 个技巧")\
- ToStringBuilder例子 – 多行文本风格
+ToStringBuilder例子 – 多行文本风格
 
 [![使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/wp-content/uploads/2013/04/08211443_5U7e.png "使用 Eclipse 调试 Java 程序的 10 个技巧")](http://blog.jobbole.com/wp-content/uploads/2013/04/08211443_5U7e.png "使用 Eclipse 调试 Java 程序的 10 个技巧")
@@ -146,42 +180,74 @@ Formatter…"。然后你就可以输入一些代码，用于展现这个对象�
 
 #### 相关文章
 
--   [![Java程序员应该知道的10个调试技巧](http://blog.jobbole.com/wp-content/uploads/2012/09/156_120903163734_1-150x150.png)](http://blog.jobbole.com/26435/)[Java程序员应该知道的10个调试技巧](http://blog.jobbole.com/26435/)
+-   [![Java程序员应该知道的10个调试技巧](http://blog.jobbole.com/wp-content/uploads/2012/09/156_120903163734_1-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/26435/)[Java程序员应该知道的10个调试技巧](http://blog.jobbole.com/26435/)
 -   [![eclipse
-    logo](http://blog.jobbole.com/wp-content/uploads/2012/04/eclipse-logo-150x150.jpg)](http://blog.jobbole.com/16127/)[25个让Java程序员更高效的Eclipse插件](http://blog.jobbole.com/16127/)
+    logo](http://blog.jobbole.com/wp-content/uploads/2012/04/eclipse-logo-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/16127/)[25个让Java程序员更高效的Eclipse插件](http://blog.jobbole.com/16127/)
 -   [![Eclipse Orion
-    Example](http://blog.jobbole.com/wp-content/uploads/2012/03/Orion-Example-150x150.png)](http://blog.jobbole.com/16318/)[Eclipse基金会将于7月发布Orion
+    Example](http://blog.jobbole.com/wp-content/uploads/2012/03/Orion-Example-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/16318/)[Eclipse基金会将于7月发布Orion
     1.0版](http://blog.jobbole.com/16318/)
--   [![JVM优化-缩短eclipse的启动时间](http://blog.jobbole.com/wp-content/uploads/2013/03/002356_C7Tx_254689-150x150.png)](http://blog.jobbole.com/34536/)[JVM优化-缩短eclipse的启动时间](http://blog.jobbole.com/34536/)
+-   [![JVM优化-缩短eclipse的启动时间](http://blog.jobbole.com/wp-content/uploads/2013/03/002356_C7Tx_254689-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/34536/)[JVM优化-缩短eclipse的启动时间](http://blog.jobbole.com/34536/)
 -   [![善用 Web
-    调试代理工具](http://blog.jobbole.com/wp-content/uploads/2013/03/22-150x150.png)](http://blog.jobbole.com/34457/)[善用
-    Web 调试代理工具](http://blog.jobbole.com/34457/)
+    调试代理工具](http://blog.jobbole.com/wp-content/uploads/2013/03/22-150x150.png){width="150"
+    height="150"}](http://blog.jobbole.com/34457/)[善用 Web
+    调试代理工具](http://blog.jobbole.com/34457/)
 -   [![调试器工作原理之二——实现断点](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/6.jpg)](http://blog.jobbole.com/23632/)[调试器工作原理之二——实现断点](http://blog.jobbole.com/23632/)
 -   [![在线本地调试大观](http://blog.jobbole.com/wp-content/plugins/wordpress-23-related-posts-plugin/static/thumbs/16.jpg)](http://blog.jobbole.com/1147/)[在线本地调试大观](http://blog.jobbole.com/1147/)
--   [![开发人员眼中最好的代码编辑器](http://blog.jobbole.com/wp-content/uploads/2012/07/Which-is-the-Best-Code-Editor-150x150.jpg)](http://blog.jobbole.com/24594/)[开发人员眼中最好的代码编辑器](http://blog.jobbole.com/24594/)
+-   [![开发人员眼中最好的代码编辑器](http://blog.jobbole.com/wp-content/uploads/2012/07/Which-is-the-Best-Code-Editor-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/24594/)[开发人员眼中最好的代码编辑器](http://blog.jobbole.com/24594/)
 -   [![11个强大的Visual
     Studio调试小技巧](http://www.hanselman.com/images/vs2010logo_transparent_large.png)](http://blog.jobbole.com/33865/)[11个强大的Visual
     Studio调试小技巧](http://blog.jobbole.com/33865/)
 -   [![java
-    black](http://blog.jobbole.com/wp-content/uploads/2012/02/java-black--150x150.jpg)](http://blog.jobbole.com/13373/)[Java堆内存的10个要点](http://blog.jobbole.com/13373/)
+    black](http://blog.jobbole.com/wp-content/uploads/2012/02/java-black--150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/13373/)[Java堆内存的10个要点](http://blog.jobbole.com/13373/)
 
 [使用 Eclipse 调试 Java 程序的 10
 个技巧](http://blog.jobbole.com/37893/)，首发于[博客 -
 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
  
 
-### 可从此处完成的操作： {style="margin:0px 3px;font-family:sans-serif"}
+</div>
+
+<div style="padding: 4px; background-color: #c3d9ff;">
+
+### 可从此处完成的操作： {#可从此处完成的操作 style="margin:0px 3px;font-family:sans-serif"}
 
 -   使用 **Google 阅读器**[订阅博客 -
     伯乐在线](http://www.google.com/reader/view/feed%2Fhttp%3A%2F%2Fblog.jobbole.com%2Ffeed%2F?source=email)
 -   [开始使用 Google
     阅读器](http://www.google.com/reader/?source=email)，轻松地与**您喜爱的所有网站**保持同步更新
 
- 
+</div>
+
+<div
+style="margin: 0px 1px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
 
  
+
+</div>
+
+<div
+style="margin: 0px 2px; padding-top: 1px;    background-color: #c3d9ff; font-size: 1px !important;    line-height: 0px !important;">
+
+ 
+
+</div>

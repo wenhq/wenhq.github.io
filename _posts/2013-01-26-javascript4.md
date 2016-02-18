@@ -4,8 +4,7 @@ modified\_time: '2013-09-30T15:00:50.103+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-4414426815430465279
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/01/javascript4.html ---
-[Javascript异步编程的4种方法](http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html):
-\
+[Javascript异步编程的4种方法](http://www.ruanyifeng.com/blog/2012/12/asynchronous%EF%BC%BFjavascript.html):\
 你可能知道，Javascript语言的执行环境是"单线程"（single thread）。\
 所谓"单线程"，就是指一次只能完成一件任务。如果有多个任务，就必须排队，前面一个任务完成，再执行后面一个任务，以此类推。\
 \
@@ -212,6 +211,9 @@ Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/
 \
 （完）\
 
+<div
+style="background-color: #aad2f0; border-radius: 10px; border: 1px solid #d3d3d3; color: #556677; line-height: 160%; margin: 1em; padding: 0.3em 0.5em;">
+
 ### 文档信息
 
 -   版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons
@@ -224,3 +226,9 @@ Promises](http://sporto.github.com/blog/2012/12/09/callbacks-listeners-promises/
     | [![美元 -
     paypal](http://www.ruanyifeng.com/blog/images/dollar_32.png "美元")](https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=yifeng.ruan@gmail.com&currency_code=USD&amount=0.99&return=http://www.ruanyifeng.com/thank.html&item_name=Ruan%20YiFeng%27s%20Blog&undefined_quantity=1&no_note=0)
 
+</div>
+
+<div
+style="border-radius: 10px; color: #556677; line-height: 160%; margin: 1em; padding: 0.3em 0.5em;">
+
+</div>

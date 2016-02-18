@@ -9,14 +9,39 @@ http://binaryware.blogspot.com/2014/02/googlejava.html ---
 \
 *Google最近发布了一份完整的Java编码规范。规范的内容包括一些切实可行的硬性规定。Google内部均遵守此规范。该规范不仅涵盖了代码格式，还包括其他类型的约定和编码标准。
 By Bienvenido David Translated by 梅雪松*
+<div>
 
 \
 
+</div>
+
+<div>
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
+
 Google最近发布了一份完整的[Java编码规范](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)。规范的内容包括一些切实可行的硬性规定。Google内部均遵守此规范。该规范不仅涵盖了代码格式，还包括其他类型的约定和编码标准。
 
-该规范主要分为6大部分：源文件基本规范、源文件结构、代码格式、命名、编程实践和Javadoc。源文件基本规范说明文件名、文件编码、空格和特殊字符等规范要求。源文件结构说明许可信息、package和import声明、类成员顺序等规范要求。代码格式用于说明源代码中大括号、缩进、换行、空格、括号、枚举、数组、switch语句、注解、注释和修饰符等格式要求。命名说明了标识符（包、类、方法、常量、属性、局部变量和类变量）的命名规范和驼峰大小写定义。编程实践说明@Override、异常、静态成员和终结器的用法。Javadoc说明哪些地方需要Javadoc，以及它的格式要求。
+</div>
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
+
+该规范主要分为6大部分：源文件基本规范、源文件结构、代码格式、命名、编程实践和Javadoc。<span
+style="border: 0px; margin: 0px; padding: 0px;">源文件基本规范</span>说明文件名、文件编码、空格和特殊字符等规范要求。<span
+style="border: 0px; margin: 0px; padding: 0px;">源文件结构</span>说明许可信息、package和import声明、类成员顺序等规范要求。<span
+style="border: 0px; margin: 0px; padding: 0px;">代码格式</span>用于说明源代码中大括号、缩进、换行、空格、括号、枚举、数组、switch语句、注解、注释和修饰符等格式要求。<span
+style="border: 0px; margin: 0px; padding: 0px;">命名</span>说明了标识符（包、类、方法、常量、属性、局部变量和类变量）的命名规范和驼峰大小写定义。<span
+style="border: 0px; margin: 0px; padding: 0px;">编程实践</span>说明@Override、异常、静态成员和终结器的用法。Javadoc说明哪些地方需要Javadoc，以及它的格式要求。
+
+</div>
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
 
 以下是从规范中摘录的一些内容：
+
+</div>
 
 -   import中不能有通配符。
 -   重载方法应该放在一起连续出现。
@@ -29,14 +54,36 @@ Google最近发布了一份完整的[Java编码规范](http://google-styleguide.
 -   常量命名应使用CONSTANT\_CASE格式（译注：所有字母大写，单词使用下划线分隔）。注意，所有常量都必须是static
     final成员，但并不是所有的static final成员都是常量。
 
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
+
 更多内容请阅读[Google Java
 Style](http://google-styleguide.googlecode.com/svn/trunk/javaguide.html)。Oracle也提供了[官方的Java语言编码规范](http://www.oracle.com/technetwork/java/javase/documentation/codeconvtoc-136057.html)。Google还提供了其它语言的代码风格指南，包括C++、Objective-C、Python、Shell、HTML/CSS、JavaScript和Lisp等等。
+
+</div>
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
 
 **原文英文链接：**[Google's Java Coding
 Standards](http://www.infoq.com/news/2014/02/google-java-coding-standards)
 
-* * * * *
+</div>
+
+------------------------------------------------------------------------
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
 
 感谢[姚琪琳](http://www.infoq.com/cn/author/%E5%A7%9A%E7%90%AA%E7%90%B3)对本文的审校。
 
-给InfoQ中文站投稿或者参与内容翻译工作，请邮件至[editors@cn.infoq.com](mailto:editors@cn.infoq.com)。也欢迎大家通过新浪微博（[@InfoQ](http://www.weibo.com/infoqchina)）或者腾讯微博（[@InfoQ](http://t.qq.com/infoqchina)）关注我们，并与我们的编辑和其他读者朋友交流。
+</div>
+
+<div
+style="background-color: white; border: 0px; clear: both; float: left; font-family: Arial, sans-serif; font-size: 14px; line-height: 21px; margin-bottom: 15px; padding: 0px; width: 610px;">
+
+给InfoQ中文站投稿或者参与内容翻译工作，请邮件至<editors@cn.infoq.com>。也欢迎大家通过新浪微博（[@InfoQ](http://www.weibo.com/infoqchina)）或者腾讯微博（[@InfoQ](http://t.qq.com/infoqchina)）关注我们，并与我们的编辑和其他读者朋友交流。
+
+</div>
+
+</div>

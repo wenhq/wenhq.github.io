@@ -4,11 +4,22 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-5623246908423316105
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/sublime-text.html ---
+<div>
 
 [Sublime Text
 使用体验](http://www.oschina.net/news/40902/the-sublime-text-experiment)
 
-于 13-5-28 通过 [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
+</div>
+
+<div
+style="font-family: sans-serif; margin: 0px 10px; overflow: auto; width: 100%;">
+
+<div style="margin-bottom: 0.5em;">
+
+于 13-5-28 通过
+[开源中国社区最新新闻](http://www.oschina.net/?from=rss){.f}
+
+</div>
 
 \
 ![Edit side by side in
@@ -16,7 +27,6 @@ widescreen](http://static.oschina.net/uploads/img/201201/27115500_4ZUk.png)\
 说服我使用一种新编辑器是很难的，但鉴于听到[Sublime
 Text](http://www.sublimetext.com/)获得如此多的赞扬，我最终决定试一下。毕竟，比起我的又老又生硬的[Vim](http://www.vim.org/)，Sublime
 Text界面好看的多，布局更顺手——我是对界面很挑剔的。于是，在tuts+上看了几篇资料后，我就开始在工作中试用起来。下面就是我的一些体验。\
-
 ### 先说Sublime Text的优点：
 
 -   Sublime
@@ -68,6 +78,11 @@ Text界面好看的多，布局更顺手——我是对界面很挑剔的。于�
 2，因为我说的这些问题都是根本性的，我不认为在未来的版本上在这方面会有所改进。我对这些事情不是很习惯，一次又一次的在使用时犯错，我最终决定重回
 Vim。然而，我认为Sublime
 Text是个很不错的编辑器，我认为它是至今为止发现的最有可能替代Vim的编辑器。\
+<div>
 
-[英文原文：[The Sublime Text
-Experiment](http://el-tramo.be/blog/sublime-text-experiment/) ]
+\[英文原文：[The Sublime Text
+Experiment](http://el-tramo.be/blog/sublime-text-experiment/) \]
+
+</div>
+
+</div>

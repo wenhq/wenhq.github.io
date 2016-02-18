@@ -4,10 +4,26 @@ Q tags: modified\_time: '2013-08-26T13:58:32.783+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-3940695889282952591
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/08/tesla-model-s.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [\
 业界资讯：TESLA 特斯拉 Model S
 电动汽车开放国内预订](http://www.smzdm.com/youhui/294079)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via [什么值得买](http://www.smzdm.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
 传说中的"续航三四百公里，直线秒杀宝马M5，北美安全测试刷新记录，终身电池免费维护，车内17寸爽炸天触摸屏，2012美帝某权威杂志年度车型，车内更可装三排座椅，国内众多权贵都在翘首以盼的Model
 S"来了！\
 来自新浪微博认证Tesla Motors中国区总经理的"KC-atlantic"消息："TESLA
@@ -21,3 +37,5 @@ S电动汽车则被称为最美的电动汽车。如果预定成功，晒物广�
 ![TESLA 特斯拉](http://pn.zdmimg.com/201308/23/31bd0fb5.jpg_n1.jpg)\
 业界资讯：TESLA 特斯拉 Model S 电动汽车开放国内预订，首发于什么值得买。\
 本文来自[什么值得买网站（www.smzdm.com）](http://www.smzdm.com/youhui/294079)。
+
+</div>

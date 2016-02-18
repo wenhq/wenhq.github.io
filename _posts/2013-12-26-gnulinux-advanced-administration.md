@@ -5,8 +5,17 @@ tag:blogger.com,1999:blog-4961947611491238191.post-2417869925627161549
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/12/gnulinux-advanced-administration.html
 ---
-《GNU/Linux Advanced Administration》是一本关于 GNU/Linux
-系统管理的免费电子书籍，其中涵盖基本工具、内核、本机管理、网络管理、服务器管理、数据管理、安全管理等内容。\
+<div dir="ltr">
+
+<span style="font-family: sans-serif;">《GNU/Linux Advanced
+Administration》是一本关于 GNU/Linux
+系统管理的免费电子书籍，其中涵盖基本工具、内核、本机管理、</span><span
+style="font-family: sans-serif;">网络管理、服务器管理、数据管理、安全管理等内容。</span>\
+<div class="gmail_quote">
+
+<div
+style="font-family: sans-serif; margin: 0px 10px; overflow: auto; width: 100%;">
+
 ![GNU/Linux Advanced
 Administration](http://linuxtoy.org/images/2010/02/laa.png)\
 《GNU/Linux Advanced Administration》由 Remo Suppi Boldrito 和 Josep
@@ -21,3 +30,9 @@ del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/gnu-linu
 this](mailto:?Subject=Check+This+Out&body=I+think+you%27ll+like+this%3A+http%3A%2F%2Flinuxtoy.org%2Farchives%2Fgnu-linux-advanced-administration.html)
 | [7
 comments](http://linuxtoy.org/archives/gnu-linux-advanced-administration.html#comments)
+
+</div>
+
+</div>
+
+</div>

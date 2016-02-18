@@ -12,6 +12,15 @@ http://binaryware.blogspot.com/2014/05/googlelogogo.html ---
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2Fd52e3c7fe7ecf35a6ff056b55a089955.gif&container=blogger&gadget=a&rewriteMime=image%2F*)\
 \
 Google对其主页的每一个微小元素的改动都十分谨慎，需要通过专门的委员会审核，经常会耗时数月。我们可以想见，这次的logo改动背后应该经过了许多的数据调查和细致的琢磨。当然，简单的来说就是，google又犯强迫症了。
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[犯强迫症的Google——发布新logo，字母"g"和"o"分别移动了一个像素](http://www.36kr.com/p/212397.html) 
   通过 [36氪 | 关注互联网创业](http://www.36kr.com/)
+
+</div>

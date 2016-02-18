@@ -5,14 +5,23 @@ Unix/Linux编程实践教程【高清PDF中文版+附录光盘+代码】 date:
 tag:blogger.com,1999:blog-4961947611491238191.post-5518605270033922482
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/01/unixlinuxpdf.html ---
+<div dir="ltr">
 
- {style="margin: 0.25em 0px 0px;"}
+ {#section style="margin: 0.25em 0px 0px;"}
+
+<div>
 
 [Unix/Linux编程实践教程【高清PDF中文版+附录光盘+代码】](http://www.linuxidc.com/Linux/2011-08/41374.htm)
+
+</div>
+
+<div style="margin-bottom: 0.5em;">
 
 于 11-8-23 通过
 [Linux公社-Linux|Ubuntu|Fedora|新闻|下载|教程|安装|SUSE|Linux发行版|编程|服务器](http://www.linuxidc.com/)
 作者：Linux
+
+</div>
 
 \
 中文名: Unix-linux编程实践教程 中文清晰\
@@ -22,17 +31,19 @@ http://binaryware.blogspot.com/2014/01/unixlinuxpdf.html ---
 出版社: 清华大学出版社书号: 9787302096139发行时间: 2004年10月01日\
 地区: 美国\
 语言: 简体中文\
-简介: \
-
+简介:\
 《Unix\\Linux编程实践教程》通过解释Unix的工作原理，循序渐进地讲解实现Unix中系统命令的方法，让读者理解并逐步精通Unix系
 统编程，进而具有编制Unix应用程序的能力。书中采用启发式、举一反三、图示讲解等多种方法讲授，语言生动、结构合理、易于理解。每一章后均附有大量的
 习题和编程练习，以供参考。\
+<div align="center">
 
 ![](http://www.linuxidc.com/upload/2011_08/110823102234521.jpg)
 
+</div>
+
 对于学习Linux的同学，我推荐的版本是[Ubuntu](http://www.linuxidc.com/topicnews.aspx?tid=2 "Ubuntu")的,这个桌面做得比较好,如果机器好的同学可以用虚拟机装,不好的同学可以直接在机器上装，Ubuntu安装方法跟游戏差不多，只要把光盘放进虚拟光驱就可以了，实在不行可以用cygwin，这个也可以学习编程。\
- 目录: \
- 第1章 Unix系统编程概述\
+目录:\
+第1章 Unix系统编程概述\
 第2章 用户、文件操作与联机帮助：编写who命令\
 第3章 目录与文件属性：编写IS\
 第4章 文件系统：编写PWD\
@@ -42,13 +53,13 @@ http://binaryware.blogspot.com/2014/01/unixlinuxpdf.html ---
 第8章 进程和程序：编写命令解释器she\
 第9章 可编程的shell、shell变量和环境：编写自己的shell\
 第10章 1/0重定向和管道\
- Unix/Linux编程实践教程【高清PDF中文版+附录光盘+代码】下载地址：\
- **相关文件下载地址在Linux公社的1号FTP服务器里，下载地址：** \
- FTP地址：[ftp://www.linuxidc.com](ftp://www.linuxidc.com/)\
-
+Unix/Linux编程实践教程【高清PDF中文版+附录光盘+代码】下载地址：\
+**相关文件下载地址在Linux公社的1号FTP服务器里，下载地址：**\
+FTP地址：[ftp://www.linuxidc.com](ftp://www.linuxidc.com/)\
 用户名：[www.linuxidc.com](http://www.linuxidc.com/Linux/2011-08/41374.htm)\
- 密码：[www.muu.cc](http://www.muu.cc/)\
- 在
+密码：[www.muu.cc](http://www.muu.cc/)\
+在
 2011年LinuxIDC.com\\8月\\Unix/Linux编程实践教程【高清PDF中文版+附录光盘+代码】\
- 下载方法见这里
-[http://www.linuxidc.net/thread-1187-1-1.html](http://www.linuxidc.net/thread-1187-1-1.html)
+下载方法见这里 <http://www.linuxidc.net/thread-1187-1-1.html>
+
+</div>

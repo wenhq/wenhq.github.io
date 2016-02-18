@@ -5,11 +5,24 @@ modified\_time: '2013-12-09T11:25:54.380+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-524435317054292796
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/12/hacker-news.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
 
 [Hacker
 News排名算法是怎样工作的：得分、争议和罚分](http://blog.jobbole.com/52575/)
 
+</div>
+
+<div style="font-size: 13px;">
+
 Via [博客 - 伯乐在线](http://blog.jobbole.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
 
 **译者注：**根据维基百科相关词条，Hacker
 News是一家关于计算机黑客和创业公司的社会化新闻网站，与其它社会化新闻网站不同的是，
@@ -59,7 +72,6 @@ businessinsider.com, easypost.com, github.com, imgur.com, medium.com,
 quora.com, qz.com, reddit.com, rt.com, stackexchange.com,
 theguardian.com, theregister.com, theverge.com, torrentfreak.com,
 youtube.com.我确定，实际的名单比这个更长。（这是"禁用"网站的一部分）\
-
 一项有趣的理论是：从流行网站上获得的新闻会被许多人并行提交，因此会比其他文章获得更多的赞成投票。对于来自于流行网站的新闻自动罚分，有助于抵消这样的作用。\
 \
 **罚分的影响**\
@@ -77,7 +89,6 @@ doctor'](http://news.ycombinator.com/itemid=6713065)》原来的排位是17，�
 ****我每分钟抓取一次/news和/news2中的网页。我用BeautifulSoup工具解析（有时丑陋的）HTML，并且通过大量的Python脚本语言处理结果，并且利用难以理解但是功能强大的matplotlib将结果绘制为图。\
 分析的基本思想是：利用公式生成初始得分，然后寻找异常情况。在某一个时间点上（比如：11/09
 8:46），我们可以计算出排名前十的新闻对应的初始得分：\
-
 -   2.802 Pyret: A new programming language from the creators of Racket
 -   1.407 The Big Data Brain Drain: Why Science is in Trouble
 -   1.649 The NY Times endorsed a secretive trade agreement that the
@@ -209,7 +220,6 @@ updating](http://news.ycombinator.com/itemid=6716160).\
 \
 **得分计算公式的代码**\
 ****HN服务器上提供了得分算法的一种实现，以及更新的得分计算公式：\
-
       (= gravity* 1.8 timebase* 120 front-threshold* 1         nourl-factor* .4 lightweight-factor* .17 gag-factor* .1)        (def frontpage-rank (s (o scorefn realscore) (o gravity gravity*))        (* (/ (let base (- (scorefn s) 1)                (if (> base 0) (expt base .8) base))              (expt (/ (+ (item-age s) timebase*) 60) gravity))           (if (no (in s!type 'story 'poll))  .8               (blank s!url)                  nourl-factor*               (mem 'bury s!keys)             .001                                              (* (contro-factor s)                                                 (if (mem 'gag s!keys)                                                      gag-factor*                                                     (lightweight s)                                                      lightweight-factor*                                                     1)))))
 
 以防你不会阅读Arc代码，上面的代码中定义了一些变量：gravity\* =
@@ -221,6 +231,9 @@ updating](http://news.ycombinator.com/itemid=6716160).\
 **结论**\
 Hacker News主页上的文章位置并不是严格按照你的估计。经过对Hacker
 News网页上的文章的仔细计算，我们可以对实际应用的算分公式有深入了解。虽然，赞成投票显然是影响排名的因素，但是，同时还有一个复杂的"罚分"系统使得文章排名下降或是彻底消失。这不仅仅是为了阻止垃圾信息，也会影响一些很流行的文章。如果一篇文章的评论数多余赞成投票，不要评论那篇文章，否则你会让它彻底消失！\
+<div>
+
+<div>
 
 ### 相关文章
 
@@ -237,6 +250,12 @@ News网页上的文章的仔细计算，我们可以对实际应用的算分公�
 -   [NoSQL数据库的分布式算法](http://blog.jobbole.com/43891/)
 -   [Zookeeper与paxos算法](http://blog.jobbole.com/45721/)
 
+</div>
+
+</div>
+
 [Hacker
 News排名算法是怎样工作的：得分、争议和罚分](http://blog.jobbole.com/52575/)，首发于[博客
 - 伯乐在线](http://blog.jobbole.com/)。
+
+</div>

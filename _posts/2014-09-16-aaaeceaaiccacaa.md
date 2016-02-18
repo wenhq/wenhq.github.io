@@ -4,7 +4,8 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-3032108151843871058
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/09/aaaeceaaiccacaa.html ---
-![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fimage.woshipm.com%2Fwp-files%2F2014%2F09%2F3ed5cc23fb138e97e67dddc1ce888a6d.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)\
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fimage.woshipm.com%2Fwp-files%2F2014%2F09%2F3ed5cc23fb138e97e67dddc1ce888a6d.jpg&container=blogger&gadget=a&rewriteMime=image%2F*){width="640"
+height="355"}\
 \
 \
 \
@@ -25,7 +26,8 @@ TOMsInsight继续我们的互联网黑市的分析报告系列，今天的主角
 \
 目前来说，国内的彩票可以分成四类：\
 \
-![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fimage.woshipm.com%2Fwp-files%2F2014%2F09%2F4ffce04d92a4d6cb21c1494cdfcd6dc1.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)\
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fimage.woshipm.com%2Fwp-files%2F2014%2F09%2F4ffce04d92a4d6cb21c1494cdfcd6dc1.jpg&container=blogger&gadget=a&rewriteMime=image%2F*){width="640"
+height="357"}\
 \
 即开型：2000年前，几乎所有的彩票都是即开型。有些朋友可能记得在20世纪90年代，每个三四线城市都会因为即开型彩票活动而兴奋：现场发行，当场兑奖，奖品包括摩托车、电视机、照相机等当时大件，后来又出现更大的现金或实物。那些年，每个小城市都流传着很多和即开型彩票相关的故事：有人一夜暴富，有人倾家荡产，压抑了多年的民间赌博需求有了整体的释放。2004年西安体彩宝马案之后，大奖组即开票被终止。\
 \
@@ -187,5 +189,14 @@ B哥完全兴奋起来了。\
 互联网，是未来发展组件，不是牟利工具。\
 \
 来源：TOMsInsight专注于中国互联网的深度数据分析洞察，发布独家原创报告。\
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[中国互联网黑市分析：网络彩票内幕](http://www.woshipm.com/it/105257.html)  通过 [人人都是产品经理](http://www.woshipm.com/)
+
+</div>

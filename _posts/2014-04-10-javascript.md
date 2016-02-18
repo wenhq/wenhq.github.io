@@ -6,23 +6,38 @@ blogger\_orig\_url:
 http://binaryware.blogspot.com/2014/04/javascript.html ---
 [JavaScript基础工具清单](http://blog.jobbole.com/64771/)  通过 [博客 -
 伯乐在线](http://blog.jobbole.com/)\
+<div dir="ltr"
+style="color: #303030; font-size: 14px; line-height: 20px; margin-top: 15px;">
+
+<div align="left">
 
 在训练营中，我们给学员介绍了一些工具和库，以扩大其代码的能力。目前有位JavaScript学员Kalina，他汇总了这些工具的清单，想分享给其他的代码爱好者。
+
+</div>
+
+<div align="left">
 
 Ivan
 Storck，我们JavaScript训练营的辅导员，利用Kalina的清单，画了一张有帮助的思维导图：
 
-![](http://ww3.sinaimg.cn/large/63918611gw1ef9tv36yxpj20xc0o5jst.jpg)
+</div>
 
-**通用** {align="left"}
+<div>
+
+![](http://ww3.sinaimg.cn/large/63918611gw1ef9tv36yxpj20xc0o5jst.jpg){width="640"
+height="463"}
+
+</div>
+
+**通用** {#通用 align="left"}
 ========
 
-脚手架工具（用于启动项目） {align="left"}
+脚手架工具（用于启动项目） {#脚手架工具用于启动项目 align="left"}
 --------------------------
 
 -   [Yeoman](http://yeoman.io/) – Yeoman是一个健壮且固定的客户端程序库，包含了工具和框架，有助于开发者快速构建漂亮的web应用。
 
-构建工具（自动化构建） {align="left"}
+构建工具（自动化构建） {#构建工具自动化构建 align="left"}
 ----------------------
 
 -   [Grunt.js](http://gruntjs.com/) – Grunt生态系统很巨大，且每天成长着。由于有数以百计的插件可供选择，你可以使用Grunt自动化构建，且花费最少的代价。
@@ -33,7 +48,7 @@ Storck，我们JavaScript训练营的辅导员，利用Kalina的清单，画了�
     – Browserify是一个允许编写、编译[Node.js](http://blog.jobbole.com/1254/ "Node.js 究竟是什么？")风格的模块并将之用于浏览器的开发工具。就像node，我们在单独文件中编写模块，使用module.exports、exports导出外部方法和属性。
 -   [Uglify.js](http://marijnhaverbeke.nl//uglifyjs) – Uglify.js是服务于NodeJS的一个JavaScript解析/压缩/美化库。
 
-包管理工具 {align="left"}
+包管理工具 {#包管理工具 align="left"}
 ----------
 
 -   [Homebrew](http://brew.sh/)(适用于Mac 系统)
@@ -43,10 +58,10 @@ Storck，我们JavaScript训练营的辅导员，利用Kalina的清单，画了�
 -   [NPM](https://www.npmjs.org/) – npm是一个Node.js官方包管理工具。
 -   [Bower](http://bower.io/) – Bower是一个web的包管理工具。
 
-**前端** {align="left"}
+**前端** {#前端 align="left"}
 ========
 
-MVC框架 {align="left"}
+MVC框架 {#mvc框架 align="left"}
 -------
 
 -   [Backbone.js](http://backbonejs.org/) –
@@ -55,7 +70,7 @@ MVC框架 {align="left"}
     当底层模块改变时，Ember使得Handlebar模板引擎在保持HTML最新方面做得更好。开始时，你甚至不需要编写任何JavaScript。
 -   [Angular.js](http://angularjs.org/) – Angular.js能让你扩展应用的HTML词汇。由此产生的效果是网页极富表现力，代码可读性强，适合快速开发。
 
-模板**** {align="left"}
+模板**** {#模板 align="left"}
 --------
 
 -   [Handlebars.js](http://handlebarsjs.com/) –
@@ -73,7 +88,7 @@ MVC框架 {align="left"}
 -   [Eco](https://github.com/sstephenson/eco) –
     Eco能让你在标记元素中嵌入[CoffeeScript](http://coffeescript.org/) 的逻辑。
 
-测试 {align="left"}
+测试 {#测试 align="left"}
 ----
 
 -   [Casper.js](http://casperjs.org/) –
@@ -81,17 +96,17 @@ MVC框架 {align="left"}
 -   [Zombie.js](http://zombie.labnotes.org/) –
     Zombie.js是一个在模拟环境中测试客户端JS代码的轻量级框架。无需浏览器。
 
-**后端** {align="left"}
+**后端** {#后端 align="left"}
 ========
 
-服务器 {align="left"}
+服务器 {#服务器 align="left"}
 ------
 
 -   [Express](http://expressjs.com/)  – Express是一个Node的web应用框架。
 -   [Node](http://nodejs.org/) – Node.js是一个基于Chrome JavaScript
     运行时建立的平台， 用来方便地搭建快速、 易于扩展的网络应用。
 
-数据库 {align="left"}
+数据库 {#数据库 align="left"}
 ------
 
 -   [MongoDB](https://www.mongodb.org/) – MongoDB
@@ -101,13 +116,13 @@ MVC框架 {align="left"}
 -   [SQL](http://www.sqlcourse.com/intro.html) –
     SQL用于与数据库进行通信。根据美国国家标准学会的定义，它是关系式数据库管理系统的标准语言。
 
-架构风格 {align="left"}
+架构风格 {#架构风格 align="left"}
 --------
 
 -   RESTful
     – 表现层状态转化是一种架构风格，包含了一组相互协作的架构约束。这些约束应用于分布式超媒体系统之间的组件、连接器和数据元素。
 
-测试 {align="left"}
+测试 {#测试-1 align="left"}
 ----
 
 -   [Cucumber.js](https://github.com/cucumber/cucumber-js) – Cucumber.js是一种流行的行为驱动开发工具，并将之应用于你自己的JavaScript程序
@@ -120,7 +135,7 @@ MVC框架 {align="left"}
     和 [jQuery
     Mobile](http://blog.jobbole.com/30216/ "用jQuery Mobile做HTML5移动应用的三个优缺点") 项目，能够测试任何通用的JavaScript代码。
 
-断言库 {align="left"}
+断言库 {#断言库 align="left"}
 ------
 
 -   [Chai](http://chaijs.com/) – Chai
@@ -128,7 +143,7 @@ MVC框架 {align="left"}
     / TDD
     )断言库，用于node和浏览器，可以愉快地搭配任何JavaScript测试框架。
 
-函数式编程工具 {align="left"}
+函数式编程工具 {#函数式编程工具 align="left"}
 --------------
 
 -   [Underscore.js](http://underscorejs.org/) –
@@ -136,10 +151,20 @@ MVC框架 {align="left"}
 -   [Lo-Dash](http://lodash.com/) –
     Lo-Dash是一个提供了一致性、定制和性能的实用程序库。
 
+<div align="left">
+
 \
 
-**更新：** {align="left"}
+</div>
+
+**更新：** {#更新 align="left"}
 ==========
+
+<div align="left">
 
 ****有一个你认为应该在此清单的工具吗？看看这篇文章和[Github](https://github.com/codefellows/jstools)上使用MindNode制作的思维导图(OPML)。请提交一个pull
 request，给我们您的建议，以增加新流行工具！
+
+</div>
+
+</div>

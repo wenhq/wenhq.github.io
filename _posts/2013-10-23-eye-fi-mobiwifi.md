@@ -4,11 +4,32 @@ modified\_time: '2013-10-23T11:30:42.060+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-253818821844305952
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/10/eye-fi-mobiwifi.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [Eye-Fi
 Mobi无线储存卡：让普通相机具有WiFi功能](http://www.kuailiyu.com/article/5586.html)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via
 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
+<div style="text-align: center;">
+
 　![](http://www.kuailiyu.com/uploadfile/2013/1022/20131022032314889.jpg)
+
+</div>
+
 Eye-Fi推出最新无线储存卡Mobi，该产品能够让普通数码相机具有WiFi功能。该储存卡最大存储空间为32GB，售价99美元。\
 　　使用Mobi存储卡的相机，在接入WiFi后，能够随时将拍摄下的图片或视频上传到网络上。并且还能够随时将图片同步到笔记本电脑、智能手机和平板电脑等设备上。\
 　　该公司表示，Mobi无线储存卡十分适合于父母、旅行爱好者、体育爱好者以及美食爱好者等更喜欢使用数码相机进行拍照的人。此前，Eye-Fi曾推出售价为50美元的8GB无线储存卡，以及售价80美元的16GB无线存储卡。\
@@ -17,3 +38,5 @@ Eye-Fi推出最新无线储存卡Mobi，该产品能够让普通数码相机具�
 　　Eye-Fi成立于2005年，总部位于加州山景城，他们的投资方包括NTT
 DoCoMo、Opus Capital、Shasta Ventures和TransLink Capital。\
 [点击参与讨论此文](http://www.kuailiyu.com/article/5586.html?utm_source=articletail&utm_medium=RSS#comments)
+
+</div>

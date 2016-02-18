@@ -4,19 +4,31 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-6994863851094697453
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/gnome-wayland.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **GNOME 的 Wayland 迁移计划**
+
+</div>
+
+<div class="source">
 
 Published on
 [LinuxTOY](http://linuxtoy.org/archives/gnome-to-wayland-roadmap.html) |
 shared via [feedly](http://www.feedly.com)
 
+</div>
+
+<div>
+
 在 GNOME 3.8 发布前夕和 Canonical 公布 Mir 计划以后，红帽员工 Matthias
 Clasen 在 GNOME 开发者列表和红帽内部的 GNOME 列表上，公布了 GNOME 向
 Wayland 迁移的路线图。
+
+<span></span>
 
 Matthias 在邮件中说道，Wayland 最近发布了 1.0 版本。大伙们都默默地认定了
 Wayland 作为 Linux 图形显示系统。为了取得完满的胜利，GNOME
@@ -56,7 +68,6 @@ Wayland，另外再需要六个时间 GNOME 会提供一个完整移植到 Wayla
 GNOME，则由发行版自身决定。至于跨桌面环境的兼容性问题，GNOME 会连同
 Wayland 社区和其他桌面社区（比如 KDE
 ）一同努力，提供所需的接口和文档，以确保可操作性。
-
 显示驱动对 Wayland 的兼容性：
 
 -   开源驱动工作良好（Intel，Radeon，Nouveau）
@@ -81,7 +92,15 @@ del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/gnome-to
 [无评论](http://linuxtoy.org/archives/gnome-to-wayland-roadmap.html#comments)
 | [捐助本站](http://linuxtoy.org/faq/donate)
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

@@ -4,7 +4,7 @@
 '2014-05-08T11:14:20.789+08:00' blogger\_id:
 tag:blogger.com,1999:blog-4961947611491238191.post-7228266070892911291
 blogger\_orig\_url:
-http://binaryware.blogspot.com/2014/05/facebookapp.html --- \
+http://binaryware.blogspot.com/2014/05/facebookapp.html ---\
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fwww.kuailiyu.com%2Fuploadfile%2F2014%2F0507%2F20140507050954399.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)　\
 \
 　　最近，谷歌把自己的Drive
@@ -60,5 +60,14 @@ value proposition)是什么，然后集中精力，专注于用户体验上。\
 　　对于小公司来说，这意味着要更加专注于当前的设计趋势，开发出核心产品，并且利用好超本地化和个性化网络优势。\
 \
 　　但愿这种"分拆"趋势能够简化App，并带来更好地用户体验，不过，这是否意味着用户不得不要去下载更多App应用呢?这个问题，还是日后再议吧。
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[为什么谷歌、Facebook等大型科技公司都在"分拆"自己的App](http://www.kuailiyu.com/article/9727.html)  通过 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
+
+</div>

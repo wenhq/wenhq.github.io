@@ -81,5 +81,14 @@ http://binaryware.blogspot.com/2014/06/ecaeiacaa.html --- 文/黄永玉\
 对产品本源认识有多深，呈现才有多深。而你越接近这个深度，你越感觉到，其实，那些华丽的修饰，完全没有必要，一种平常的展示就足够了，足够直指人心！\
 \
 最后，感谢柴姑娘这本好书。\
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[艺术的归艺术，创新的归创新](http://zreading.cn.feedsportal.com/c/35042/f/647833/s/3b97c87b/sc/38/l/0L0Szreading0Bcn0Carchives0C44180Bhtml/story01.htm)  通过 [左岸读书\_blog](http://www.zreading.cn/)
+
+</div>

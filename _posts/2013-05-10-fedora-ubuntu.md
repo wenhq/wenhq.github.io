@@ -5,8 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-7025889210468425318
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/05/fedora-ubuntu.html --- [Fedora 与
 Ubuntu
-内核比较](http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html):
-\
+内核比较](http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html):\
 红帽的 Josh Boyer 充满好奇心的比较了 Fedora 18 和 Ubuntu 13.04 所搭载的
 Kernel 3.8 在配置上的不同，发现了一些有趣的地方。\
 \
@@ -91,15 +90,15 @@ Ubuntu 则默认启用了几乎全部。\
 分类:
 [Kernel](http://linuxtoy.org/category/apps/kernel-apps "查看 Kernel 中的全部文章"),
 [Reviews](http://linuxtoy.org/category/reviews "查看 Reviews 中的全部文章")
-| \
+|\
 [永久链接](http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html)
 |\
 [收藏到
 del.icio.us](http://delicious.com/save?url=http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html&title=Fedora%20%E4%B8%8E%20Ubuntu%20%E5%86%85%E6%A0%B8%E6%AF%94%E8%BE%83)
-| \
+|\
 [Email
 给好友](mailto:?Subject=Check+This+Out&body=I+think+you'll+like+this:+http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html)
-| \
+|\
 [无评论](http://linuxtoy.org/archives/compare-kernel-between-fedora-and-ubuntu.html#comments)
 |\
 [捐助本站](http://linuxtoy.org/faq/donate)

@@ -5,10 +5,31 @@ Superpedestrian：让自行车也能连网？很快它就会比你还聪明了�
 tag:blogger.com,1999:blog-4961947611491238191.post-2481125825324585863
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/10/superpedestrian.html ---
+<div style="margin: 10px; padding: 5px;">
+
+<div style="font-size: 18px;">
+
 [Superpedestrian：让自行车也能连网？很快它就会比你还聪明了！](http://www.kuailiyu.com/article/5587.html)
+
+</div>
+
+<div style="font-size: 13px;">
+
 Via
 [事件，观点，国外创业公司，国内创业公司，研报，微专题](http://www.kuailiyu.com/)
+
+</div>
+
+</div>
+
+<div style="font-size: 13px; padding: 15px 0 10px 10px;">
+
+<div style="text-align: center;">
+
 　![](http://www.kuailiyu.com/uploadfile/2013/1022/20131022032933501.jpg)
+
+</div>
+
 你的自行车很快就会比你还要聪明了。\
 　　来自麻省理工学院的SENSEable
 City实验室的团队，开发出了一个称为"哥本哈根车轮(Copenhagen
@@ -31,3 +52,5 @@ City实验室开发出的产品之一。\
 Karp领投了本轮对该公司的融资。\
 　　Superpedestrian公司总部设在美国马萨诸塞州剑桥，十一月下旬，该公司将隆重推出他们的产品。\
 [点击参与讨论此文](http://www.kuailiyu.com/article/5587.html?utm_source=articletail&utm_medium=RSS#comments)
+
+</div>

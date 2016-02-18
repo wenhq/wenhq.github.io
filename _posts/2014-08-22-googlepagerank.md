@@ -49,6 +49,15 @@ PageRank的另一应用是用来预测城市里的交通流量和人流动向。
 \
 除非注明，本站文章均为原创或编译，转载请注明： 文章来自
 [36氪](http://www.36kr.com/)
+<div>
+
 \
+
+</div>
+
+<div>
+
 来源：[Google的PageRank算法无所不能?](http://www.36kr.com/p/214680.html)  通过 [36氪
 | 关注互联网创业](http://www.36kr.com/)
+
+</div>

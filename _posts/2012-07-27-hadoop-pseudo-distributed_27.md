@@ -15,30 +15,30 @@ Use the following:\
 \
 conf/core-site.xml:\
 
-> \<configuration\>\
->      \<property\>\
->          \<name\>fs.default.name\</name\>\
->          \<value\>hdfs://localhost:9000\</value\>\
->      \</property\>\
-> \</configuration\>
+> &lt;configuration&gt;\
+>      &lt;property&gt;\
+>          &lt;name&gt;fs.default.name&lt;/name&gt;\
+>          &lt;value&gt;hdfs://localhost:9000&lt;/value&gt;\
+>      &lt;/property&gt;\
+> &lt;/configuration&gt;
 
 conf/hdfs-site.xml:\
 
-> \<configuration\>\
->      \<property\>\
->          \<name\>dfs.replication\</name\>\
->          \<value\>1\</value\>\
->      \</property\>\
-> \</configuration\>
+> &lt;configuration&gt;\
+>      &lt;property&gt;\
+>          &lt;name&gt;dfs.replication&lt;/name&gt;\
+>          &lt;value&gt;1&lt;/value&gt;\
+>      &lt;/property&gt;\
+> &lt;/configuration&gt;
 
 conf/mapred-site.xml:\
 
-> \<configuration\>\
->      \<property\>\
->          \<name\>mapred.job.tracker\</name\>\
->          \<value\>localhost:9001\</value\>\
->      \</property\>\
-> \</configuration\>
+> &lt;configuration&gt;\
+>      &lt;property&gt;\
+>          &lt;name&gt;mapred.job.tracker&lt;/name&gt;\
+>          &lt;value&gt;localhost:9001&lt;/value&gt;\
+>      &lt;/property&gt;\
+> &lt;/configuration&gt;
 
 ### Setup passphraseless ssh
 
@@ -51,7 +51,7 @@ If you cannot ssh to localhost without a passphrase, execute the
 following commands:\
 
 > \$ ssh-keygen -t dsa -P '' -f \~/.ssh/id\_dsa\
-> \$ cat \~/.ssh/id\_dsa.pub \>\> \~/.ssh/authorized\_keys
+> \$ cat \~/.ssh/id\_dsa.pub &gt;&gt; \~/.ssh/authorized\_keys
 
 ### Execution
 
@@ -85,7 +85,7 @@ Run some of the examples provided:\
 \
 
 > \$ bin/hadoop jar hadoop-examples-\*.jar grep input output
-> 'dfs[a-z.]+'
+> 'dfs\[a-z.\]+'
 
 Examine the output files:\
 \
@@ -108,29 +108,27 @@ When you're done, stop the daemons with:\
 
 > \$ bin/stop-all.sh
 
-### Error \
+### Error\
 
 When I exe "bin/start-all.sh", there's an error
 "localhost:Error:JAVA\_HOME is not set."\
 \
 \
 
-> \# start-all.sh   \
+> \# start-all.sh  \
 > This script is Deprecated. Instead use start-dfs.sh and
-> start-mapred.sh   \
+> start-mapred.sh  \
 > starting namenode, logging to
-> /home/chenwq/hadoop/hadoop-0.21.0/bin/../logs/hadoop-root-namenode-ubuntu.out  
-> \
-> localhost: Error: JAVA\_HOME is not set.   \
-> localhost: Error: JAVA\_HOME is not set.   \
+> /home/chenwq/hadoop/hadoop-0.21.0/bin/../logs/hadoop-root-namenode-ubuntu.out  \
+> localhost: Error: JAVA\_HOME is not set.  \
+> localhost: Error: JAVA\_HOME is not set.  \
 > starting jobtracker, logging to
-> /home/chenwq/hadoop/hadoop-0.21.0/bin/../logs/hadoop-root-jobtracker-ubuntu.out  
-> \
-> localhost: Error: JAVA\_HOME is not set.  \
+> /home/chenwq/hadoop/hadoop-0.21.0/bin/../logs/hadoop-root-jobtracker-ubuntu.out  \
+> localhost: Error: JAVA\_HOME is not set. \
 > \
 
 \
-Need to modify conf/hadoop-env.sh \
+Need to modify conf/hadoop-env.sh\
 \
 
 Ref

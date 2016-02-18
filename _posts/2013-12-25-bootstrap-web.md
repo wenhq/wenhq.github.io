@@ -4,7 +4,8 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-1947392026576198852
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/12/bootstrap-web.html --- [利用
-Bootstrap 进行快速 Web 开发](http://blog.jobbole.com/53961/): \
+Bootstrap 进行快速 Web 开发](http://blog.jobbole.com/53961/):\
+<div>
 
 了解如何使用 Bootstrap 快速开发网站和 Web
 应用程序（包括移动友好型应用程序）。Bootstrap 以 LESS 项目为基础，由
@@ -29,7 +30,6 @@ Bootstrap 中获益，您需要掌握 HTML 和 CSS 的应用知识。我在 “[
 中使用 LESS
 实现更多的功能](http://www.ibm.com/developerworks/cn/web/wa-less/)”
 中介绍的 LESS 项目的一些基本知识可帮助您了解本文的主要代码示例。\
-
 入门
 ----
 
@@ -41,6 +41,7 @@ HTML。（参见 [下载](http://www.ibm.com/developerworks/cn/web/wa-bootstrap
 文档中不包含框架支持的许多设计选项的样例 HTML。但是 Bootstrap
 文档页面（尽管其本身已说明了 Bootstrap
 的灵活性）还不足以解释真正起作用的基本设计原则。\
+<div>
 
 响应式 Web 设计
 ---------------
@@ -52,18 +53,24 @@ Web
 CSS3 *媒体查询*，这是根据设备性质（尤其是用户的显示器大小）来调用 CSS
 规则的一种标准方法。
 
-对于典型开发人员启动的各种项目，我建议首先使用启用了响应特性的固定布局。固定布局更易于组织，而且响应特性支持从一开始就培养考虑网站如何在移动设备上运行的良好习惯。如果项目要应用于生产环境中，而且您正在与设计人员合作，那么设计人员应能够使您的文件适用于更加适合的其他任何模型。\
+</div>
 
+对于典型开发人员启动的各种项目，我建议首先使用启用了响应特性的固定布局。固定布局更易于组织，而且响应特性支持从一开始就培养考虑网站如何在移动设备上运行的良好习惯。如果项目要应用于生产环境中，而且您正在与设计人员合作，那么设计人员应能够使您的文件适用于更加适合的其他任何模型。\
 ### 针对 Bootstrap 的 HTML
 
 清单 1 是一个有用的框架 HTML 文件，用于结合使用 Bootstrap
 与一个固定布局和响应特性：\
-
 ##### 清单 1. 用于 Bootstrap 项目的基本框架 HTML 文件 (listing1.html)
 
-~~~~ {style="max-width: 946px; overflow: auto; width: 946px;"}
+<div>
+
+``` {style="max-width: 946px; overflow: auto; width: 946px;"}
 <!doctype html><html>  <head>    <title>Bootstrap 101 Template</title>    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  </head>  <body>    <h1>Hello world!</h1>    <div>    ... <!-- The main HTML will go here -->    </div>    <script src="http://code.jquery.com/jquery.js"></script>    <script src="js/bootstrap.min.js"></script>  </body></html>
-~~~~
+```
+
+</div>
+
+<div>
 
 缩小版本
 --------
@@ -72,6 +79,8 @@ CSS3 *媒体查询*，这是根据设备性质（尤其是用户的显示器大
 文件有两个版本可用（例如 bootstrap.js 和
 bootstrap.min.js）。第一种形式是一个常规文件，第二种形式是压缩文件或
 “缩小文件”。就像在本文中一样，使用缩小版本即可实现最有效的页面加载。
+
+</div>
 
 listing1.html 的开始之处的 `DOCTYPE` 声明将其标记为一个 HTML5
 文件。`head` 元素内的 `meta`标记控制移动的小屏幕布局。（为方便起见，我将它们称作 `meta/viewport` 标记。）默认情况下，大多数移动设备按比例缩小
@@ -83,7 +92,6 @@ Bootstrap）已经完成了实现较小屏幕的响应式设计这一任务，�
 1](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#listing1) 的 `head` 标记是
 Bootstrap CSS 的链接。在文件的末尾，加载 jQuery 和 Bootstrap 实用程序
 JavaScript。这些脚本在末尾运行可实现最佳性能。\
-
 ### 设置代码
 
 当使用 Bootstrap（或任何 Web
@@ -93,10 +101,13 @@ Bootstrap 文件及其完整的文件夹结构复制到项目文件夹中。将�
 文件放在最顶层，并将您自己的 CSS、JavaScript 和图像文件放在相应的
 Bootstrap 子文件夹中（这些文件夹的名称分别为 css、js 和
 img）。然后，整体结构如下所示：\
+<div>
 
-~~~~ {style="max-width: 946px; overflow: auto; width: 946px;"}
+``` {style="max-width: 946px; overflow: auto; width: 946px;"}
 .|—— index.html|—— [Also any other site HTML]|—— css|   |—— bootstrap.min.css|   |—— bootstrap-responsive.min.css|   |—— [Also nonminimized Bootstrap files plus site-specific CSS]|—— js|   |—— bootstrap.min.js|   |—— [Also nonminimized Bootstrap files plus site-specific JavaScript]|—— img    |—— [The PNGs that come with Bootstrap plus site-specific images]
-~~~~
+```
+
+</div>
 
 ### CSS 设备调整
 
@@ -106,14 +117,20 @@ CSS
 规则的形式出现（参见 [参考资料](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#resources)）。[清单
 1](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#listing1) 中 `meta/viewport` 声明的等效
 CSS 是：\
+<div>
 
-~~~~ {style="max-width: 946px; overflow: auto; width: 946px;"}
+``` {style="max-width: 946px; overflow: auto; width: 946px;"}
 @viewport {  width: extend-to-zoom 100%;  zoom: 1.0;}
-~~~~
+```
+
+</div>
 
 目前，您可以将这个代码包含在您的 CSS 中，并在 HTML
 中保留 `meta/viewport` 标记。当 CSS
 形式受到广泛支持时，您就可以删除`meta/viewport` 声明。\
+<div>
+
+</div>
 
 网格系统
 --------
@@ -131,7 +148,6 @@ CSS。您可以通过使用特殊的类，通过嵌入 `div` 元素将内容�
 图 1 显示了一个有用的模板，这个模板最初由 Aaron K. White
 开发，用于可视化 Bootstrap
 的网格系统并规划如何安排您的内容（参见 [参考资料](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#resources)）。在本文中，我做了一些修改，以便在本文中更容易读取文本。\
-
 ##### 图 1. Aaron K. White 的 Bootstrap 网格系统模板
 
 [![120131224102929](http://cdn2.jobbole.com/2013/12/120131224102929.jpg)](http://cdn2.jobbole.com/2013/12/120131224102929.jpg "利用 Bootstrap 进行快速 Web 开发")\
@@ -139,7 +155,6 @@ Bootstrap 网格系统的每一行最多有 12
 块，每两个块之间留有小槽来提供间隔。您可以拥有无限数量的行，每一行的高度任您设置。每个块是
 70 像素宽，小槽是 30 像素宽。Bootstrap 还为页面正文设置一个 30
 像素的左边距。网格系统的设计目标是进行基本的布置并为您分配空间，因此，在理想情况下，您只需关注要在网格中放入什么即可。\
-
 ### 填充 HTML 模板
 
 在 “[在 CSS 中使用 LESS
@@ -152,12 +167,15 @@ LESS 工具如何增强 CSS 语法。Bootstrap
 HTML（代码 [下载](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#download) 中的
 responsive.html），重写该 HTML（如 listing2.html），以便在 Bootstrap
 的固定布局网格系统中运行它，并使用 Bootstrap 的响应特性进行补充：\
-
 ##### 清单 2. 用于 Bootstrap (listing2.html) 的示例 HTML 文件
 
-~~~~ {style="max-width: 946px; overflow: auto; width: 946px;"}
+<div>
+
+``` {style="max-width: 946px; overflow: auto; width: 946px;"}
 <!doctype html><html lang="en-US">  <head>    <title>Responsive Bootstrap page</title>    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">    <link href="css/bootstrap-responsive.min.css" rel="stylesheet">  </head>  <body>    <div>      <h1>Hello world!</h1>      <div>        <div id="banner">          <!-- Photo by Jake Sutton          http://www.flickr.com/photos/44124405407@N01/510899838 -->          <img src="img/sky-slim.jpg">        </div>        </div>      <div>        <div id="main-content">          <p>Humpts dumptus in muro sedet          </p>          <p>Veni vidi vici          </p>          <p>Alea iacta est          </p>          <hr>        </div>        <div>          <div>One</div>          <div>            The quick brown fox jumps...          </div>          <div>            <div>Two</div>            <div>              Over the lazy dog...            </div>          </div>            <div>            <div>Three</div>            <div>              To get to the other side            </div>          </div>        </div>        </div>      <div>        <div id="footer">          © Nobody! This document is placed in the public domain.        </div>        </div>    </div>    <script src="http://code.jquery.com/jquery.js"></script>    <script src="js/bootstrap.min.js"></script>  </body></html>
-~~~~
+```
+
+</div>
 
 在 [清单
 2](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#listing2) 中，Bootstrap
@@ -174,11 +192,9 @@ Bootstrap 网格在各个块之间设置了很好的默认值。此外，我不�
 的任意数量 *N* 的盒子。\
 图 2 显示了所生成的页面在移动浏览器中的外观（运行 Android 4.1.1 的
 Samsung Galaxy S3 上的 Google Chrome）：\
-
 ##### 图 2. 清单 2 中的浏览器输出
 
 [![220131224102954](http://cdn2.jobbole.com/2013/12/220131224102954.jpg)](http://cdn2.jobbole.com/2013/12/220131224102954.jpg "利用 Bootstrap 进行快速 Web 开发")\
-
 ### 特定于站点的 CSS
 
 [图
@@ -187,12 +203,15 @@ CSS（[样例代码](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index
 main.css）来实现这一目标。Bootstrap CSS 本身是使用 LESS
 编写的，但我通常高度推荐使用 LESS 而不是纯文本的
 CSS。但在这个简单示例中，清单 3 中的纯文本的 CSS 就足够用了：\
-
 ##### 清单 3. 向示例 HTML (main.css) 中添加基本设计的 CSS
 
-~~~~ {style="max-width: 946px; overflow: auto; width: 946px;"}
+<div>
+
+``` {style="max-width: 946px; overflow: auto; width: 946px;"}
 .widget-content {  margin: 10px;  padding: 1px;  background-color: #DDDDDD;}    .widget-title {  font-weight: bold;  padding: 10px;  background-color: #EEEEEE;}    .widget-text {  padding: 10px;  background-color: #FCFCFC;}    #footer {  text-align: center;  font-size: small;}
-~~~~
+```
+
+</div>
 
 当然，[清单
 2](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#listing2) 中的
@@ -202,10 +221,12 @@ CSS
 的一个附加链接。在 [样例代码](http://www.ibm.com/developerworks/cn/web/wa-bootstrap/index.html#download) 中，包含
 main.css 链接的已更新的 HTML 位于 main.html 文件中。图 3
 显示了结果页面，其中的 main.css 更为美观：\
-
 ##### 图 3. 来自 main.html 的浏览器输出
 
 [![320131224103039](http://cdn2.jobbole.com/2013/12/320131224103039.jpg)](http://cdn2.jobbole.com/2013/12/320131224103039.jpg "利用 Bootstrap 进行快速 Web 开发")\
+<div>
+
+</div>
 
 结束语
 ------
@@ -221,21 +242,22 @@ Bootstrap
 Bootstrap
 生成的站点提供自己的不同字符，而且还可以确保该站点的基本元素和响应元素都专用于其内容和使用。但是，只有少数几个项目开始研究这些考虑因素。Bootstrap
 尤其适用于将思想的闪光点快速转变为 Web 项目。\
+<div>
+
+</div>
 
 下载
 ----
 
-描述
+  描述       名字                                                                                                                                                        大小
+  ---------- ----------------------------------------------------------------------------------------------------------------------------------------------------------- ------
+  样例代码   [wa-bootstrapcode.zip](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=956819&filename=wa-bootstrapcode.zip&method=http&locale=zh_CN)   41KB
 
-名字
+</div>
 
-大小
+<div>
 
-样例代码
-
-[wa-bootstrapcode.zip](http://www.ibm.com/developerworks/apps/download/index.jsp?contentid=956819&filename=wa-bootstrapcode.zip&method=http&locale=zh_CN)
-
-41KB
+<div>
 
 参考资料
 --------
@@ -255,8 +277,8 @@ Bootstrap
     CouchDB 和 Bootstrap，以一种完全分离展示和数据库层的方式快速启动 Web
     应用程序开发。
 -   “[Get started with
-    CSS](http://www.ibm.com/developerworks/cn/web/wa-getstartedcss/)”（作者：Daniel
-    J. Lewis，developerWorks，2011 年 5 月）：了解标准化的 CSS
+    CSS](http://www.ibm.com/developerworks/cn/web/wa-getstartedcss/)”（作者：Daniel J.
+    Lewis，developerWorks，2011 年 5 月）：了解标准化的 CSS
     样式设计技术，包括 CSS 2.1 和跨浏览器的 CSS3。
 -   “[使用 CSS
     媒体查询创建响应式网站](http://www.ibm.com/developerworks/cn/web/wa-cssqueries/)”（作者：Jeff
@@ -285,6 +307,14 @@ Bootstrap
     产品](http://www.ibm.com/developerworks/cn/downloads/)：下载产品试用版，在线试用产品，在云环境中使用产品。或者在 [SOA
     沙盒](http://www.ibm.com/developerworks/cn/downloads/soasandbox/index.html) 中花费几小时来了解如何高效地实现面向服务的架构。
 
+</div>
+
+</div>
+
+<div>
+
+<div>
+
 ### 相关文章
 
 -   [码农如何快速打造一个有设计感的网站](http://blog.jobbole.com/38418/)
@@ -298,7 +328,13 @@ Bootstrap
 -   [Google Chrome中的高性能网络](http://blog.jobbole.com/51014/)
 -   [对Web开发人员和设计师有用的10个流程图](http://blog.jobbole.com/17787/)
 
+</div>
+
+</div>
+
 [利用 Bootstrap 进行快速 Web
 开发](http://blog.jobbole.com/53961/)，首发于[博客 -
 伯乐在线](http://blog.jobbole.com/)。\
+<div style="clear: both;">
 
+</div>

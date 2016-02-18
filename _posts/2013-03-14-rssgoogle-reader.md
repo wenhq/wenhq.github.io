@@ -5,7 +5,7 @@ tag:blogger.com,1999:blog-4961947611491238191.post-344701808822144249
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/rssgoogle-reader.html ---
 [谷歌宣布关闭RSS阅读器Google
-Reader](http://www.williamlong.info/archives/3405.html): \
+Reader](http://www.williamlong.info/archives/3405.html):\
 谷歌在其官方博客[宣布](http://googlereader.blogspot.com/2013/03/powering-down-google-reader.html)，其阅读器服务Google
 Reader将在今年7月1号关闭，用户和开发者可以导出其中RSS数据，并使用其他的RSS订阅软件代替。\
 谷歌在其官方博客称，关闭Google Reader有两个主要的原因：Google
@@ -14,14 +14,22 @@ Reader的使用率持续下降。作为一家公司，Google正在把全部精�
 Reader上的订阅数据，可以通过[Google
 Takeout](https://www.google.com/takeout/?pli=1)进行备份。\
 
+<div style="text-align: center;">
+
 ![谷歌宣布关闭RSS阅读器Google
 Reader](http://download.williamlong.info/upload/3405_1.jpg)
+
+</div>
 
 不过，中国用户使用Google Takeout下载Google
 Reader数据需要开一下代理或VPN，否则会显示下图界面。\
 
+<div style="text-align: center;">
+
 ![谷歌宣布关闭RSS阅读器Google
 Reader](http://download.williamlong.info/upload/3405_2.jpg)
+
+</div>
 
 Google
 Reader起始于2005年，通过RSS订阅的方式，帮助人们订阅喜爱的网站和博客。\
@@ -55,7 +63,7 @@ Reader》的内容...](http://www.williamlong.info/archives/3405.html)\
 
 \
 微博：[新浪微博](http://weibo.com/williamlong) -
-[腾讯微博](http://t.qq.com/williamlong) \
+[腾讯微博](http://t.qq.com/williamlong)\
 QQ群：186784064\
 月光博客投稿信箱：williamlong.info(at)gmail.com\
 Created by William Long www.williamlong.info

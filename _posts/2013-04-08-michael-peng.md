@@ -4,17 +4,27 @@
 tag:blogger.com,1999:blog-4961947611491238191.post-735885857282634079
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/04/michael-peng.html ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **Michael Peng：北美求职记**
+
+</div>
+
+<div class="source">
 
 Published on [博客 -
 伯乐在线](http://blog.jobbole.com/37758/?utm_source=rss&utm_medium=rss&utm_campaign=michael-peng%25ef%25bc%259a%25e5%258c%2597%25e7%25be%258e%25e6%25b1%2582%25e8%2581%258c%25e8%25ae%25b0)
 | shared via [feedly](http://www.feedly.com)
 
-[伯乐](http://www.jobbole.com "伯乐")在线注：本文来自文章作者[@QAMichaelPeng](http://weibo.com/1732303527)
+</div>
+
+<div>
+
+<span>[伯乐](http://www.jobbole.com "伯乐")</span>在线注：本文来自文章作者[@QAMichaelPeng](http://weibo.com/1732303527)
 的推荐投稿（[原文链接](http://blog.sina.com.cn/s/blog_6740daa70101771h.html)）。
 
 **缘起**
@@ -25,7 +35,7 @@ Published on [博客 -
 Google、
 Facebook、Oracle等巨头，但人生地不熟且房价不菲。如果是十年前青春年少且光棍一条还可以考虑，如今娃都快能打酱油了，还是找一个熟人多的地方比较合适。这样就只有微软一个选项了。这些年原来的朋友同事们一个一个的出去，过去倒不愁太寂寞。
 
-去年11月底和微软总部一朋友通过电话，了解了那边的生活状态，两年左右能买上房这一条还是很有吸引力的。至于那句有名的"好山好水好寂寞"我倒不放在心上，反正在国内也是宅男。定了回微软之后就有两条路可走，一条是直接投简历到美国总部,走H1B签证直接出去，另一条是先加入微软中国，呆够一年再通过L1出去。前一条虽然比较快捷，但没有直接面试国外职位和全[英语面试](http://forum.jobbole.com/showthread.php/2756 "65个常见英文面试问题")的经验，有一定风险。后一条拿offer基本无风险，但等待时间要长一些。但咨询了STC的朋友，据说因为前两年transfer出去的人太多，现在policy规定必须呆够三年才能transfer,不能忍。只好选择第一条路。
+去年11月底和微软总部一朋友通过电话，了解了那边的生活状态，两年左右能买上房这一条还是很有吸引力的。至于那句有名的"好山好水好寂寞"我倒不放在心上，反正在国内也是宅男。定了回微软之后就有两条路可走，一条是直接投简历到美国总部,走H1B签证直接出去，另一条是先加入微软中国，呆够一年再通过L1出去。前一条虽然比较快捷，但没有直接面试国外职位和全<span>[英语面试](http://forum.jobbole.com/showthread.php/2756 "65个常见英文面试问题")</span>的经验，有一定风险。后一条拿offer基本无风险，但等待时间要长一些。但咨询了STC的朋友，据说因为前两年transfer出去的人太多，现在policy规定必须呆够三年才能transfer,不能忍。只好选择第一条路。
 
 **简历与电面**
 
@@ -33,7 +43,7 @@ Facebook、Oracle等巨头，但人生地不熟且房价不菲。如果是十年
 an Effective Resume",
 非常实用。基本信息哪些需要写，哪些不用写或不最好不写，如何确定简历中的关键字，如何使用行为动词，如何使用PAR(Problem-Action-Results)表述，如何写项目经验，如何格式化等等。
 
-简历写完就托朋友内推。建议大家能走内推的尽量内推。起码能拿到一个[电话面试](http://forum.jobbole.com/showthread.php/3620 "Google的面试题，电话面试和招聘流程介绍")的机会，不至于直接被HR过滤掉.这时已经12月中，正好走上美国圣诞季，一直没有消息。直到1月中才有两个电话面试，一个在collabedit上写代码，问题很简单。然后一直没有下文。问朋友才知道面试的不错，可那个组的lead已经去了facebook,悲催。另一个主要问了些搜索引擎架构方面的问题，没写代码。感觉也还成，2月一整月没有消息，3月初又一个电话面试，problem
+简历写完就托朋友内推。建议大家能走内推的尽量内推。起码能拿到一个<span>[电话面试](http://forum.jobbole.com/showthread.php/3620 "Google的面试题，电话面试和招聘流程介绍")</span>的机会，不至于直接被HR过滤掉.这时已经12月中，正好走上美国圣诞季，一直没有消息。直到1月中才有两个电话面试，一个在collabedit上写代码，问题很简单。然后一直没有下文。问朋友才知道面试的不错，可那个组的lead已经去了facebook,悲催。另一个主要问了些搜索引擎架构方面的问题，没写代码。感觉也还成，2月一整月没有消息，3月初又一个电话面试，problem
 solving和搜索引擎架构，都不难。然后又一周没消息。已经快到4月1日申请H1B的时候了，我开始着急，发信给几个电话面试官催。最后一个面试官比较nice,帮我催了一下，HR很快出了interview的schedule,
 skype面试，因为时差原因，不能一天面试
 ，要面两到三天，前两天每天Redmond时间16:00-18:00,北京时间8:00-10:00,第三天如果有的话Redmond时间16:00-17:00.
@@ -57,7 +67,7 @@ invariant，第二个是扫描两遍的。并且说了我偏向于第二个，�
 
 第二天早上7点第三轮面试，抽样问题，各种形式的变换，复杂度的要求，前面几个都很简单，看过《[编程珠玑](http://www.amazon.cn/gp/product/B001GNBZFE/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=536&creative=3200&creativeASIN=B001GNBZFE&linkCode=as2&tag=vastwork-23)》的都能秒杀。最后在一个特定的时间复杂度要求下卡壳了，，半天没有思路，向面试官要hint,只说听到了，就是不理我，郁闷，接着自己想。突然想到这个和RMQ(Range
 Mininum
-Query)有点类似，就向tree的思路发展，[搞定](http://www.amazon.cn/gp/product/B007XPTAIS/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=vastwork-23&linkCode=as2&camp=536&creative=3200&creativeASIN=B007XPTAIS "搞定(套装共3册) ")。
+Query)有点类似，就向tree的思路发展，<span>[搞定](http://www.amazon.cn/gp/product/B007XPTAIS/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&tag=vastwork-23&linkCode=as2&camp=536&creative=3200&creativeASIN=B007XPTAIS "搞定(套装共3册) ")</span>。
 
 第四轮面试，一个简单的字符串问题的并发扩展，不难，只是漏了一种case,在面试官的提醒下迅速修复了。最后一个优化问题居然是改变字符串的存储方式，这个真没想到。不过应当不影响整体面试结果。
 
@@ -94,6 +104,10 @@ learning的经验。接下来就聊签证和入职，尘埃落定。
 -   6
     不要说没时间，在创业公司上班且每天要做两顿饭洗碗刷锅洗家里所有衣服尿布且看一小时娃的奶爸每天早上还能抽出3小时左右看书写程序，大家肯定时间更充裕了。
 
+<div>
+
+</div>
+
 **致谢**
 
 感谢帮我投简历以及提供各种信息的朋友，因为你们的帮助，才能拿到这个offer，离开帝都。
@@ -117,22 +131,35 @@ learning的经验。接下来就聊签证和入职，尘埃落定。
     篇（上）](http://blog.jobbole.com/wp-content/uploads/2011/11/Microsoft-logo.jpg)](http://blog.jobbole.com/18542/)[软件质量控制实践――Microsoft
     篇（上）](http://blog.jobbole.com/18542/)
 -   [![Canada's national flag The Maple Leaf
-    Flag](http://blog.jobbole.com/wp-content/uploads/2013/03/Canadas-national-flag-150x150.jpg)](http://blog.jobbole.com/35860/)[程序员在国外：我用20天在加拿大找到首份工作](http://blog.jobbole.com/35860/)
+    Flag](http://blog.jobbole.com/wp-content/uploads/2013/03/Canadas-national-flag-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/35860/)[程序员在国外：我用20天在加拿大找到首份工作](http://blog.jobbole.com/35860/)
 -   [![微软老将Philip
-    Su的离职信：回首12年职场生涯的心得和随笔](http://blog.jobbole.com/wp-content/uploads/2013/03/microsoft-philip-su-01-150x150.jpg)](http://blog.jobbole.com/34822/)[微软老将Philip
+    Su的离职信：回首12年职场生涯的心得和随笔](http://blog.jobbole.com/wp-content/uploads/2013/03/microsoft-philip-su-01-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/34822/)[微软老将Philip
     Su的离职信：回首12年职场生涯的心得和随笔](http://blog.jobbole.com/34822/)
 -   [![微软推出新一代
-    Office](http://blog.jobbole.com/wp-content/uploads/2012/07/microsoft-office-2013-150x150.jpg)](http://blog.jobbole.com/23891/)[微软推出新一代
+    Office](http://blog.jobbole.com/wp-content/uploads/2012/07/microsoft-office-2013-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/23891/)[微软推出新一代
     Office](http://blog.jobbole.com/23891/)
--   [![王远轩：北美求职记](http://blog.jobbole.com/wp-content/uploads/2012/12/facebook-recruitment-150x150.jpg)](http://blog.jobbole.com/31804/)[王远轩：北美求职记](http://blog.jobbole.com/31804/)
+-   [![王远轩：北美求职记](http://blog.jobbole.com/wp-content/uploads/2012/12/facebook-recruitment-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/31804/)[王远轩：北美求职记](http://blog.jobbole.com/31804/)
 -   [![Visual Studio 2012和.NET Framework
-    4.5发布](http://blog.jobbole.com/wp-content/uploads/2012/08/0T32G518-0-150x150.jpg)](http://blog.jobbole.com/25417/)[Visual
-    Studio 2012和.NET Framework 4.5发布](http://blog.jobbole.com/25417/)
+    4.5发布](http://blog.jobbole.com/wp-content/uploads/2012/08/0T32G518-0-150x150.jpg){width="150"
+    height="150"}](http://blog.jobbole.com/25417/)[Visual Studio
+    2012和.NET Framework 4.5发布](http://blog.jobbole.com/25417/)
 
 [Michael Peng：北美求职记](http://blog.jobbole.com/37758/)，首发于[博客
 - 伯乐在线](http://blog.jobbole.com)。
 
+</div>
+
 \
+
+</div>
+
+<div class="footer">
 
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>

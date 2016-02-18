@@ -5,22 +5,33 @@ tag:blogger.com,1999:blog-4961947611491238191.post-3747755869004178247
 blogger\_orig\_url:
 http://binaryware.blogspot.com/2013/03/unity-tweak-tool-is-now-available-in.html
 ---
-
 \
-  
+ 
+<div class="article">
+
+<div class="header">
 
 **Unity Tweak Tool is Now Available in Raring**
+
+</div>
+
+<div class="source">
 
 Published on [OMG!
 Ubuntu!](http://www.omgubuntu.co.uk/2013/03/unity-tweak-tool-is-now-available-in-raring?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+d0od+(OMG!+Ubuntu!))
 | shared via [feedly](http://www.feedly.com)
+
+</div>
+
+<div>
 
 **The new contender for everyone's favourite [tweak
 tool](http://www.omgubuntu.co.uk/2013/02/introducing-unity-tweak-tool)
 has been approved for inclusion in the official Raring repositories. So
 get out there and download it folks!**
 
-[![utt-raring](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/utt-raring.png)](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/utt-raring.png)
+[![utt-raring](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/utt-raring.png){width="748"
+height="583"}](http://www.omgubuntu.co.uk/wp-content/uploads/2013/03/utt-raring.png)
 
 [ Install Unity Tweak Tool in
 Ubuntu](javascript:void(0); "Install Unity Tweak Tool in Ubuntu")
@@ -40,6 +51,8 @@ the fact that this is a relatively new project) development focus has
 been on Quantal and beyond. The possibility of future Precise support is
 there, but there is significant work in doing so.
 
+<div>
+
 [![](http://feeds.feedburner.com/~ff/d0od?i=y1QCm1-BXy0:_UNPRoACMrU:wBxX2hOkimM)](http://feeds.feedburner.com/~ff/d0od?a=y1QCm1-BXy0:_UNPRoACMrU:wBxX2hOkimM)
 [![](http://feeds.feedburner.com/~ff/d0od?d=I9og5sOYxJI)](http://feeds.feedburner.com/~ff/d0od?a=y1QCm1-BXy0:_UNPRoACMrU:I9og5sOYxJI)
 [![](http://feeds.feedburner.com/~ff/d0od?d=qj6IDK7rITs)](http://feeds.feedburner.com/~ff/d0od?a=y1QCm1-BXy0:_UNPRoACMrU:qj6IDK7rITs)
@@ -47,9 +60,20 @@ there, but there is significant work in doing so.
 [![](http://feeds.feedburner.com/~ff/d0od?i=y1QCm1-BXy0:_UNPRoACMrU:gIN9vFwOqvQ)](http://feeds.feedburner.com/~ff/d0od?a=y1QCm1-BXy0:_UNPRoACMrU:gIN9vFwOqvQ)
 [![](http://feeds.feedburner.com/~ff/d0od?d=yIl2AUoC8zA)](http://feeds.feedburner.com/~ff/d0od?a=y1QCm1-BXy0:_UNPRoACMrU:yIl2AUoC8zA)
 
-![](http://feeds.feedburner.com/~r/d0od/~4/y1QCm1-BXy0)
+</div>
+
+![](http://feeds.feedburner.com/~r/d0od/~4/y1QCm1-BXy0){width="1"
+height="1"}
+
+</div>
 
 \
 
+</div>
+
+<div class="footer">
+
 Feedly. Feed your mind.
 [http://www.feedly.com](http://www.feedly.com/#mail)
+
+</div>
