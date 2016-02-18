@@ -3,7 +3,7 @@ layout: post
 title: "在 Windows 平台上打造出你的 Linux 开发环境"
 date: '2013-12-10T12:42:00.002+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-12-10T12:42:36.980+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6393137154074022017
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/windows-linux.html

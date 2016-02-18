@@ -3,7 +3,7 @@ layout: post
 title: Bash 参考手册的 ePub 及 Mobi 格式 
 date: '2013-01-26T12:02:00.001+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:59:24.165+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2276874317186274461
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/bash-epub-mobi.html

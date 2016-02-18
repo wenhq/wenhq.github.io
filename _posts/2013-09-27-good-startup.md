@@ -3,7 +3,7 @@ layout: post
 title: "如何挑一家 Good Startup 加入" 
 date: '2013-09-27T17:00:00.001+08:00' 
 author: Wenh Q
-tags: - startup
+tags: startup
 modified\_time: '2013-09-30T15:05:48.135+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3190680628999068935
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/09/good-startup.html

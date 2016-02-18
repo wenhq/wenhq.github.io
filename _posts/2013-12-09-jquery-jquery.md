@@ -4,7 +4,7 @@ title: jQuery 实验教程：jQuery 简介、语法及事件处理
 
 date: '2013-12-09T11:30:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-12-09T11:30:18.238+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2448980918390574695
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/jquery-jquery.html

@@ -6,7 +6,7 @@ title: "
 在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)" 
 date: '2012-11-29T12:42:00.001+08:00' 
 author: Wenh Q
-tags: - tech.win
+tags: tech.win
 modified\_time: '2013-11-30T12:22:25.388+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6197425801996136741
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/11/nt6-hdd-installer-u-win8win7.html

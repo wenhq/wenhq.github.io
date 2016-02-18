@@ -3,7 +3,7 @@ layout: post
 title: Linux Deepin 在东北亚开源软件大赛中获奖 
 date: '2012-12-13T12:45:00.001+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:22:19.042+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-1456423513378453481
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/12/linux-deepin.html

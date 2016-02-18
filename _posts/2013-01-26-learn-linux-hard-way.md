@@ -3,7 +3,7 @@ layout: post
 title: Learn Linux The Hard Way 
 date: '2013-01-26T12:17:00.001+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:23:27.847+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8275492290239678095
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/learn-linux-hard-way.html

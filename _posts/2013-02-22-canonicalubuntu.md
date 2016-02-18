@@ -3,7 +3,7 @@ layout: post
 title: Canonical发布Ubuntu手机应用设计指南 
 date: '2013-02-22T11:20:00.001+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:24:53.558+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-125847412660496705
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/02/canonicalubuntu.html

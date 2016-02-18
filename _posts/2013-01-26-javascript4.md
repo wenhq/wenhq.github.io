@@ -3,7 +3,7 @@ layout: post
 title: Javascript异步编程的4种方法 
 date: '2013-01-26T12:20:00.001+08:00' 
 author: Wenh Q
-tags: - F2E
+tags: F2E
 modified\_time: '2013-09-30T15:00:50.103+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4414426815430465279
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/javascript4.html

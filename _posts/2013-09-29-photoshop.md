@@ -3,7 +3,7 @@ layout: post
 title: "谁说设计师不会写代码？—Photoshop脚本语言简介"
 date: '2013-09-29T10:27:00.002+08:00' 
 author: Wenh Q
-tags: - F2E
+tags: F2E
 modified\_time: '2013-09-30T15:04:31.421+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5837403228366478707
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/09/photoshop.html

@@ -4,7 +4,7 @@ title: 'cannot restore segment prot after reloc:
 Permission denied' 
 date: '2012-07-05T20:31:00.002+08:00' 
 author: Wenh Q
-tags: - linux modified\_time: '2013-09-30T14:17:35.688+08:00'
+tags: linux modified\_time: '2013-09-30T14:17:35.688+08:00'
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-617069962970308870
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/07/cannot-restore-segment-prot-after-reloc.html
 ---

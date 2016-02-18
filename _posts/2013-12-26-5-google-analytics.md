@@ -3,7 +3,7 @@ layout: post
 title: "推荐 5 款 Google Analytics 的开源替代品" 
 date: '2013-12-26T15:26:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-12-26T15:26:11.156+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3320412298471711663
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/5-google-analytics.html

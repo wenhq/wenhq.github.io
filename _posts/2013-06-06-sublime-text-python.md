@@ -3,7 +3,7 @@ layout: post
 title: "设置 Sublime Text 的 Python 开发环境" 
 date: '2013-06-06T09:03:00.001+08:00' 
 author: Wenh Q
-tags: - tech.python
+tags: tech.python
 modified\_time: '2013-11-30T12:24:13.758+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3335515734163815078
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/06/sublime-text-python.html

@@ -3,7 +3,7 @@ layout: post
 title: ContextMedia：把健康视频植入医院 
 date: '2013-10-08T18:02:00.000+08:00' 
 author: Wenh Q
-tags: - startup
+tags: startup
 modified\_time: '2013-10-08T18:02:07.942+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3698155991946458048
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/contextmedia.html

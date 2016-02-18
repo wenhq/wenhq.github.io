@@ -3,7 +3,7 @@ layout: post
 title: "教练不一定教你的开车技术，请珍藏" 
 date: '2013-07-22T13:32:00.002+08:00' 
 author: Wenh Q
-tags: - view
+tags: view
 modified\_time: '2013-10-25T13:56:48.783+08:00' 
 thumbnail: https://lh5.googleusercontent.com/5u3LGpXhXcuWuVd7wU\_ZcpJodjCA1h8MZzsi92PDTTCf1GHm7MU6VVgPRt4Y5Pr6MVftEgdt\_g4oiR\_jVB5HRIVZzhg-BoHfZUjhhXex0XJ\_tVqxdk4=s72-c
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4986558153045010781

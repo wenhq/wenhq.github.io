@@ -3,7 +3,7 @@ layout: post
 title: LDA-math-神奇的Gamma函数(1) 
 date: '2013-01-26T12:20:00.005+08:00' 
 author: Wenh Q
-tags: - NLP - tech.nlp
+tags: NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:44.002+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6937092084467915183
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/lda-math-gamma1.html

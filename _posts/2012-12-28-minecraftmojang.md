@@ -3,7 +3,7 @@ layout: post
 title: "纪录片《Minecraft：Mojang的故事》" 
 date: '2012-12-28T12:42:00.001+08:00' 
 author: Wenh Q
-tags: - startup
+tags: startup
 modified\_time: '2013-09-30T15:13:19.116+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-6097717386873347058
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/12/minecraftmojang.html

@@ -3,7 +3,7 @@ layout: post
 title: "使用 JavaScript 实现对 PDF 的全文索引" 
 date: '2013-10-14T14:13:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-10-14T14:13:46.024+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7663199152112631072
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/javascript-pdf.html

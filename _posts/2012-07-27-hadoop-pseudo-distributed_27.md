@@ -3,7 +3,7 @@ layout: post
 title: Hadoop Pseudo-Distributed 
 date: '2012-07-27T16:40:00.004+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-10-11T13:36:02.869+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-1317080166277636848
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/07/hadoop-pseudo-distributed\_27.html

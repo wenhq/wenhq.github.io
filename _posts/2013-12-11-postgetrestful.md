@@ -3,7 +3,7 @@ layout: post
 title: POST与GET的区别及RESTful 
 date: '2013-12-11T13:30:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-12-11T13:30:15.604+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7053163565343584486
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/postgetrestful.html

@@ -3,7 +3,7 @@ layout: post
 title: "免费电子书: GNU/Linux Advanced Administration"
 date: '2013-12-26T15:39:00.000+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-12-26T15:39:52.791+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2417869925627161549
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/gnulinux-advanced-administration.html

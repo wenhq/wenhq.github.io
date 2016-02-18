@@ -4,7 +4,7 @@ title: iPad、kindle阅读器与应用心得，及一些电子书分享
 
 date: '2012-12-11T11:37:00.001+08:00' 
 author: Wenh Q
-tags: - view
+tags: view
 modified\_time: '2013-09-30T14:49:17.659+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8076432273712823614
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/12/ipadkindle.html

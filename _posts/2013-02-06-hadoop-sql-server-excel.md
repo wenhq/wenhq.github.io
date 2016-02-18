@@ -3,7 +3,7 @@ layout: post
 title: Hadoop + SQL Server + Excel = 大数据分析 
 date: '2013-02-06T15:38:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-10-11T13:40:48.723+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2420611871677110201
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/02/hadoop-sql-server-excel.html

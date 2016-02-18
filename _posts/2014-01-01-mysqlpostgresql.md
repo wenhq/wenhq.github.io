@@ -4,7 +4,7 @@ title:
 MySQL与PostgreSQL：该选择哪个开源数据库？哪一个更好？ 
 date: '2014-01-01T12:41:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2014-01-01T12:41:11.968+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-917717216473128347
 blogger\_orig\_url: http://binaryware.blogspot.com/2014/01/mysqlpostgresql.html

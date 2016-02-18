@@ -3,7 +3,7 @@ layout: post
 title: Where is sentimentDemo.jar？ 
 date: '2012-12-04T16:30:00.000+08:00' 
 author: Wenh Q
-tags: - NLP - tech.nlp
+tags: NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:43.991+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3258541325304078695
 blogger\_orig\_url: http://binaryware.blogspot.com/2012/12/where-is-sentimentdemojar.html

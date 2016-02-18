@@ -3,7 +3,7 @@ layout: post
 title: 'OpenSCAD: 跨平台的立体 3D CAD 建模软件' 
 date: '2013-01-26T12:19:00.003+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:24:01.402+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7552245233214642997
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/openscad-3d-cad.html

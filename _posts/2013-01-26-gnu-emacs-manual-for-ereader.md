@@ -3,7 +3,7 @@ layout: post
 title: GNU Emacs Manual for eReader 
 date: '2013-01-26T11:54:00.003+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:55:33.893+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7725635480546092027
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/gnu-emacs-manual-for-ereader.html

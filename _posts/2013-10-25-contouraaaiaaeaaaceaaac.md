@@ -4,7 +4,7 @@ title: Contour创始人：教你一招识别"优秀领导人才"的方法
 
 date: '2013-10-25T13:59:00.000+08:00' 
 author: Wenh Q
-tags: - startup
+tags: startup
 modified\_time: '2013-10-25T14:01:07.298+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5780525024281889607
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/contouraaaiaaeaaaceaaac.html

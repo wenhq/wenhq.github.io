@@ -3,7 +3,7 @@ layout: post
 title: "开源中国：利用 hadoop mapreduce 做数据排序"
 date: '2013-10-12T09:46:00.001+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-10-12T09:46:44.660+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7722259014718181822
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/hadoop-mapreduce.html

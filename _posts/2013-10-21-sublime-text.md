@@ -3,7 +3,7 @@ layout: post
 title: "开源中国：编码神器 Sublime Text
 包管理工具及扩展大全" 
 date: '2013-10-21T15:55:00.002+08:00' author: Wenh
-Q tags: - tech modified\_time: '2013-10-21T15:55:36.083+08:00'
+Q tags: tech modified\_time: '2013-10-21T15:55:36.083+08:00'
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7052857559617414173
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/10/sublime-text.html
 ---

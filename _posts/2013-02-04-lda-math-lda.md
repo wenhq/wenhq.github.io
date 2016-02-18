@@ -3,7 +3,7 @@ layout: post
 title: LDA-math-LDA 文本建模 
 date: '2013-02-04T11:14:00.001+08:00' 
 author: Wenh Q
-tags: - NLP - tech.nlp
+tags: NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:44.006+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8544040856908806449
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/02/lda-math-lda.html

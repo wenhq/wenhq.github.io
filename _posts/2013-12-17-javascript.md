@@ -3,7 +3,7 @@ layout: post
 title: JavaScript 跨域总结与解决办法 
 date: '2013-12-17T12:35:00.003+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-12-17T12:35:43.106+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-5113592767629060079
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/javascript.html

@@ -3,7 +3,7 @@ layout: post
 title: "视频演讲： Sohu邮箱的Python经验" 
 date: '2013-09-23T10:36:00.001+08:00' 
 author: Wenh Q
-tags: - tech.python
+tags: tech.python
 modified\_time: '2013-11-30T12:24:13.756+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3118242397645150164
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/09/sohupython.html

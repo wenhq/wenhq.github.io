@@ -3,7 +3,7 @@ layout: post
 title: WPS For Linux Beta 1 
 date: '2013-01-31T12:29:00.001+08:00' 
 author: Wenh Q
-tags: - linux
+tags: linux
 modified\_time: '2013-09-30T14:24:17.074+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-7465981305229442558
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/wps-for-linux-beta-1.html

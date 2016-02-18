@@ -3,7 +3,7 @@ layout: post
 title: "一体化电动自行车可以胜过电动汽车吗?" 
 date: '2013-12-10T12:43:00.005+08:00' 
 author: Wenh Q
-tags: - startup
+tags: startup
 modified\_time: '2013-12-10T12:44:03.793+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-3280407136888701975
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/12/aaacaeeeaaeecaea.html

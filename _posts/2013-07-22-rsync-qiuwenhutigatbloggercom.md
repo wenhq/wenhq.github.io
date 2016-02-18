@@ -3,7 +3,7 @@ layout: post
 title: rsync 的核心算法 
 date: '2013-07-22T13:31:00.000+08:00' 
 author: Wenh Q
-tags: - tech
+tags: tech
 modified\_time: '2013-10-25T13:56:14.686+08:00' 
 thumbnail: https://lh3.googleusercontent.com/sjq6PJstMYnOV1zsMbCwn7546PEdjeFYx83F-tffGlYfuWU2x2gvRFez-htMxgXYe3vo5\_nyVcw4NT0muBNX60gqHR30sEITPaaXRJ32v-38LAuAD4M=s72-c
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8245708421569575513

@@ -3,7 +3,7 @@ layout: post
 title: Hacker News 排名算法工作原理 
 date: '2013-08-22T17:55:00.000+08:00' 
 author: Wenh Q
-tags: - tech.python
+tags: tech.python
 modified\_time: '2013-11-30T12:24:13.768+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-4903260279428836923
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/08/hacker-news.html

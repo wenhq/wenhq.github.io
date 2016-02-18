@@ -3,7 +3,7 @@ layout: post
 title: Book of GIMP 
 date: '2013-01-26T11:45:00.001+08:00' 
 author: Wenh Q
-tags: - F2E
+tags: F2E
 modified\_time: '2013-09-30T14:55:06.400+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-2923809320219398815
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/01/book-of-gimp.html

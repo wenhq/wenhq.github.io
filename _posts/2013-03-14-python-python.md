@@ -3,7 +3,7 @@ layout: post
 title: "可爱的 Python : Python中函数式编程，第一部分"
 date: '2013-03-14T16:38:00.001+08:00' 
 author: Wenh Q
-tags: - tech.python
+tags: tech.python
 modified\_time: '2013-11-30T12:24:46.942+08:00' 
 blogger\_id: tag:blogger.com,1999:blog-4961947611491238191.post-8302933250211154136
 blogger\_orig\_url: http://binaryware.blogspot.com/2013/03/python-python.html
