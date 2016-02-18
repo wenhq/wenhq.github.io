@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "处理 JavaScript 异常的一个想法" 
-date:'2013-03-18T12:35:00.001+08:00' 
+date: '2013-03-18T12:35:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-18T12:35:36.141+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "全 Javascript 的 Web 开发架构：MEAN" 
-date:'2014-04-03T10:00:00.002+08:00' 
+date: '2014-04-03T10:00:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-04-03T10:00:39.565+08:00' 

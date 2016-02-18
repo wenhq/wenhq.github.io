@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: SEOMoz：Google搜索算法变迁史 
-date:'2013-02-05T11:26:00.001+08:00' 
+date: '2013-02-05T11:26:00.001+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-11T13:40:48.726+08:00' 

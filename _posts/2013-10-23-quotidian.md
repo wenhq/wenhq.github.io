@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "风投机构Quotidian：行业知识要比懂得编程重要的多" 
-date:'2013-10-23T11:31:00.001+08:00' 
+date: '2013-10-23T11:31:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-10-23T11:31:06.999+08:00' 

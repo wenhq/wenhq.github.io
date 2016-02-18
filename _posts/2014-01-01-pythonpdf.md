@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Python语言入门.pdf 
-date:'2014-01-01T14:08:00.001+08:00' 
+date: '2014-01-01T14:08:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-01T14:08:21.301+08:00' 

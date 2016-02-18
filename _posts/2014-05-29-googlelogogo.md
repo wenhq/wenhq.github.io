@@ -2,7 +2,7 @@
 layout: post 
 title:
 犯强迫症的Google——发布新logo，字母"g"和"o"分别移动了一个像素 
-date:'2014-05-29T16:50:00.001+08:00' 
+date: '2014-05-29T16:50:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-05-29T16:50:31.074+08:00' 

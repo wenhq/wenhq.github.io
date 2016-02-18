@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: MapReduce的模式、算法和用例 
-date:'2013-02-26T12:35:00.001+08:00' 
+date: '2013-02-26T12:35:00.001+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-11T13:40:48.728+08:00' 

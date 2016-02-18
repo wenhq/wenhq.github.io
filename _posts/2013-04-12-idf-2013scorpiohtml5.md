@@ -2,7 +2,7 @@
 layout: post 
 title: "英特尔IDF
 2013热点回顾：Scorpio，HTML5，开放混合云" 
-date:'2013-04-12T13:29:00.000+08:00' 
+date: '2013-04-12T13:29:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-12T13:30:04.057+08:00' 

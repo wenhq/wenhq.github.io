@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "一个详细的汉化美化方案(freetype/fontconfig/xft)" 
-date:'2014-01-17T10:54:00.001+08:00' 
+date: '2014-01-17T10:54:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-17T10:54:09.695+08:00' 

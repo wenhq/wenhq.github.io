@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Linux Iptables命令详解 
-date:'2014-01-04T12:33:00.004+08:00' 
+date: '2014-01-04T12:33:00.004+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-04T12:33:58.556+08:00' 

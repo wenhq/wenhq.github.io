@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Google的Java编码规范 
-date:'2014-02-13T10:42:00.002+08:00' 
+date: '2014-02-13T10:42:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-02-13T10:42:14.391+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "出色的 JavaScript API 设计秘诀" 
-date:'2013-03-18T18:11:00.001+08:00' 
+date: '2013-03-18T18:11:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-18T18:11:21.787+08:00' 

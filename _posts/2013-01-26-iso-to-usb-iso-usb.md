@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: ISO to USB – 将 ISO 镜像文件写入 USB 设备 
-date:'2013-01-26T12:20:00.003+08:00' 
+date: '2013-01-26T12:20:00.003+08:00' 
 author: Wenh Q
 tags: - tech.win
 modified\_time: '2013-11-30T12:22:25.390+08:00' 

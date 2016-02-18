@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "这帮人给 Google Glass 刷上了 Ubuntu 系统" 
-date:'2013-05-20T09:03:00.001+08:00' 
+date: '2013-05-20T09:03:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-20T09:03:22.877+08:00' 

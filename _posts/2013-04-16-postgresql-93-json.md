@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: PostgreSQL 9.3 新特性预览 —— JSON 操作 
-date:'2013-04-16T15:29:00.001+08:00' 
+date: '2013-04-16T15:29:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-16T15:29:50.234+08:00' 

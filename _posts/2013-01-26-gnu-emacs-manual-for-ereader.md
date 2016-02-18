@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: GNU Emacs Manual for eReader 
-date:'2013-01-26T11:54:00.003+08:00' 
+date: '2013-01-26T11:54:00.003+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:55:33.893+08:00' 

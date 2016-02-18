@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "为什么我不推荐 JavsScript 为首选编程语言" 
-date:'2014-01-14T11:04:00.002+08:00' 
+date: '2014-01-14T11:04:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-14T11:04:19.844+08:00' 

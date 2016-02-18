@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Java EE 7 意味着 Spring 框架是否已经过时？ 
-date:'2013-07-02T17:18:00.000+08:00' 
+date: '2013-07-02T17:18:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-02T17:18:18.126+08:00' 

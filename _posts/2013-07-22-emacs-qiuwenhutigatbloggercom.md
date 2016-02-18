@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "使用 Emacs 微博" 
-date:'2013-07-22T13:30:00.004+08:00' 
+date: '2013-07-22T13:30:00.004+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-10-25T13:55:31.126+08:00' 

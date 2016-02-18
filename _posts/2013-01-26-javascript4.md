@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Javascript异步编程的4种方法 
-date:'2013-01-26T12:20:00.001+08:00' 
+date: '2013-01-26T12:20:00.001+08:00' 
 author: Wenh Q
 tags: - F2E
 modified\_time: '2013-09-30T15:00:50.103+08:00' 

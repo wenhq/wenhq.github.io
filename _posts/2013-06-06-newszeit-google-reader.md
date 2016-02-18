@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: NewsZeit：优秀的 Google Reader 替代品 
-date:'2013-06-06T09:09:00.001+08:00' 
+date: '2013-06-06T09:09:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-06-06T09:09:38.539+08:00' 

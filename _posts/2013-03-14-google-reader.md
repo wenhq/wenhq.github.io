@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Google Reader 将关闭，五大替代产品推荐 
-date:'2013-03-14T16:29:00.001+08:00' 
+date: '2013-03-14T16:29:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-14T16:29:49.674+08:00' 

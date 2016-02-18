@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "电子阅读器之争：The New iPad VS Kindle" 
-date:'2013-07-23T15:45:00.001+08:00' 
+date: '2013-07-23T15:45:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-23T15:45:50.053+08:00' 

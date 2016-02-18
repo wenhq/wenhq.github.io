@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: nginx反向代理twitter镜像站 
-date:'2014-08-26T16:19:00.002+08:00' 
+date: '2014-08-26T16:19:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-08-26T16:19:18.414+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: PHOTOSHOP中改进IOS设计流程的30个诀窍 
-date:'2013-03-07T12:25:00.001+08:00' 
+date: '2013-03-07T12:25:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-07T12:25:49.292+08:00' 

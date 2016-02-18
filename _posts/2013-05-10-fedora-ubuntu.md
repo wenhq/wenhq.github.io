@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Fedora 与 Ubuntu 内核比较 
-date:'2013-05-10T16:18:00.001+08:00' 
+date: '2013-05-10T16:18:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-10T16:18:30.449+08:00' 

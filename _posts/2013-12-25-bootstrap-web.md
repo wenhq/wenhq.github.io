@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "利用 Bootstrap 进行快速 Web 开发" 
-date:'2013-12-25T13:18:00.001+08:00' 
+date: '2013-12-25T13:18:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-12-25T13:18:33.905+08:00' 

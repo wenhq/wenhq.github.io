@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "国际空间站决定弃用 Windows 启用 Linux" 
-date:'2013-05-09T12:36:00.001+08:00' 
+date: '2013-05-09T12:36:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-09T12:36:50.430+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: kingsoft-office For Linux Alpha10 发布 
-date:'2013-05-17T12:33:00.001+08:00' 
+date: '2013-05-17T12:33:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-17T12:33:46.839+08:00' 

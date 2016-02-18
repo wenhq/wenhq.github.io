@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "可以直接粘在txt里的图像：为Mac度身设计的文本图像编辑器Monodraw" 
-date:'2014-10-20T18:06:00.000+08:00' 
+date: '2014-10-20T18:06:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-10-20T18:06:01.525+08:00' 

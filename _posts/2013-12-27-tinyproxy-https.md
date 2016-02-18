@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "利用 Tinyproxy 搭建 HTTP(S) 代理" 
-date:'2013-12-27T16:37:00.001+08:00' 
+date: '2013-12-27T16:37:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-12-27T16:37:44.942+08:00' 

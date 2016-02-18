@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "算法交易平台Quantopian：让每个人能设计算法自动完成股票交易" 
-date:'2014-10-20T18:14:00.001+08:00' 
+date: '2014-10-20T18:14:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-10-20T18:14:08.079+08:00' 

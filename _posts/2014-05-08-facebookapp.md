@@ -2,7 +2,7 @@
 layout: post 
 title:
 为什么谷歌、Facebook等大型科技公司都在"分拆"自己的App 
-date:'2014-05-08T11:14:00.001+08:00' 
+date: '2014-05-08T11:14:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-05-08T11:14:20.789+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "使用 Cygwin/mintty 代替 SecureCRT" 
-date:'2013-04-11T15:43:00.000+08:00' 
+date: '2013-04-11T15:43:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-11T15:44:09.302+08:00' 

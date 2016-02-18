@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Ubuntu To Become The Official OS Of China 
-date:'2013-03-24T11:40:00.001+08:00' 
+date: '2013-03-24T11:40:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-24T11:40:37.019+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Michael Peng：北美求职记 
-date:'2013-04-08T11:09:00.001+08:00' 
+date: '2013-04-08T11:09:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-08T11:09:31.266+08:00' 

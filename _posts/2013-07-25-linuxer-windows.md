@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Linuxer 的 Windows 生存指南 
-date:'2013-07-25T19:36:00.000+08:00' 
+date: '2013-07-25T19:36:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-25T19:36:05.508+08:00' 

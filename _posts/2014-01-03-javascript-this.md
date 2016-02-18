@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "解密 JavaScript 中的 this" 
-date:'2014-01-03T12:47:00.003+08:00' 
+date: '2014-01-03T12:47:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-04T13:11:35.010+08:00' 

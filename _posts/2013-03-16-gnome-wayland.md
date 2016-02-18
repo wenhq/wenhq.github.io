@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: GNOME 的 Wayland 迁移计划 
-date:'2013-03-16T17:41:00.001+08:00' 
+date: '2013-03-16T17:41:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-16T17:41:26.262+08:00' 

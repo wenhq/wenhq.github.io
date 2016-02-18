@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: MySQL for Excel —— 用Excel方式操作MySQL 
-date:'2013-04-28T08:33:00.001+08:00' 
+date: '2013-04-28T08:33:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-28T08:33:50.966+08:00' 

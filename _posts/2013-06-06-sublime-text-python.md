@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "设置 Sublime Text 的 Python 开发环境" 
-date:'2013-06-06T09:03:00.001+08:00' 
+date: '2013-06-06T09:03:00.001+08:00' 
 author: Wenh Q
 tags: - tech.python
 modified\_time: '2013-11-30T12:24:13.758+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Linux From Scratch 7.5 
-date:'2014-03-03T15:18:00.000+08:00' 
+date: '2014-03-03T15:18:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-03-03T15:18:15.236+08:00' 

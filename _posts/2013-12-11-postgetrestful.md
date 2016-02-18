@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: POST与GET的区别及RESTful 
-date:'2013-12-11T13:30:00.001+08:00' 
+date: '2013-12-11T13:30:00.001+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-12-11T13:30:15.604+08:00' 

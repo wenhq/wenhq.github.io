@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Java 8 Live —— 在线运行 Java 8 代码 
-date:'2013-06-06T08:57:00.003+08:00' 
+date: '2013-06-06T08:57:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-06-06T08:57:42.834+08:00' 

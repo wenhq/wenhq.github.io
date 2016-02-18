@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Google Devs Install Ubuntu on Google Glass 
-date:'2013-05-20T09:07:00.003+08:00' 
+date: '2013-05-20T09:07:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-20T09:07:53.105+08:00' 

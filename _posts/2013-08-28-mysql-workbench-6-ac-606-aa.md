@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: MySQL Workbench 6 正式版 (6.0.6) 发布 
-date:'2013-08-28T12:54:00.000+08:00' 
+date: '2013-08-28T12:54:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-08-28T12:54:33.917+08:00' 

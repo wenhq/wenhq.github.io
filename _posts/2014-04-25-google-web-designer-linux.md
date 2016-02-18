@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Google Web Designer 开始支持 Linux 
-date:'2014-04-25T10:14:00.001+08:00' 
+date: '2014-04-25T10:14:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-04-25T10:14:51.716+08:00' 

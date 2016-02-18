@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "使用 Eclipse 调试 Java 程序的 10 个技巧" 
-date:'2013-04-10T14:53:00.001+08:00' 
+date: '2013-04-10T14:53:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-10T14:53:46.568+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: LDA-math-神奇的Gamma函数(1) 
-date:'2013-01-26T12:20:00.005+08:00' 
+date: '2013-01-26T12:20:00.005+08:00' 
 author: Wenh Q
 tags: - NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:44.002+08:00' 

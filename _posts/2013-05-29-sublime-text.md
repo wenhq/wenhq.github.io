@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Sublime Text 使用体验 
-date:'2013-05-29T20:16:00.000+08:00' 
+date: '2013-05-29T20:16:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-29T20:16:21.938+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Linux Deepin 12.12 Beta 发布 
-date:'2013-03-29T12:46:00.001+08:00' 
+date: '2013-03-29T12:46:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-29T12:46:04.313+08:00' 

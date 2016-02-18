@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "如何挑一家 Good Startup 加入" 
-date:'2013-09-27T17:00:00.001+08:00' 
+date: '2013-09-27T17:00:00.001+08:00' 
 author: Wenh Q
 tags: - startup
 modified\_time: '2013-09-30T15:05:48.135+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: JavaScript基础工具清单 
-date:'2014-04-10T12:55:00.000+08:00' 
+date: '2014-04-10T12:55:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-04-22T18:01:50.978+08:00' 

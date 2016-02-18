@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: AngularJS 数据建模 
-date:'2014-01-06T17:18:00.002+08:00' 
+date: '2014-01-06T17:18:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-06T17:25:16.720+08:00' 

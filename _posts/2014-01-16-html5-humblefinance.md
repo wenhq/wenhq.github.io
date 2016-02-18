@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: html5 实时股票数据展示控件- HumbleFinance 
-date:'2014-01-16T15:54:00.000+08:00' 
+date: '2014-01-16T15:54:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-16T15:54:02.670+08:00' 

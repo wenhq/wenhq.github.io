@@ -2,7 +2,7 @@
 layout: post 
 title: "利用In-Database
 Analytics技术在大规模数据上实现机器学习的SGD算法" 
-date:'2014-03-14T16:51:00.000+08:00' 
+date: '2014-03-14T16:51:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-03-14T16:51:03.274+08:00' 

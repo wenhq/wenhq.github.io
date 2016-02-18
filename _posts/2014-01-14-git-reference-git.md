@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: 'Git Reference: Git 用法快速参考' 
-date:'2014-01-14T10:56:00.000+08:00' 
+date: '2014-01-14T10:56:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-14T10:56:32.009+08:00' 

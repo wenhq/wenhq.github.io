@@ -2,7 +2,7 @@
 layout: post 
 title: Hacker
 News排名算法是怎样工作的：得分、争议和罚分 
-date:'2013-12-09T11:25:00.002+08:00' 
+date: '2013-12-09T11:25:00.002+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-12-09T11:25:54.380+08:00' 

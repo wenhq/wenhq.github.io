@@ -2,7 +2,7 @@
 layout: post 
 title: "编程语言拟人化：Java、C++、Python、Ruby、PHP、C
 #、JS" 
-date:'2014-03-20T10:13:00.002+08:00' 
+date: '2014-03-20T10:13:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-03-20T10:13:52.443+08:00' 

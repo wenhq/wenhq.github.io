@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Hadoop Pseudo-Distributed 
-date:'2012-07-27T16:40:00.004+08:00' 
+date: '2012-07-27T16:40:00.004+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-11T13:36:02.869+08:00' 

@@ -2,7 +2,7 @@
 layout: post 
 title:
 InfoQ：打造基于开源系统的公有云——文思海辉的OpenStack实践 
-date:'2013-11-25T14:21:00.004+08:00' 
+date: '2013-11-25T14:21:00.004+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-11-25T14:21:57.410+08:00' 

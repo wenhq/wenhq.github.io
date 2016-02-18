@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: 'OpenSCAD: 跨平台的立体 3D CAD 建模软件' 
-date:'2013-01-26T12:19:00.003+08:00' 
+date: '2013-01-26T12:19:00.003+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:24:01.402+08:00' 

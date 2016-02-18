@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "打通移动商务前后端，IBM牵手 MongoDB" 
-date:'2013-06-06T08:58:00.001+08:00' 
+date: '2013-06-06T08:58:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-06-06T08:58:56.575+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "配置linux(apache) + mono 下运行 asp.net" 
-date:'2014-01-16T15:45:00.001+08:00' 
+date: '2014-01-16T15:45:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-16T15:45:12.619+08:00' 

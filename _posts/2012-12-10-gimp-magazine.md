@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: GIMP Magazine 第二期 
-date:'2012-12-10T21:30:00.001+08:00' 
+date: '2012-12-10T21:30:00.001+08:00' 
 author: Wenh Q
 tags: - F2E
 modified\_time: '2013-09-30T14:48:36.442+08:00' 

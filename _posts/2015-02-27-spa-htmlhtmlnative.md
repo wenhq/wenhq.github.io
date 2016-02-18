@@ -2,7 +2,7 @@
 layout: post 
 title: "去哪儿SPA
 HTML应用架构——让HTML应用体验更贴近于Native应用" 
-date:'2015-02-27T17:52:00.004+08:00' 
+date: '2015-02-27T17:52:00.004+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2015-02-27T17:52:55.247+08:00' 

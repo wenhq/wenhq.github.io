@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: LIFE\_蘑菇富含重金属吗？ 
-date:'2013-04-14T13:06:00.001+08:00' 
+date: '2013-04-14T13:06:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-14T13:07:08.540+08:00' 

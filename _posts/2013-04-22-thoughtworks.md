@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: ThoughtWorks(中国) 程序员读书雷达 
-date:'2013-04-22T12:29:00.001+08:00' 
+date: '2013-04-22T12:29:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-22T12:29:13.280+08:00' 

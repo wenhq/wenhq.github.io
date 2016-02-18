@@ -4,7 +4,7 @@ title: "
 [来自异次元
 ] NT6 HDD Installer 使用教程 -
 在没有光驱U盘情况下直接通过本机硬盘重装系统 (支持Win8/Win7等)" 
-date:'2012-11-29T12:42:00.001+08:00' 
+date: '2012-11-29T12:42:00.001+08:00' 
 author: Wenh Q
 tags: - tech.win
 modified\_time: '2013-11-30T12:22:25.388+08:00' 

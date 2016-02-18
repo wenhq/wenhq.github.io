@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: 18个UI原稿图 
-date:'2014-01-16T15:13:00.001+08:00' 
+date: '2014-01-16T15:13:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-16T15:13:34.844+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: tmux powerline 
-date:'2013-01-26T11:54:00.001+08:00' 
+date: '2013-01-26T11:54:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:55:16.438+08:00' 

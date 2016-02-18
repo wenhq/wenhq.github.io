@@ -2,7 +2,7 @@
 layout: post 
 title:
 ManicTime:优秀的个人时间追踪/分析软件（深度使用指南） 
-date:'2013-06-06T09:23:00.005+08:00' 
+date: '2013-06-06T09:23:00.005+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-06-06T09:23:41.795+08:00' 

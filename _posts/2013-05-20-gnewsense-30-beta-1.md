@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: gNewSense 3.0 Beta 1 发布 
-date:'2013-05-20T08:58:00.001+08:00' 
+date: '2013-05-20T08:58:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-20T08:58:17.312+08:00' 

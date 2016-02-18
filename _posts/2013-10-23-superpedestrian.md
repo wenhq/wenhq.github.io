@@ -2,7 +2,7 @@
 layout: post 
 title:
 Superpedestrian：让自行车也能连网？很快它就会比你还聪明了！ 
-date:'2013-10-23T11:30:00.000+08:00' 
+date: '2013-10-23T11:30:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-10-23T11:30:16.132+08:00' 

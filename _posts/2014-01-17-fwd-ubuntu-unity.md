@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "贡献两张Ubuntu Unity的快捷键图" 
-date:'2014-01-17T10:54:00.006+08:00' 
+date: '2014-01-17T10:54:00.006+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-17T10:55:08.252+08:00' 

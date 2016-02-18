@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "字符串匹配的Boyer-Moore算法" 
-date:'2013-05-06T18:28:00.001+08:00' 
+date: '2013-05-06T18:28:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-06T18:28:40.233+08:00' 

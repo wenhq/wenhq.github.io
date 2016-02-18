@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Python教程一【来源FullCircle杂志中文社区】 
-date:'2014-01-01T14:07:00.000+08:00' 
+date: '2014-01-01T14:07:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-01T14:07:01.548+08:00' 

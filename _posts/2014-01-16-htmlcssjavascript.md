@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "实用HTML，CSS和JavaScript速查表" 
-date:'2014-01-16T15:33:00.001+08:00' 
+date: '2014-01-16T15:33:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-16T15:33:15.969+08:00' 

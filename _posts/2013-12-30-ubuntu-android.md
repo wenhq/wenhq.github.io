@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Ubuntu 移动版可在 Android 手机上运行 
-date:'2013-12-30T14:05:00.001+08:00' 
+date: '2013-12-30T14:05:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-12-30T14:05:42.442+08:00' 

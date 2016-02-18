@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Facebook如何实现PB级别数据库自动化备份 
-date:'2013-03-24T12:08:00.001+08:00' 
+date: '2013-03-24T12:08:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-24T12:14:11.790+08:00' 

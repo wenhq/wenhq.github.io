@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Canonical发布Ubuntu手机应用设计指南 
-date:'2013-02-22T11:20:00.001+08:00' 
+date: '2013-02-22T11:20:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:24:53.558+08:00' 

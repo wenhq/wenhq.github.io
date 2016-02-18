@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: nchar，char，varchar 与nvarchar区别 
-date:'2014-01-06T17:21:00.000+08:00' 
+date: '2014-01-06T17:21:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-06T17:21:46.703+08:00' 

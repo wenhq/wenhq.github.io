@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "视频演讲： Sohu邮箱的Python经验" 
-date:'2013-09-23T10:36:00.001+08:00' 
+date: '2013-09-23T10:36:00.001+08:00' 
 author: Wenh Q
 tags: - tech.python
 modified\_time: '2013-11-30T12:24:13.756+08:00' 

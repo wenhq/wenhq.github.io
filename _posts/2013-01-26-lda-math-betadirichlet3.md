@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: LDA-math-认识Beta/Dirichlet分布(3) 
-date:'2013-01-26T12:16:00.001+08:00' 
+date: '2013-01-26T12:16:00.001+08:00' 
 author: Wenh Q
 tags: - NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:43.989+08:00' 

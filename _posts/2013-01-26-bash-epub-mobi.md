@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Bash 参考手册的 ePub 及 Mobi 格式 
-date:'2013-01-26T12:02:00.001+08:00' 
+date: '2013-01-26T12:02:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:59:24.165+08:00' 

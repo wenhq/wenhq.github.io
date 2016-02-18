@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Inotify+Rsync实现linux文件实时同步 
-date:'2014-01-14T10:46:00.003+08:00' 
+date: '2014-01-14T10:46:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-14T10:46:37.554+08:00' 

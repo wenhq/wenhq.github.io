@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Hacker News 排名算法工作原理 
-date:'2013-08-22T17:55:00.000+08:00' 
+date: '2013-08-22T17:55:00.000+08:00' 
 author: Wenh Q
 tags: - tech.python
 modified\_time: '2013-11-30T12:24:13.768+08:00' 

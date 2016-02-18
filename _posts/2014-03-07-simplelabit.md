@@ -2,7 +2,7 @@
 layout: post 
 title:
 窝在宿舍也能上实验课？云服务"SimpleLab"在IT教育细分市场深耕细作 
-date:'2014-03-07T11:24:00.003+08:00' 
+date: '2014-03-07T11:24:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-03-07T11:24:54.293+08:00' 

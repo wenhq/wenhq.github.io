@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "用 Python 脚本实现对 Linux 服务器的监控" 
-date:'2014-01-01T12:42:00.002+08:00' 
+date: '2014-01-01T12:42:00.002+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2014-01-01T12:42:13.624+08:00' 

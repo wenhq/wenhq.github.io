@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "自适应网页设计（Responsive Web Design）" 
-date:'2013-07-23T15:41:00.001+08:00' 
+date: '2013-07-23T15:41:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-23T15:41:20.477+08:00' 

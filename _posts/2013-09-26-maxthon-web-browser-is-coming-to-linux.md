@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Maxthon Web Browser Is Coming to Linux 
-date:'2013-09-26T12:32:00.000+08:00' 
+date: '2013-09-26T12:32:00.000+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-10-08T18:10:24.490+08:00' 

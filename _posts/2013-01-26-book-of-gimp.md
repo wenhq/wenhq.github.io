@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Book of GIMP 
-date:'2013-01-26T11:45:00.001+08:00' 
+date: '2013-01-26T11:45:00.001+08:00' 
 author: Wenh Q
 tags: - F2E
 modified\_time: '2013-09-30T14:55:06.400+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: javascript必知必会+理解总结 
-date:'2013-05-14T13:20:00.001+08:00' 
+date: '2013-05-14T13:20:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-14T13:20:18.914+08:00' 

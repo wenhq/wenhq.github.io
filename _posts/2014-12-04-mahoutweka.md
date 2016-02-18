@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Mahout与Weka的对比 
-date:'2014-12-04T20:18:00.000+08:00' 
+date: '2014-12-04T20:18:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-12-04T20:18:04.428+08:00' 

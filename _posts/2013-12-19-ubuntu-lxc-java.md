@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: ubuntu通过 LXC 容器搭建Java环境 
-date:'2013-12-19T15:54:00.001+08:00' 
+date: '2013-12-19T15:54:00.001+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-12-19T15:54:20.467+08:00' 

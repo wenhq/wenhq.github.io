@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "什么是BI软件？有哪些BI开源软件" 
-date:'2013-07-29T14:35:00.000+08:00' 
+date: '2013-07-29T14:35:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-29T14:35:28.399+08:00' 

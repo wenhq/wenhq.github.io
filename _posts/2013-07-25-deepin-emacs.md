@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Deepin Emacs 的安装和使用 
-date:'2013-07-25T19:41:00.002+08:00' 
+date: '2013-07-25T19:41:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-25T19:41:28.681+08:00' 

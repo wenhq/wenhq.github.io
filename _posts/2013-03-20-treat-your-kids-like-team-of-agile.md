@@ -2,7 +2,7 @@
 layout: post 
 title: Treat Your Kids Like a Team of Agile Software
 Developers and Lower Your Family Stress 
-date:'2013-03-20T10:59:00.001+08:00' 
+date: '2013-03-20T10:59:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-20T10:59:56.181+08:00' 

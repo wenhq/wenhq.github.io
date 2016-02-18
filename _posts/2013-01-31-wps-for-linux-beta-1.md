@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: WPS For Linux Beta 1 
-date:'2013-01-31T12:29:00.001+08:00' 
+date: '2013-01-31T12:29:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:24:17.074+08:00' 

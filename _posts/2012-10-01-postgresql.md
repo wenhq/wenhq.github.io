@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: PostgreSQL口令认证 
-date:'2012-10-01T11:35:00.000+08:00' 
+date: '2012-10-01T11:35:00.000+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-11T13:37:43.235+08:00' 

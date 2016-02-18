@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Javascript执行效率小结 
-date:'2013-04-02T13:06:00.001+08:00' 
+date: '2013-04-02T13:06:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-04-02T13:06:15.537+08:00' 

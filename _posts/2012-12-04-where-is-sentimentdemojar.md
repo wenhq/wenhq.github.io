@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Where is sentimentDemo.jar？ 
-date:'2012-12-04T16:30:00.000+08:00' 
+date: '2012-12-04T16:30:00.000+08:00' 
 author: Wenh Q
 tags: - NLP - tech.nlp
 modified\_time: '2013-11-30T12:25:43.991+08:00' 

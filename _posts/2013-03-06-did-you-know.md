@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "美国励志短片:Did you know?" 
-date:'2013-03-06T21:20:00.003+08:00' 
+date: '2013-03-06T21:20:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-06T21:20:40.277+08:00' 

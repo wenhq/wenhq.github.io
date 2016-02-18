@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Warzone 2100，Freeciv，韦诺之战，0.A.D近况 
-date:'2013-05-15T15:51:00.001+08:00' 
+date: '2013-05-15T15:51:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-05-15T15:51:14.029+08:00' 

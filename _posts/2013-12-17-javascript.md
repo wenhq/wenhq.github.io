@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: JavaScript 跨域总结与解决办法 
-date:'2013-12-17T12:35:00.003+08:00' 
+date: '2013-12-17T12:35:00.003+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-12-17T12:35:43.106+08:00' 

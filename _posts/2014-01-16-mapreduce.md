@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: MapReduce与自然语言处理 
-date:'2014-01-16T15:53:00.001+08:00' 
+date: '2014-01-16T15:53:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-16T15:53:12.350+08:00' 

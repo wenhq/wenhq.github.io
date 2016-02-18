@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: ActiveMQ基于共享文件系统的HA方案 
-date:'2014-04-21T11:05:00.001+08:00' 
+date: '2014-04-21T11:05:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-04-21T11:05:47.894+08:00' 

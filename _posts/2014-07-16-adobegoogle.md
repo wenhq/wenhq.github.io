@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "用户和开发者的福音，Adobe与Google共同推出一款开源中日韩文字体" 
-date:'2014-07-16T21:38:00.000+08:00' 
+date: '2014-07-16T21:38:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-07-16T21:38:04.252+08:00' 

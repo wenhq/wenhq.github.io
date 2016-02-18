@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "品味：英伦小米 ─ Ubuntu Edge 智慧手机" 
-date:'2013-07-29T14:57:00.001+08:00' 
+date: '2013-07-29T14:57:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-29T14:57:14.214+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Vim Adventures 游戏版 VIM 教程 
-date:'2013-07-23T15:44:00.000+08:00' 
+date: '2013-07-23T15:44:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-23T15:44:01.919+08:00' 

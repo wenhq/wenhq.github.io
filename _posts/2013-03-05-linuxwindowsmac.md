@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "王垠：漫谈Linux、Windows和Mac" 
-date:'2013-03-05T12:45:00.001+08:00' 
+date: '2013-03-05T12:45:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-05T12:45:46.591+08:00' 

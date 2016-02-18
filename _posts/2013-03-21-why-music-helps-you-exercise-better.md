@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Why Music Helps You Exercise Better 
-date:'2013-03-21T12:35:00.001+08:00' 
+date: '2013-03-21T12:35:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-21T12:35:50.194+08:00' 

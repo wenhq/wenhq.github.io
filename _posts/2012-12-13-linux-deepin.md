@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Linux Deepin 在东北亚开源软件大赛中获奖 
-date:'2012-12-13T12:45:00.001+08:00' 
+date: '2012-12-13T12:45:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:22:19.042+08:00' 

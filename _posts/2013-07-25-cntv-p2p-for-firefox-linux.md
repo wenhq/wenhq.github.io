@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: CNTV P2P for Firefox Linux 
-date:'2013-07-25T19:40:00.000+08:00' 
+date: '2013-07-25T19:40:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-25T19:40:36.011+08:00' 

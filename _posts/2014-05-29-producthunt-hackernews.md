@@ -2,7 +2,7 @@
 layout: post 
 title: '"早就该有了嘛！"，ProductHunt 做产品版的
 HackerNews，让你发现最新最酷的好产品' 
-date:'2014-05-29T16:49:00.002+08:00' 
+date: '2014-05-29T16:49:00.002+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-05-29T16:49:39.724+08:00' 

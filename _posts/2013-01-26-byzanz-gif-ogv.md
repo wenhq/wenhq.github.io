@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "使用 Byzanz 录制 Gif 动画或 Ogv 视频" 
-date:'2013-01-26T12:19:00.001+08:00' 
+date: '2013-01-26T12:19:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:23:48.783+08:00' 

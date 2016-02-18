@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: Google+ 上的 Ubuntu 中文社群 
-date:'2012-12-10T21:45:00.001+08:00' 
+date: '2012-12-10T21:45:00.001+08:00' 
 author: Wenh Q
 tags: - linux
 modified\_time: '2013-09-30T14:48:55.068+08:00' 

@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: ubuntu下安装配置minicom 
-date:'2013-07-23T15:47:00.003+08:00' 
+date: '2013-07-23T15:47:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-07-23T15:47:35.595+08:00' 

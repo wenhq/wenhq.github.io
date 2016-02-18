@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: UbuntuKylin 
-date:'2013-03-17T11:09:00.001+08:00' 
+date: '2013-03-17T11:09:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-17T11:09:53.376+08:00' 

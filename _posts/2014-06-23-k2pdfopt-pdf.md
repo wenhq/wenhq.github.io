@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: K2pdfopt – 调整 PDF 文档尺寸适合移动设备 
-date:'2014-06-23T22:51:00.001+08:00' 
+date: '2014-06-23T22:51:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-06-23T22:51:46.539+08:00' 

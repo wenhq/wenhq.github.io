@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "谷歌宣布关闭RSS阅读器Google Reader" 
-date:'2013-03-14T13:57:00.001+08:00' 
+date: '2013-03-14T13:57:00.001+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2013-03-14T13:57:38.930+08:00' 

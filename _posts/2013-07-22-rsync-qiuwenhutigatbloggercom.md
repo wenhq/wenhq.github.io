@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: rsync 的核心算法 
-date:'2013-07-22T13:31:00.000+08:00' 
+date: '2013-07-22T13:31:00.000+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-25T13:56:14.686+08:00' 

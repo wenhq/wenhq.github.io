@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "使用 JavaScript 实现对 PDF 的全文索引" 
-date:'2013-10-14T14:13:00.001+08:00' 
+date: '2013-10-14T14:13:00.001+08:00' 
 author: Wenh Q
 tags: - tech
 modified\_time: '2013-10-14T14:13:46.024+08:00' 

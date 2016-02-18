@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: App Store中iOS 7的配色 
-date:'2014-03-20T10:10:00.000+08:00' 
+date: '2014-03-20T10:10:00.000+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-03-20T10:10:13.255+08:00' 

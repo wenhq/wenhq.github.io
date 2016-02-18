@@ -2,7 +2,7 @@
 layout: post 
 title: linux
 打造man中文帮助手册图解(man-pages-zh帮助页) 
-date:'2014-01-04T12:35:00.003+08:00' 
+date: '2014-01-04T12:35:00.003+08:00' 
 author: Wenh Q
 tags:
 modified\_time: '2014-01-04T12:35:52.067+08:00' 

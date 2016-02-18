@@ -1,7 +1,7 @@
 --- 
 layout: post 
 title: "纪录片《Minecraft：Mojang的故事》" 
-date:'2012-12-28T12:42:00.001+08:00' 
+date: '2012-12-28T12:42:00.001+08:00' 
 author: Wenh Q
 tags: - startup
 modified\_time: '2013-09-30T15:13:19.116+08:00' 
