@@ -1,3 +1,43 @@
+# 修改提示
+
+## 翻页或限制首页post数量
+{% for post in site.posts limit:5 offset:0 %}
+
+## 变更markdown解释器
+邮件提示：
+
+The page build completed successfully, but returned the following warning:
+
+You are currently using the 'redcarpet' Markdown engine, which will not be supported on GitHub Pages after May 1st. At that time, your site will use 'kramdown' for markdown rendering instead. To suppress this warning, remove the 'markdown' setting in your site's '_config.yml' file and confirm your site renders as expected. For more information, see https://help.github.com/articles/updating-your-markdown-processor-to-kramdown.
+
+GitHub Pages was recently upgraded to Jekyll 3.0. It may help to confirm you're using the correct dependencies:
+
+  https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+
+If you have any questions you can contact us by replying to this email.
+
+## 变更高亮解释器
+邮件提示：
+
+The page build completed successfully, but returned the following warning:
+
+You are attempting to use the 'pygments' highlighter, which is currently unsupported on GitHub Pages. Your site will use 'rouge' for highlighting instead. To suppress this warning, change the 'highlighter' value to 'rouge' in your '_config.yml'. For more information, see https://help.github.com/articles/page-build-failed-config-file-error/#fixing-highlighting-errors.
+
+GitHub Pages was recently upgraded to Jekyll 3.0. It may help to confirm you're using the correct dependencies:
+
+  https://github.com/blog/2100-github-pages-now-faster-and-simpler-with-jekyll-3-0
+
+For information on troubleshooting Jekyll see:
+
+  https://help.github.com/articles/using-jekyll-with-pages#troubleshooting
+
+If you have any questions you can contact us by replying to this email.
+
+
 # Jekyll Now
 
 **Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
