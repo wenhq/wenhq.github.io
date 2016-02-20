@@ -38,25 +38,25 @@ For information on troubleshooting Jekyll see:
 If you have any questions you can contact us by replying to this email.
 
 
-# Jekyll Now
+# 附 Jekyll Now 说明
 
-**Jekyll** is a static site generator that's perfect for GitHub hosted blogs ([Jekyll Repository](https://github.com/jekyll/jekyll))
+**Jekyll** 是静态网站生成工具，托管在GitHub上 ([Jekyll Repository](https://github.com/jekyll/jekyll))
 
-**Jekyll Now** makes it easier to create your Jekyll blog, by eliminating a lot of the up front setup.
+**Jekyll Now** 简化了很多预先设置，能更加容易的建立Jekyll博客。
 
-- You don't need to touch the command line
-- You don't need to install/configure ruby, rvm/rbenv, ruby gems :relaxed:
-- You don't need to install runtime dependancies like markdown processors, Pygments, etc
-- If you're on Windows, this will make setting up Jekyll a lot easier
-- It's easy to try out, you can just delete your forked repository if you don't like it
+- 无需命令行
+- 无需安装配置 ruby, rvm/rbenv, ruby gems :relaxed:
+- 无需安装 markdown 解释器、Pygments高亮插件等依赖
+- 在Windows上建立Jekyll更加容易
+- 容易尝试，不喜欢的话删掉分支库即可
 
-In a few minutes you'll be set up with a minimal, responsive blog like the one below giving you more time to spend on writing epic blog posts!
+在几分钟内，按照下面的步骤你将建立一个最小的响应式博客，留给你更多的时间去写博客文章！
 
 ![Jekyll Now Theme Screenshot](/images/jekyll-now-theme-screenshot.jpg "Jekyll Now Theme Screenshot")
 
-## Quick Start
+## 快速入门
 
-### Step 1) Fork Jekyll Now to your User Repository
+### 步骤 1) Fork Jekyll Now to your User Repository
 
 Fork this repo, then rename the repository to yourgithubusername.github.io.
 
@@ -64,7 +64,7 @@ Your Jekyll blog will often be viewable immediately at <http://yourgithubusernam
 
 ![Step 1](/images/step1.gif "Step 1")
 
-### Step 2) Customize and view your site
+### 步骤 2) Customize and view your site
 
 Enter your site name, description, avatar and many other options by editing the _config.yml file. You can easily turn on Google Analytics tracking, Disqus commenting and social icons here too.
 
@@ -78,7 +78,7 @@ Making a change to _config.yml (or any file in your repository) will force GitHu
 
 ![_config.yml](/images/config.png "_config.yml")
 
-### Step 3) Publish your first blog post
+### 步骤 3) Publish your first blog post
 
 Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Markdown Cheatsheet](http://www.jekyllnow.com/Markdown-Style-Guide/) might come in handy.
 
