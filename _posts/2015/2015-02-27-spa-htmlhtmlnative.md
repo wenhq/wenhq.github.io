@@ -1,11 +1,14 @@
 ---
 layout: post
-title: "去哪儿SPA HTML应用架构——让HTML应用体验更贴近于Native应用" date: '2015-02-27T17:52:00.004+08:00'
+title: "去哪儿SPA HTML应用架构——让HTML应用体验更贴近于Native应用"
+date: '2015-02-27T17:52:00.004+08:00'
 author: Wenh Q
 tags:
 modified_time: '2015-02-27T17:52:55.247+08:00'
 blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-3061987891563706491
-blogger_orig_url: http://binaryware.blogspot.com/2015/02/spa-htmlhtmlnative.html ---
+blogger_orig_url: http://binaryware.blogspot.com/2015/02/spa-htmlhtmlnative.html
+---
+
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fwww.infoq.com%2Fresource%2Fpresentations%2Fquaner-spa-html-application-architecture%2Fzh%2Fmediumimage%2Fcaihuan_270.jpg&container=blogger&gadget=a&rewriteMime=image%2F*)
 
 概要

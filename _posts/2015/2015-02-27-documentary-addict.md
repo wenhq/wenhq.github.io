@@ -5,10 +5,9 @@ date: '2015-02-27T17:50:00.000+08:00'
 author: Wenh Q
 tags:
 modified_time: '2015-02-27T17:50:01.960+08:00'
-blogger_id:
- tag:blogger.com,1999:blog-4961947611491238191.post-853085945866338453
-blogger_orig_url:
- http://binaryware.blogspot.com/2015/02/documentary-addict.html ---
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-853085945866338453
+blogger_orig_url: http://binaryware.blogspot.com/2015/02/documentary-addict.html
+---
 ![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Ffree.com.tw%2Fblog%2Fwp-content%2Fuploads%2F2015%2F02%2FDocumentary-Addict-%25E5%259C%25B0%25E8%25A1%25A8%25E6%259C%2580%25E8%25B1%2590%25E5%25AF%258C%25E3%2580%2581%25E5%25AE%258C%25E6%2595%25B4%25E7%259A%2584%25E7%25B4%2580%25E9%258C%2584%25E7%2589%2587%25E9%25A0%25BB%25E9%2581%2593%25EF%25BC%258C%25E5%2590%2584%25E9%25A1%259E%25E5%25BD%25B1%25E7%2589%2587%25E7%25B7%259A%25E4%25B8%258A%25E7%259C%258B%25E5%2585%258D%25E4%25B8%258B%25E8%25BC%25892015-02-23_12531.png&container=blogger&gadget=a&rewriteMime=image%2F*)
 
 最近在網路上發現一個很不錯的[免費資源](http://free.com.tw/)，Documentary Addict 號稱地表最大、內容最豐富的紀錄片收集、策劃頻道，目前共提供 26種分類，以及接近五千種各式各樣的[紀錄片](http://zh.wikipedia.org/wiki/%E7%B4%80%E9%8C%84%E7%89%87)資源，這些影像並不是由網站本身託管、儲存，而是從網路上整理而來，包括維基百科、YouTube、Vimeo等等，經過篩選分類，加入一些簡單介紹後，讓使用者更容易檢索，找到自己需要的紀錄片。
