@@ -9,6 +9,7 @@ layout: default
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       {% assign images = post.content | split:"<img " %}
       {% for image in images %}
+        {% assign imageMarkup = null %}
         {% if image contains 'src=' %}
           {% assign imageMarkup = image | split:">" | first %}
           {% break %}
