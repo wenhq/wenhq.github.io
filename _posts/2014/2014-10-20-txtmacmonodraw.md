@@ -1,0 +1,29 @@
+---
+layout: post
+title: "可以直接粘在txt里的图像：为Mac度身设计的文本图像编辑器Monodraw"
+date: '2014-10-20T18:06:00.000+08:00'
+author: Wenh Q
+tags:
+modified_time: '2014-10-20T18:06:01.525+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-2257354010630389288
+blogger_orig_url: http://binaryware.blogspot.com/2014/10/txtmacmonodraw.html
+---
+
+ASCII艺术——这个词对于现在网上的年轻人来说或许有些陌生了。但说到颜文字、颜表情，大部分人都知道。
+
+づ￣ 3￣)づ
+:-P这种文本表情其实就归属于ASCII艺术，一种主要依靠电脑字符（ASCII编码）来表达图片的艺术形式，也就是文本图像、字符画。
+
+在早期的网络环境中，由于传输速度、存储限制等等的原因，图片的分享成本相对于文字高出太多，因而有人另辟蹊径，靠着丰富的想象力使用文字来模拟、表达图像。这种文本图像因为特殊的作图技巧拥有了异样的萌感。再加上文本图像不受限于设备和软件，因而可以快速轻易的分享到网上。
+
+而在网速飞起的今天，有人将这满满的复古情怀付诸于ASCII艺术中。一款为Mac度身设计的文本图像编辑器Monodraw就快要诞生了。
+![](https://images-blogger-opensocial.googleusercontent.com/gadgets/proxy?url=http%3A%2F%2Fa.36krcnd.com%2Fphoto%2F2014%2F7eee2931bd003dea4baf5f79c8cb2331.png&container=blogger&gadget=a&rewriteMime=image%2F*)
+
+Monodraw是一款文本图像编辑器，用户可以使用鼠标、手绘笔等工具在软件的方格画布中作图，利用软件强大的编辑工具快速生成满意的文本图像。因为是文本图像，所以可以任意的拷贝到TXT编辑器、电子邮件等等不能直接插入图片的环境中。甚至在一些无法显示图片的终端，如打字机、电传打字机等设备上，Monodraw作出的文本图像理论上都可以显示、应用在上面。
+
+Monodraw这个想法的诞生，源于团队的成员在写代码时发现，如果能在代码中内嵌一些思维导图等图像，对其他人学习这段代码的速度将大大的加快。毕竟图片的表达内容远远比文字来得丰富和直观。于是他们开始了这个有趣的项目，创建基于文本图像的编辑器，让用户快速方便的创作艺术图，布局，流程图，以直观地表示算法，数据结构，二进制格式和更多的东西。
+
+目前，Monodraw预计以免费和先到先得的模式发布beta测试版，有兴趣的同学可以关注他们的网站哦，[点这里](http://monodraw.helftone.com/)。
+
+来源：[可以直接粘在txt里的图像：为Mac度身设计的文本图像编辑器Monodraw](http://www.36kr.com/p/216120.html)  通过 [36氪
+| 关注互联网创业](http://www.36kr.com/)
