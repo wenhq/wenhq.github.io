@@ -50,7 +50,7 @@ url: http://www.binwh.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-paginate: 5
+paginate: 10
 paginate_path: "page:num"
 
 #
