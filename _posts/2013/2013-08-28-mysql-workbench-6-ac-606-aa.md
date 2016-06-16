@@ -1,0 +1,97 @@
+---
+layout: post
+title: MySQL Workbench 6 正式版 (6.0.6) 发布
+date: '2013-08-28T12:54:00.000+08:00'
+author: Wenh Q
+tags:
+modified_time: '2013-08-28T12:54:33.917+08:00'
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-8700101325336177723
+blogger_orig_url: http://binaryware.blogspot.com/2013/08/mysql-workbench-6-ac-606-aa.html
+---
+
+[
+MySQL Workbench 6 正式版 (6.0.6)
+发布](http://www.oschina.net/news/43632/mysql-workbench-6-0-final)
+
+Via [开源中国社区最新新闻](http://www.oschina.net/?from=rss)
+
+MySQL Workbench 是专为数据库架构师、开发人员和 DBA
+打造的一个统一的可视化工具。MySQL Workbench 提供了数据建模工具、SQL
+开发工具和全面的管理工具（包括服务器配置、用户管理、备份等）。MySQL
+Workbench 可在 Windows、Linux 和 Mac OS 上使用。
+
+#### MySQL Workbench 主页
+
+![MySQL Workbench — MySQL Workbench
+主页](http://static.oschina.net/uploads/img/201308/28080003_ens8.gif)
+View Screenshot：
+[Windows](http://www.mysql.com/common/images/products/MySQL_Workbench_Mainscreen_Windows.gif)、
+[Linux](http://www.mysql.com/common/images/products/MySQL_Workbench_Mainscreen_Linux.gif)、
+[OS
+X](http://www.mysql.com/common/images/products/MySQL_Workbench_Mainscreen_Mac.png)
+
+#### 可视化数据库设计
+
+![MySQL Workbench —
+可视化数据库设计](http://static.oschina.net/uploads/img/201308/28080006_TyJi.gif)
+View Screenshot：
+[Windows](http://www.mysql.com/common/images/products/MySQL_Workbench_Visual_Design_Windows.gif)、
+[Linux](http://www.mysql.com/common/images/products/MySQL_Workbench_Visual_Design_Linux.gif)、
+[OS
+X](http://www.mysql.com/common/images/products/MySQL_Workbench_Visual_Design_Mac.png)
+
+#### SQL Editor
+
+![MySQL Workbench — SQL
+Editor](http://static.oschina.net/uploads/img/201308/28080012_45Z6.gif)
+View Screenshot：
+[Windows](http://www.mysql.com/common/images/products/MySQL_Workbench_Editor_General_Windows.gif)、
+[Linux](http://www.mysql.com/common/images/products/MySQL_Workbench_Editor_General_Linux.gif)、
+[OS
+X](http://www.mysql.com/common/images/products/MySQL_Workbench_Editor_General_Mac.png)
+
+#### 管理
+
+![MySQL Workbench —
+管理](http://static.oschina.net/uploads/img/201308/28080015_X8Pe.gif)
+View Screenshot：
+[Windows](http://www.mysql.com/common/images/products/MySQL_Workbench_Admin_Config_Windows.gif)、
+[Linux](http://www.mysql.com/common/images/products/MySQL_Workbench_Admin_Config_Linux.gif)、
+[OS
+X](http://www.mysql.com/common/images/products/MySQL_Workbench_Admin_Config_Mac.png)
+
+设计
+----
+
+MySQL Workbench 可让
+DBA、开发人员或数据架构师以可视化方式设计、建模、生成和管理数据库。它具有数据建模工具创建复杂
+ER
+模型所需的一切功能，支持正向和反向工程，还提供了一些关键特性来执行通常需要大量时间和工作的变更管理和文档任务。
+[了解更多信息 »](http://www.mysql.com/products/workbench/design/)
+
+开发
+----
+
+MySQL Workbench 提供了一些可视化工具来创建、执行和优化 SQL 查询。SQL
+Editor 具有语法高亮显示、自动填充、SQL 代码段重用和 SQL
+执行历史记录等功能。开发人员可以通过 Database Connections Panel
+轻松管理数据库连接。使用 Object Browser 可以即时访问数据库模式和对象。
+[了解更多信息 »](http://www.mysql.com/products/workbench/dev/)
+
+管理
+----
+
+MySQL Workbench 提供了一个可视化控制台，让您可以轻松管理 MySQL
+环境，更直观地了解数据库运行状况。开发人员和 DBA
+可以使用这些可视化工具配置服务器、管理用户、执行备份和恢复、检查审计数据以及查看数据库运行状况。
+[了解更多信息 »](http://www.mysql.com/products/workbench/admin/)
+
+新增！数据库迁移
+----------------
+
+MySQL Workbench 现在为将 Microsoft SQL Server、Sybase ASE、PostreSQL
+及其他 RDBMS 表、对象和数据迁移至 MySQL
+提供了一个全面、简单易用的解决方案。开发人员和 DBA
+可以轻松、快速地转换现有应用，使其可运行在 Windows 及其他平台的 MySQL
+上。此外，它还支持从 MySQL 早期版本迁移至最新版本。
+[了解更多信息 »](http://www.mysql.com/products/workbench/migrate/)
