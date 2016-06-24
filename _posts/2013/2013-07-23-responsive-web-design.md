@@ -1,0 +1,248 @@
+---
+layout: post
+title: "自适应网页设计（Responsive Web Design）"
+date: '2013-07-23T15:41:00.001+08:00'
+author: Wenh Q
+tags:
+modified_time: '2013-07-23T15:41:20.477+08:00'
+thumbnail: https://lh5.googleusercontent.com/wuKr_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-_rbrD_Bc0ANtTqsU=s72-c
+blogger_id: tag:blogger.com,1999:blog-4961947611491238191.post-4889843756627629429
+blogger_orig_url: http://binaryware.blogspot.com/2013/07/responsive-web-design.html
+---
+
+[
+自适应网页设计（Responsive Web
+Design）](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
+
+于 12-4-30 通过 [阮一峰的网络日志](http://www.ruanyifeng.com/blog/)
+
+[](http://www.ruanyifeng.com/blog/)
+
+随着3G的普及，越来越多的人使用手机上网。
+
+移动设备正超过桌面设备，成为访问互联网的最常见终端。于是，网页设计师不得不面对一个难题：如何才能在不同大小的设备上呈现同样的网页？
+
+![](https://lh5.googleusercontent.com/wuKr_5pIpEzQqy3uAHMTK2gd2Lh06Gnppzo0FQCSE96H370qIfKTq-sVSwYm1CadcmYL1Y8olcEtjUmT6uw29ZCgm2UkdBw5ZL-_rbrD_Bc0ANtTqsU)
+
+手机的屏幕比较小，宽度通常在600像素以下；PC的屏幕宽度，一般都在1000像素以上（目前主流宽度是1366×768），有的还达到了2000像素。同样的内容，要在大小迥异的屏幕上，都呈现出满意的效果，并不是一件容易的事。
+
+很多网站的解决方法，是为不同的设备提供不同的网页，比如专门提供一个mobile版本，或者iPhone
+/
+iPad版本。这样做固然保证了效果，但是比较麻烦，同时要维护好几个版本，而且如果一个网站有多个portal（入口），会大大增加架构设计的复杂度。
+
+于是，很早就有人设想，能不能"一次设计，普遍适用"，让同一张网页自动适应不同大小的屏幕，根据屏幕宽度，自动调整布局（layout）？
+
+![](https://lh3.googleusercontent.com/s0Trqewr9zi__Kt3Gk3SxvEKZkzKpP9AMp1uAWtMXY0slq2-H-kvwNcO6GPdPlTmLsFTmNQOkonnR8bAAIB9DLQ8QT5ZEo17p-S8oiAGKwcG9q3zSmY)
+
+一、"自适应网页设计"的概念
+
+2010年，Ethan
+Marcotte提出了["自适应网页设计"](http://www.alistapart.com/articles/responsive-web-design/)（Responsive
+Web Design）这个名词，指可以自动识别屏幕宽度、并做出相应调整的网页设计。
+
+他制作了一个[范例](http://www.alistapart.com/d/responsive-web-design/ex/ex-site-flexible.html)，里面是《福尔摩斯历险记》六个主人公的头像。如果屏幕宽度大于1300像素，则6张图片并排在一行。
+
+![](https://lh6.googleusercontent.com/eEB_OHr7HZ5CPjEE-YjPhhkPPxW0smPIFx8bC5JJGGKllxaiodI0d2yin0yok88jjfimibdGdqcmLK9f_kM1LI9g6zC0leV5JbrjQedKqGVKaFK5skA)
+
+如果屏幕宽度在600像素到1300像素之间，则6张图片分成两行。
+
+![](https://lh4.googleusercontent.com/O3hwhM9sG8cmpojEU5qT3953YSqsRN5BRzSL0CQ-bMArqW_7qge_8Y0VdV0iN1CKls5z-BEGxuk3Ongg0R-EoXJPXsPHQOqsH3Byhh3XkVHzTvbG--Q)
+
+如果屏幕宽度在400像素到600像素之间，则导航栏移到网页头部。
+
+![](https://lh6.googleusercontent.com/Ghz6XQmAeQSi7ASHsF49lPPkcqF9aU7dG14yWCzJutJDdJCd0dG35TpMq6F9Vl_mHec_JeskNSDIObpOO08y1-BHwClG5bUCxnM99cFzKnswK0JTKNU)
+
+如果屏幕宽度在400像素以下，则6张图片分成三行。
+
+![](https://lh4.googleusercontent.com/m9jEIEzp6i4y-nBkge4Q6T0pO6rNiVtZ_j3t9Qy6tifxVjx6AXJLlqzj0bbgyTpysN-mEdHbamKcFvyFPJAZo1_LA9xivyrs4pyFeQGp4qwpFzewjqk)
+
+[mediaqueri.es](http://mediaqueri.es/)上面有更多这样的例子。
+
+这里还有一个[测试小工具](http://www.benjaminkeen.com/misc/bricss/)，可以在一张网页上，同时显示不同分辨率屏幕的测试效果，我推荐安装。
+
+二、允许网页宽度自动调整
+
+"自适应网页设计"到底是怎么做到的？其实并不难。
+
+首先，在网页代码的头部，加入一行[viewport元标签](https://developer.mozilla.org/en/mobile/viewport_meta_tag)。
+
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+[viewport](https://developer.apple.com/library/ios/#DOCUMENTATION/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html)是网页默认的宽度和高度，上面这行代码的意思是，网页宽度默认等于屏幕宽度（width=device-width），原始缩放比例（initial-scale=1）为1.0，即网页初始大小占屏幕面积的100%。
+
+所有主流浏览器都支持这个设置，包括IE9。对于那些老式浏览器（主要是IE6、7、8），需要使用[css3-mediaqueries.js](http://code.google.com/p/css3-mediaqueries-js/)。
+
+<!--[if lt IE 9]>
+
+<script
+src="[http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js](http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js)"></script>
+
+<![endif]-->
+
+三、不使用绝对宽度
+
+由于网页会根据屏幕宽度调整布局，所以不能使用绝对宽度的布局，也不能使用具有绝对宽度的元素。这一条非常重要。
+
+具体说，CSS代码不能指定像素宽度：
+
+width:xxx px;
+
+只能指定百分比宽度：
+
+width: xx%;
+
+或者
+
+width:auto;
+
+四、相对大小的字体
+
+字体也不能使用绝对大小（px），而只能使用相对大小（em）。
+
+body {
+
+font: normal 100% Helvetica, Arial, sans-serif;
+
+}
+
+上面的代码指定，字体大小是页面默认大小的100%，即16像素。
+
+h1 {
+
+font-size: 1.5em;
+
+}
+
+然后，h1的大小是默认大小的1.5倍，即24像素（24/16=1.5）。
+
+small {
+
+font-size: 0.875em;
+
+}
+
+small元素的大小是默认大小的0.875倍，即14像素（14/16=0.875）。
+
+五、流动布局（fluid grid）
+
+["流动布局"](http://www.alistapart.com/articles/fluidgrids/)的含义是，各个区块的位置都是浮动的，不是固定不变的。
+
+.main {
+
+float: right;
+
+width: 70%;
+
+}
+
+.leftBar {
+
+float: left;
+
+width: 25%;
+
+}
+
+[float](http://designshack.net/articles/css/everything-you-never-knew-about-css-floats/)的好处是，如果宽度太小，放不下两个元素，后面的元素会自动滚动到前面元素的下方，不会在水平方向overflow（溢出），避免了水平滚动条的出现。
+
+另外，绝对定位（position: absolute）的使用，也要非常小心。
+
+六、选择加载CSS
+
+"自适应网页设计"的核心，就是CSS3引入的[Media
+Query](http://www.w3.org/TR/CSS21/media.html)模块。
+
+它的意思就是，自动探测屏幕宽度，然后加载相应的CSS文件。
+
+<link rel="stylesheet" type="text/css"
+
+media="screen and (max-device-width: 400px)"
+
+href="tinyScreen.css" />
+
+上面的代码意思是，如果屏幕宽度小于400像素（max-device-width:
+400px），就加载tinyScreen.css文件。
+
+<link rel="stylesheet" type="text/css"
+
+media="screen and (min-width: 400px) and (max-device-width: 600px)"
+
+href="smallScreen.css" />
+
+如果屏幕宽度在400像素到600像素之间，则加载smallScreen.css文件。
+
+除了用html标签加载CSS文件，还可以在现有CSS文件中加载。
+
+@import url("tinyScreen.css") screen and (max-device-width: 400px);
+
+七、CSS的@media规则
+
+同一个CSS文件中，也可以根据不同的屏幕分辨率，选择应用不同的CSS规则。
+
+@media screen and (max-device-width: 400px) {
+
+.column {
+
+float: none;
+
+width:auto;
+
+}
+
+#sidebar {
+
+display:none;
+
+}
+
+}
+
+上面的代码意思是，如果屏幕宽度小于400像素，则column块取消浮动（float:none）、宽度自动调节（width:auto），sidebar块不显示（display:none）。
+
+八、图片的自适应（fluid image）
+
+除了布局和文本，"自适应网页设计"还必须实现图片的[自动缩放](http://unstoppablerobotninja.com/entry/fluid-images)。
+
+这只要一行CSS代码：
+
+img { max-width: 100%;}
+
+这行代码对于大多数嵌入网页的视频也有效，所以可以写成：
+
+img, object { max-width: 100%;}
+
+老版本的IE不支持max-width，所以只好写成：
+
+img { width: 100%; }
+
+此外，windows平台缩放图片时，可能出现图像失真现象。这时，可以尝试使用IE的[专有命令](http://css-tricks.com/ie-fix-bicubic-scaling-for-images/)：
+
+img { -ms-interpolation-mode: bicubic; }
+
+或者，Ethan
+Marcotte的[imgSizer.js](http://unstoppablerobotninja.com/demos/resize/imgSizer.js)。
+
+addLoadEvent(function() {
+
+var imgs =
+document.getElementById("content").getElementsByTagName("img");
+
+imgSizer.collate(imgs);
+
+});
+
+不过，有条件的话，最好还是根据不同大小的屏幕，加载不同分辨率的图片。有[很多方法](http://blog.cloudfour.com/responsive-imgs-part-2/)可以做到这一条，服务器端和客户端都可以实现。
+
+（完）
+
+###  {style="color: black; direction: ltr; font-family: "Arial"; font-size: 14pt; font-weight: bold; height: 14pt; line-height: 1.6; margin-bottom: 0; margin-left: 31.5pt; margin-right: 31.5pt; margin-top: 0; padding-bottom: 20.8pt; padding-left: 0; padding-right: 0; padding-top: 4.8pt; text-align: left;"}
+
+文档信息
+
+1.  版权声明：自由转载-非商用-非衍生-保持署名 | [Creative Commons
+    BY-NC-ND
+    3.0](http://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh)
+2.  原文网址：[http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html](http://www.ruanyifeng.com/blog/2012/05/responsive_web_design.html)
+3.  最后修改时间：2012年5月 1日 23:06
+4.  付费支持：![](https://lh4.googleusercontent.com/okuG0qGk5qUWg3UJ2U9A41WYzXkudnQDo0nujbZL350mo0ed7JkST6fNWd1-fW50zdkh4636cQ4mVUCk4ecfvj5913B9LZoJNgLrcWxsXRINYW6EVjQ) |
+    ![](https://lh4.googleusercontent.com/eU5gM7iofbJcOT1qiUSBQTLnF-g8WaGbcphHJDERhKMXNixqKkDDv59-rJ54h8dMDuQge8sjox1q-dNDuAo-ovaGnTQUXPLDI6iBvq3oyadQpw0_j_I)
