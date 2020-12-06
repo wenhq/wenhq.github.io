@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Binary WareHouse]]></title><description><![CDATA[数位仓库blog]]></description><link>https://www.binwh.com</link><generator>RSS for Node</generator><lastBuildDate>Sun, 06 Dec 2020 09:49:55 GMT</lastBuildDate><atom:link href="https://www.binwh.com/rss.xml" rel="self" type="application/rss+xml"/><copyright><![CDATA[${$themeConfig.author} ${$themeConfig.startYear}]]></copyright><language><![CDATA[en]]></language><item><title><![CDATA[About Me]]></title><link>https://www.binwh.com/about/</link><guid isPermaLink="true">https://www.binwh.com/about/</guid><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[APP&插件]]></title><link>https://www.binwh.com/appmark/</link><guid isPermaLink="true">https://www.binwh.com/appmark/</guid><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[书签]]></title><link>https://www.binwh.com/bookmark/</link><guid isPermaLink="true">https://www.binwh.com/bookmark/</guid><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Invalid Date</pubDate></item><item><title><![CDATA[How shocking the ancient Chinese bridge is! (photo gallery)]]></title><description><![CDATA[<p>The ancient China in my impression has white walls and black tiles, cornices and horns, and a girl holding an oiled paper umbrella walking across a curved bridge...</p>
+]]></description><link>https://www.binwh.com/2020/12/06/theancientchinesebridge.html</link><guid isPermaLink="true">https://www.binwh.com/2020/12/06/theancientchinesebridge.html</guid><category><![CDATA[story]]></category><dc:creator><![CDATA[星球研究所（ID：xingqiuyanjiusuo）]]></dc:creator><pubDate>Sun, 06 Dec 2020 11:06:00 GMT</pubDate></item><item><title><![CDATA[Shanghai's Pudong New Area in the 1990s (photo gallery)]]></title><description><![CDATA[<blockquote>
+<p>The year 2020 marks the 30th anniversary of the development and opening-up of Shanghai's Pudong. This webpage is about Photos of Pudong in 1990s. It was once a rural area, but now it has become an international financial center attracting worldwide attention.</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/12/04/podongin1990s.html</link><guid isPermaLink="true">https://www.binwh.com/2020/12/04/podongin1990s.html</guid><category><![CDATA[story]]></category><dc:creator><![CDATA[dwnews]]></dc:creator><pubDate>Thu, 03 Dec 2020 23:23:00 GMT</pubDate></item><item><title><![CDATA[保钓运动50年历史回顾（多图）]]></title><description><![CDATA[<blockquote>
+<p>钓鱼岛是中国固有领土。1895年中国因甲午战争战败，被迫签署《马关条约》，钓鱼岛等作为台湾“附属岛屿”一并被割让给日本。1900年，日本将钓鱼岛改名为“尖阁列岛”。</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/11/28/diaoyuisland50.html</link><guid isPermaLink="true">https://www.binwh.com/2020/11/28/diaoyuisland50.html</guid><category><![CDATA[story]]></category><dc:creator><![CDATA[dwnews]]></dc:creator><pubDate>Sat, 28 Nov 2020 15:41:00 GMT</pubDate></item><item><title><![CDATA[列出brew安装的非最新版本软件]]></title><description><![CDATA[<div class="custom-block tip">
+<p>如何知道brew安装过的软件不是最新版本？
+这样知道之后，就可以根据自己的需要安装最新的版本。</p>
+</div>
+]]></description><link>https://www.binwh.com/2020/11/21/brew-list-outed-software.html</link><guid isPermaLink="true">https://www.binwh.com/2020/11/21/brew-list-outed-software.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Sat, 21 Nov 2020 07:06:00 GMT</pubDate></item><item><title><![CDATA[解决dyld Library not loaded]]></title><description><![CDATA[<p>运行<code>npm run dev</code>竟然报错了，错误如下：</p>
+<!--beforebegin--><div class="language- extra-class"><!--afterbegin--><pre v-pre class="language-text"><code>dyld: Library not loaded: /usr/local/opt/icu4c/lib/libicui18n.66.dylib
+  Referenced from: /usr/local/bin/node
+  Reason: image not found
+</code></pre>
+<!--beforeend--></div><!--afterend--><p>我还以为命令敲错了，然后赶紧去查。</p>
+]]></description><link>https://www.binwh.com/2020/11/01/dyld-library-not-loaded.html</link><guid isPermaLink="true">https://www.binwh.com/2020/11/01/dyld-library-not-loaded.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Sat, 31 Oct 2020 17:17:00 GMT</pubDate></item><item><title><![CDATA[五中全会中的数据]]></title><description><![CDATA[<blockquote>
+<p>2020年10月29日晚，中共官媒新华社公布了刚闭幕的十九届五中全会会议公报，其中一个值得关注的亮点是，首次相对清晰和具体地定义了何为基本实现社会主义现代化。基本实现社会主义现代化包括九个方面的指标：</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/10/31/data-in-fifth-plenary-session.html</link><guid isPermaLink="true">https://www.binwh.com/2020/10/31/data-in-fifth-plenary-session.html</guid><category><![CDATA[life]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Fri, 30 Oct 2020 17:44:00 GMT</pubDate></item><item><title><![CDATA[Markdown语法的实用技巧]]></title><description><![CDATA[<p>本文参考<a href="https://juejin.im/post/6854573214505533453" target="_blank" rel="noopener noreferrer">超实用markdown的语法技巧（表格、文字缩进、文字居中、文字颜色、背景色、代码高亮、标记）<OutboundLink/></a>，略有修改和添加。</p>
+]]></description><link>https://www.binwh.com/2020/07/31/tipsofmd.html</link><guid isPermaLink="true">https://www.binwh.com/2020/07/31/tipsofmd.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Fri, 31 Jul 2020 11:33:31 GMT</pubDate></item><item><title><![CDATA[六一儿童节-钢琴曲《粉刷匠》]]></title><description><![CDATA[<blockquote>
+<p>为了“六一”儿童节，准备学校云端艺术节，但是录的版本一直有错误，就无法参赛了。<br>
+弹琴时摇头晃脑的样子实在觉得好玩，就编辑编辑放B站了。</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/06/01/fenshuajiang.html</link><guid isPermaLink="true">https://www.binwh.com/2020/06/01/fenshuajiang.html</guid><category><![CDATA[life]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Mon, 01 Jun 2020 14:33:31 GMT</pubDate></item><item><title><![CDATA[滁州市区位及发展优势]]></title><link>https://www.binwh.com/2020/05/31/vx-jieshao.html</link><guid isPermaLink="true">https://www.binwh.com/2020/05/31/vx-jieshao.html</guid><category><![CDATA[life]]></category><dc:creator><![CDATA[滁州山水地质]]></dc:creator><pubDate>Sun, 31 May 2020 13:23:31 GMT</pubDate></item><item><title><![CDATA[钢琴曲《送别》]]></title><description><![CDATA[<blockquote>
+<p>一个一年级小朋友，学了将近一年的钢琴<br>
+顺利考下二级<br>
+现在准备参加学校的“云艺术节”</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/05/24/songbie.html</link><guid isPermaLink="true">https://www.binwh.com/2020/05/24/songbie.html</guid><category><![CDATA[life]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Sun, 24 May 2020 14:33:31 GMT</pubDate></item><item><title><![CDATA[不应被打扰的世界]]></title><link>https://www.binwh.com/2020/04/07/keshihuaxingqiu.html</link><guid isPermaLink="true">https://www.binwh.com/2020/04/07/keshihuaxingqiu.html</guid><category><![CDATA[life]]></category><dc:creator><![CDATA[可视化星球]]></dc:creator><pubDate>Mon, 06 Apr 2020 18:30:00 GMT</pubDate></item><item><title><![CDATA[Emby + KODI 手机端配置记录]]></title><description><![CDATA[<div class="custom-block tip">
+<p>手机上升级Kodi，清理空间，也不知道哪一步把原先Kodi的配置给清空了。</p>
+<p>导致现在手机上Kodi无法连接Nas上的Emby，上班路上也无法看视频了。</p>
+<p>现在重新记录一下配置过程。</p>
+<p>本文对新手不友好。</p>
+</div>
+]]></description><link>https://www.binwh.com/2020/03/27/kodi-emby.html</link><guid isPermaLink="true">https://www.binwh.com/2020/03/27/kodi-emby.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Fri, 27 Mar 2020 11:00:00 GMT</pubDate></item><item><title><![CDATA[Linux 5.6 功能亮点]]></title><description><![CDATA[<p>四大亮点带你看 Linux 内核 5.6</p>
+<p>当我们还在体验 Linux 5.5 稳定发行版带来更好的硬件支持时，Linux 5.6 已经来了。</p>
+<p>说实话，Linux 5.6 比 5.5 更令人兴奋。即使即将发布的 Ubuntu 20.04 LTS 发行版将自带 Linux 5.5，你也需要切实了解一下 Linux 5.6 内核为我们提供了什么。</p>
+]]></description><link>https://www.binwh.com/2020/02/07/linux-5-6.html</link><guid isPermaLink="true">https://www.binwh.com/2020/02/07/linux-5-6.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Linux中国]]></dc:creator><pubDate>Fri, 07 Feb 2020 15:59:00 GMT</pubDate></item><item><title><![CDATA[Nas上Cloud Sync同步照片的冲突文件清理]]></title><description><![CDATA[<ul>
+<li>在NAS里批量删除Conflict的照片</li>
+<li>Mac里zsh的find报错问题</li>
+</ul>
+]]></description><link>https://www.binwh.com/2020/01/31/clean-conflict-photo-in-nas.html</link><guid isPermaLink="true">https://www.binwh.com/2020/01/31/clean-conflict-photo-in-nas.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Thu, 30 Jan 2020 16:32:00 GMT</pubDate></item><item><title><![CDATA[2020年Blog改用VuePress，配置永久链接的方法]]></title><description><![CDATA[<blockquote>
+<p>原先使用jekyll搭建博客，不是很会用。<br>
+后面为了更好的学习vue，因此进行迁移。<br>
+后续会陆续迁移以前的md文件，增加新的功能。</p>
+</blockquote>
+]]></description><link>https://www.binwh.com/2020/01/13/hello-vuepress.html</link><guid isPermaLink="true">https://www.binwh.com/2020/01/13/hello-vuepress.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Sun, 12 Jan 2020 21:07:00 GMT</pubDate></item><item><title><![CDATA[如何做那些你不想做却不得不做的事情]]></title><description><![CDATA[<div align=center>
+<img src="/images/2017/photo-1507099985932-87a4520ed1d5.jpeg" width="75%" height="45%"  align=center/>
+</div>
+]]></description><link>https://www.binwh.com/2017/09/07/do-what-you-dont.html</link><guid isPermaLink="true">https://www.binwh.com/2017/09/07/do-what-you-dont.html</guid><category><![CDATA[how]]></category><dc:creator><![CDATA[LifeHack]]></dc:creator><pubDate>Thu, 07 Sep 2017 00:00:00 GMT</pubDate></item><item><title><![CDATA[Terminus是现代化、可高度可配置的终端应用 适用于Windows、Mac和Linux系统]]></title><description><![CDATA[<div class="custom-block warning">
+<p>这篇文章已经很久没有更新了。文章内容可能已经过时了。</p>
+</div>
+]]></description><link>https://www.binwh.com/2017/09/06/terminus.html</link><guid isPermaLink="true">https://www.binwh.com/2017/09/06/terminus.html</guid><category><![CDATA[tech]]></category><dc:creator><![CDATA[Wenh Q]]></dc:creator><pubDate>Wed, 06 Sep 2017 13:18:24 GMT</pubDate></item></channel></rss>
